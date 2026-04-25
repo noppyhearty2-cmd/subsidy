@@ -1,7 +1,7 @@
 import { defineConfig } from "astro/config";
 
 export default defineConfig({
-  site: "https://your-username.github.io",
-  base: "/Subsidy",
+  site: "https://noppyhearty2-cmd.github.io",
+  base: "/subsidy",
   output: "static",
 });
