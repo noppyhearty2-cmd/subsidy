@@ -1,0 +1,107 @@
+name: Scrape and Publish Subsidies
+
+on:
+  schedule:
+    - cron: "0 18 * * *"   # 毎日 18:00 UTC = 03:00 JST
+  workflow_dispatch:
+    inputs:
+      municipality:
+        description: "自治体ID（空白で全自治体）"
+        required: false
+        default: ""
+
+concurrency:
+  group: scrape-pipeline
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    outputs:
+      new_count: ${{ steps.pipeline.outputs.new_count }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 1
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Restore state cache
+        uses: actions/cache@v4
+        with:
+          path: data/state/seen_urls.json
+          key: seen-urls-${{ github.run_id }}
+          restore-keys: |
+            seen-urls-
+
+      - name: Run pipeline
+        id: pipeline
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          NEW_COUNT=$(python scripts/run_pipeline.py \
+            --municipality "${{ github.event.inputs.municipality }}" \
+            --output-count \
+            --log-level INFO)
+          echo "new_count=${NEW_COUNT}" >> "$GITHUB_OUTPUT"
+          echo "新規件数: ${NEW_COUNT}"
+
+      - name: Validate output
+        run: python scripts/validate_output.py site/src/content/subsidies/
+
+      - name: Commit if new subsidies found
+        if: steps.pipeline.outputs.new_count > 0
+        run: |
+          git config user.name "subsidy-bot"
+          git config user.email "subsidy-bot@users.noreply.github.com"
+          git add site/src/content/subsidies/ data/state/ data/run_logs/ patches/ || true
+          git diff --cached --quiet || git commit -m \
+            "chore: add ${{ steps.pipeline.outputs.new_count }} subsidies $(date -u +%Y-%m-%d) [skip actions]"
+          git push
+
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    needs: scrape
+    if: needs.scrape.outputs.new_count > 0
+    timeout-minutes: 15
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+
+      - name: Install Node dependencies
+        working-directory: site
+        run: npm ci
+
+      - name: Build Astro site
+        working-directory: site
+        run: npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: site/dist
+          commit_message: "deploy: update site ${{ github.sha }} [skip actions]"

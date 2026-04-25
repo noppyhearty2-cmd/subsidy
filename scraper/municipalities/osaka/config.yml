@@ -1,0 +1,29 @@
+municipality_id: osaka
+name: 大阪市
+
+base_url: https://www.city.osaka.lg.jp
+
+# 補助金・助成金情報の起点ページ一覧
+index_urls:
+  - https://www.city.osaka.lg.jp/kodomo/category/1-4-0-0-0-0-0-0-0-0.html
+  - https://www.city.osaka.lg.jp/fukushi/category/3-4-0-0-0-0-0-0-0-0.html
+  - https://www.city.osaka.lg.jp/keizaisenryaku/category/3011-4-0-0-0-0-0-0-0-0.html
+  - https://www.city.osaka.lg.jp/shimin/category/2-4-0-0-0-0-0-0-0-0.html
+
+# CSS セレクタ
+selectors:
+  subsidy_link: "ul.contentslist li a, div.category-list a, table.datatable td a"
+  title: "h1#page-title, h1.page-ttl, h1"
+  body: "div#main-contents, div#contents, div.content-area, article"
+
+# ページネーション
+pagination:
+  type: query_param
+  param: page
+  max_pages: 20
+
+# リクエスト間の待機秒数（相手サーバへの負荷軽減）
+rate_limit_seconds: 1.5
+
+# PDF ファイルの最大サイズ (bytes)
+pdf_max_bytes: 10485760  # 10MB

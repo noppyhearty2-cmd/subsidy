@@ -1,0 +1,149 @@
+---
+import { getCollection } from "astro:content";
+
+const allSubsidies = await getCollection("subsidies");
+const active = allSubsidies
+  .filter((s) => s.data.is_active)
+  .sort((a, b) => {
+    if (!a.data.deadline) return 1;
+    if (!b.data.deadline) return -1;
+    return a.data.deadline.localeCompare(b.data.deadline);
+  });
+
+const municipalities = [...new Set(active.map((s) => s.data.municipality))].sort();
+const allTags = [...new Set(active.flatMap((s) => s.data.tags))].sort();
+---
+
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>自治体助成金まとめ | 最新の補助金・給付金情報</title>
+    <meta name="description" content="全国の自治体が提供する補助金・助成金・給付金を分かりやすく紹介。子育て・介護・創業支援など。" />
+    <style>
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      body { font-family: "Hiragino Sans", "Meiryo", sans-serif; background: #f8f9fa; color: #333; line-height: 1.6; }
+      header { background: #1a5276; color: white; padding: 1.5rem 1rem; text-align: center; }
+      header h1 { font-size: 1.5rem; margin-bottom: 0.25rem; }
+      header p { font-size: 0.9rem; opacity: 0.85; }
+      .container { max-width: 960px; margin: 0 auto; padding: 1rem; }
+      .filter-bar { background: white; border-radius: 8px; padding: 1rem; margin: 1rem 0; box-shadow: 0 1px 4px rgba(0,0,0,0.1); }
+      .filter-bar h2 { font-size: 0.9rem; color: #666; margin-bottom: 0.5rem; }
+      .filter-buttons { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+      .filter-btn { padding: 0.3rem 0.75rem; border: 1px solid #ccc; border-radius: 20px; background: white; cursor: pointer; font-size: 0.85rem; transition: all 0.2s; }
+      .filter-btn.active { background: #1a5276; color: white; border-color: #1a5276; }
+      .count { color: #666; font-size: 0.85rem; margin: 0.5rem 0; }
+      .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem; }
+      .card { background: white; border-radius: 8px; padding: 1rem; box-shadow: 0 1px 4px rgba(0,0,0,0.1); display: flex; flex-direction: column; gap: 0.5rem; }
+      .card h3 { font-size: 0.95rem; line-height: 1.4; }
+      .card h3 a { color: #1a5276; text-decoration: none; }
+      .card h3 a:hover { text-decoration: underline; }
+      .meta { font-size: 0.8rem; color: #666; display: flex; flex-wrap: wrap; gap: 0.4rem; }
+      .badge { padding: 0.15rem 0.5rem; border-radius: 4px; background: #e8f0fe; color: #1a5276; font-size: 0.75rem; }
+      .deadline { color: #c0392b; font-weight: bold; }
+      .amount { color: #27ae60; font-weight: bold; }
+      footer { text-align: center; padding: 2rem; font-size: 0.8rem; color: #999; }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>自治体助成金まとめ</h1>
+      <p>補助金・給付金・助成金を分かりやすく紹介</p>
+    </header>
+
+    <div class="container">
+      <div class="filter-bar">
+        <h2>自治体で絞り込む</h2>
+        <div class="filter-buttons" id="muni-filters">
+          <button class="filter-btn active" data-muni="all">すべて</button>
+          {municipalities.map((m) => (
+            <button class="filter-btn" data-muni={m}>{m}</button>
+          ))}
+        </div>
+      </div>
+
+      <div class="filter-bar">
+        <h2>カテゴリで絞り込む</h2>
+        <div class="filter-buttons" id="tag-filters">
+          <button class="filter-btn active" data-tag="all">すべて</button>
+          {allTags.map((t) => (
+            <button class="filter-btn" data-tag={t}>{t}</button>
+          ))}
+        </div>
+      </div>
+
+      <p class="count" id="count">{active.length} 件</p>
+
+      <div class="grid" id="card-grid">
+        {active.map((s) => (
+          <div
+            class="card"
+            data-muni={s.data.municipality}
+            data-tags={s.data.tags.join(",")}
+          >
+            <h3>
+              <a href={`/Subsidy/subsidies/${s.slug}`}>{s.data.title}</a>
+            </h3>
+            <div class="meta">
+              {s.data.amount && <span class="amount">💴 {s.data.amount}</span>}
+              {s.data.deadline && s.data.deadline !== "随時" && (
+                <span class="deadline">⏰ {s.data.deadline}まで</span>
+              )}
+              {s.data.deadline === "随時" && <span>随時受付</span>}
+            </div>
+            <div class="meta">
+              {s.data.tags.map((t) => <span class="badge">{t}</span>)}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+
+    <footer>
+      本サイトの情報は自動収集・AI要約によるものです。必ず公式ページをご確認ください。
+    </footer>
+
+    <script>
+      const muniFilters = document.querySelectorAll("[data-muni]");
+      const tagFilters = document.querySelectorAll("[data-tag]");
+      const cards = document.querySelectorAll(".card");
+      const countEl = document.getElementById("count");
+
+      let activeMuni = "all";
+      let activeTag = "all";
+
+      function updateDisplay() {
+        let visible = 0;
+        cards.forEach((card) => {
+          const muni = card.dataset.muni;
+          const tags = (card.dataset.tags || "").split(",");
+          const muniOk = activeMuni === "all" || muni === activeMuni;
+          const tagOk = activeTag === "all" || tags.includes(activeTag);
+          const show = muniOk && tagOk;
+          card.style.display = show ? "" : "none";
+          if (show) visible++;
+        });
+        countEl.textContent = `${visible} 件`;
+      }
+
+      muniFilters.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          muniFilters.forEach((b) => b.classList.remove("active"));
+          btn.classList.add("active");
+          activeMuni = btn.dataset.muni;
+          updateDisplay();
+        });
+      });
+
+      tagFilters.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          tagFilters.forEach((b) => b.classList.remove("active"));
+          btn.classList.add("active");
+          activeTag = btn.dataset.tag;
+          updateDisplay();
+        });
+      });
+    </script>
+  </body>
+</html>

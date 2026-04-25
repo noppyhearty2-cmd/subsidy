@@ -1,0 +1,41 @@
+あなたはWebスクレイピングの専門家です。
+自治体サイトのHTML構造が変わったため、CSSセレクタが機能しなくなりました。
+現在のHTMLを分析して、正しいCSSセレクタを提案してください。
+
+## 自治体ID
+{municipality_id}
+
+## 発生したエラー
+{error_detail}
+
+## 現在の config.yml
+```yaml
+{current_config}
+```
+
+## 取得したHTMLの先頭50KB
+```html
+{html_snippet}
+```
+
+## 指示
+
+上記のHTMLを分析して、以下のセレクタを更新してください：
+1. `subsidy_link`：補助金・助成金の個別ページへのリンク要素
+2. `title`：ページタイトルの要素
+3. `body`：本文コンテンツの要素
+
+## 出力形式
+
+以下のJSONのみを返してください。説明文は不要です。
+
+```json
+{
+  "selectors": {
+    "subsidy_link": "新しいCSSセレクタ",
+    "title": "新しいCSSセレクタ",
+    "body": "新しいCSSセレクタ"
+  },
+  "reason": "変更理由の簡潔な説明（日本語）"
+}
+```
