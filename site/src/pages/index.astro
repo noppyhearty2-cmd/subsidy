@@ -83,7 +83,7 @@ const allTags = [...new Set(active.flatMap((s) => s.data.tags))].sort();
             data-tags={s.data.tags.join(",")}
           >
             <h3>
-              <a href={`${import.meta.env.BASE_URL}subsidies/${s.slug}`}>{s.data.title}</a>
+              <a href={`${import.meta.env.BASE_URL}/subsidies/${s.slug}`}>{s.data.title}</a>
             </h3>
             <div class="meta">
               {s.data.amount && <span class="amount">💴 {s.data.amount}</span>}
