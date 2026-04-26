@@ -16,6 +16,18 @@ interface Props {
 const { entry } = Astro.props;
 const { Content } = await entry.render();
 const d = entry.data;
+
+const muniLabel: Record<string, string> = {
+  osaka: "大阪市",
+  tokyo: "東京都",
+  yokohama: "横浜市",
+  nagoya: "名古屋市",
+  sapporo: "札幌市",
+  fukuoka: "福岡市",
+  kyoto: "京都市",
+  kobe: "神戸市",
+};
+const muniName = muniLabel[d.municipality] ?? d.municipality;
 ---
 
 <!doctype html>
@@ -27,61 +39,187 @@ const d = entry.data;
     <meta name="description" content={d.summary_ja || d.title} />
     <style>
       * { box-sizing: border-box; margin: 0; padding: 0; }
-      body { font-family: "Hiragino Sans", "Meiryo", sans-serif; background: #f8f9fa; color: #333; line-height: 1.7; }
-      header { background: #1a5276; color: white; padding: 1rem; }
-      header a { color: #aed6f1; text-decoration: none; font-size: 0.9rem; }
-      .container { max-width: 760px; margin: 0 auto; padding: 1.5rem 1rem; }
-      .info-box { background: white; border-radius: 8px; padding: 1.25rem; margin-bottom: 1.5rem; box-shadow: 0 1px 4px rgba(0,0,0,0.1); }
-      .info-box h2 { font-size: 0.85rem; color: #666; margin-bottom: 0.75rem; border-bottom: 1px solid #eee; padding-bottom: 0.5rem; }
-      .info-row { display: flex; gap: 0.5rem; margin-bottom: 0.5rem; font-size: 0.9rem; align-items: flex-start; }
-      .info-label { color: #666; min-width: 80px; flex-shrink: 0; }
-      .info-val { font-weight: 500; }
-      .info-val.amount { color: #27ae60; }
-      .info-val.deadline { color: #c0392b; }
-      .badge { padding: 0.15rem 0.5rem; border-radius: 4px; background: #e8f0fe; color: #1a5276; font-size: 0.75rem; }
-      .article { background: white; border-radius: 8px; padding: 1.5rem; box-shadow: 0 1px 4px rgba(0,0,0,0.1); }
-      .article h1 { font-size: 1.2rem; margin-bottom: 1rem; line-height: 1.5; }
-      .article h2 { font-size: 1rem; margin: 1.25rem 0 0.5rem; padding-left: 0.5rem; border-left: 3px solid #1a5276; }
-      .article p { margin-bottom: 0.75rem; font-size: 0.95rem; }
-      .article ul, .article ol { padding-left: 1.25rem; margin-bottom: 0.75rem; font-size: 0.95rem; }
-      .article li { margin-bottom: 0.25rem; }
-      .article blockquote { border-left: 3px solid #ccc; padding-left: 1rem; color: #666; font-size: 0.9rem; margin: 1rem 0; }
-      .article a { color: #1a5276; }
+      body { font-family: "Hiragino Sans", "Meiryo", sans-serif; background: #f0f4f8; color: #333; line-height: 1.8; }
+
+      /* ヘッダー */
+      header { background: #1a5276; color: white; padding: 0.75rem 1rem; display: flex; align-items: center; gap: 1rem; }
+      header a { color: #aed6f1; text-decoration: none; font-size: 0.9rem; white-space: nowrap; }
+      header a:hover { text-decoration: underline; }
+      .header-muni { font-size: 0.8rem; background: rgba(255,255,255,0.15); padding: 0.2rem 0.6rem; border-radius: 4px; }
+
+      .container { max-width: 800px; margin: 0 auto; padding: 1.5rem 1rem 3rem; }
+
+      /* タイトルカード */
+      .title-card {
+        background: white;
+        border-radius: 10px;
+        padding: 1.5rem;
+        margin-bottom: 1rem;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+        border-top: 4px solid #1a5276;
+      }
+      .title-card h1 { font-size: 1.25rem; line-height: 1.6; color: #1a2e3b; margin-bottom: 0.75rem; }
+      .title-card .summary { font-size: 0.92rem; color: #555; background: #f8f9fa; border-left: 3px solid #1a5276; padding: 0.6rem 0.8rem; border-radius: 0 4px 4px 0; }
+
+      /* サマリーテーブル */
+      .summary-table {
+        background: white;
+        border-radius: 10px;
+        overflow: hidden;
+        margin-bottom: 1rem;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+      }
+      .summary-table table { width: 100%; border-collapse: collapse; }
+      .summary-table th {
+        background: #eaf0f7;
+        color: #1a5276;
+        font-size: 0.82rem;
+        font-weight: 600;
+        width: 110px;
+        padding: 0.7rem 1rem;
+        border-bottom: 1px solid #dce6f0;
+        vertical-align: top;
+        text-align: left;
+      }
+      .summary-table td {
+        padding: 0.7rem 1rem;
+        font-size: 0.92rem;
+        border-bottom: 1px solid #f0f0f0;
+        vertical-align: top;
+      }
+      .summary-table tr:last-child th,
+      .summary-table tr:last-child td { border-bottom: none; }
+      .amount-val { color: #1e8449; font-weight: 700; font-size: 1rem; }
+      .deadline-val { color: #c0392b; font-weight: 700; }
+      .badge { display: inline-block; padding: 0.15rem 0.55rem; border-radius: 20px; background: #e8f0fe; color: #1a5276; font-size: 0.75rem; margin: 0.1rem 0.2rem 0.1rem 0; }
+
+      /* ポイントカード */
+      .points-card {
+        background: #fffbea;
+        border: 1px solid #f5d87a;
+        border-radius: 10px;
+        padding: 1.25rem 1.5rem;
+        margin-bottom: 1rem;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      }
+      .points-card h2 { font-size: 0.88rem; color: #7d6608; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.4rem; }
+      .points-card ol { list-style: none; counter-reset: point; padding: 0; }
+      .points-card li { counter-increment: point; display: flex; gap: 0.75rem; align-items: flex-start; margin-bottom: 0.5rem; font-size: 0.9rem; }
+      .points-card li::before {
+        content: counter(point);
+        background: #1a5276;
+        color: white;
+        font-size: 0.75rem;
+        font-weight: 700;
+        min-width: 1.4rem;
+        height: 1.4rem;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        margin-top: 0.1rem;
+      }
+
+      /* 記事本文 */
+      .article {
+        background: white;
+        border-radius: 10px;
+        padding: 1.5rem;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+      }
+      .article h1 { display: none; } /* タイトルカードで表示済み */
+      .article h2 {
+        font-size: 1rem;
+        font-weight: 700;
+        margin: 1.5rem 0 0.6rem;
+        padding: 0.4rem 0.75rem;
+        background: #eaf0f7;
+        border-left: 4px solid #1a5276;
+        border-radius: 0 4px 4px 0;
+        color: #1a2e3b;
+      }
+      .article h2:first-child { margin-top: 0; }
+      .article h3 { font-size: 0.95rem; margin: 1rem 0 0.4rem; color: #1a5276; }
+      .article p { margin-bottom: 0.75rem; font-size: 0.93rem; }
+      .article ul, .article ol { padding-left: 1.4rem; margin-bottom: 0.75rem; font-size: 0.93rem; }
+      .article li { margin-bottom: 0.3rem; }
+      .article strong { color: #1a2e3b; }
+      .article blockquote {
+        border-left: 3px solid #aaa;
+        padding: 0.6rem 1rem;
+        color: #666;
+        font-size: 0.88rem;
+        margin: 1rem 0;
+        background: #f8f9fa;
+        border-radius: 0 4px 4px 0;
+      }
+      .article a { color: #1a5276; word-break: break-all; }
+
+      /* テーブル */
+      .article table { width: 100%; border-collapse: collapse; margin: 0.75rem 0 1rem; font-size: 0.88rem; }
+      .article th { background: #eaf0f7; color: #1a5276; padding: 0.5rem 0.75rem; border: 1px solid #d0dce8; font-weight: 600; text-align: left; }
+      .article td { padding: 0.5rem 0.75rem; border: 1px solid #e8e8e8; }
+      .article tr:nth-child(even) td { background: #fafafa; }
+
       footer { text-align: center; padding: 2rem; font-size: 0.8rem; color: #999; }
     </style>
   </head>
   <body>
     <header>
       <a href="/subsidy/">← 一覧に戻る</a>
+      <span class="header-muni">{muniName}</span>
     </header>
 
     <div class="container">
-      <div class="info-box">
-        <h2>基本情報</h2>
-        <div class="info-row">
-          <span class="info-label">対象者</span>
-          <span class="info-val">{d.target}</span>
-        </div>
-        {d.amount && (
-          <div class="info-row">
-            <span class="info-label">金額</span>
-            <span class="info-val amount">{d.amount}</span>
-          </div>
-        )}
-        {d.deadline && (
-          <div class="info-row">
-            <span class="info-label">申込期限</span>
-            <span class="info-val deadline">{d.deadline}</span>
-          </div>
-        )}
-        <div class="info-row">
-          <span class="info-label">カテゴリ</span>
-          <span class="info-val" style="display:flex;flex-wrap:wrap;gap:0.3rem;">
-            {d.tags.map((t) => <span class="badge">{t}</span>)}
-          </span>
-        </div>
+
+      <!-- タイトル＋概要 -->
+      <div class="title-card">
+        <h1>{d.title}</h1>
+        {d.summary_ja && <p class="summary">{d.summary_ja}</p>}
       </div>
 
+      <!-- サマリーテーブル -->
+      <div class="summary-table">
+        <table>
+          <tbody>
+            <tr>
+              <th>対象者</th>
+              <td>{d.target}</td>
+            </tr>
+            {d.amount && (
+              <tr>
+                <th>補助金額</th>
+                <td><span class="amount-val">{d.amount}</span></td>
+              </tr>
+            )}
+            <tr>
+              <th>申込期限</th>
+              <td>
+                {d.deadline && d.deadline !== "随時"
+                  ? <span class="deadline-val">{d.deadline}</span>
+                  : "随時受付"}
+              </td>
+            </tr>
+            <tr>
+              <th>カテゴリ</th>
+              <td>{d.tags.map((t) => <span class="badge">{t}</span>)}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- 申請ポイント -->
+      {d.key_points && d.key_points.length > 0 && (
+        <div class="points-card">
+          <h2>⚡ 申請前に確認！重要ポイント</h2>
+          <ol>
+            {d.key_points.map((p) => <li>{p}</li>)}
+          </ol>
+        </div>
+      )}
+
+      <!-- 記事本文 -->
       <article class="article">
         <Content />
       </article>
