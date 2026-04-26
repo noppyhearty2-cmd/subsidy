@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - "site/src/content/subsidies/**"  # 記事ファイルが更新された時だけ実行
+      - "site/**"  # siteディレクトリ以下の変更で実行
   workflow_dispatch:  # 手動実行も可能
 
 concurrency:
