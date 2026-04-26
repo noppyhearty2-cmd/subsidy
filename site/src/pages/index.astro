@@ -12,6 +12,18 @@ const active = allSubsidies
 
 const municipalities = [...new Set(active.map((s) => s.data.municipality))].sort();
 const allTags = [...new Set(active.flatMap((s) => s.data.tags))].sort();
+
+// 自治体IDから表示名へのマッピング
+const muniLabel: Record<string, string> = {
+  osaka: "大阪市",
+  tokyo: "東京都",
+  yokohama: "横浜市",
+  nagoya: "名古屋市",
+  sapporo: "札幌市",
+  fukuoka: "福岡市",
+  kyoto: "京都市",
+  kobe: "神戸市",
+};
 ---
 
 <!doctype html>
@@ -58,7 +70,7 @@ const allTags = [...new Set(active.flatMap((s) => s.data.tags))].sort();
         <div class="filter-buttons" id="muni-filters">
           <button class="filter-btn active" data-muni="all">すべて</button>
           {municipalities.map((m) => (
-            <button class="filter-btn" data-muni={m}>{m}</button>
+            <button class="filter-btn" data-muni={m}>{muniLabel[m] ?? m}</button>
           ))}
         </div>
       </div>
