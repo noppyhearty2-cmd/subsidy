@@ -46,6 +46,12 @@ class OsakaScraper(BaseScraper):
                 seen.add(link)
                 yield link
 
+    def _is_subsidy_related(self, title: str, text: str) -> bool:
+        """タイトルまたは本文に補助金関連キーワードが含まれるか判定。"""
+        keywords = self.get_config().get("subsidy_keywords", [])
+        combined = title + text
+        return any(kw in combined for kw in keywords)
+
     def fetch_raw_content(self, url: str) -> RawSubsidy | None:
         cfg = self.get_config()
         rate = cfg["rate_limit_seconds"]
@@ -67,6 +73,11 @@ class OsakaScraper(BaseScraper):
 
         if not text.strip():
             logger.warning("本文なし url=%s", url)
+            return None
+
+        # 補助金関連でないページはスキップ
+        if not self._is_subsidy_related(title, text):
+            logger.info("補助金関連キーワードなし スキップ url=%s", url)
             return None
 
         # ページ内のPDFリンクを検出して本文に追記
