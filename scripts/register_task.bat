@@ -6,7 +6,7 @@ schtasks /create ^
   /tn "SubsidyScraper" ^
   /tr "C:\Users\noppy\Subsidy\scripts\auto_run.bat" ^
   /sc daily ^
-  /st 03:00 ^
+  /st 23:00 ^
   /ru "%USERNAME%" ^
   /f
 
