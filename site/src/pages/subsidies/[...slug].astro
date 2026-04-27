@@ -128,6 +128,17 @@ const muniName = muniLabel[d.municipality] ?? d.municipality;
         padding: 1.5rem;
         box-shadow: 0 2px 6px rgba(0,0,0,0.08);
       }
+      /* 記事本文ラベル */
+      .article-label {
+        font-size: 0.82rem;
+        font-weight: 700;
+        color: #1a5276;
+        border-bottom: 2px solid #eaf0f7;
+        padding-bottom: 0.6rem;
+        margin-bottom: 1rem;
+        letter-spacing: 0.03em;
+      }
+
       /* Markdownレンダリング要素は :global() で指定 */
       .article :global(h1) { display: none; }
       .article :global(h2) {
@@ -222,6 +233,7 @@ const muniName = muniLabel[d.municipality] ?? d.municipality;
 
       <!-- 記事本文 -->
       <article class="article">
+        <div class="article-label">📄 詳細説明</div>
         <Content />
       </article>
     </div>
