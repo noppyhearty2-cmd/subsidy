@@ -5,11 +5,22 @@ base_url: https://www.city.osaka.lg.jp
 
 # 補助金・助成金情報の起点ページ一覧（実在確認済み）
 index_urls:
+  # こども・子育て
   - https://www.city.osaka.lg.jp/kodomo/
   - https://www.city.osaka.lg.jp/kodomo/news/curr.html
+  # 福祉
   - https://www.city.osaka.lg.jp/fukushi/
+  # 産業・ビジネス支援
   - https://www.city.osaka.lg.jp/sangyo/
+  - https://www.city.osaka.lg.jp/sangyo/news/curr.html
+  - https://www.city.osaka.lg.jp/keizaisenryaku/
+  # くらし・環境
   - https://www.city.osaka.lg.jp/kurashi/
+  - https://www.city.osaka.lg.jp/kurashi/news/curr.html
+  - https://www.city.osaka.lg.jp/kankyo/
+  # 住宅・建設
+  - https://www.city.osaka.lg.jp/toshikeikaku/
+  - https://www.city.osaka.lg.jp/kensetsu/
 
 # CSS セレクタ（実際のHTML構造から確認済み）
 selectors:
@@ -31,6 +42,7 @@ pdf_max_bytes: 10485760  # 10MB
 
 # 補助金関連キーワード（これを含むページのみ処理）
 subsidy_keywords:
+  # 共通
   - 助成
   - 補助
   - 給付
@@ -38,3 +50,15 @@ subsidy_keywords:
   - 無償
   - 支援金
   - 奨励金
+  # 産業・ビジネス向け
+  - 融資
+  - 創業
+  - 中小企業
+  - 起業
+  - リフォーム
+  # くらし・環境向け
+  - 省エネ
+  - 太陽光
+  - 蓄電池
+  - 断熱
+  - 耐震
