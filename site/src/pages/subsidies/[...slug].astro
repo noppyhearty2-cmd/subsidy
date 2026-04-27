@@ -37,6 +37,14 @@ const muniName = muniLabel[d.municipality] ?? d.municipality;
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{d.title}</title>
     <meta name="description" content={d.summary_ja || d.title} />
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CNL0G50ECB"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-CNL0G50ECB');
+    </script>
     <style>
       * { box-sizing: border-box; margin: 0; padding: 0; }
       body { font-family: "Hiragino Sans", "Meiryo", sans-serif; background: #f0f4f8; color: #333; line-height: 1.8; }
