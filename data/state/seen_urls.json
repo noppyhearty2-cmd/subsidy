@@ -18,11 +18,9 @@
     "processed_at": "2026-04-26T10:00:00.000000+00:00"
   },
   "3b2179914639f8515ab9d285a3fa4099d6b2894f6f7554755549235b30add55d": {
-    "status": "skipped",
+    "status": "processing",
     "url": "https://www.city.osaka.lg.jp/kodomo/page/0000620039.html",
-    "first_seen": "2026-04-26T08:40:42.626574+00:00",
-    "processed_at": "2026-04-26T10:00:00.000000+00:00",
-    "skip_reason": "not_a_subsidy: ロードマップ政策文書"
+    "first_seen": "2026-04-27T14:43:24.494114+00:00"
   },
   "cfcd73e3ed05a0e6f9f125cbf9411e771bf80d2e5b8bf39a10b9fe9bbed223ad": {
     "status": "done",
@@ -31,11 +29,9 @@
     "processed_at": "2026-04-26T10:00:00.000000+00:00"
   },
   "ab1aea730edbd0ca227617630028079805e795d871a21d398e665c07e0c83f43": {
-    "status": "skipped",
+    "status": "processing",
     "url": "https://www.city.osaka.lg.jp/kodomo/page/0000138394.html",
-    "first_seen": "2026-04-26T08:40:59.061589+00:00",
-    "processed_at": "2026-04-26T10:00:00.000000+00:00",
-    "skip_reason": "not_a_subsidy: 物品供給公募"
+    "first_seen": "2026-04-27T14:43:40.844852+00:00"
   },
   "be1c40aa4ac37c1640272e55364d59fdc5a095a9ca1378191119366b25559687": {
     "status": "done",
@@ -44,18 +40,14 @@
     "processed_at": "2026-04-26T10:00:00.000000+00:00"
   },
   "f431b566bb43b25c10a42e3deab7b144380be644b8832fe5554d86e953e90104": {
-    "status": "skipped",
+    "status": "processing",
     "url": "https://www.city.osaka.lg.jp/kodomo/page/0000677613.html",
-    "first_seen": "2026-04-26T08:41:13.050968+00:00",
-    "processed_at": "2026-04-26T10:00:00.000000+00:00",
-    "skip_reason": "not_a_subsidy: 意見公募（条例施行規則改正）"
+    "first_seen": "2026-04-27T14:43:54.978978+00:00"
   },
   "a4c6b91c31402c33aa506a067f954986240c0885542a40c1b34eca77b1c4fd3a": {
-    "status": "skipped",
+    "status": "processing",
     "url": "https://www.city.osaka.lg.jp/kodomo/page/0000378126.html",
-    "first_seen": "2026-04-26T08:41:24.688269+00:00",
-    "processed_at": "2026-04-26T10:00:00.000000+00:00",
-    "skip_reason": "not_a_subsidy: こどもの貧困対策政策紹介"
+    "first_seen": "2026-04-27T14:44:06.669021+00:00"
   },
   "1605244e0aeee5f0b5d88d80ee9b9b9a41298fcd0b78a7645d6d504d4e2f811d": {
     "status": "done",
@@ -64,53 +56,39 @@
     "processed_at": "2026-04-26T10:00:00.000000+00:00"
   },
   "70318ae65178dceb59d074211810e64d14f055128ac3bc4aeeb3e82c5e382411": {
-    "status": "skipped",
+    "status": "processing",
     "url": "https://www.city.osaka.lg.jp/kodomo/page/0000379172.html",
-    "first_seen": "2026-04-26T08:41:49.293700+00:00",
-    "processed_at": "2026-04-26T10:00:00.000000+00:00",
-    "skip_reason": "not_a_subsidy: 待機児童対策政策紹介"
+    "first_seen": "2026-04-27T14:44:31.219529+00:00"
   },
   "5f48a097e3e1215fb609f234cca1a88283b1ee173f01f1fd7c46825615f48824": {
-    "status": "skipped",
+    "status": "processing",
     "url": "https://www.city.osaka.lg.jp/seisakukikakushitsu/page/0000006578.html",
-    "first_seen": "2026-04-26T08:41:56.253809+00:00",
-    "processed_at": "2026-04-26T10:00:00.000000+00:00",
-    "skip_reason": "not_a_subsidy: 市民の声"
+    "first_seen": "2026-04-27T14:44:38.412218+00:00"
   },
   "d7a7da6235baa9219cebf29d98e937ebeaf93d25b596c452e1a41cac59005de8": {
-    "status": "skipped",
+    "status": "processing",
     "url": "https://www.city.osaka.lg.jp/somu/page/0000004215.html",
-    "first_seen": "2026-04-26T08:42:04.696332+00:00",
-    "processed_at": "2026-04-26T10:00:00.000000+00:00",
-    "skip_reason": "not_a_subsidy: 市役所本庁舎案内"
+    "first_seen": "2026-04-27T14:44:45.311977+00:00"
   },
   "cd08badce96ff07f7d94eb10894fb10e4d41aed57a1759c303566b7ca70a91ba": {
-    "status": "skipped",
+    "status": "processing",
     "url": "https://www.city.osaka.lg.jp/kodomo/page/0000632564.html",
-    "first_seen": "2026-04-26T08:42:14.083613+00:00",
-    "processed_at": "2026-04-26T10:00:00.000000+00:00",
-    "skip_reason": "not_a_subsidy: 家庭児童相談員（会計年度任用職員）募集"
+    "first_seen": "2026-04-27T14:44:54.445859+00:00"
   },
   "e5b62faba1bb3b7d6425f9a46fd12ad9f2ef838f23e0c422a7882d8453640e4d": {
-    "status": "skipped",
+    "status": "processing",
     "url": "https://www.city.osaka.lg.jp/kodomo/page/0000658366.html",
-    "first_seen": "2026-04-26T08:42:23.432535+00:00",
-    "processed_at": "2026-04-26T10:00:00.000000+00:00",
-    "skip_reason": "not_a_subsidy: 給食調理会計年度任用職員募集"
+    "first_seen": "2026-04-27T14:45:03.489616+00:00"
   },
   "0504d73141ef0a0c339273df11ebb99234d7b9f01bc10cc2ce04da1e18a4e69a": {
-    "status": "skipped",
+    "status": "processing",
     "url": "https://www.city.osaka.lg.jp/fukushi/page/0000677816.html",
-    "first_seen": "2026-04-26T08:42:28.093614+00:00",
-    "processed_at": "2026-04-26T10:00:00.000000+00:00",
-    "skip_reason": "not_a_subsidy: 臨時的任用職員（事務）募集"
+    "first_seen": "2026-04-27T14:45:08.036290+00:00"
   },
   "414396769044b13d960599e627879d515a619c988370f45f5d35a9da68ff9041": {
-    "status": "skipped",
+    "status": "processing",
     "url": "https://www.city.osaka.lg.jp/fukushi/page/0000668345.html",
-    "first_seen": "2026-04-26T08:42:37.541791+00:00",
-    "processed_at": "2026-04-26T10:00:00.000000+00:00",
-    "skip_reason": "not_a_subsidy: 健診等協賛企業募集"
+    "first_seen": "2026-04-27T14:45:17.100844+00:00"
   },
   "3949a1159754d55b26fd612760611102fc0d6c08f5f637206579c4464c2c04ae": {
     "status": "done",
@@ -125,59 +103,738 @@
     "processed_at": "2026-04-26T10:00:00.000000+00:00"
   },
   "cbde7c1e919afc1600ffeecf7acf31c9f500a9af89e250458eb5da3686b7e630": {
-    "status": "skipped",
+    "status": "processing",
     "url": "https://www.city.osaka.lg.jp/fukushi/page/0000593186.html",
-    "first_seen": "2026-04-26T08:43:07.961125+00:00",
-    "processed_at": "2026-04-26T10:00:00.000000+00:00",
-    "skip_reason": "not_a_subsidy: 障がい支援区分認定調査介添人派遣実施機関募集"
+    "first_seen": "2026-04-27T14:45:45.566143+00:00"
   },
   "01d617b08112796abe414cf952172e431b7e6d51d906e9cf5144ba1d5e44ed8f": {
-    "status": "skipped",
+    "status": "processing",
     "url": "https://www.city.osaka.lg.jp/fukushi/page/0000336407.html",
-    "first_seen": "2026-04-26T08:43:19.744526+00:00",
-    "processed_at": "2026-04-26T10:00:00.000000+00:00",
-    "skip_reason": "not_a_subsidy: マイナンバー制度案内"
+    "first_seen": "2026-04-27T14:45:58.270994+00:00"
   },
   "b88b067f7723b140ccd6ab35a1976868c286019cad21c416075c659a03f993da": {
-    "status": "skipped",
+    "status": "processing",
     "url": "https://www.city.osaka.lg.jp/fukushi/page/0000086801.html",
-    "first_seen": "2026-04-26T08:43:22.103770+00:00",
-    "processed_at": "2026-04-26T10:00:00.000000+00:00",
-    "skip_reason": "not_a_subsidy: 生活保護の適正化"
+    "first_seen": "2026-04-27T14:46:00.626665+00:00"
   },
   "172a1c0d9bb2d80ea03d451af25dd7da584155d68fe9176570c56b74eeece3b6": {
-    "status": "skipped",
+    "status": "processing",
     "url": "https://www.city.osaka.lg.jp/fukushi/page/0000398190.html",
-    "first_seen": "2026-04-26T08:43:29.176555+00:00",
-    "processed_at": "2026-04-26T10:00:00.000000+00:00",
-    "skip_reason": "not_a_subsidy: 生活援助サービス従事者無料研修（個人向け補助金ではない）"
+    "first_seen": "2026-04-27T14:46:07.682722+00:00"
   },
   "4bf94433f6009104c71b3f93aeb0f13262d28d3bb2d0d022163834c848057223": {
-    "status": "skipped",
+    "status": "processing",
     "url": "https://www.city.osaka.lg.jp/fukushi/page/0000652278.html",
-    "first_seen": "2026-04-26T08:43:38.534656+00:00",
-    "processed_at": "2026-04-26T10:00:00.000000+00:00",
-    "skip_reason": "not_a_subsidy: 高齢者実態調査"
+    "first_seen": "2026-04-27T14:46:17.009725+00:00"
   },
   "51f3fea3efd7f2362860a11488b82ceab2dd287c7cc704c3202e02e0ce47997d": {
-    "status": "skipped",
+    "status": "processing",
     "url": "https://www.city.osaka.lg.jp/fukushi/page/0000431968.html",
-    "first_seen": "2026-04-26T08:43:43.226963+00:00",
-    "processed_at": "2026-04-26T10:00:00.000000+00:00",
-    "skip_reason": "not_a_subsidy: 認知症アプリ紹介"
+    "first_seen": "2026-04-27T14:46:21.699040+00:00"
   },
   "60c1538182b9cb357dff1e79ac7508d604ae92340f3513ff42fb65fd7c90c50d": {
-    "status": "skipped",
+    "status": "processing",
     "url": "https://www.city.osaka.lg.jp/fukushi/page/0000530619.html",
-    "first_seen": "2026-04-26T08:44:01.615788+00:00",
-    "processed_at": "2026-04-26T10:00:00.000000+00:00",
-    "skip_reason": "not_a_subsidy: バナー広告募集"
+    "first_seen": "2026-04-27T14:46:38.809897+00:00"
   },
   "1f62226d08c2b1bef1b88ee61aff23a1ffd00798665c493d8120c989555816ff": {
-    "status": "skipped",
+    "status": "processing",
     "url": "https://www.city.osaka.lg.jp/kikikanrishitsu/page/0000397769.html",
-    "first_seen": "2026-04-26T08:44:15.783910+00:00",
-    "processed_at": "2026-04-26T10:00:00.000000+00:00",
-    "skip_reason": "not_a_subsidy: 弾道ミサイル対応案内"
+    "first_seen": "2026-04-27T14:51:31.082372+00:00"
+  },
+  "e54ddf1338c1dd6579e4f662388ed51b19b79b59f912a15fbb441423203183dd": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/joto/page/0000677585.html",
+    "first_seen": "2026-04-27T14:46:51.045936+00:00"
+  },
+  "6924d879bcc9f2d3d1f0a2e10a863a11579ae82db647120c807d960dab975498": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/higashinari/page/0000677529.html",
+    "first_seen": "2026-04-27T14:47:00.995457+00:00"
+  },
+  "6bcd5b954ec5acb14564148db3ee3ac68b3ed0cc0723aefb4bc49c5ce2dd6f4f": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/minato/page/0000677175.html",
+    "first_seen": "2026-04-27T14:47:10.082295+00:00"
+  },
+  "7879e0190778c75fc64ba17d99b62a80e451376fb0d6a17b7e64b9d90fc98235": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/higashinari/page/0000676744.html",
+    "first_seen": "2026-04-27T14:47:19.123673+00:00"
+  },
+  "d459b94caf0faedcddc52b578c5506496a4a62d109000f38155de94261a9c7e3": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/keizaisenryaku/page/0000003600.html",
+    "first_seen": "2026-04-27T14:47:28.609882+00:00"
+  },
+  "73a1c26f84b16c6a51f7314864dc34d5ef25136c854f97955ec92df5eb8a3f40": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/port/page/0000067083.html",
+    "first_seen": "2026-04-27T14:47:33.191583+00:00"
+  },
+  "4f8b90839d81c3aa5b562038ca6efe6cec4d0bd8dad233ef2e4c62520a166def": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/kikikanrishitsu/page/0000677902.html",
+    "first_seen": "2026-04-27T14:47:44.685203+00:00"
+  },
+  "ff38422e01469ed30380acc59c6ecdf396d7510ca5c96845f066e1bd39f49550": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/suminoe/page/0000677931.html",
+    "first_seen": "2026-04-27T14:47:49.333390+00:00"
+  },
+  "d7f05e1aaf99fb841d260819451b5594a5546d442dbe15c06aa6890f379f8f5d": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/tsurumi/page/0000677310.html",
+    "first_seen": "2026-04-27T14:47:58.740797+00:00"
+  },
+  "5f90d88060eac5026cd8f45f18b3c3a10d0eab04708205d974b3bef7414a6571": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/higashisumiyoshi/page/0000677654.html",
+    "first_seen": "2026-04-27T14:48:05.691446+00:00"
+  },
+  "5e64c597f071834fe94b7123290cc52a1b5fb5ecaf0e3ef330827d6bb4f3c083": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/kikikanrishitsu/page/0000677524.html",
+    "first_seen": "2026-04-27T14:48:14.964893+00:00"
+  },
+  "d646f395fac5c2d51e09d5aa866eaabf7542f611626eb45fb74fe1cec456b2a1": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/suminoe/page/0000677752.html",
+    "first_seen": "2026-04-27T14:48:24.304332+00:00"
+  },
+  "ab90addb9d62d2d1d8d2bfee9a00e586b6e2cb5ad0b11b0062fbf5506fcc7df1": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/kankyo/page/0000677380.html",
+    "first_seen": "2026-04-27T14:48:28.985221+00:00"
+  },
+  "322bf43b55572ae98fefa2461e3e9a6d093b0f0fb36ef03690582aef79b5c191": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/chuo/page/0000676812.html",
+    "first_seen": "2026-04-27T14:48:38.321896+00:00"
+  },
+  "6a6e4ae112e60beca2deddff943e6c0900448627a431620d17bc6fa4c46d6ce2": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/higashinari/page/0000677018.html",
+    "first_seen": "2026-04-27T14:48:47.785809+00:00"
+  },
+  "0e409cd80b5da69203483e93581813425c3e7c3936fa6727390fd91d82d81a56": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/chuo/page/0000677130.html",
+    "first_seen": "2026-04-27T14:48:57.160476+00:00"
+  },
+  "25bbe9502a6ac7d228cf32ca66d44a24ef5379e77c4edcda8547d8c17f1936f1": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/keizaisenryaku/page/0000677110.html",
+    "first_seen": "2026-04-27T14:49:04.286637+00:00"
+  },
+  "a127db24e88b775ad14a5a3e71c0d6b1a998be571b400d632f3b39d49b3f8c26": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/tennoji/page/0000677601.html",
+    "first_seen": "2026-04-27T14:49:13.598682+00:00"
+  },
+  "bb317ad670cab07729a0d7e4cb6d050dfa7e54bfc75ae64fb3a49efea67dfd2f": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/suido/page/0000676583.html",
+    "first_seen": "2026-04-27T14:49:22.959502+00:00"
+  },
+  "df07d7a4b820d079c53fe48866473548ae2f2937feb864d819eac63c4c26ed99": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/tsurumi/page/0000677231.html",
+    "first_seen": "2026-04-27T14:49:32.265956+00:00"
+  },
+  "641d9f7935c358a5c3832778d46d88ffc4e18673b1ba9b3f2f1577ec49f15b2d": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/higashinari/page/0000676933.html",
+    "first_seen": "2026-04-27T14:49:41.599894+00:00"
+  },
+  "d6b5d5e8106d93fe23d75f667ccf6ccd6055cf9a325f2996ee98be8dfe2b4a46": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/port/page/0000676467.html",
+    "first_seen": "2026-04-27T14:49:46.278816+00:00"
+  },
+  "0f07898775dd9ab2960249ae9343aa6812b145bbb972b2425021af0531d8e528": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/port/page/0000676911.html",
+    "first_seen": "2026-04-27T14:49:53.342286+00:00"
+  },
+  "576a365e3ef52fad50ad47010730ceffc218345fdb745e32110fb21224938e9d": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/naniwa/page/0000676732.html",
+    "first_seen": "2026-04-27T14:50:02.896458+00:00"
+  },
+  "4da76d4a65c354925982449dada05722d0036a35762c116ac2b95df25c3669a7": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/shijo/page/0000665996.html",
+    "first_seen": "2026-04-27T14:50:12.001527+00:00"
+  },
+  "dcfda7764824881052119fa2e3db967d0371a012fbce17c453e4f6297978f2f6": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/shijo/page/0000675998.html",
+    "first_seen": "2026-04-27T14:50:18.924456+00:00"
+  },
+  "c5ddc40bff450e2b74c3e32b16068f7f46da8b556aa05e9465a199ddff825301": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/shijo/page/0000675991.html",
+    "first_seen": "2026-04-27T14:50:25.803028+00:00"
+  },
+  "6335154b966a0a82a0a034649301b3980bb516e0a1ae541b583865aefdd670cf": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/port/page/0000067129.html",
+    "first_seen": "2026-04-27T14:50:35.004556+00:00"
+  },
+  "b721efc1557d8630eaabfc1489de51f503dfdb4e832f5e5e69465a5057018846": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/higashisumiyoshi/page/0000676029.html",
+    "first_seen": "2026-04-27T14:50:47.900113+00:00"
+  },
+  "4d62a4d76e5cf9d728e098ca389a0bf46febabb77dfeb0e563d6c68dcbcdfa99": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/keizaisenryaku/page/0000651698.html",
+    "first_seen": "2026-04-27T14:50:57.290649+00:00"
+  },
+  "7903301629efc8ab7523243338024e5a0a8569ddb6213c3b5aabb674f3aa928b": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/keizaisenryaku/page/0000651646.html",
+    "first_seen": "2026-04-27T14:51:01.945869+00:00"
+  },
+  "453a5c0c20eb1d4375e1246ee5969524a3b76486cd515c69098e25b762d5ac05": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/kenko/page/0000676919.html",
+    "first_seen": "2026-04-27T14:51:42.668253+00:00"
+  },
+  "4c38bc731c5ab651ac7591ff2f6f350523a31931ae79c4ec0ecf721e81466702": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/toshiseibi/page/0000625807.html",
+    "first_seen": "2026-04-27T14:51:52.041741+00:00"
+  },
+  "20866890816dd25ebb66445bfdc7e9b25e3e904442266c60674941d9c0088911": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/shobo/page/0000677579.html",
+    "first_seen": "2026-04-27T14:51:59.051507+00:00"
+  },
+  "4b7a9713d33b7f93744a5adb31f7faadc45e47834733d0d84034e4898ed048d8": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/kyoiku/page/0000677617.html",
+    "first_seen": "2026-04-27T14:52:08.445297+00:00"
+  },
+  "3183d02c2a2d69ceaf6507abbc02db52382ccb0d4b54ea3b0157bcba69918e48": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/keizaisenryaku/page/0000675663.html",
+    "first_seen": "2026-04-27T14:52:13.124919+00:00"
+  },
+  "e425788600926c0d26dd504e1785f0b81197bd637cd252076a3297fed4b03fdc": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/keizaisenryaku/page/0000677074.html",
+    "first_seen": "2026-04-27T14:52:17.799501+00:00"
+  },
+  "e354a3beda692f810058211942311412bb62776fc06c087f91c5605242aae8d6": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/kenko/page/0000676699.html",
+    "first_seen": "2026-04-27T14:52:27.231441+00:00"
+  },
+  "2a604a159ac35d9e0ca8c47e6ff257547194ccfc626d5b295d09847af61bb03d": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/toshiseibi/page/0000677020.html",
+    "first_seen": "2026-04-27T14:52:36.608814+00:00"
+  },
+  "67ca9caf866170840efc4adeb778ce1efb02583ed3e441cf01e13fdd78ec97f3": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/keizaisenryaku/page/0000676651.html",
+    "first_seen": "2026-04-27T14:52:45.954730+00:00"
+  },
+  "01f83aa4daacfcd4af98f7cab6a534636c585be18424b5fe0ce85c484cae4119": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/kyoiku/page/0000676085.html",
+    "first_seen": "2026-04-27T14:52:50.666732+00:00"
+  },
+  "3add493516cdc6bc6dd696ea68f0fee9f3e9c5cab0bf3724ebba2c34f08e5420": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/kyoiku/page/0000657203.html",
+    "first_seen": "2026-04-27T14:52:57.767875+00:00"
+  },
+  "d560f78d85219efa5683fca46956db766163c8910c077430745b7f81adeef154": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/kankyo/page/0000674944.html",
+    "first_seen": "2026-04-27T14:53:11.871384+00:00"
+  },
+  "71f02f2ed02ccfdec30acb57dbb34e436501bdca806b00ad31331785d7f8465c": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/kankyo/page/0000673675.html",
+    "first_seen": "2026-04-27T14:53:21.225309+00:00"
+  },
+  "fa01b79bebceb3dd73e09c554be88fcc01e8ca5b69aa44ba9ea856753bec41a5": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/toshiseibi/page/0000669809.html",
+    "first_seen": "2026-04-27T14:53:30.572096+00:00"
+  },
+  "0970494293d43f1618fe58c9ab715274f56ca943c0fe81f8230c4fe4a9f2d650": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/kankyo/page/0000369355.html",
+    "first_seen": "2026-04-27T14:53:35.257028+00:00"
+  },
+  "3fe0fbdae131c81d61d02760e4df6f5ff958c5c660afa9d2d2e78102fee8576f": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/kankyo/page/0000546942.html",
+    "first_seen": "2026-04-27T14:53:44.592853+00:00"
+  },
+  "c5c459de16a9bb6ac8b25d94dfa95523a65956e6bf1aa6fed7a88516035ed2c1": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/kankyo/page/0000309005.html",
+    "first_seen": "2026-04-27T14:53:49.242839+00:00"
+  },
+  "305cb637f9585d511b35fe2be80e3af849c683e158e91f7051c997f249b9043b": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/kankyo/page/0000674036.html",
+    "first_seen": "2026-04-27T14:54:01.006652+00:00"
+  },
+  "ea03f78793c1fa17bb234caec9b9e903122f2ae0e23be6a7e9654218ed517e3a": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/kankyo/page/0000674035.html",
+    "first_seen": "2026-04-27T14:54:05.683411+00:00"
+  },
+  "48d75bdb50a0fbd9f0de73a579608424f4934906111f71038877f3dedee94b5e": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/kankyo/page/0000007513.html",
+    "first_seen": "2026-04-27T14:54:19.681063+00:00"
+  },
+  "edf4a4b41a5b5c2bcc2b93e8ccbaac0458d645440d996bc9b3271e758f4ac7f2": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/kankyo/page/0000006260.html",
+    "first_seen": "2026-04-27T14:54:30.500171+00:00"
+  },
+  "24541380617850c9218dd76f709d768e07b11a3a235854e62967dc60d1a3da9c": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/toshikeikaku/page/0000370122.html",
+    "first_seen": "2026-04-27T14:54:39.837012+00:00"
+  },
+  "ad970d9f16e931b89a8ca92797a0211282e8f0bcdf9b614fa5a05c951ea0c494": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/toshikeikaku/page/0000244711.html",
+    "first_seen": "2026-04-27T14:54:49.042282+00:00"
+  },
+  "9ba8ff60873a366542749294cb3d9fec1e83609951a2aab29ed5542fa75dedc1": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/toshikeikaku/page/0000225370.html",
+    "first_seen": "2026-04-27T14:54:53.877418+00:00"
+  },
+  "8a5902db13e95d9b0653d5e22865923e6abc952c9c974c777e4036ac54ae1f5a": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000638766.html",
+    "first_seen": "2026-04-27T14:55:53.631254+00:00"
+  },
+  "2ccd58911dd7953a981e8657a16e2d32d2b82e463c7ed0d67bcbf3a60b63432c": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000660301.html",
+    "first_seen": "2026-04-27T14:56:03.064798+00:00"
+  },
+  "9caac55e66a844fc4a4813faf6a1299e609f796077b6772086000d860491d020": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000635889.html",
+    "first_seen": "2026-04-27T14:56:12.566723+00:00"
+  },
+  "09126fcf1148d213240737439cad0ba58d65cc240d876d347641cdfde2a69157": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000452036.html",
+    "first_seen": "2026-04-27T14:56:31.312636+00:00"
+  },
+  "c8fddb1940811a62cefc28c0ecb6eba0f3c9a911e8c797b17be26512626c6fea": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000116189.html",
+    "first_seen": "2026-04-27T14:56:40.662737+00:00"
+  },
+  "d37dde69720af8bd3543ff4fefa911b775e1233a97db9a2b28da125805033b60": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/kodomo/page/0000620039.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "71d9093b8d61edf924ef5257b82337acb9ca5479c6450ff9678cda73858dc3ec": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/kodomo/page/0000138394.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "6f9bd27f70c7e0e677e3d5d7ee8747bba977d0f62fd2df2d387886d238534921": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/kodomo/page/0000677613.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "eeaa05f93a4ec69ee167e141496f27e0f8102459b97e4a5da49bd3f5f1dbc227": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/kodomo/page/0000378126.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "3c9b997916ca59d0a5760af4486f40b2d64880085a83ef63a054586b100b0e06": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/kodomo/page/0000379172.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "bd56ca40a9961279f6bbc5e2a8039c83cc9022372ee4f5915d24c41ddaca4622": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/seisakukikakushitsu/page/0000006578.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "6a80d0da56a8b9ed25a471f4ee88a3569bb624845cc6eab201b468dd3c6e4495": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/somu/page/0000004215.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "be602eea690a8c054bfc3d97b931bc96084e2e407aa557a59d52b4e50ed1ce0c": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/kodomo/page/0000632564.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "96b6fe7b5f28f86e5e2f17243340dcc5a5a9f1b0dfdbd013c268b7b4e5c11c84": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/kodomo/page/0000658366.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "99961a476a130503293f763bed475a03b82ad20789c4fa242dbf44228ff14dca": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/fukushi/page/0000677816.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "5ba7ae8819f1d9decaddc9ad17db0759e91d227118634706c9444aa148b70725": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/fukushi/page/0000668345.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "4fdbc7210d6464af4c2f1e1705dc31543df592b35c8b1cb31e97ff0cac49619a": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/fukushi/page/0000593186.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "02c57db88877a6a4a68baa2beecc8b69b1aa2a7a03c75d98c31f920cc351ec12": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/fukushi/page/0000336407.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "f1c577949d7355355810453072426c0382c8ad1ef236b94a88db31f07ace5862": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/fukushi/page/0000086801.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "7b36432f0018170476c16f58ddc8129a6d5bf4087d92c7bff0c8161f371ab7e9": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/fukushi/page/0000398190.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "f23f0db18297d6e9f104e8c5e3c60b2554d3f5ecc4326167d9a29e1b4ddfc282": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/fukushi/page/0000652278.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "9ef5f5d93260324785f99281263e487ffc0cf50a0790688262a8313129a4aaf8": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/fukushi/page/0000431968.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "c4d930c990d4ff3d01893f821c69c118fde634f1f3e48e4f3dff30424d4cbdf0": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/fukushi/page/0000530619.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "717f002980a23f0580973ac2db5b396f8de2f32e324807197394e16d6dc2cf4a": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/joto/page/0000677585.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "95b19b53833f0edf7091e808552df462be3bdbc21d0ce9b7a813ebf19bf0cf3d": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/higashinari/page/0000677529.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "f0b64f18dc0411a4594ed8eb01acbcd3581e65f76e06517ba6af0deaeb2573aa": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/minato/page/0000677175.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "2434f84b74f6c3ae8e7f489e429d1485ed2fe2d207fed82b2be5ea52b50f7cfa": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/higashinari/page/0000676744.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "f3118b476dd9310e3611014e50620db1fcc525ae480e702a63afa788ab243fd2": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/keizaisenryaku/page/0000003600.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "df5040787b7959b7b1c558536635e5a52462698e3c131c0b566d6cd0ccd9e883": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/port/page/0000067083.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "79b0fa8c2b8b54c8f7dbd4d69827baeda84bfb70349c15183f00e2498f0961c9": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/kikikanrishitsu/page/0000677902.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "1f7045a4f6176d64707bf141df70ea733afda72d70f0b3452c11f06fdf98b7f4": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/suminoe/page/0000677931.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "e9bbc03aeae6b086c3b034c0418759b5bf6a0efa95a9ec384632e093ad7c2016": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/tsurumi/page/0000677310.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "cdd52c7e4125ad32d5b637e2c1e62206457a2c29e4f6af0b4a77a5521b1f1102": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/higashisumiyoshi/page/0000677654.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "54feb7a95c40f4d498da9f519f0c8df44a5fd9a5496a03288712657343d40922": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/kikikanrishitsu/page/0000677524.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "fd5f3cbec8d1a0e259292131f965715f0a27d0e4312c13e4a3b24f5b0ac0f780": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/suminoe/page/0000677752.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "3e40221472270216f35b0bbfd1f478139c49ae057c19a27ff3d9acfa184351a7": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/kankyo/page/0000677380.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "59f7b3c90c429ffab38f15e5cdd276bcbf1a7bd7cb481d13141be9fe2d622b87": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/chuo/page/0000676812.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "e54569b970785bb9d0bbf51b99cb2a30e131eea6e223827fc82159c5edb13eb6": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/higashinari/page/0000677018.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "2ff83387702e33640ca15d884bc94f0612c756435f5d06ff094b5431d17bdeda": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/chuo/page/0000677130.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "dde71eb79d90b55b0f238a102a830b9f184cdbf8be93cabe57aae0c0e5681f52": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/keizaisenryaku/page/0000677110.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "a567c9b02ced277ec9c1e45baae2ab7736602c4e4565243ec4b73cfa079f958a": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/tennoji/page/0000677601.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "ba86f24b6318caaebc66ee3b0f80afa572e20ef9564300f5b65147b140378e70": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/suido/page/0000676583.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "909ab22abd93c4e7874519d6d7dbd5e155cea0a316fdec2f8c937f35daf66328": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/tsurumi/page/0000677231.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "b6eba4382073e65a1c2fce19d4edd3e649489b7721c900dd05b1ce21f696eee0": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/higashinari/page/0000676933.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "5301a2983008da85dd7ff92c8073c3a11c9b9d8e12bb9150f341a3d514f0735b": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/port/page/0000676467.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "09048f8ec57f56d186cd066cd8b4bce081d10aad0883866715b92e9bbe95ef6f": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/port/page/0000676911.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "5f9fe472a6b859a1f0c6cfb8eefcb4fe07aa8b12487d1a37d74d1aa8e309cbe6": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/naniwa/page/0000676732.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "f28c5fb7a43967470be30c1a320c5d9f509041711fc9e4a54e8329130037fb14": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/shijo/page/0000665996.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "b546988605a47d59569aca14d16fec05bac8d24422dd8b3dd28bb99173e1c3b0": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/shijo/page/0000675998.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "9aa5fa570ad8bcf09118bdb36dd77cad896f24161797196b47069d67ed121379": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/shijo/page/0000675991.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "8d8ea54cbd97b5f4ed767c66cbb4612d16c060de0b3b49e3c2dd3ee19ef4fcb1": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/port/page/0000067129.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "ceea4b15cc827fa4c01252df399d3d37b57286aa30691b0caef6b37f2ff2f5ae": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/higashisumiyoshi/page/0000676029.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "08ac5155645adbb325eebb9c490d632a520ff2f3e0a924ffbba7d1a6714d3cbe": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/keizaisenryaku/page/0000651698.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "6b973d5768048ad575a15e349503acfbbaa9053519624d4f0542ef1f6bf9e204": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/keizaisenryaku/page/0000651646.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "cc7257ea399f6a77ea263d2f5580130bfa7a36219189d852941da794f48bbf11": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/kikikanrishitsu/page/0000397769.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "95d69601adae8165ab330f44ee852bd0d03b69d94da0993aeec12444fe5a3881": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/kenko/page/0000676919.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "642b411374c9c63f01c7dc0bdde6dc5a6e0686c7e63f3fb81a80a6e18de50084": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/toshiseibi/page/0000625807.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "4e18809827fe95d702605ed2829c777aafa7d9b2a5a34b651f8bc83661a5908e": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/shobo/page/0000677579.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "52ff7647d770d85882679bf92d998afd541873fb8d5e959836525c164c9a188e": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/kyoiku/page/0000677617.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "3036e83642b90ccebc9031dcee4d4a7d7323c8e85c3dc420a02bdaa8e772598f": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/keizaisenryaku/page/0000675663.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "3e4b9b27de73a658933992cbbb9468a177a29b2fce6237c728c42def26555fc5": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/keizaisenryaku/page/0000677074.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "467a52131ae06779c51856adf7e15be3add2be1bb23319da4eccbc4d1a1878c3": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/kenko/page/0000676699.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "0b0449a899ed6f987cf8250c069407fcd9a01aeef7f6cf80f14078a369e514a2": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/toshiseibi/page/0000677020.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "2275e6b4c963d0c6851ab4a2806e0df219cb54e36557b9e18d326b92f832069d": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/keizaisenryaku/page/0000676651.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "722f02c05e5b6eb52de5c820c862924b28395c879c9dfc48894c86e292a6e0d5": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/kyoiku/page/0000676085.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "d35e0c737140a630a6e7e53a522faa906f0dd0006ec3823caef3e7108577bc3f": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/kyoiku/page/0000657203.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "706b988914f12160d2589ea6b781ae119f5508ab3d310fc75001b0eb24236b4e": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/kankyo/page/0000674944.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "55e3e02673b2d3db6a6ac7c1aaa388402e765de4e3937c7ebca1f259db24eae5": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/kankyo/page/0000673675.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "cc7d80e29ff8cd519453b212aeb051241ce65313864ec773be2377821b0492e9": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/toshiseibi/page/0000669809.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "c7be74377667665a5c67a1e08dce3f27fe1cecafd42808ae75332c2e70e22a4b": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/kankyo/page/0000369355.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "d745cc235c30afd5026f6b33d56e26db3724790bd10a7e417f96012b5afb0d32": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/kankyo/page/0000546942.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "aaa8dc9e4ff0edea8758d4105622b035a0e3b8dc01d769772226646a4f13dfdd": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/kankyo/page/0000309005.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "fe6471e60b212cadd4e494dfdde301f0dbca59f3bcfbb2ef99ab8ce4f2d84890": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/kankyo/page/0000674036.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "f6fb022a09a14ff95e287265918ef29e0f42d12e7ce3c6828624c44c1a1aa932": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/kankyo/page/0000674035.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "5dff9333a92a39a7cfd3e891a2e0b516132338bd9945a370fa2940b795e4810b": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/kankyo/page/0000007513.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "9423d118d247b82f396f7e10a9cdc590078a0d9b41d6e570b5a7344ac2cae086": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/kankyo/page/0000006260.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "b6a8d633553d4e352d3655449d6b1954f1179047446f093d7ff764f1a0fe0577": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/toshikeikaku/page/0000370122.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "da3ca86efd10b519f4084cc117410b89640e95a70b24081a2099271bed92b8bf": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/toshikeikaku/page/0000244711.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "8dda28bce7fb43b8d10b0f26e5871213a28d995ec25c73169cdb646fd4be8fde": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/toshikeikaku/page/0000225370.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "dd9944f633ce74a39a05f5a493040076864fd83d6b77d07884eab32528218843": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000638766.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "c486cb8af10aa012294c7494b21920e06602422459788a98e6fd4b9445d9e1e2": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000660301.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "a816bc6840e02e6dc96683cf3a26e71e8154eb06a108fed391275c96a6efedb6": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000635889.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "854feaf3b8418c798cacdf23247cf2c095612c2dc71be4344327b61f43737408": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000452036.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
+  },
+  "3d479caf2b52e3065d9ba7609757fca8e4f30c75a0a5cda853e5b64d9b92078b": {
+    "status": "done",
+    "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000116189.html",
+    "first_seen": "2026-04-27T14:54:00.000000+00:00"
   }
 }
