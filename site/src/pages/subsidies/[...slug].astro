@@ -128,8 +128,9 @@ const muniName = muniLabel[d.municipality] ?? d.municipality;
         padding: 1.5rem;
         box-shadow: 0 2px 6px rgba(0,0,0,0.08);
       }
-      .article h1 { display: none; } /* タイトルカードで表示済み */
-      .article h2 {
+      /* Markdownレンダリング要素は :global() で指定 */
+      .article :global(h1) { display: none; }
+      .article :global(h2) {
         font-size: 0.9rem;
         font-weight: 700;
         margin: 1.5rem 0 0.6rem;
@@ -139,28 +140,28 @@ const muniName = muniLabel[d.municipality] ?? d.municipality;
         border-radius: 0 4px 4px 0;
         color: #1a2e3b;
       }
-      .article h2:first-child { margin-top: 0; }
-      .article h3 { font-size: 0.85rem; margin: 1rem 0 0.4rem; color: #1a5276; }
-      .article p { margin-bottom: 0.75rem; font-size: 0.85rem; }
-      .article ul, .article ol { padding-left: 1.4rem; margin-bottom: 0.75rem; font-size: 0.85rem; }
-      .article li { margin-bottom: 0.3rem; }
-      .article strong { color: #1a2e3b; }
-      .article blockquote {
+      .article :global(h2:first-child) { margin-top: 0; }
+      .article :global(h3) { font-size: 0.85rem; margin: 1rem 0 0.4rem; color: #1a5276; }
+      .article :global(p) { margin-bottom: 0.75rem; font-size: 0.85rem; }
+      .article :global(ul), .article :global(ol) { padding-left: 1.4rem; margin-bottom: 0.75rem; font-size: 0.85rem; }
+      .article :global(li) { margin-bottom: 0.3rem; }
+      .article :global(strong) { color: #1a2e3b; }
+      .article :global(blockquote) {
         border-left: 3px solid #aaa;
         padding: 0.6rem 1rem;
         color: #666;
-        font-size: 0.88rem;
+        font-size: 0.85rem;
         margin: 1rem 0;
         background: #f8f9fa;
         border-radius: 0 4px 4px 0;
       }
-      .article a { color: #1a5276; word-break: break-all; }
+      .article :global(a) { color: #1a5276; word-break: break-all; }
 
       /* テーブル */
-      .article table { width: 100%; border-collapse: collapse; margin: 0.75rem 0 1rem; font-size: 0.88rem; }
-      .article th { background: #eaf0f7; color: #1a5276; padding: 0.5rem 0.75rem; border: 1px solid #d0dce8; font-weight: 600; text-align: left; }
-      .article td { padding: 0.5rem 0.75rem; border: 1px solid #e8e8e8; }
-      .article tr:nth-child(even) td { background: #fafafa; }
+      .article :global(table) { width: 100%; border-collapse: collapse; margin: 0.75rem 0 1rem; font-size: 0.85rem; }
+      .article :global(th) { background: #eaf0f7; color: #1a5276; padding: 0.5rem 0.75rem; border: 1px solid #d0dce8; font-weight: 600; text-align: left; }
+      .article :global(td) { padding: 0.5rem 0.75rem; border: 1px solid #e8e8e8; }
+      .article :global(tr:nth-child(even) td) { background: #fafafa; }
 
       footer { text-align: center; padding: 2rem; font-size: 0.8rem; color: #999; }
     </style>
