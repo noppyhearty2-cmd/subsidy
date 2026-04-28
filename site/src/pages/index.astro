@@ -139,7 +139,7 @@ const muniLabel: Record<string, string> = {
           const muni = card.dataset.muni;
           const tags = (card.dataset.tags || "").split(",");
           const muniOk = activeMuni === "all" || muni === activeMuni;
-          const tagOk = activeTags.size === 0 || tags.some((t) => activeTags.has(t));
+          const tagOk = activeTags.size === 0 || [...activeTags].every((t) => tags.includes(t));
           const show = muniOk && tagOk;
           card.style.display = show ? "" : "none";
           if (show) visible++;
