@@ -1,0 +1,40 @@
+municipality_id: suita
+name: 吹田市
+base_url: https://www.city.suita.osaka.jp
+index_urls:
+  # 産業・ビジネス支援（補助金・助成金）
+  - https://www.city.suita.osaka.jp/sangyo/1018028/1018029/1018030/index.html
+  # 産業・創業支援
+  - https://www.city.suita.osaka.jp/sangyo/1018028/1018029/1021242/index.html
+  # こども・子育て補助
+  - https://www.city.suita.osaka.jp/kosodate/1018219/1018222/index.html
+  # 住宅・耐震補助
+  - https://www.city.suita.osaka.jp/kurashi/1018501/1018468/1018482/index.html
+  # 住宅リフォーム・省エネ
+  - https://www.city.suita.osaka.jp/kurashi/1018501/1018468/1018478/index.html
+
+selectors:
+  subsidy_link: "a[href$='.html']"
+  title: "h1"
+  body: "#HONBUN"
+
+rate_limit_seconds: 1.5
+pdf_max_bytes: 10485760
+
+subsidy_keywords:
+  - 助成
+  - 補助
+  - 給付
+  - 手当
+  - 無償
+  - 支援金
+  - 奨励金
+  - 融資
+  - 創業
+  - 中小企業
+  - リフォーム
+  - 省エネ
+  - 耐震
+  - 免除
+  - 割引
+  - 軽減
