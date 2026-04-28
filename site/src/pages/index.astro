@@ -53,6 +53,7 @@ const muniLabel: Record<string, string> = {
       .filter-buttons { display: flex; flex-wrap: wrap; gap: 0.5rem; }
       .filter-btn { padding: 0.3rem 0.75rem; border: 1px solid #ccc; border-radius: 20px; background: white; cursor: pointer; font-size: 0.85rem; transition: all 0.2s; }
       .filter-btn.active { background: #1a5276; color: white; border-color: #1a5276; }
+      #tag-hint { font-size: 0.75rem; color: #999; font-weight: normal; }
       .count { color: #666; font-size: 0.85rem; margin: 0.5rem 0; }
       .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem; }
       .card { background: white; border-radius: 8px; padding: 1rem; box-shadow: 0 1px 4px rgba(0,0,0,0.1); display: flex; flex-direction: column; gap: 0.5rem; }
@@ -84,7 +85,7 @@ const muniLabel: Record<string, string> = {
       </div>
 
       <div class="filter-bar">
-        <h2>カテゴリで絞り込む</h2>
+        <h2>カテゴリで絞り込む <span id="tag-hint">（複数選択可）</span></h2>
         <div class="filter-buttons" id="tag-filters">
           <button class="filter-btn active" data-tag="all">すべて</button>
           {allTags.map((t) => (
@@ -130,7 +131,7 @@ const muniLabel: Record<string, string> = {
       const countEl = document.getElementById("count");
 
       let activeMuni = "all";
-      let activeTag = "all";
+      let activeTags = new Set(); // 空 = すべて
 
       function updateDisplay() {
         let visible = 0;
@@ -138,12 +139,23 @@ const muniLabel: Record<string, string> = {
           const muni = card.dataset.muni;
           const tags = (card.dataset.tags || "").split(",");
           const muniOk = activeMuni === "all" || muni === activeMuni;
-          const tagOk = activeTag === "all" || tags.includes(activeTag);
+          const tagOk = activeTags.size === 0 || tags.some((t) => activeTags.has(t));
           const show = muniOk && tagOk;
           card.style.display = show ? "" : "none";
           if (show) visible++;
         });
         countEl.textContent = `${visible} 件`;
+      }
+
+      function syncTagButtons() {
+        tagFilters.forEach((btn) => {
+          const tag = btn.dataset.tag;
+          if (tag === "all") {
+            btn.classList.toggle("active", activeTags.size === 0);
+          } else {
+            btn.classList.toggle("active", activeTags.has(tag));
+          }
+        });
       }
 
       muniFilters.forEach((btn) => {
@@ -157,9 +169,17 @@ const muniLabel: Record<string, string> = {
 
       tagFilters.forEach((btn) => {
         btn.addEventListener("click", () => {
-          tagFilters.forEach((b) => b.classList.remove("active"));
-          btn.classList.add("active");
-          activeTag = btn.dataset.tag;
+          const tag = btn.dataset.tag;
+          if (tag === "all") {
+            activeTags.clear();
+          } else {
+            if (activeTags.has(tag)) {
+              activeTags.delete(tag);
+            } else {
+              activeTags.add(tag);
+            }
+          }
+          syncTagButtons();
           updateDisplay();
         });
       });
