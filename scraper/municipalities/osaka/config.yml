@@ -10,15 +10,19 @@ index_urls:
   - https://www.city.osaka.lg.jp/kodomo/news/curr.html
   # 福祉
   - https://www.city.osaka.lg.jp/fukushi/
+  - https://www.city.osaka.lg.jp/fukushi/news/curr.html
   # 産業・ビジネス支援
   - https://www.city.osaka.lg.jp/sangyo/
   - https://www.city.osaka.lg.jp/sangyo/news/curr.html
   - https://www.city.osaka.lg.jp/keizaisenryaku/
+  - https://www.city.osaka.lg.jp/keizaisenryaku/news/curr.html
   # くらし・環境
   - https://www.city.osaka.lg.jp/kurashi/
   - https://www.city.osaka.lg.jp/kurashi/news/curr.html
   - https://www.city.osaka.lg.jp/kankyo/
   # 住宅・建設
+  - https://www.city.osaka.lg.jp/toshiseibi/
+  - https://www.city.osaka.lg.jp/toshiseibi/news/curr.html
   - https://www.city.osaka.lg.jp/toshikeikaku/
   - https://www.city.osaka.lg.jp/kensetsu/
 
