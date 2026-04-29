@@ -946,5 +946,506 @@
     "status": "done",
     "url": "https://www.city.osaka.lg.jp/toshiseibi/page/0000674292.html",
     "first_seen": "2026-04-28T14:32:30.163342+00:00"
+  },
+  "a1268d59ac433acb499d98611708b2ad50f6098bfef1ec8ec207b5be1960c40a": {
+    "status": "failed",
+    "url": "https://www.city.suita.osaka.jp/about/site/keysearch.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-28T14:54:36.602949+00:00"
+  },
+  "92107e5b446b94b4ac14e3cc3e17c356a5896ecb21b070b83184e0630a150e24": {
+    "status": "failed",
+    "url": "https://www.city.suita.osaka.jp/about/site/idsearch.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-28T14:54:38.467818+00:00"
+  },
+  "1e8f80d6ec657a184f863af170c541dd0e50296fda2955a1bffa30bb3c68bc02": {
+    "status": "failed",
+    "url": "https://www.city.suita.osaka.jp/sitemap.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-28T14:54:40.357083+00:00"
+  },
+  "d40693abd7e34cdc118343b0491b69ff848237b64f1d06af3bef90c0781beed8": {
+    "status": "failed",
+    "url": "https://www.city.suita.osaka.jp/event_calendar.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-28T14:54:42.309866+00:00"
+  },
+  "e28fe18048abc001bf99ec044587b09ec1e85c43c9a2ea7d86b0f75abf7faa49": {
+    "status": "failed",
+    "url": "https://www.city.suita.osaka.jp/about/site/usability.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-28T14:54:44.162024+00:00"
+  },
+  "c1b143ddc5f748e95c8356511a781be355660d77b3e8e9e4d2781fa10c6fd5e9": {
+    "status": "failed",
+    "url": "https://www.city.suita.osaka.jp/about/foreignlanguage.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-28T14:54:46.203506+00:00"
+  },
+  "a9ec65cc0691b6a9ed69d9637bcfe8696c4f0a51e305c1fd3eda06bdfaa1e01c": {
+    "status": "failed",
+    "url": "https://www.city.suita.osaka.jp/kosodate/1020086.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-28T14:54:48.118931+00:00"
+  },
+  "7935c3972caf459c8193d15e2730fe782ff9264c767c5a120224cf410259ac94": {
+    "status": "processing",
+    "url": "https://www.city.suita.osaka.jp/sangyo/1018028/1018029/1018030/1041621.html",
+    "first_seen": "2026-04-28T14:54:48.119750+00:00"
+  },
+  "f2efd1abcf5c9acbc6c8d084b54023ab00a513b84c01786d16e80bb2f0c02da4": {
+    "status": "done",
+    "url": "https://www.city.suita.osaka.jp/sangyo/1018028/1018029/1018030/1041621.html",
+    "reason": "not_a_subsidy or structuring failed",
+    "last_checked": "2026-04-28T14:54:57.985710+00:00",
+    "content_hash": "8aaa24efb79158a209e35421b2a62aa2a062bab2c65ee26d20227882b95281cc",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-28\\suita-sangyo-1018028-1018029-1018030-1041621.html-html.json"
+  },
+  "68a5905dc021a7dc127320c82ac70890d70cc02e0a9665c201279b156cf10a34": {
+    "status": "processing",
+    "url": "https://www.city.suita.osaka.jp/sangyo/1018028/1018029/1018030/1043691.html",
+    "first_seen": "2026-04-28T14:54:57.986701+00:00"
+  },
+  "0a503ee680074d3823a7a4b94ecd6eec5bc89e62f219a86d766cce45d6bf44f9": {
+    "status": "done",
+    "url": "https://www.city.suita.osaka.jp/sangyo/1018028/1018029/1018030/1043691.html",
+    "reason": "not_a_subsidy or structuring failed",
+    "last_checked": "2026-04-28T14:55:06.600617+00:00",
+    "content_hash": "d5b63e5d6fc675c013b760558d5cfebe2d23019094062b2a05fdfcb307664ddd",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-28\\suita-sangyo-1018028-1018029-1018030-1043691.html-html.json"
+  },
+  "fab91422d21f0378e2761899d4f3eea8b1a5aadb10ee94e109c77892a4b21190": {
+    "status": "processing",
+    "url": "https://www.city.suita.osaka.jp/sangyo/1018028/1018029/1018030/1034178.html",
+    "first_seen": "2026-04-28T14:55:06.622060+00:00"
+  },
+  "3f6970196b0cd9e3f4e98e1f81ffc771cdc6fdbdd083aea8ed8998394f3e7b07": {
+    "status": "done",
+    "url": "https://www.city.suita.osaka.jp/sangyo/1018028/1018029/1018030/1034178.html",
+    "reason": "not_a_subsidy or structuring failed",
+    "last_checked": "2026-04-28T14:55:15.112254+00:00",
+    "content_hash": "ca4e0eb229d1d5c6ef1a96cc2df902a076c935cd492704937401c294e4dc6d04",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-28\\suita-sangyo-1018028-1018029-1018030-1034178.html-html.json"
+  },
+  "831a0321a5c6ae0992765a94ef9871eb866e43c11afdc462f7da6d9d6ffece94": {
+    "status": "processing",
+    "url": "https://www.city.suita.osaka.jp/sangyo/1018028/1018029/1018030/1011571.html",
+    "first_seen": "2026-04-28T14:55:15.113671+00:00"
+  },
+  "d82ea415c6827539ae70129dfbd5aecc80169a6ee48fd707b87b24394ef368b4": {
+    "status": "done",
+    "url": "https://www.city.suita.osaka.jp/sangyo/1018028/1018029/1018030/1011571.html",
+    "reason": "not_a_subsidy or structuring failed",
+    "last_checked": "2026-04-28T14:55:23.213563+00:00",
+    "content_hash": "62ea1bdc93a86e28586cc36a1bfe4dac6e487bedee73d56aa5dc0f683cc1473a",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-28\\suita-sangyo-1018028-1018029-1018030-1011571.html-html.json"
+  },
+  "5c8384b81af07448e59e79a28a752e1e8ce3ed3a5f6477d404b11be7bfd7d17b": {
+    "status": "processing",
+    "url": "https://www.city.suita.osaka.jp/sangyo/1018028/1018029/1018030/1011569.html",
+    "first_seen": "2026-04-28T14:55:23.214655+00:00"
+  },
+  "e9b41eaaef632baf95b30678bca62ee8337bf86902d0876b90729b6b979a6db2": {
+    "status": "done",
+    "url": "https://www.city.suita.osaka.jp/sangyo/1018028/1018029/1018030/1011569.html",
+    "reason": "not_a_subsidy or structuring failed",
+    "last_checked": "2026-04-28T14:55:27.137600+00:00",
+    "content_hash": "7fe3448b56d51a2f2755d40f2c34d1de4db5da6ef197f354daa93c5d0a171cd6",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-28\\suita-sangyo-1018028-1018029-1018030-1011569.html-html.json"
+  },
+  "f34c165ec1429cc7723aa8ab466f46f5607fe26c481552238ae52c2df1eaaeb3": {
+    "status": "processing",
+    "url": "https://www.city.suita.osaka.jp/sangyo/1018028/1018029/1018030/1034099.html",
+    "first_seen": "2026-04-28T14:55:27.138824+00:00"
+  },
+  "427ca2b4a5d95d56a7668e2de38e11eb63e8f08e32e1d647b8f11bbab058202d": {
+    "status": "done",
+    "url": "https://www.city.suita.osaka.jp/sangyo/1018028/1018029/1018030/1034099.html",
+    "reason": "not_a_subsidy or structuring failed",
+    "last_checked": "2026-04-28T14:55:35.598271+00:00",
+    "content_hash": "5559129df4be08a0a6f233aa2a1b8062403574730898b7c3d1a52611e3e50049",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-28\\suita-sangyo-1018028-1018029-1018030-1034099.html-html.json"
+  },
+  "9b4aa5694b169994f7e87b15ffdce5eaa966b63e4660ad09e192a39d3194a49c": {
+    "status": "processing",
+    "url": "https://www.city.suita.osaka.jp/sangyo/1018028/1018029/1018030/1011443.html",
+    "first_seen": "2026-04-28T14:55:35.599157+00:00"
+  },
+  "9224e160b9742f1a8e3a44e25780dbe3a238e07790853c059d1268836f8c5b49": {
+    "status": "done",
+    "url": "https://www.city.suita.osaka.jp/sangyo/1018028/1018029/1018030/1011443.html",
+    "reason": "not_a_subsidy or structuring failed",
+    "last_checked": "2026-04-28T14:55:43.402964+00:00",
+    "content_hash": "6618da90d7f49ca96251009b0f501efba5f8af3276e02aca769ff29277df07ff",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-28\\suita-sangyo-1018028-1018029-1018030-1011443.html-html.json"
+  },
+  "d583dd575c4044416955caa8875e0920f5969f285af080a6db4aad6b40770c2a": {
+    "status": "processing",
+    "url": "https://www.city.suita.osaka.jp/sangyo/1018028/1018029/1018030/1011432.html",
+    "first_seen": "2026-04-28T14:55:43.404033+00:00"
+  },
+  "15fdff6aefdd59fd9dd7bbfc622fba984af6a9f2c2bdd9a34010aa787f40ca28": {
+    "status": "done",
+    "url": "https://www.city.suita.osaka.jp/sangyo/1018028/1018029/1018030/1011432.html",
+    "reason": "not_a_subsidy or structuring failed",
+    "last_checked": "2026-04-28T14:55:45.283471+00:00",
+    "content_hash": "0b752ca8c449a04ebf28e8be97093f363a4d04514a615993d7ba592b0f1fe9ec",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-28\\suita-sangyo-1018028-1018029-1018030-1011432.html-html.json"
+  },
+  "7d0be2f4a32294a14e144434e8c9cb6f3631d1d670c747063bcc126a4633978b": {
+    "status": "processing",
+    "url": "https://www.city.suita.osaka.jp/sangyo/1018028/1018029/1018030/1011427.html",
+    "first_seen": "2026-04-28T14:55:45.284859+00:00"
+  },
+  "c633bc6d21e4c72af3594373cd8d5d7d2a1d7ec3db32c003948954c509f05acf": {
+    "status": "done",
+    "url": "https://www.city.suita.osaka.jp/sangyo/1018028/1018029/1018030/1011427.html",
+    "reason": "not_a_subsidy or structuring failed",
+    "last_checked": "2026-04-28T14:55:47.239005+00:00",
+    "content_hash": "0b752ca8c449a04ebf28e8be97093f363a4d04514a615993d7ba592b0f1fe9ec",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-28\\suita-sangyo-1018028-1018029-1018030-1011427.html-html.json"
+  },
+  "b9c3556ce931111d9037713e28eca0bb04c1b05294be3acaa14e844c838f108d": {
+    "status": "processing",
+    "url": "https://www.city.suita.osaka.jp/sangyo/1018028/1018029/1018030/1038716.html",
+    "first_seen": "2026-04-28T14:55:47.239932+00:00"
+  },
+  "36d2f65a6e3bee74df4b6b54f3ea5fe76de8fcf732baff7030f00f6633705621": {
+    "status": "done",
+    "url": "https://www.city.suita.osaka.jp/sangyo/1018028/1018029/1018030/1038716.html",
+    "reason": "not_a_subsidy or structuring failed",
+    "last_checked": "2026-04-28T14:55:56.893401+00:00",
+    "content_hash": "f7cd0d89488b7511853e92d33721aa74083f339d2b9aae40d30f1c91974ba249",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-28\\suita-sangyo-1018028-1018029-1018030-1038716.html-html.json"
+  },
+  "131eebda7d4ef2506e20c3e50b6f9a70130d254bb269105babb85b8165111a7c": {
+    "status": "processing",
+    "url": "https://www.city.suita.osaka.jp/sangyo/1018028/1018029/1018030/1023431.html",
+    "first_seen": "2026-04-28T14:55:56.894965+00:00"
+  },
+  "10d1d79cdedf0a2c597ce337a303e07ceaabd88e704ccc5cd15eff9230a5324e": {
+    "status": "done",
+    "url": "https://www.city.suita.osaka.jp/sangyo/1018028/1018029/1018030/1023431.html",
+    "reason": "not_a_subsidy or structuring failed",
+    "last_checked": "2026-04-28T14:56:04.416721+00:00",
+    "content_hash": "74fb5350c6e57a701eca9000f750ac456ee471adad763a2b2f55f6530a4b17c9",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-28\\suita-sangyo-1018028-1018029-1018030-1023431.html-html.json"
+  },
+  "f62f784daca9012d216131db766ac4d87aa7ceb9ecda3b9f0082011cc640c0f9": {
+    "status": "processing",
+    "url": "https://www.city.suita.osaka.jp/sangyo/1018028/1018029/1018030/1011732.html",
+    "first_seen": "2026-04-28T14:56:04.417534+00:00"
+  },
+  "1b9ed4ef56e3af4514aec4a4a98ab0718977203d0e7c55881b327c88f4d0228b": {
+    "status": "done",
+    "url": "https://www.city.suita.osaka.jp/sangyo/1018028/1018029/1018030/1011732.html",
+    "reason": "not_a_subsidy or structuring failed",
+    "last_checked": "2026-04-28T14:56:12.290933+00:00",
+    "content_hash": "498eef496f1fdc73fe08f7f4c74161d2f6f9f150190a9ed144c27b4d1d4332d2",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-28\\suita-sangyo-1018028-1018029-1018030-1011732.html-html.json"
+  },
+  "434a3fcf23820d022ac7288b46a4894c52e51b59c2a9558356573d9d5db6e909": {
+    "status": "processing",
+    "url": "https://www.city.suita.osaka.jp/sangyo/1018028/1018029/1011762.html",
+    "first_seen": "2026-04-28T14:56:12.291881+00:00"
+  },
+  "1a8876ace30b5c3c2f1971afb8200455518bf754df6a3dbb7447a4cd80f65178": {
+    "status": "done",
+    "url": "https://www.city.suita.osaka.jp/sangyo/1018028/1018029/1011762.html",
+    "reason": "not_a_subsidy or structuring failed",
+    "last_checked": "2026-04-28T14:56:17.166843+00:00",
+    "content_hash": "b84e0f21eb631b32676b2eec708f8fcc96044ea543bd3be69db33ce599145c22",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-28\\suita-sangyo-1018028-1018029-1011762.html-html.json"
+  },
+  "ad4041866d2bd234d587b0cdb36058dd6cd823190ac79375bad3ad2b3f54ff9d": {
+    "status": "failed",
+    "url": "https://www.city.suita.osaka.jp/sangyo/1018028/1018029/1011548.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-28T14:56:19.025131+00:00"
+  },
+  "b0c308583cfefb139fc5284848a4ee8b832223c94ee59c4e32ebe949c5e994c2": {
+    "status": "failed",
+    "url": "https://www.city.suita.osaka.jp/newslist.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-28T14:56:20.886400+00:00"
+  },
+  "c05f98a6bc75fb16b8389975c980552383e17a80306f2ea07536f1f8ffad1b70": {
+    "status": "failed",
+    "url": "https://www.city.suita.osaka.jp/shisei/1018754/1020203/1012378.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-28T14:56:22.745791+00:00"
+  },
+  "7c7edc5d006cb03cae9a07db261dfe463fe6adc775367986c66ed19f33225678": {
+    "status": "failed",
+    "url": "https://www.city.suita.osaka.jp/shisei/1018754/1020203/1012380.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-28T14:56:24.565335+00:00"
+  },
+  "de0e6a1ada8bbeef8fba1f27a2ae0a5ba9e68f2252a8e9f7c1897317e0a4b21e": {
+    "status": "failed",
+    "url": "https://www.city.suita.osaka.jp/shisei/1018754/1020203/1012377.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-28T14:56:26.464167+00:00"
+  },
+  "f9e44375766fe4fdb07077bb28ba9349dc89a58b03f0528d3b91c8da0ad51987": {
+    "status": "failed",
+    "url": "https://www.city.suita.osaka.jp/about/1012303.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-28T14:56:28.328735+00:00"
+  },
+  "d1e695e45054f8e054902a4d5a1c48af90908a76cfbb191d860a99b1bd9e7db6": {
+    "status": "processing",
+    "url": "https://www.city.suita.osaka.jp/sangyo/1018028/1018029/1021242/1011520.html",
+    "first_seen": "2026-04-28T14:56:28.330242+00:00"
+  },
+  "9acb159d5dffd016e4ab84df13db6dbd9775b4fc5cb742dddeb11c9d4d405323": {
+    "status": "done",
+    "url": "https://www.city.suita.osaka.jp/sangyo/1018028/1018029/1021242/1011520.html",
+    "reason": "not_a_subsidy or structuring failed",
+    "last_checked": "2026-04-28T14:56:34.504643+00:00",
+    "content_hash": "c19a00af343552f300c5477f6134d751fc0ff5eebdce67c0b09afbf439d95826",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-28\\suita-sangyo-1018028-1018029-1021242-1011520.html-html.json"
+  },
+  "2cd59706c35de9492ee740b3fe58d6580897efb0c07af58eab79f884b9c53441": {
+    "status": "failed",
+    "url": "https://www.city.suita.osaka.jp/sangyo/1018028/1018029/1021242/1011764.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-28T14:56:36.346140+00:00"
+  },
+  "0afaa6e9908e6eec62cb86b0547e667a210c73b913c3b350c0c9746fa9bd163b": {
+    "status": "processing",
+    "url": "https://www.city.suita.osaka.jp/kosodate/1018219/1018222/1005538.html",
+    "first_seen": "2026-04-28T14:56:36.347293+00:00"
+  },
+  "02cc523ade44afb7de2ba55049e056fd6d02f1960be4a943ec8d10b28094d237": {
+    "status": "done",
+    "url": "https://www.city.suita.osaka.jp/kosodate/1018219/1018222/1005538.html",
+    "reason": "not_a_subsidy or structuring failed",
+    "last_checked": "2026-04-28T14:56:38.164687+00:00",
+    "content_hash": "0b752ca8c449a04ebf28e8be97093f363a4d04514a615993d7ba592b0f1fe9ec",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-28\\suita-kosodate-1018219-1018222-1005538.html-html.json"
+  },
+  "f4acdf9fb10d07b70ceb180e2aeeb227b7691581cc0551e8158caebe4a7e5f5c": {
+    "status": "processing",
+    "url": "https://www.city.suita.osaka.jp/kosodate/1018219/1018222/1006055.html",
+    "first_seen": "2026-04-28T14:56:38.165792+00:00"
+  },
+  "e612ce26d1aa3052027aaf0fea54da098bb0e3e1c2fcf71505b000965be5a9b6": {
+    "status": "done",
+    "url": "https://www.city.suita.osaka.jp/kosodate/1018219/1018222/1006055.html",
+    "reason": "not_a_subsidy or structuring failed",
+    "last_checked": "2026-04-28T14:56:39.992084+00:00",
+    "content_hash": "0b752ca8c449a04ebf28e8be97093f363a4d04514a615993d7ba592b0f1fe9ec",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-28\\suita-kosodate-1018219-1018222-1006055.html-html.json"
+  },
+  "8cb629cef65b2524f031a4da1a42d92f8d42d3e34435140e3b7d6409f0bad125": {
+    "status": "processing",
+    "url": "https://www.city.suita.osaka.jp/kosodate/1018219/1018222/1005540.html",
+    "first_seen": "2026-04-28T14:56:39.993175+00:00"
+  },
+  "8be654b65c7e5b05df1e151445d8d7fbee4ee77c83077642260742afcbb293ff": {
+    "status": "done",
+    "url": "https://www.city.suita.osaka.jp/kosodate/1018219/1018222/1005540.html",
+    "reason": "not_a_subsidy or structuring failed",
+    "last_checked": "2026-04-28T14:56:43.883738+00:00",
+    "content_hash": "35b5a2ff75d129dccf8f57792fad2034def3f30f8193c474defa43990fd328e5",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-28\\suita-kosodate-1018219-1018222-1005540.html-html.json"
+  },
+  "6016b5a46e35d46c9cb74e79b337a50f470c01bdf9c87bd3ce61dd5746d7ae0c": {
+    "status": "failed",
+    "url": "https://www.city.suita.osaka.jp/kosodate/1018219/1018222/1040190.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-28T14:56:45.725418+00:00"
+  },
+  "2c88605b5d79f5a903bbe84f8ce907bcad0dd9350c6cb9d2ba3aa7dfd73a2b16": {
+    "status": "processing",
+    "url": "https://www.city.suita.osaka.jp/kosodate/1018219/1018222/1039183.html",
+    "first_seen": "2026-04-28T14:56:45.726207+00:00"
+  },
+  "49c671cc73ebff9c02c455e30b4776f87879c5247ea30ee2370bf567dccbd204": {
+    "status": "done",
+    "url": "https://www.city.suita.osaka.jp/kosodate/1018219/1018222/1039183.html",
+    "reason": "not_a_subsidy or structuring failed",
+    "last_checked": "2026-04-28T14:56:53.367103+00:00",
+    "content_hash": "b68bf6ed99380616c362dece79f84045cf44af54f719a0655ff801834588753f",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-28\\suita-kosodate-1018219-1018222-1039183.html-html.json"
+  },
+  "d24d2d6cb5a16e33506af2e47fb584010f40d88336771eece114a4f02be23080": {
+    "status": "failed",
+    "url": "https://www.city.suita.osaka.jp/kosodate/1018219/1018222/1038286.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-28T14:56:55.186742+00:00"
+  },
+  "b4de92e05e930cb8ac45240544e1e694619c722b0d0a2ec16718aaddf22a7379": {
+    "status": "processing",
+    "url": "https://www.city.suita.osaka.jp/kosodate/1018219/1018222/1034751.html",
+    "first_seen": "2026-04-28T14:56:55.187723+00:00"
+  },
+  "39d51fabf61f56ad20ef559de12f5b2536145aeccb4ab32b6c7b8ffc785f603c": {
+    "status": "done",
+    "url": "https://www.city.suita.osaka.jp/kosodate/1018219/1018222/1034751.html",
+    "reason": "not_a_subsidy or structuring failed",
+    "last_checked": "2026-04-28T14:56:57.043388+00:00",
+    "content_hash": "0b752ca8c449a04ebf28e8be97093f363a4d04514a615993d7ba592b0f1fe9ec",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-28\\suita-kosodate-1018219-1018222-1034751.html-html.json"
+  },
+  "81a03c1ed6f959aeb9a20f0b6c936d6a96ae1468b7ebcd3c7e5cfb57203279d4": {
+    "status": "processing",
+    "url": "https://www.city.suita.osaka.jp/kosodate/1018219/1018222/1005604.html",
+    "first_seen": "2026-04-28T14:56:57.044776+00:00"
+  },
+  "02e36819557ab0824181d28feaeea9e166607021aba69eb4f4134724cea0ce51": {
+    "status": "done",
+    "url": "https://www.city.suita.osaka.jp/kosodate/1018219/1018222/1005604.html",
+    "reason": "not_a_subsidy or structuring failed",
+    "last_checked": "2026-04-28T14:57:04.754543+00:00",
+    "content_hash": "486a141a1e7fad5f25cc75b8cc9bdc572a56f48782e227b444b3ab16e3b2116b",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-28\\suita-kosodate-1018219-1018222-1005604.html-html.json"
+  },
+  "9807a5b67c099e2dbc74a8f6e0b9f2929aadceb1a9a4ba9d6b9cd4d008eb020c": {
+    "status": "processing",
+    "url": "https://www.city.suita.osaka.jp/kosodate/1018219/1018222/1005603.html",
+    "first_seen": "2026-04-28T14:57:04.755423+00:00"
+  },
+  "1a70b1f6937752112e521dfa7a65cfc098e1ba946e3a2ad82db9a09ca0aa5ef1": {
+    "status": "done",
+    "url": "https://www.city.suita.osaka.jp/kosodate/1018219/1018222/1005603.html",
+    "reason": "not_a_subsidy or structuring failed",
+    "last_checked": "2026-04-28T14:57:06.642744+00:00",
+    "content_hash": "0b752ca8c449a04ebf28e8be97093f363a4d04514a615993d7ba592b0f1fe9ec",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-28\\suita-kosodate-1018219-1018222-1005603.html-html.json"
+  },
+  "70e7c9ebf470b8ab575508a5682d5ad52bdbfcee9cb37af67e726afa36259786": {
+    "status": "processing",
+    "url": "https://www.city.suita.osaka.jp/kosodate/1018219/1018222/1005675.html",
+    "first_seen": "2026-04-28T14:57:06.644258+00:00"
+  },
+  "493d2a7a4e071a9096ed080a8316af4d78998d22f2a35aa7727ccb631fc8b37d": {
+    "status": "done",
+    "url": "https://www.city.suita.osaka.jp/kosodate/1018219/1018222/1005675.html",
+    "reason": "not_a_subsidy or structuring failed",
+    "last_checked": "2026-04-28T14:57:14.755954+00:00",
+    "content_hash": "b5d360ba9fc5832dfffca824c1300f595101193261df8e7e2c702ddd079c7038",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-28\\suita-kosodate-1018219-1018222-1005675.html-html.json"
+  },
+  "451a0ce365de9fbf288150dac0f29ef108eaee519b5f23842bf015d73084c2da": {
+    "status": "failed",
+    "url": "https://www.city.suita.osaka.jp/kosodate/1018205/1018206/1025455.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-28T14:57:16.621201+00:00"
+  },
+  "eb72bb5ee3c96e0f06f46160b9f5a7d3a9cb2a06c08f41f3cb99fdb8941071b4": {
+    "status": "processing",
+    "url": "https://www.city.suita.osaka.jp/kosodate/1018219/1041235.html",
+    "first_seen": "2026-04-28T14:57:16.622031+00:00"
+  },
+  "cd2d881c760db4ed70434af6a6d7754049e7d455991ba121e54a132773129961": {
+    "status": "done",
+    "url": "https://www.city.suita.osaka.jp/kosodate/1018219/1041235.html",
+    "reason": "not_a_subsidy or structuring failed",
+    "last_checked": "2026-04-28T14:57:20.380551+00:00",
+    "content_hash": "b29ab6d0cc8d4980e76b67b202af8b88526dc407d98eda287920d39b58d74c80",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-28\\suita-kosodate-1018219-1041235.html-html.json"
+  },
+  "efd42b0044e3fc4d67309e0563d3b532777622ac61ea1abc2da99c70362bcac0": {
+    "status": "processing",
+    "url": "https://www.city.suita.osaka.jp/kosodate/1018219/1041819.html",
+    "first_seen": "2026-04-28T14:57:20.382696+00:00"
+  },
+  "091686f59b2dbb29848b94500a8e60fcf11d79068a6bcd7e3fa61f084c5ed88d": {
+    "status": "done",
+    "url": "https://www.city.suita.osaka.jp/kosodate/1018219/1041819.html",
+    "reason": "not_a_subsidy or structuring failed",
+    "last_checked": "2026-04-28T14:57:24.253255+00:00",
+    "content_hash": "ebfc8e172a7eef3f327920a27946b75c3312307d399585c231fa39bd9f3dae98",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-28\\suita-kosodate-1018219-1041819.html-html.json"
+  },
+  "37af14ee770949fb8a913cca2037cd54081fd3f59241aa99f85b87e45d93f559": {
+    "status": "processing",
+    "url": "https://www.city.suita.osaka.jp/kosodate/1018219/1039000.html",
+    "first_seen": "2026-04-28T14:57:24.254215+00:00"
+  },
+  "7410cc04211ccaf55e6eaf5c932294541ffc0a8a2f4fe81b0fb6caa909fd08bf": {
+    "status": "done",
+    "url": "https://www.city.suita.osaka.jp/kosodate/1018219/1039000.html",
+    "reason": "not_a_subsidy or structuring failed",
+    "last_checked": "2026-04-28T14:57:26.124130+00:00",
+    "content_hash": "0b752ca8c449a04ebf28e8be97093f363a4d04514a615993d7ba592b0f1fe9ec",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-28\\suita-kosodate-1018219-1039000.html-html.json"
+  },
+  "c1bbedbf7edd5c64de0ea8d1c0eac4217c671b88a786dca28f89461c8912cbd9": {
+    "status": "failed",
+    "url": "https://www.city.suita.osaka.jp/kosodate/1018219/1005917.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-28T14:57:28.004456+00:00"
+  },
+  "c97f35eb20548822ff9bc78b574ac33be716fe13e8ff57d6547edf896a46d1fd": {
+    "status": "failed",
+    "url": "https://www.city.suita.osaka.jp/kosodate/1018219/1013892.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-28T14:57:29.907325+00:00"
+  },
+  "b1085ef08300d91fc1a78d565a4f3ab5357211f451fe58e65854551c81672986": {
+    "status": "failed",
+    "url": "https://www.city.suita.osaka.jp/kurashi/1018501/1018468/1018478/1010007.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-28T14:57:31.841266+00:00"
+  },
+  "d641d15605c84ac1c8b1a81157ba7cdc05524d55fa87ea3f777a5981834c9c0d": {
+    "status": "failed",
+    "url": "https://www.city.suita.osaka.jp/kurashi/1018501/1018468/1018478/1031404.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-28T14:57:33.886437+00:00"
+  },
+  "6193ceb16cbc555fc9986dd47700b8668697b3143feac36cff2700b8251cea2e": {
+    "status": "failed",
+    "url": "https://www.city.suita.osaka.jp/kurashi/1018501/1018468/1018478/1010075.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-28T14:57:35.838581+00:00"
+  },
+  "fa03505c9026c7e6956107f0e361dd0d0c15667c3c66f87e36afe4818cc99075": {
+    "status": "failed",
+    "url": "https://www.city.suita.osaka.jp/kurashi/1018501/1018468/1018478/1010237.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-28T14:57:37.766304+00:00"
+  },
+  "2fb69c7987744c3584afdd66e00833b1db526b5bf53606d96757a29d8a7ab677": {
+    "status": "processing",
+    "url": "https://www.city.suita.osaka.jp/kurashi/1018501/1018468/1018478/1010111.html",
+    "first_seen": "2026-04-28T14:57:37.767644+00:00"
+  },
+  "f6a21aa6ac9f20de21cf54c5d8e39bec943f68bbc45985e4c371f7c8dba18445": {
+    "status": "done",
+    "url": "https://www.city.suita.osaka.jp/kurashi/1018501/1018468/1018478/1010111.html",
+    "reason": "not_a_subsidy or structuring failed",
+    "last_checked": "2026-04-28T14:57:46.022826+00:00",
+    "content_hash": "39d607ae062963e25dabedba2251c9e4beb27e8dab8edd3594ab6b7bd0b79eb7",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-28\\suita-kurashi-1018501-1018468-1018478-1010111.html-html.json"
+  },
+  "79760023ae000d1e829e2e25cc8c264c76216ca0320205e0ab9fdf64ada9aab9": {
+    "status": "processing",
+    "url": "https://www.city.suita.osaka.jp/kurashi/1018501/1018468/1018478/1010106.html",
+    "first_seen": "2026-04-28T14:57:46.023724+00:00"
+  },
+  "1de52bce4092f121fa2e6b18865479a1d6cc7d4d32bc8f8f42501c17f479b447": {
+    "status": "done",
+    "url": "https://www.city.suita.osaka.jp/kurashi/1018501/1018468/1018478/1010106.html",
+    "reason": "not_a_subsidy or structuring failed",
+    "last_checked": "2026-04-28T14:57:50.013612+00:00",
+    "content_hash": "0b752ca8c449a04ebf28e8be97093f363a4d04514a615993d7ba592b0f1fe9ec",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-28\\suita-kurashi-1018501-1018468-1018478-1010106.html-html.json"
+  },
+  "3a496e52720637f450b0eb065a5c499be170cecae424a89bd95ff29522336a76": {
+    "status": "failed",
+    "url": "https://www.city.suita.osaka.jp/sangyo/1017979/1017980/1010117.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-28T14:57:51.943017+00:00"
+  },
+  "594e610c81c3f65b25233bf6efd76399a9aae7ca5738f9b3ed938fa46d5bea6a": {
+    "status": "failed",
+    "url": "https://www.city.suita.osaka.jp/sangyo/1017979/1017980/1010172.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-28T14:57:53.813290+00:00"
   }
 }
