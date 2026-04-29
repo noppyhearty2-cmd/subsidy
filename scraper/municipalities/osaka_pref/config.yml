@@ -1,0 +1,47 @@
+municipality_id: osaka_pref
+name: 大阪府
+
+base_url: https://www.pref.osaka.lg.jp
+
+index_urls:
+  # 企業支援（中小企業向け補助金・経営支援）
+  - https://www.pref.osaka.lg.jp/shigotosangyou/kigyoushien/index.html
+  # 賃上げ促進支援パッケージ（各補助金リンクあり）
+  - https://www.pref.osaka.lg.jp/o110050/keieishien/chinagepackage.html
+  # 私立高校授業料無償化・支援金（府独自の大阪版無償化）
+  - https://www.pref.osaka.lg.jp/o180160/shigaku/shigakumushouka/index.html
+  # 子育て支援（府直接給付・補助のみ対象）
+  - https://www.pref.osaka.lg.jp/kenkoufukushi/kosodate/kosodateshien/index.html
+
+selectors:
+  subsidy_link: "a[href]"
+  title: "h1"
+  body: "#tmp_honbun"
+
+rate_limit_seconds: 2.0
+pdf_max_bytes: 10485760
+
+subsidy_keywords:
+  - 助成
+  - 補助
+  - 給付
+  - 手当
+  - 無償
+  - 支援金
+  - 奨励金
+  - 融資
+  - 創業
+  - 中小企業
+  - 賃上げ
+  - 授業料
+  - 省エネ
+  - 耐震
+  - 免除
+  - 軽減
+  - 利子補給
+
+# 市区町村が申請窓口となる制度（府ページは解説のみ）を除外するキーワード
+# スクレイプ後、記事作成時にこれらを含むページはスキップする
+exclude_if_all:
+  - 各市区町村
+  - 申請先：各市

@@ -1447,5 +1447,539 @@
     "url": "https://www.city.suita.osaka.jp/sangyo/1017979/1017980/1010172.html",
     "reason": "fetch_raw_content returned None",
     "last_checked": "2026-04-28T14:57:53.813290+00:00"
+  },
+  "0b3bc41d8e168ffdc0a6279668ef9995942ae19839ec90b6e92e7dc6cfb5aa4b": {
+    "status": "failed",
+    "url": "https://www.pref.osaka.lg.jp/moji.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-29T05:12:51.614508+00:00"
+  },
+  "25b64cd8845ef8150262418f51e7c67f62be7a065b9f6717f95856a4c704ce5a": {
+    "status": "failed",
+    "url": "https://www.pref.osaka.lg.jp/o070050/koho/sitemap/sagasikata.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-29T05:12:53.975202+00:00"
+  },
+  "295d0b16de3223912513eb9ef502278339b64939b4a401818722e07d2c6fb7b2": {
+    "status": "processing",
+    "url": "https://www.pref.osaka.lg.jp/o110050/keieishien/chinagepackage.html",
+    "first_seen": "2026-04-29T05:12:53.976097+00:00"
+  },
+  "fd5bbec3c50f3bd378b59f6b9b5793a87ed5eec40f316f0645391498d412e638": {
+    "status": "done",
+    "url": "https://www.pref.osaka.lg.jp/o110050/keieishien/chinagepackage.html",
+    "content_hash": "c9b23093d2712e889f51b101ed3246801e79efab77612c899257b157f1fb0a35",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\osaka_pref-o110050-keieishien-chinagepackage.html-html.json",
+    "last_checked": "2026-04-29T05:12:59.452812+00:00"
+  },
+  "7a3b995c38b400a99dc85ab4a7e65f12573f7b20f8d978085208d93396d8242f": {
+    "status": "processing",
+    "url": "https://www.pref.osaka.lg.jp/o110050/keieishien/rieki/riekiritur8.html",
+    "first_seen": "2026-04-29T05:12:59.453925+00:00"
+  },
+  "2485ae14b0b390719f329d0ee97be8c45219fa741b892cce374642413c8afe53": {
+    "status": "done",
+    "url": "https://www.pref.osaka.lg.jp/o110050/keieishien/rieki/riekiritur8.html",
+    "content_hash": "fb3546a301d806e61a151b3e3a9f0a66e42db439c3242ec4884d1de3bf6ad836",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\osaka_pref-o110050-keieishien-rieki-riekiritur8.html-html.json",
+    "last_checked": "2026-04-29T05:13:04.138665+00:00"
+  },
+  "5b945590dfa2aca29da9b97640dd220ea322c6b674fb13ae52422b74ebf4a53f": {
+    "status": "failed",
+    "url": "https://www.pref.osaka.lg.jp/o110050/keieishien/mailmaga/design_keieishien_mm.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-29T05:13:06.494346+00:00"
+  },
+  "0b53f3ca0ba3e27abc07a234e2aa1cf99e7aa9f0d2ab9ef7b16e91e34d664c5b": {
+    "status": "processing",
+    "url": "https://www.pref.osaka.lg.jp/o110050/keieishien/customer.html",
+    "first_seen": "2026-04-29T05:13:06.495225+00:00"
+  },
+  "2e1c107818a4605c76b7c419b7a39ff7427a0ac2d1a96bbdb4d28273cc98c16d": {
+    "status": "done",
+    "url": "https://www.pref.osaka.lg.jp/o110050/keieishien/customer.html",
+    "content_hash": "d98aa6b826f44d73d3dce2abbca08579ec5536253a653cb8c9a9fd7a501badf6",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\osaka_pref-o110050-keieishien-customer.html-html.json",
+    "last_checked": "2026-04-29T05:13:17.757893+00:00"
+  },
+  "656d922cb322c8e9dc7a9f07ad47d16307942a9492c2dda4ae79086b7709aef7": {
+    "status": "processing",
+    "url": "https://www.pref.osaka.lg.jp/shigotosangyou/kigyoushien/monozukurikigyoushien/monozukurityuushoushien.html",
+    "first_seen": "2026-04-29T05:13:17.758876+00:00"
+  },
+  "2f95806816ac0d3ae0566e9c02ada7bbab75db8c076ff323de341bc03bc016f6": {
+    "status": "done",
+    "url": "https://www.pref.osaka.lg.jp/shigotosangyou/kigyoushien/monozukurikigyoushien/monozukurityuushoushien.html",
+    "content_hash": "0b752ca8c449a04ebf28e8be97093f363a4d04514a615993d7ba592b0f1fe9ec",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\osaka_pref-shigotosangyou-kigyoushien-monozukurikigyoushien-monozukurityuushoushien.html-html.json",
+    "last_checked": "2026-04-29T05:13:20.134223+00:00"
+  },
+  "4a7568fee7e3e1fbf79ccdd2c319f1f14d4684319f458ed83e3f96b7cf08c213": {
+    "status": "processing",
+    "url": "https://www.pref.osaka.lg.jp/o110070/kakakutenka/kakakutenka08.html",
+    "first_seen": "2026-04-29T05:13:20.135226+00:00"
+  },
+  "5f76e37911795e1a77cc011912b5a8c385a06f35fe0a579c73761d918cc58cd0": {
+    "status": "done",
+    "url": "https://www.pref.osaka.lg.jp/o110070/kakakutenka/kakakutenka08.html",
+    "content_hash": "06fb6f67e2f5cc6a946af89c34eb4c9fd1e546e44e455bff3561b217e5a5edec",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\osaka_pref-o110070-kakakutenka-kakakutenka08.html-html.json",
+    "last_checked": "2026-04-29T05:13:31.524238+00:00"
+  },
+  "35da144eb76ca1e9f386b7632a36a9605ff34ef89cd58f1ca98bea378bff146a": {
+    "status": "processing",
+    "url": "https://www.pref.osaka.lg.jp/o110070/kakakutenka.html",
+    "first_seen": "2026-04-29T05:13:31.525245+00:00"
+  },
+  "0d48743c2bda7d38e7ca2850fcfcbb5075f89a47e46046819b8c09e77324e8dc": {
+    "status": "done",
+    "url": "https://www.pref.osaka.lg.jp/o110070/kakakutenka.html",
+    "content_hash": "0b752ca8c449a04ebf28e8be97093f363a4d04514a615993d7ba592b0f1fe9ec",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\osaka_pref-o110070-kakakutenka.html-html.json",
+    "last_checked": "2026-04-29T05:13:33.887914+00:00"
+  },
+  "41ed6969dfdb17c8d46d200f2cc53028b06eb7d5f568854fa907719ec4a72664": {
+    "status": "failed",
+    "url": "https://www.pref.osaka.lg.jp/o110070/ginodensho.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-29T05:13:36.337880+00:00"
+  },
+  "e97ba9e54d9d64bb295c0bb7067039cab3f18424bd590d6eed4b71a78a478092": {
+    "status": "processing",
+    "url": "https://www.pref.osaka.lg.jp/o110070/monostar.html",
+    "first_seen": "2026-04-29T05:13:36.339052+00:00"
+  },
+  "46fa8e509ced6c32310b7b04ebfacb1b739498195449a7e5918a6ea67e746a0d": {
+    "status": "done",
+    "url": "https://www.pref.osaka.lg.jp/o110070/monostar.html",
+    "content_hash": "0b752ca8c449a04ebf28e8be97093f363a4d04514a615993d7ba592b0f1fe9ec",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\osaka_pref-o110070-monostar.html-html.json",
+    "last_checked": "2026-04-29T05:13:38.751334+00:00"
+  },
+  "36983b54dc65673dfa00a1cac0cc250076e8e68e58c482f45164bab1dd8f1cff": {
+    "status": "failed",
+    "url": "https://www.pref.osaka.lg.jp/o110070/mono/hikaku.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-29T05:13:41.180511+00:00"
+  },
+  "e1adcfc5e4a22e042017a808a59995166e924d3345bb80ba93fa6bd96c9abf7d": {
+    "status": "failed",
+    "url": "https://www.pref.osaka.lg.jp/o110070/mono/jiba2024-1.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-29T05:13:43.535778+00:00"
+  },
+  "25e7c8e8340e7ea883bf52e45e38182563df6da2b892377db99a8095f59bac49": {
+    "status": "failed",
+    "url": "https://www.pref.osaka.lg.jp/o110070/mono/jiba2024.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-29T05:13:45.905462+00:00"
+  },
+  "03ec5398432aad2dc8180dc0fe0d00483ae7a0310bf0cd2e847680d35a56968e": {
+    "status": "failed",
+    "url": "https://www.pref.osaka.lg.jp/o110030/ritchi/globalstartup/2026_gse_businessmatching.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-29T05:13:48.378289+00:00"
+  },
+  "4c6eb89c080923f46f0e814f6bc637dc8fd56b624c7612cb545e2531fb1187e2": {
+    "status": "failed",
+    "url": "https://www.pref.osaka.lg.jp/o110050/keieishien/sogyo/chiikikassei.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-29T05:13:50.750256+00:00"
+  },
+  "842b6ef43357d70a9ccffedfe4e4f864bda9288b7c62654b0150bf105088595d": {
+    "status": "failed",
+    "url": "https://www.pref.osaka.lg.jp/o110030/ritchi/globalstartup/syakai.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-29T05:13:53.120787+00:00"
+  },
+  "122f86588bfccc9d925698716d99ffa539f5e9a5a267b42c4a87912e2c5705c2": {
+    "status": "failed",
+    "url": "https://www.pref.osaka.lg.jp/o110030/ritchi/globalstartup/seeds.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-29T05:13:55.470191+00:00"
+  },
+  "413b12ad509221825431d738d40b11f317ee7466a59b83a800881ab4f789d953": {
+    "status": "failed",
+    "url": "https://www.pref.osaka.lg.jp/o110030/ritchi/globalstartup/2025_gse_businessmatching.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-29T05:13:57.821277+00:00"
+  },
+  "380cef9cc0345d1074f61da27cdae9d77a9cf14829dc09966e8added635d3a85": {
+    "status": "processing",
+    "url": "https://www.pref.osaka.lg.jp/o110050/keieishien/mozuyanmall/index5.html",
+    "first_seen": "2026-04-29T05:13:57.822073+00:00"
+  },
+  "a7ee8873e20e3d6dc8016d9b508d0ef6b91f48b8d07b339f4f119a82d3fb894b": {
+    "status": "done",
+    "url": "https://www.pref.osaka.lg.jp/o110050/keieishien/mozuyanmall/index5.html",
+    "content_hash": "0b09f7e933e5a99c7b021960b712309be465643e49fff1a75ab397abd834b813",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\osaka_pref-o110050-keieishien-mozuyanmall-index5.html-html.json",
+    "last_checked": "2026-04-29T05:14:16.922352+00:00"
+  },
+  "a3f8317ce74da530fdee747bd61f20ad3701b9709b9a53be8400d59f803b0d09": {
+    "status": "processing",
+    "url": "https://www.pref.osaka.lg.jp/o110050/keieishien/mozuyanmall/index6.html",
+    "first_seen": "2026-04-29T05:14:16.923579+00:00"
+  },
+  "d2f8f3e17dd9178fdf311870bc099dacc7db5558773202c553d91183612a7242": {
+    "status": "done",
+    "url": "https://www.pref.osaka.lg.jp/o110050/keieishien/mozuyanmall/index6.html",
+    "content_hash": "a589fbbfbd19a6c0cbf64fdb86fc9875af4125faa0ebe817ee117ad5b0bfd619",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\osaka_pref-o110050-keieishien-mozuyanmall-index6.html-html.json",
+    "last_checked": "2026-04-29T05:14:27.177122+00:00"
+  },
+  "8a37b9de6a9d95a39f9ecfcee182c5464198aad13bec009e37495310ac850975": {
+    "status": "failed",
+    "url": "https://www.pref.osaka.lg.jp/o110030/keizaikoryu/english/business_useful_tip.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-29T05:14:29.501213+00:00"
+  },
+  "dff27e95a61f05f85218ce425ce8c5408d2782d84b5501e939649581cf9cfd64": {
+    "status": "failed",
+    "url": "https://www.pref.osaka.lg.jp/o110030/ritchi/prtool_jouhouen.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-29T05:14:31.805560+00:00"
+  },
+  "7fc6c03899788e7c85f39660bd372d76cda6e1c1d88e71b6296f6746a1b5a4c7": {
+    "status": "failed",
+    "url": "https://www.pref.osaka.lg.jp/o110030/ritchi/prtool_jouhou.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-29T05:14:34.118208+00:00"
+  },
+  "91b4235a7b2d2c9ea250df215723f29756c28a9ac0a74b092419b9c399d31799": {
+    "status": "failed",
+    "url": "https://www.pref.osaka.lg.jp/o110030/ritchi/kouryuu.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-29T05:14:36.430317+00:00"
+  },
+  "8d846d2ceb4f4da8e8189188558307c95702d4595ea1dbd4177d9d48b37325c2": {
+    "status": "failed",
+    "url": "https://www.pref.osaka.lg.jp/o110030/keizaikoryu/kaigai/moubcosaka.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-29T05:14:38.881313+00:00"
+  },
+  "d10ccf8868116660e954ffe23b4b8889a89f268ded3cf478f0042f6b9c54b007": {
+    "status": "failed",
+    "url": "https://www.pref.osaka.lg.jp/o110030/keizaikoryu/kaigai/1019mou.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-29T05:14:41.231910+00:00"
+  },
+  "c1e87ebd0300a2c63a1a0d7cdd549ebbc3bf80f78569b836c8cdece611dd7d85": {
+    "status": "failed",
+    "url": "https://www.pref.osaka.lg.jp/o070050/koho/information/use.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-29T05:14:43.527406+00:00"
+  },
+  "efdaab703b08b47ca2fd96c8e5652a602930782c0c4d39ad30dcd7e25cc6da8a": {
+    "status": "failed",
+    "url": "https://www.pref.osaka.lg.jp/o070050/koho/information/use.html#a1",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-29T05:14:45.818087+00:00"
+  },
+  "544e4cd4cd3b847b922770c97545bcfc9bde807c17c7332dbf13e318b74a5377": {
+    "status": "failed",
+    "url": "https://www.pref.osaka.lg.jp/o070050/koho/information/universal.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-29T05:14:48.104818+00:00"
+  },
+  "39bfdda36d3b79174e7c3d88cab6bf62f9f16768591e35023be0ae965532e07e": {
+    "status": "failed",
+    "url": "https://www.pref.osaka.lg.jp/o070050/koho/information/individual.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-29T05:14:50.382734+00:00"
+  },
+  "b588e6fe83faf4b4331bb35fd6adb57161377675ad6ded73b099881dfeee3c79": {
+    "status": "processing",
+    "url": "https://www.pref.osaka.lg.jp/o110090/rodokankyo/gyoumukaizen_chinagesokushin_hojokin.html",
+    "first_seen": "2026-04-29T05:14:50.383675+00:00"
+  },
+  "7766bdf3bcf77dd658601639d0d6e07913596918117153bfe03c346661449e1d": {
+    "status": "done",
+    "url": "https://www.pref.osaka.lg.jp/o110090/rodokankyo/gyoumukaizen_chinagesokushin_hojokin.html",
+    "content_hash": "109725946d14d8015593374ec131bac6dfacd4eb69dfca4f1dd0d8904882fb12",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\osaka_pref-o110090-rodokankyo-gyoumukaizen_chinagesokushin_hojokin.html-html.json",
+    "last_checked": "2026-04-29T05:15:06.780825+00:00"
+  },
+  "7afcbd9347c481e15a303b7bcbe63891800f6a35e56aa8361e171970bfb56a4b": {
+    "status": "processing",
+    "url": "https://www.pref.osaka.lg.jp/o110070/mono/r8syuttenshien.html",
+    "first_seen": "2026-04-29T05:15:06.782001+00:00"
+  },
+  "c9a1e6e668cf3c6bd8c25063e98a0a28e05429230d865bcc41694782d0dfdaa8": {
+    "status": "done",
+    "url": "https://www.pref.osaka.lg.jp/o110070/mono/r8syuttenshien.html",
+    "content_hash": "3638ca5b01f794a647e917a9441b2c0b3282f9c3d194ab3d091ef66c46f688de",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\osaka_pref-o110070-mono-r8syuttenshien.html-html.json",
+    "last_checked": "2026-04-29T05:15:14.128680+00:00"
+  },
+  "bb62de5ff04cb95ac028aac1d89f9eccd508a384ce797df6dd5c4cc760bc5d88": {
+    "status": "processing",
+    "url": "https://www.pref.osaka.lg.jp/o110080/kinyushien/setubiouen/setsubi_hosyouryouhozyo.html",
+    "first_seen": "2026-04-29T05:15:14.131011+00:00"
+  },
+  "0dbb08c7cb9fd039bdf03c047e6ff52e3cc9f219b4736cb3805abee2819ec551": {
+    "status": "done",
+    "url": "https://www.pref.osaka.lg.jp/o110080/kinyushien/setubiouen/setsubi_hosyouryouhozyo.html",
+    "content_hash": "c38ea7fa9cbe7d7de049722b83ac0a3571016ed1c8e103277b28d53d2f9da9ee",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\osaka_pref-o110080-kinyushien-setubiouen-setsubi_hosyouryouhozyo.html-html.json",
+    "last_checked": "2026-04-29T05:15:18.932705+00:00"
+  },
+  "136408cd7996b1ad717d2d231f1e8047ff6b890bbe853e0dcb4bf16176544b3f": {
+    "status": "failed",
+    "url": "https://www.pref.osaka.lg.jp/documents/9385/abcppt.pptx",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-29T05:15:21.548681+00:00"
+  },
+  "e3d3742b7af26ba307f5e5c575f3337c67985ed19760eca7ec647d4fb3921371": {
+    "status": "processing",
+    "url": "https://www.pref.osaka.lg.jp/o180160/shigaku/shigakumushouka/shigaku_mushoka_r6.html",
+    "first_seen": "2026-04-29T05:15:21.550254+00:00"
+  },
+  "969d7df27add209e0329a352132233b6a4cd8e2854c59b7182ade89784d086aa": {
+    "status": "done",
+    "url": "https://www.pref.osaka.lg.jp/o180160/shigaku/shigakumushouka/shigaku_mushoka_r6.html",
+    "content_hash": "1f24bf38a4bd0006ce9fe73053179eda1e333219dd85acfa20410959e82d3106",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\osaka_pref-o180160-shigaku-shigakumushouka-shigaku_mushoka_r6.html-html.json",
+    "last_checked": "2026-04-29T05:15:32.144016+00:00"
+  },
+  "dad5801652ebdf5558a635e2c56c7edafa4ef30ac8baf1636505b1bf0b8dbcb3": {
+    "status": "processing",
+    "url": "https://www.pref.osaka.lg.jp/o180160/shigaku/shigakumushouka/mushoka_qa_r6.html",
+    "first_seen": "2026-04-29T05:15:32.145181+00:00"
+  },
+  "039321bd8c6f66d63a7d7683ce5b1053b682de17fb167a129734a60fcb58ceaf": {
+    "status": "done",
+    "url": "https://www.pref.osaka.lg.jp/o180160/shigaku/shigakumushouka/mushoka_qa_r6.html",
+    "content_hash": "0b752ca8c449a04ebf28e8be97093f363a4d04514a615993d7ba592b0f1fe9ec",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\osaka_pref-o180160-shigaku-shigakumushouka-mushoka_qa_r6.html-html.json",
+    "last_checked": "2026-04-29T05:15:34.530863+00:00"
+  },
+  "c5a968f382bbabb7492b76b290f09e1c18de90a334146d16db3071c90fc72070": {
+    "status": "failed",
+    "url": "https://www.pref.osaka.lg.jp/documents/9385/mushokar6.pptx",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-29T05:15:37.138769+00:00"
+  },
+  "037ead52cef516551b1f4ec2c484761933d03387d62489cdfd98443d573d060e": {
+    "status": "processing",
+    "url": "https://www.pref.osaka.lg.jp/o180160/shigaku/shigakumushouka/shigaku_mushoka_r1.html",
+    "first_seen": "2026-04-29T05:15:37.139718+00:00"
+  },
+  "2d12d20ad8d9059e52c72fe07a35f9a8c24ab74ad8c14136d3ffe4e8c6ae3505": {
+    "status": "done",
+    "url": "https://www.pref.osaka.lg.jp/o180160/shigaku/shigakumushouka/shigaku_mushoka_r1.html",
+    "content_hash": "a609aeefcda521ac9adbe5efde0bb56a8aca9e54c32b176dd1688e8b7060e367",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\osaka_pref-o180160-shigaku-shigakumushouka-shigaku_mushoka_r1.html-html.json",
+    "last_checked": "2026-04-29T05:15:48.231027+00:00"
+  },
+  "ebc092ce5930ca692659b802ac5ac4a7c48462b67a42f9a084a39287ef200a29": {
+    "status": "processing",
+    "url": "https://www.pref.osaka.lg.jp/o180160/shigaku/shigakumushouka/mushoka_qa.html",
+    "first_seen": "2026-04-29T05:15:48.232189+00:00"
+  },
+  "e1d5ca4845ddd49b62b6f023f726961045d831ffceb02830db24dac29bedcff5": {
+    "status": "done",
+    "url": "https://www.pref.osaka.lg.jp/o180160/shigaku/shigakumushouka/mushoka_qa.html",
+    "content_hash": "0b752ca8c449a04ebf28e8be97093f363a4d04514a615993d7ba592b0f1fe9ec",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\osaka_pref-o180160-shigaku-shigakumushouka-mushoka_qa.html-html.json",
+    "last_checked": "2026-04-29T05:15:50.627005+00:00"
+  },
+  "89bd02d9c7255bdc6f38557df9ae976eac0a23e806654e8a5f26d971a9fd0402": {
+    "status": "failed",
+    "url": "https://www.pref.osaka.lg.jp/o180160/shigaku/shigakumushouka/suishinkou_koukou.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-29T05:15:52.990702+00:00"
+  },
+  "874eb1d6b1be3a843ff43c7694b3feb9b5da98a0729773f5e32ac2dade513496": {
+    "status": "failed",
+    "url": "https://www.pref.osaka.lg.jp/o180160/shigaku/shigakumushouka/suishinkou_koukou_r7.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-29T05:15:55.347763+00:00"
+  },
+  "024b0e189592ad35bea243b386387b8ce12b15817b509575a3661fa45e033d2f": {
+    "status": "failed",
+    "url": "https://www.pref.osaka.lg.jp/o180160/shigaku/shigakumushouka/suishinkou_koukou_r8.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-29T05:15:57.714113+00:00"
+  },
+  "81daf948814e2b810ec49491aee211723866c7f93312bba86d9413996eea5271": {
+    "status": "failed",
+    "url": "https://www.pref.osaka.lg.jp/o180160/shigaku/shigakumushouka/suishinkou_senkaku.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-29T05:16:00.071950+00:00"
+  },
+  "a3366f41764e0e4a4dfd5be1fba15ff2cfc2e7c43d680aed063f6d8e0dcce1d2": {
+    "status": "failed",
+    "url": "https://www.pref.osaka.lg.jp/o180160/shigaku/shigakumushouka/suishinkou_senkaku_r7.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-29T05:16:02.541820+00:00"
+  },
+  "3a77a9114b7efbe63d2dcf7b2bb0107b6d23299ae70f0e524974de39a691ff0a": {
+    "status": "failed",
+    "url": "https://www.pref.osaka.lg.jp/o180160/shigaku/shigakumushouka/suishinkou_senkaku_r8.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-29T05:16:04.920111+00:00"
+  },
+  "b49a351441c581c0e70a8165683044951be80da458e101a38aaf58dbbd4f8345": {
+    "status": "failed",
+    "url": "https://www.pref.osaka.lg.jp/o180160/shigaku/shigakumushouka/mushoka_r6_suishin_pr.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-29T05:16:07.259187+00:00"
+  },
+  "72199ee77b4c32d99897b2a742ee0641e8e8cacc78b980b9cf0ef2def598b3d1": {
+    "status": "processing",
+    "url": "https://www.pref.osaka.lg.jp/o180160/shigaku/shigakumushouka/soukizissi.html",
+    "first_seen": "2026-04-29T05:16:07.260224+00:00"
+  },
+  "0564998e22b1d62d3d6bd4c772a4c04e9fe74241897658ef8a54e5895bb5c9ff": {
+    "status": "done",
+    "url": "https://www.pref.osaka.lg.jp/o180160/shigaku/shigakumushouka/soukizissi.html",
+    "content_hash": "0b752ca8c449a04ebf28e8be97093f363a4d04514a615993d7ba592b0f1fe9ec",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\osaka_pref-o180160-shigaku-shigakumushouka-soukizissi.html-html.json",
+    "last_checked": "2026-04-29T05:16:09.645893+00:00"
+  },
+  "26ae81ff457338c9b45cc30177ac980e37521563a5e264fb174abcc20d5ab153": {
+    "status": "failed",
+    "url": "https://www.pref.osaka.lg.jp/images/9385/tyuugakusei.jpg",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-29T05:16:11.980763+00:00"
+  },
+  "f9dca73fcd5da60ac39e7e865adc956beb914a664c40f40ca0f3f7cfe7c50c97": {
+    "status": "processing",
+    "url": "https://www.pref.osaka.lg.jp/o180160/shigaku/syoutyuukou/genmen.html",
+    "first_seen": "2026-04-29T05:16:11.981685+00:00"
+  },
+  "df9a8852caf99fa2e0c9c7bb1b0d1ae943bf75b9daf0f4712691992917db271d": {
+    "status": "done",
+    "url": "https://www.pref.osaka.lg.jp/o180160/shigaku/syoutyuukou/genmen.html",
+    "content_hash": "421c62079034ba0176f94262e8e53f125b6c5d6295e3f5d468d3d36017f35a2b",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\osaka_pref-o180160-shigaku-syoutyuukou-genmen.html-html.json",
+    "last_checked": "2026-04-29T05:16:16.839531+00:00"
+  },
+  "9c48eeeadc1e97435cf7f5bc80dd51ddeb5cbbb09d76aa4597f8b8c17ad1b318": {
+    "status": "processing",
+    "url": "https://www.pref.osaka.lg.jp/o180160/shigaku/syoutyuukou/genmen_kabu_senkaku.html",
+    "first_seen": "2026-04-29T05:16:16.840978+00:00"
+  },
+  "840b419e1a5b8f77903c7fb4db99a5d9e878005fbd1ff11ec3e3168da9903865": {
+    "status": "done",
+    "url": "https://www.pref.osaka.lg.jp/o180160/shigaku/syoutyuukou/genmen_kabu_senkaku.html",
+    "content_hash": "66f61abb9b11c51d43770d8719f337836d909f6b2f9e7bdfe2e605b5d261857f",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\osaka_pref-o180160-shigaku-syoutyuukou-genmen_kabu_senkaku.html-html.json",
+    "last_checked": "2026-04-29T05:16:21.591964+00:00"
+  },
+  "83d2fe3ce0a2cf28b3825363ae8a50d8766869c7f3851f048b2486531f5a144e": {
+    "status": "processing",
+    "url": "https://www.pref.osaka.lg.jp/o180160/shigaku/shigakumushouka/manabinaoshi.html",
+    "first_seen": "2026-04-29T05:16:21.593007+00:00"
+  },
+  "17795b8e0f2d30aae55af5b9d43729ec610f310b13d8d46956e08bdc86d51e3f": {
+    "status": "done",
+    "url": "https://www.pref.osaka.lg.jp/o180160/shigaku/shigakumushouka/manabinaoshi.html",
+    "content_hash": "0b752ca8c449a04ebf28e8be97093f363a4d04514a615993d7ba592b0f1fe9ec",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\osaka_pref-o180160-shigaku-shigakumushouka-manabinaoshi.html-html.json",
+    "last_checked": "2026-04-29T05:16:23.954808+00:00"
+  },
+  "7cdb6091dc7fe29159d90b627c87a00d302791bf4127988317783f78c492a265": {
+    "status": "processing",
+    "url": "https://www.pref.osaka.lg.jp/o180160/shigaku/shigakumushouka/syougaku_kyuuhu.html",
+    "first_seen": "2026-04-29T05:16:23.956337+00:00"
+  },
+  "e72fa71879e4fb808997d81edec58c348f3c8f88ffd630ecf7f380f9b93b58e3": {
+    "status": "done",
+    "url": "https://www.pref.osaka.lg.jp/o180160/shigaku/shigakumushouka/syougaku_kyuuhu.html",
+    "content_hash": "0fbc0ccda2ee30f77a6758648080f83f2ba345198941731c653e01bed7d3b2fb",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\osaka_pref-o180160-shigaku-shigakumushouka-syougaku_kyuuhu.html-html.json",
+    "last_checked": "2026-04-29T05:16:33.906846+00:00"
+  },
+  "02c45823ac743f44df3974407b74c72b3952355d52827a9ce9c3bcce748b79e7": {
+    "status": "processing",
+    "url": "https://www.pref.osaka.lg.jp/o180160/shigaku/shigakumushouka/senkoka_kyufukin.html",
+    "first_seen": "2026-04-29T05:16:33.908091+00:00"
+  },
+  "b126d8eac1eaaf12a02528d2e7a22dbc15f8c3811fe537e93d6d36d5c0262d80": {
+    "status": "done",
+    "url": "https://www.pref.osaka.lg.jp/o180160/shigaku/shigakumushouka/senkoka_kyufukin.html",
+    "content_hash": "a5bfbac0afd480fd923ff3705a392aca49a3df2d6889b239556a04017bfae058",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\osaka_pref-o180160-shigaku-shigakumushouka-senkoka_kyufukin.html-html.json",
+    "last_checked": "2026-04-29T05:16:44.058189+00:00"
+  },
+  "6f4233b2b2c451baba48500829b3afc5cd87afd93e3d5fd189a37e6467412f75": {
+    "status": "processing",
+    "url": "https://www.pref.osaka.lg.jp/o180160/shigaku/shigakumushouka/kyuuukin_syuuti.html",
+    "first_seen": "2026-04-29T05:16:44.059401+00:00"
+  },
+  "bdf46f44debf1bed1bbe5095269a0f551381812aee76e23b8c9cc538ff9268fa": {
+    "status": "done",
+    "url": "https://www.pref.osaka.lg.jp/o180160/shigaku/shigakumushouka/kyuuukin_syuuti.html",
+    "content_hash": "94d6c8f29e1f5cd2599a53d3624ead975fccb2a7e03b4d001cb1863a11ac6760",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\osaka_pref-o180160-shigaku-shigakumushouka-kyuuukin_syuuti.html-html.json",
+    "last_checked": "2026-04-29T05:16:53.741281+00:00"
+  },
+  "cf77db7e9b2978ef9ce327b5848f2525e6b0c82296d3a001d5319f0c1aa27b75": {
+    "status": "processing",
+    "url": "https://www.pref.osaka.lg.jp/o180160/shigaku/shigakumushouka/kyuhen_syuuti.html",
+    "first_seen": "2026-04-29T05:16:53.743007+00:00"
+  },
+  "984969b64c170fe2a104bd73170bb00cecb2a0746451e3419e6bd7c5b7c60205": {
+    "status": "done",
+    "url": "https://www.pref.osaka.lg.jp/o180160/shigaku/shigakumushouka/kyuhen_syuuti.html",
+    "content_hash": "b7e689cae7c7468520ba4a6790c3c8e04503034061ef84c2d5c2665215ed07c2",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\osaka_pref-o180160-shigaku-shigakumushouka-kyuhen_syuuti.html-html.json",
+    "last_checked": "2026-04-29T05:17:03.846694+00:00"
+  },
+  "5ed9193c4712174d861d6f329669631708640d12a4cacb314f62cdf99fbb4cff": {
+    "status": "processing",
+    "url": "https://www.pref.osaka.lg.jp/o180160/shigaku/shigakumushouka/kyuhen_syuuti_senko.html",
+    "first_seen": "2026-04-29T05:17:03.848151+00:00"
+  },
+  "f45a415d49e14ecc3753c01a59d29d966640d453128376f8d8e690a7180be222": {
+    "status": "done",
+    "url": "https://www.pref.osaka.lg.jp/o180160/shigaku/shigakumushouka/kyuhen_syuuti_senko.html",
+    "content_hash": "6384cd69bfc7eff68810170a6904e385f5eaad46a6411032dfcd06c247f4d9ff",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\osaka_pref-o180160-shigaku-shigakumushouka-kyuhen_syuuti_senko.html-html.json",
+    "last_checked": "2026-04-29T05:17:14.638607+00:00"
+  },
+  "f87106cd1ee1e30bdef3faabc0fd72db45f0ca79879de806569cb5bdd5bec6c8": {
+    "status": "failed",
+    "url": "https://www.pref.osaka.lg.jp/o180160/shigaku/shigakumushouka/20160401_sitei.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-29T05:17:16.973184+00:00"
+  },
+  "9ee83a1d6107659fee5f5c3b41bb03b84cdc407595c8b2d26dec3097aa03c643": {
+    "status": "failed",
+    "url": "https://www.pref.osaka.lg.jp/o180160/shigaku/shigakumushouka/mushoka_r6_suishin.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-29T05:17:19.286215+00:00"
+  },
+  "0f9d219fa8af8ff2a9d7a52d27626ab9ab53bec8cedf9802aca8e6d1b3b629ec": {
+    "status": "failed",
+    "url": "https://www.pref.osaka.lg.jp/o090135/kosodateshien/sinkouhukin/sinkouhukin.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-29T05:17:21.670727+00:00"
+  },
+  "9b9cf149f5c4335807184e36dec45f3fe4b2c031fe49f85609a9783436c0efbb": {
+    "status": "failed",
+    "url": "https://www.pref.osaka.lg.jp/o090135/shoshika/syoshikatyousakekka.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-29T05:17:23.974944+00:00"
+  },
+  "902b753e107954fe005234ff4227f54d8c056cce056d77421a13950c93e32138": {
+    "status": "failed",
+    "url": "https://www.pref.osaka.lg.jp/o090135/shoshika/teiankobo.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-29T05:17:26.466372+00:00"
+  },
+  "2e3dca1546b91cdc7105dfef3a40bdebe77087d3b8cdce39b7a33ef592ea2a88": {
+    "status": "failed",
+    "url": "https://www.pref.osaka.lg.jp/o090120/kosodateshien/hoikusi-top/osaka-nyusyo.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-29T05:17:28.785679+00:00"
+  },
+  "6e4fe3a4ef872a667263997345fe2818a0c580c025ed5beb7eaef3cba4aa4f57": {
+    "status": "failed",
+    "url": "https://www.pref.osaka.lg.jp/o090135/kodomo_seisyonen/_gaishutsuouen/20241120.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-29T05:17:31.102132+00:00"
   }
 }
