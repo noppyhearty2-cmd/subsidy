@@ -1,0 +1,46 @@
+municipality_id: toyonaka
+name: 豊中市
+
+base_url: https://www.city.toyonaka.osaka.jp
+
+index_urls:
+  # 産業振興・補助金（R8年度各種補助金）
+  - https://www.city.toyonaka.osaka.jp/machi/sangyoushinkou/hojokin/index.html
+  # 環境関連補助金（スマートハウス・EV・太陽光等）
+  - https://www.city.toyonaka.osaka.jp/machi/hojo_joseikin/kankyo_hojyo_jyosei/index.html
+  # 子育て手当・助成（カテゴリトップ）
+  - https://www.city.toyonaka.osaka.jp/kosodate/teate_josei/kosodate/index.html
+  # 妊娠・出産にかかる費用の助成・支援
+  - https://www.city.toyonaka.osaka.jp/kosodate/teate_josei/ninshin/index.html
+  # ひとり親家庭の手当・助成
+  - https://www.city.toyonaka.osaka.jp/kosodate/teate_josei/hitorioya/index.html
+  # 医療費助成（子ども・母子）
+  - https://www.city.toyonaka.osaka.jp/kenko/kenko_hokeneisei/boshi/iryohijosei/index.html
+
+selectors:
+  subsidy_link: "a[href$='.html']"
+  title: "h1"
+  body: "#main"
+
+rate_limit_seconds: 1.5
+pdf_max_bytes: 10485760
+
+subsidy_keywords:
+  - 助成
+  - 補助
+  - 給付
+  - 手当
+  - 無償
+  - 支援金
+  - 奨励金
+  - 融資
+  - 創業
+  - 中小企業
+  - リフォーム
+  - 省エネ
+  - 耐震
+  - 免除
+  - 割引
+  - 軽減
+  - 不妊
+  - 医療費
