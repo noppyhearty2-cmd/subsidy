@@ -136,6 +136,37 @@ const muniLabel: Record<string, string> = {
       let activeMuni = "all";
       let activeTags = new Set(); // 空 = すべて
 
+      // 自治体ごとのタグセットをカードから構築
+      const muniTagMap = new Map(); // muni => Set<tag>
+      cards.forEach((card) => {
+        const muni = card.dataset.muni;
+        const tags = (card.dataset.tags || "").split(",").filter(Boolean);
+        if (!muniTagMap.has(muni)) muniTagMap.set(muni, new Set());
+        tags.forEach((t) => muniTagMap.get(muni).add(t));
+      });
+
+      // 選択中の自治体で使われているタグのセットを返す
+      function getAvailableTags() {
+        if (activeMuni === "all") return null; // null = 全タグ表示
+        return muniTagMap.get(activeMuni) ?? new Set();
+      }
+
+      // タグボタンの表示・選択状態を同期
+      function syncTagButtons() {
+        const available = getAvailableTags();
+        tagFilters.forEach((btn) => {
+          const tag = btn.dataset.tag;
+          if (tag === "all") {
+            btn.classList.toggle("active", activeTags.size === 0);
+            btn.style.display = "";
+          } else {
+            const shown = available === null || available.has(tag);
+            btn.style.display = shown ? "" : "none";
+            btn.classList.toggle("active", activeTags.has(tag));
+          }
+        });
+      }
+
       function updateDisplay() {
         let visible = 0;
         cards.forEach((card) => {
@@ -150,22 +181,17 @@ const muniLabel: Record<string, string> = {
         countEl.textContent = `${visible} 件`;
       }
 
-      function syncTagButtons() {
-        tagFilters.forEach((btn) => {
-          const tag = btn.dataset.tag;
-          if (tag === "all") {
-            btn.classList.toggle("active", activeTags.size === 0);
-          } else {
-            btn.classList.toggle("active", activeTags.has(tag));
-          }
-        });
-      }
-
       muniFilters.forEach((btn) => {
         btn.addEventListener("click", () => {
           muniFilters.forEach((b) => b.classList.remove("active"));
           btn.classList.add("active");
           activeMuni = btn.dataset.muni;
+          // 選択中タグのうち新しい自治体に存在しないものを除去
+          const available = getAvailableTags();
+          if (available !== null) {
+            activeTags.forEach((t) => { if (!available.has(t)) activeTags.delete(t); });
+          }
+          syncTagButtons();
           updateDisplay();
         });
       });
