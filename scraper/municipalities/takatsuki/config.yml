@@ -1,0 +1,16 @@
+municipality_id: takatsuki
+name: 高槻市
+base_url: https://www.city.takatsuki.osaka.jp
+index_urls:
+  - https://www.city.takatsuki.osaka.jp/life/8/72/376/
+  - https://www.city.takatsuki.osaka.jp/life/8/72/377/
+  - https://www.city.takatsuki.osaka.jp/life/1/17/84/
+  - https://www.city.takatsuki.osaka.jp/life/1/20/101/
+  - https://www.city.takatsuki.osaka.jp/life/1/20/99/
+selectors:
+  subsidy_link: "a[href*='/soshiki/']"
+  title: "h1"
+  body: "#skip"
+rate_limit_seconds: 1.5
+pdf_max_bytes: 10485760
+subsidy_keywords: [助成, 補助, 給付, 手当, 無償, 支援金, 奨励金, 融資, 創業, 中小企業, リフォーム, 省エネ, 耐震, 免除, 割引, 軽減, DX, デジタル, 太陽光, ZEH, 雇用, 奨学金, 社宅, 立地]
