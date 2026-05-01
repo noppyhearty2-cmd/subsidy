@@ -1,0 +1,15 @@
+municipality_id: yao
+name: 八尾市
+base_url: https://www.city.yao.osaka.jp
+index_urls:
+  - https://www.city.yao.osaka.jp/sangyou_business/yuushi_hojokin/index.html
+  - https://www.city.yao.osaka.jp/kurashi_tetsuzuki/sumai_kurashi_seikatsu/1002438/1002502/index.html
+  - https://www.city.yao.osaka.jp/sangyou_business/sangyoushinkou_kigyoushien/index.html
+  - https://www.city.yao.osaka.jp/kurashi_tetsuzuki/anzen_bousai_shoubou/1002088/1002100/index.html
+selectors:
+  subsidy_link: "a[href$='.html']"
+  title: "h1"
+  body: "#HONBUN"
+rate_limit_seconds: 1.5
+pdf_max_bytes: 10485760
+subsidy_keywords: [助成, 補助, 給付, 手当, 無償, 支援金, 奨励金, 融資, 創業, 中小企業, リフォーム, 省エネ, 耐震, 免除, 割引, 軽減, DX, デジタル, 太陽光, ZEH, 雇用, 奨学金, 空き家, 取得, マイホーム]
