@@ -1,0 +1,15 @@
+municipality_id: neyagawa
+name: 寝屋川市
+base_url: https://www.city.neyagawa.osaka.jp
+index_urls:
+  - https://www.city.neyagawa.osaka.jp/Industry_business/index.html
+  - https://www.city.neyagawa.osaka.jp/Industry_business/syoukougyou/26650.html
+  - https://www.city.neyagawa.osaka.jp/Industry_business/syoukougyou/26652.html
+  - https://www.city.neyagawa.osaka.jp/life/hikkoshi/index.html
+selectors:
+  subsidy_link: "a[href]"
+  title: "h1"
+  body: "#container"
+rate_limit_seconds: 1.5
+pdf_max_bytes: 10485760
+subsidy_keywords: [助成, 補助, 給付, 手当, 無償, 支援金, 奨励金, 融資, 創業, 中小企業, リフォーム, 省エネ, 耐震, 免除, 割引, 軽減, DX, デジタル, 太陽光, ZEH, 雇用, 奨学金, 出店, 商店街, 保証料]
