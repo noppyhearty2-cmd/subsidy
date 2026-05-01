@@ -1,0 +1,14 @@
+municipality_id: daito
+name: 大東市
+base_url: https://www.city.daito.lg.jp
+index_urls:
+  - https://www.city.daito.lg.jp/soshiki/5/1779.html
+  - https://www.city.daito.lg.jp/soshiki/5/
+  - https://www.city.daito.lg.jp/soshiki/17/
+selectors:
+  subsidy_link: "a[href*='/soshiki/']"
+  title: "h1"
+  body: "#skip"
+rate_limit_seconds: 1.5
+pdf_max_bytes: 10485760
+subsidy_keywords: [助成, 補助, 給付, 手当, 無償, 支援金, 奨励金, 融資, 創業, 中小企業, リフォーム, 省エネ, 耐震, 免除, 割引, 軽減, DX, デジタル, 太陽光, ZEH, 雇用, 奨学金, 起業, 人材]
