@@ -20,7 +20,7 @@
   "3b2179914639f8515ab9d285a3fa4099d6b2894f6f7554755549235b30add55d": {
     "status": "processing",
     "url": "https://www.city.osaka.lg.jp/kodomo/page/0000620039.html",
-    "first_seen": "2026-04-28T14:27:59.378188+00:00"
+    "first_seen": "2026-05-03T14:00:51.233056+00:00"
   },
   "cfcd73e3ed05a0e6f9f125cbf9411e771bf80d2e5b8bf39a10b9fe9bbed223ad": {
     "status": "done",
@@ -31,7 +31,7 @@
   "ab1aea730edbd0ca227617630028079805e795d871a21d398e665c07e0c83f43": {
     "status": "processing",
     "url": "https://www.city.osaka.lg.jp/kodomo/page/0000138394.html",
-    "first_seen": "2026-04-28T14:28:08.677497+00:00"
+    "first_seen": "2026-05-03T14:01:02.366150+00:00"
   },
   "be1c40aa4ac37c1640272e55364d59fdc5a095a9ca1378191119366b25559687": {
     "status": "done",
@@ -42,12 +42,12 @@
   "f431b566bb43b25c10a42e3deab7b144380be644b8832fe5554d86e953e90104": {
     "status": "processing",
     "url": "https://www.city.osaka.lg.jp/kodomo/page/0000677613.html",
-    "first_seen": "2026-04-28T14:28:16.865884+00:00"
+    "first_seen": "2026-05-03T14:01:12.367766+00:00"
   },
   "a4c6b91c31402c33aa506a067f954986240c0885542a40c1b34eca77b1c4fd3a": {
     "status": "processing",
     "url": "https://www.city.osaka.lg.jp/kodomo/page/0000378126.html",
-    "first_seen": "2026-04-28T14:28:23.760795+00:00"
+    "first_seen": "2026-05-03T14:01:20.517846+00:00"
   },
   "1605244e0aeee5f0b5d88d80ee9b9b9a41298fcd0b78a7645d6d504d4e2f811d": {
     "status": "done",
@@ -58,7 +58,7 @@
   "70318ae65178dceb59d074211810e64d14f055128ac3bc4aeeb3e82c5e382411": {
     "status": "processing",
     "url": "https://www.city.osaka.lg.jp/kodomo/page/0000379172.html",
-    "first_seen": "2026-04-28T14:28:41.025529+00:00"
+    "first_seen": "2026-05-03T14:01:39.657631+00:00"
   },
   "5f48a097e3e1215fb609f234cca1a88283b1ee173f01f1fd7c46825615f48824": {
     "status": "processing",
@@ -68,7 +68,7 @@
   "d7a7da6235baa9219cebf29d98e937ebeaf93d25b596c452e1a41cac59005de8": {
     "status": "processing",
     "url": "https://www.city.osaka.lg.jp/somu/page/0000004215.html",
-    "first_seen": "2026-04-28T14:28:49.635660+00:00"
+    "first_seen": "2026-05-03T14:01:49.577902+00:00"
   },
   "cd08badce96ff07f7d94eb10894fb10e4d41aed57a1759c303566b7ca70a91ba": {
     "status": "processing",
@@ -83,12 +83,12 @@
   "0504d73141ef0a0c339273df11ebb99234d7b9f01bc10cc2ce04da1e18a4e69a": {
     "status": "processing",
     "url": "https://www.city.osaka.lg.jp/fukushi/page/0000677816.html",
-    "first_seen": "2026-04-28T14:29:04.277026+00:00"
+    "first_seen": "2026-05-03T14:02:01.050977+00:00"
   },
   "414396769044b13d960599e627879d515a619c988370f45f5d35a9da68ff9041": {
     "status": "processing",
     "url": "https://www.city.osaka.lg.jp/fukushi/page/0000668345.html",
-    "first_seen": "2026-04-28T14:29:10.399167+00:00"
+    "first_seen": "2026-05-03T14:02:07.715614+00:00"
   },
   "3949a1159754d55b26fd612760611102fc0d6c08f5f637206579c4464c2c04ae": {
     "status": "done",
@@ -110,37 +110,37 @@
   "01d617b08112796abe414cf952172e431b7e6d51d906e9cf5144ba1d5e44ed8f": {
     "status": "processing",
     "url": "https://www.city.osaka.lg.jp/fukushi/page/0000336407.html",
-    "first_seen": "2026-04-28T14:29:35.383384+00:00"
+    "first_seen": "2026-05-03T14:02:31.304732+00:00"
   },
   "b88b067f7723b140ccd6ab35a1976868c286019cad21c416075c659a03f993da": {
     "status": "processing",
     "url": "https://www.city.osaka.lg.jp/fukushi/page/0000086801.html",
-    "first_seen": "2026-04-28T14:29:36.796738+00:00"
+    "first_seen": "2026-05-03T14:02:33.105945+00:00"
   },
   "172a1c0d9bb2d80ea03d451af25dd7da584155d68fe9176570c56b74eeece3b6": {
     "status": "processing",
     "url": "https://www.city.osaka.lg.jp/fukushi/page/0000398190.html",
-    "first_seen": "2026-04-28T14:29:41.047701+00:00"
+    "first_seen": "2026-05-03T14:02:38.363412+00:00"
   },
   "4bf94433f6009104c71b3f93aeb0f13262d28d3bb2d0d022163834c848057223": {
     "status": "processing",
     "url": "https://www.city.osaka.lg.jp/fukushi/page/0000652278.html",
-    "first_seen": "2026-04-28T14:29:46.722315+00:00"
+    "first_seen": "2026-05-03T14:02:44.832553+00:00"
   },
   "51f3fea3efd7f2362860a11488b82ceab2dd287c7cc704c3202e02e0ce47997d": {
     "status": "processing",
     "url": "https://www.city.osaka.lg.jp/fukushi/page/0000431968.html",
-    "first_seen": "2026-04-28T14:29:49.486512+00:00"
+    "first_seen": "2026-05-03T14:02:48.183985+00:00"
   },
   "60c1538182b9cb357dff1e79ac7508d604ae92340f3513ff42fb65fd7c90c50d": {
     "status": "processing",
     "url": "https://www.city.osaka.lg.jp/fukushi/page/0000530619.html",
-    "first_seen": "2026-04-28T14:30:00.406795+00:00"
+    "first_seen": "2026-05-03T14:03:01.041064+00:00"
   },
   "1f62226d08c2b1bef1b88ee61aff23a1ffd00798665c493d8120c989555816ff": {
     "status": "processing",
     "url": "https://www.city.osaka.lg.jp/kikikanrishitsu/page/0000397769.html",
-    "first_seen": "2026-04-28T14:33:23.517581+00:00"
+    "first_seen": "2026-05-03T14:04:29.211696+00:00"
   },
   "e54ddf1338c1dd6579e4f662388ed51b19b79b59f912a15fbb441423203183dd": {
     "status": "processing",
@@ -165,7 +165,7 @@
   "d459b94caf0faedcddc52b578c5506496a4a62d109000f38155de94261a9c7e3": {
     "status": "processing",
     "url": "https://www.city.osaka.lg.jp/keizaisenryaku/page/0000003600.html",
-    "first_seen": "2026-04-28T14:30:53.466886+00:00"
+    "first_seen": "2026-05-03T14:04:21.264043+00:00"
   },
   "73a1c26f84b16c6a51f7314864dc34d5ef25136c854f97955ec92df5eb8a3f40": {
     "status": "processing",
@@ -205,7 +205,7 @@
   "ab90addb9d62d2d1d8d2bfee9a00e586b6e2cb5ad0b11b0062fbf5506fcc7df1": {
     "status": "processing",
     "url": "https://www.city.osaka.lg.jp/kankyo/page/0000677380.html",
-    "first_seen": "2026-04-28T14:31:20.573182+00:00"
+    "first_seen": "2026-05-03T14:05:13.908370+00:00"
   },
   "322bf43b55572ae98fefa2461e3e9a6d093b0f0fb36ef03690582aef79b5c191": {
     "status": "processing",
@@ -290,7 +290,7 @@
   "4d62a4d76e5cf9d728e098ca389a0bf46febabb77dfeb0e563d6c68dcbcdfa99": {
     "status": "processing",
     "url": "https://www.city.osaka.lg.jp/keizaisenryaku/page/0000651698.html",
-    "first_seen": "2026-04-28T14:32:42.813464+00:00"
+    "first_seen": "2026-05-03T14:03:31.089751+00:00"
   },
   "7903301629efc8ab7523243338024e5a0a8569ddb6213c3b5aabb674f3aa928b": {
     "status": "processing",
@@ -305,7 +305,7 @@
   "4c38bc731c5ab651ac7591ff2f6f350523a31931ae79c4ec0ecf721e81466702": {
     "status": "processing",
     "url": "https://www.city.osaka.lg.jp/toshiseibi/page/0000625807.html",
-    "first_seen": "2026-04-28T14:33:36.560893+00:00"
+    "first_seen": "2026-05-03T14:05:58.176673+00:00"
   },
   "20866890816dd25ebb66445bfdc7e9b25e3e904442266c60674941d9c0088911": {
     "status": "processing",
@@ -335,7 +335,7 @@
   "2a604a159ac35d9e0ca8c47e6ff257547194ccfc626d5b295d09847af61bb03d": {
     "status": "processing",
     "url": "https://www.city.osaka.lg.jp/toshiseibi/page/0000677020.html",
-    "first_seen": "2026-04-28T14:33:57.139253+00:00"
+    "first_seen": "2026-05-03T14:06:04.385438+00:00"
   },
   "67ca9caf866170840efc4adeb778ce1efb02583ed3e441cf01e13fdd78ec97f3": {
     "status": "processing",
@@ -355,57 +355,57 @@
   "d560f78d85219efa5683fca46956db766163c8910c077430745b7f81adeef154": {
     "status": "processing",
     "url": "https://www.city.osaka.lg.jp/kankyo/page/0000674944.html",
-    "first_seen": "2026-04-28T14:34:13.109046+00:00"
+    "first_seen": "2026-05-03T14:05:20.187604+00:00"
   },
   "71f02f2ed02ccfdec30acb57dbb34e436501bdca806b00ad31331785d7f8465c": {
     "status": "processing",
     "url": "https://www.city.osaka.lg.jp/kankyo/page/0000673675.html",
-    "first_seen": "2026-04-28T14:34:18.738292+00:00"
+    "first_seen": "2026-05-03T14:05:26.659083+00:00"
   },
   "fa01b79bebceb3dd73e09c554be88fcc01e8ca5b69aa44ba9ea856753bec41a5": {
     "status": "processing",
     "url": "https://www.city.osaka.lg.jp/toshiseibi/page/0000669809.html",
-    "first_seen": "2026-04-28T14:34:24.506836+00:00"
+    "first_seen": "2026-05-03T14:06:16.977163+00:00"
   },
   "0970494293d43f1618fe58c9ab715274f56ca943c0fe81f8230c4fe4a9f2d650": {
     "status": "processing",
     "url": "https://www.city.osaka.lg.jp/kankyo/page/0000369355.html",
-    "first_seen": "2026-04-28T14:34:27.446696+00:00"
+    "first_seen": "2026-05-03T14:04:49.052134+00:00"
   },
   "3fe0fbdae131c81d61d02760e4df6f5ff958c5c660afa9d2d2e78102fee8576f": {
     "status": "processing",
     "url": "https://www.city.osaka.lg.jp/kankyo/page/0000546942.html",
-    "first_seen": "2026-04-28T14:34:32.899780+00:00"
+    "first_seen": "2026-05-03T14:04:55.560668+00:00"
   },
   "c5c459de16a9bb6ac8b25d94dfa95523a65956e6bf1aa6fed7a88516035ed2c1": {
     "status": "processing",
     "url": "https://www.city.osaka.lg.jp/kankyo/page/0000309005.html",
-    "first_seen": "2026-04-28T14:34:35.732682+00:00"
+    "first_seen": "2026-05-03T14:04:59.007306+00:00"
   },
   "305cb637f9585d511b35fe2be80e3af849c683e158e91f7051c997f249b9043b": {
     "status": "processing",
     "url": "https://www.city.osaka.lg.jp/kankyo/page/0000674036.html",
-    "first_seen": "2026-04-28T14:34:42.815341+00:00"
+    "first_seen": "2026-05-03T14:05:29.850196+00:00"
   },
   "ea03f78793c1fa17bb234caec9b9e903122f2ae0e23be6a7e9654218ed517e3a": {
     "status": "processing",
     "url": "https://www.city.osaka.lg.jp/kankyo/page/0000674035.html",
-    "first_seen": "2026-04-28T14:34:45.671437+00:00"
+    "first_seen": "2026-05-03T14:05:33.090235+00:00"
   },
   "48d75bdb50a0fbd9f0de73a579608424f4934906111f71038877f3dedee94b5e": {
     "status": "processing",
     "url": "https://www.city.osaka.lg.jp/kankyo/page/0000007513.html",
-    "first_seen": "2026-04-28T14:34:52.120514+00:00"
+    "first_seen": "2026-05-03T14:05:41.238338+00:00"
   },
   "edf4a4b41a5b5c2bcc2b93e8ccbaac0458d645440d996bc9b3271e758f4ac7f2": {
     "status": "processing",
     "url": "https://www.city.osaka.lg.jp/kankyo/page/0000006260.html",
-    "first_seen": "2026-04-28T14:34:58.514266+00:00"
+    "first_seen": "2026-05-03T14:05:49.988120+00:00"
   },
   "24541380617850c9218dd76f709d768e07b11a3a235854e62967dc60d1a3da9c": {
     "status": "processing",
     "url": "https://www.city.osaka.lg.jp/toshikeikaku/page/0000370122.html",
-    "first_seen": "2026-04-28T14:35:27.639516+00:00"
+    "first_seen": "2026-05-03T14:06:42.393824+00:00"
   },
   "ad970d9f16e931b89a8ca92797a0211282e8f0bcdf9b614fa5a05c951ea0c494": {
     "status": "processing",
@@ -415,32 +415,32 @@
   "9ba8ff60873a366542749294cb3d9fec1e83609951a2aab29ed5542fa75dedc1": {
     "status": "processing",
     "url": "https://www.city.osaka.lg.jp/toshikeikaku/page/0000225370.html",
-    "first_seen": "2026-04-28T14:35:35.748659+00:00"
+    "first_seen": "2026-05-03T14:06:52.092291+00:00"
   },
   "8a5902db13e95d9b0653d5e22865923e6abc952c9c974c777e4036ac54ae1f5a": {
     "status": "processing",
     "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000638766.html",
-    "first_seen": "2026-04-28T14:36:20.151898+00:00"
+    "first_seen": "2026-05-03T14:07:39.950413+00:00"
   },
   "2ccd58911dd7953a981e8657a16e2d32d2b82e463c7ed0d67bcbf3a60b63432c": {
     "status": "processing",
     "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000660301.html",
-    "first_seen": "2026-04-28T14:36:25.548695+00:00"
+    "first_seen": "2026-05-03T14:07:46.688160+00:00"
   },
   "9caac55e66a844fc4a4813faf6a1299e609f796077b6772086000d860491d020": {
     "status": "processing",
     "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000635889.html",
-    "first_seen": "2026-04-28T14:36:31.138913+00:00"
+    "first_seen": "2026-05-03T14:07:53.266114+00:00"
   },
   "09126fcf1148d213240737439cad0ba58d65cc240d876d347641cdfde2a69157": {
     "status": "processing",
     "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000452036.html",
-    "first_seen": "2026-04-28T14:36:42.411444+00:00"
+    "first_seen": "2026-05-03T14:08:16.716683+00:00"
   },
   "c8fddb1940811a62cefc28c0ecb6eba0f3c9a911e8c797b17be26512626c6fea": {
     "status": "processing",
     "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000116189.html",
-    "first_seen": "2026-04-28T14:36:47.941476+00:00"
+    "first_seen": "2026-05-03T14:08:23.053482+00:00"
   },
   "d37dde69720af8bd3543ff4fefa911b775e1233a97db9a2b28da125805033b60": {
     "status": "done",
@@ -840,7 +840,7 @@
   "56e2ece33a314d5f4aecfd9f600c0b4cd4e1bed3ad2ff51bb687f7c51cf3e092": {
     "status": "processing",
     "url": "https://www.city.osaka.lg.jp/kankyo/page/0000678047.html",
-    "first_seen": "2026-04-28T14:30:07.583728+00:00"
+    "first_seen": "2026-05-03T14:05:10.593271+00:00"
   },
   "da692c50922b1d6c6564d8e1a7b867dc8b6caee69645e88831d27ed88a3251c1": {
     "status": "processing",
@@ -860,7 +860,7 @@
   "00b724f57150fdab292fdfd0f0a2df4ac01fbdc0d0895f6b1ad593cf2e9eca24": {
     "status": "processing",
     "url": "https://www.city.osaka.lg.jp/toshiseibi/page/0000674292.html",
-    "first_seen": "2026-04-28T14:32:30.164113+00:00"
+    "first_seen": "2026-05-03T14:06:10.503655+00:00"
   },
   "f6dfbac2187381615d5908e5a56e5faa91a1a71a245fbd3505dc0ea23139e9a9": {
     "status": "processing",
@@ -870,17 +870,17 @@
   "83d99529040d1a1dfc007491a6c8e74e34a04f3ec06a01457a82c62f76fe0585": {
     "status": "processing",
     "url": "https://www.city.osaka.lg.jp/toshiseibi/page/0000255852.html",
-    "first_seen": "2026-04-28T14:35:02.492356+00:00"
+    "first_seen": "2026-05-03T14:05:54.850044+00:00"
   },
   "9093d3c080ce06d2668d1895b70f64f727f764b5583c1ca0356edf5d78029b84": {
     "status": "processing",
     "url": "https://www.city.osaka.lg.jp/toshiseibi/page/0000674021.html",
-    "first_seen": "2026-04-28T14:35:07.981835+00:00"
+    "first_seen": "2026-05-03T14:06:23.188725+00:00"
   },
   "0b83ffe32edfe059070c4c6e814d6e4a9a089f1a3292f58297030fbde27ab0f1": {
     "status": "processing",
     "url": "https://www.city.osaka.lg.jp/toshiseibi/page/0000648452.html",
-    "first_seen": "2026-04-28T14:35:12.078375+00:00"
+    "first_seen": "2026-05-03T14:06:27.827169+00:00"
   },
   "7ee6fd00ce65284d272a5b0bda659353fe07a1346b26b8cd3c1278a497aff093": {
     "status": "processing",
@@ -890,7 +890,7 @@
   "bf6f351fce9ce23a50efa3b19911ebc02dbcd28c814f4e368c3fbfce7bb63f41": {
     "status": "processing",
     "url": "https://www.city.osaka.lg.jp/toshiseibi/page/0000004801.html",
-    "first_seen": "2026-04-28T14:35:22.524863+00:00"
+    "first_seen": "2026-05-03T14:06:34.421612+00:00"
   },
   "5daa673cffd85ff150311a9ed8dd46bc65225bc41ea0b4cf17df4fc334910b3f": {
     "status": "done",
@@ -3036,5 +3036,504 @@
     "content_hash": "cca3b68e069fa88fe323460fad663cf7875721b25c2a3ea561be0a451c99cbc0",
     "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\toyonaka-kenko-kenko_hokeneisei-boshi-iryohijosei-youikuiryou.html-html.json",
     "last_checked": "2026-04-29T05:49:05.883193+00:00"
+  },
+  "aa12abbb570d2cbae2444aa214218010a57fdbbedc1a8d0d4ed59331d8350dd9": {
+    "status": "processing",
+    "url": "https://www.city.sakai.lg.jp/sangyo/shienyuushi/chusho/proddev/monochalle.html",
+    "first_seen": "2026-04-29T14:06:19.127583+00:00"
+  },
+  "115e385852c1015607fb8f8bb8d6509f1ec9af5267afa6a972cce5b8c9de1e65": {
+    "status": "done",
+    "url": "https://www.city.sakai.lg.jp/sangyo/shienyuushi/chusho/proddev/monochalle.html",
+    "content_hash": "162b99d02af27962df8fb8b2d6c2462b8dfb002e1e60199b0b5b8a228ae2a295",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\sakai-sangyo-shienyuushi-chusho-proddev-monochalle.html-html.json",
+    "last_checked": "2026-04-29T14:06:29.945096+00:00"
+  },
+  "1743f83a7431da92fdb0c92adef6114221abc582112e870c40ca492dec9268c1": {
+    "status": "processing",
+    "url": "https://www.city.sakai.lg.jp/aboutweb/userguide/infoross.html",
+    "first_seen": "2026-04-29T14:06:29.946943+00:00"
+  },
+  "4951328b015cb1beb3bb1487135ddf7240b46434e3583bf65632d8c9db5235b7": {
+    "status": "done",
+    "url": "https://www.city.sakai.lg.jp/aboutweb/userguide/infoross.html",
+    "content_hash": "5067a299973b802f5c61b27111ab94656d457638ef75d157c6e9894b3071ae5f",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\sakai-aboutweb-userguide-infoross.html-html.json",
+    "last_checked": "2026-04-29T14:06:31.882624+00:00"
+  },
+  "23ad920e85308f42d77302055921499a3399c89096c63357ff8f72c2f7a080d7": {
+    "status": "failed",
+    "url": "https://www.city.sakai.lg.jp/shisei/gaiyo/annai/access.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-29T14:06:34.021926+00:00"
+  },
+  "df6342e371910ea002fb88f404bf7af700d85c8f6b7ff5e3fb81cff050837fa7": {
+    "status": "failed",
+    "url": "https://www.city.sakai.lg.jp/aboutweb/linkchosakuken.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-29T14:06:36.017206+00:00"
+  },
+  "e79492f7a9480d660dcff67ff731da8e8d6acd00e12d4fb0da0bf582e4e5424d": {
+    "status": "processing",
+    "url": "https://www.city.sakai.lg.jp/aboutweb/privacy.html",
+    "first_seen": "2026-04-29T14:06:36.018496+00:00"
+  },
+  "5fda19b6c06714fbcf874330c8cb2f2598c5db967d259e50706c3a64e2326ad8": {
+    "status": "done",
+    "url": "https://www.city.sakai.lg.jp/aboutweb/privacy.html",
+    "content_hash": "85c4ae0ef1a8ccfdd40d3367fa54ae11fb2c2c953251ab57e9fa0703dd071c20",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\sakai-aboutweb-privacy.html-html.json",
+    "last_checked": "2026-04-29T14:06:37.965041+00:00"
+  },
+  "47e67619b49778ed87818f43bc5a81152eaac56bdb3b721c96e55a2ecc6a010e": {
+    "status": "failed",
+    "url": "https://www.city.sakai.lg.jp/aboutweb/ikenboshu.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-29T14:06:39.883902+00:00"
+  },
+  "8f95a46a8a728b6d9abe17e00d700cf8df6954ca4c3ba2555c8ebce9a6f1e4ec": {
+    "status": "failed",
+    "url": "https://www.city.sakai.lg.jp/sitemap.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-29T14:06:41.793150+00:00"
+  },
+  "d6c218b14895bbbe0198117ae354655cf9cc2c1f39bfb51dc6808db95307d45d": {
+    "status": "processing",
+    "url": "https://www.city.sakai.lg.jp/sangyo/shienyuushi/sogyo/sozocenter.html",
+    "first_seen": "2026-04-29T14:06:41.794504+00:00"
+  },
+  "4334c08d8d06d6e663a7b86365873e6a63b1b9f7eb711519de690b90d0acd294": {
+    "status": "done",
+    "url": "https://www.city.sakai.lg.jp/sangyo/shienyuushi/sogyo/sozocenter.html",
+    "content_hash": "236f39db06c7d6f538538e7cb3332c6bf0c885386f8c890b6867eae7babdebf2",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\sakai-sangyo-shienyuushi-sogyo-sozocenter.html-html.json",
+    "last_checked": "2026-04-29T14:06:43.784804+00:00"
+  },
+  "bb3a30a1fabd9a75cd4999991a7a8c5db0a650c3c4fd9734fe0eee95fb4bf808": {
+    "status": "processing",
+    "url": "https://www.city.sakai.lg.jp/sangyo/shienyuushi/dx_shien/sakai_next_drive_r8koubo.html",
+    "first_seen": "2026-04-29T14:06:43.786490+00:00"
+  },
+  "9e2ba90186d7f0e8e56c5b3293201bbc6ef7f09722292bb9d40d70f60116c8f2": {
+    "status": "done",
+    "url": "https://www.city.sakai.lg.jp/sangyo/shienyuushi/dx_shien/sakai_next_drive_r8koubo.html",
+    "content_hash": "ea75d57176cd8d83a25beaf0f9e4f68f43827d355aa2cce015082337cb58a35d",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\sakai-sangyo-shienyuushi-dx_shien-sakai_next_drive_r8koubo.html-html.json",
+    "last_checked": "2026-04-29T14:06:54.163725+00:00"
+  },
+  "580dbee6b5e69dbd754f6c3b53bf75f62a09d420f13118575a0dca0168fde771": {
+    "status": "processing",
+    "url": "https://www.city.sakai.lg.jp/sangyo/shienyuushi/dx_shien/sakai_next_drive.html",
+    "first_seen": "2026-04-29T14:06:54.165318+00:00"
+  },
+  "40ab3d75d5e6ba65cffefd8ae097f80b49f5c6ec9a8daf83f3c213fb92018ef7": {
+    "status": "done",
+    "url": "https://www.city.sakai.lg.jp/sangyo/shienyuushi/dx_shien/sakai_next_drive.html",
+    "content_hash": "8fc0ad3582163da3cf27f015cc9b5df45625438a2b823d8a573b88e3394a7064",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\sakai-sangyo-shienyuushi-dx_shien-sakai_next_drive.html-html.json",
+    "last_checked": "2026-04-29T14:07:02.888066+00:00"
+  },
+  "a63b2fd37b90222d28a29462ccc29765ef900d8874b6d54f630d2bc431018a6b": {
+    "status": "processing",
+    "url": "https://www.city.sakai.lg.jp/sangyo/shienyuushi/dx_shien/digitalka.html",
+    "first_seen": "2026-04-29T14:07:02.889441+00:00"
+  },
+  "8241d6fbe9c96ca1b878544cebc3dc0fa4f8d0c9dde15a0f6482a33869e40dc8": {
+    "status": "done",
+    "url": "https://www.city.sakai.lg.jp/sangyo/shienyuushi/dx_shien/digitalka.html",
+    "content_hash": "835e53617d4c249ab5009a72a40964fa5d759ccc4e519648117f42bff8fd49bb",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\sakai-sangyo-shienyuushi-dx_shien-digitalka.html-html.json",
+    "last_checked": "2026-04-29T14:07:12.971397+00:00"
+  },
+  "bc1de96cd2ea9bb106ed9bc32fc4cb5e93d6be92894dee69218032788f7e7a2e": {
+    "status": "processing",
+    "url": "https://www.city.sakai.lg.jp/sangyo/shienyuushi/dx_shien/reskilling.html",
+    "first_seen": "2026-04-29T14:07:12.972932+00:00"
+  },
+  "76da73568e7a05ce5e19718458f8c6ee2c22245eaccd7096ff4d6b8173289c9a": {
+    "status": "done",
+    "url": "https://www.city.sakai.lg.jp/sangyo/shienyuushi/dx_shien/reskilling.html",
+    "content_hash": "b284f2668ccaf7fa3fcefc7360e51c9419331e1029939ce9237977a3eb81abb9",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\sakai-sangyo-shienyuushi-dx_shien-reskilling.html-html.json",
+    "last_checked": "2026-04-29T14:07:23.716832+00:00"
+  },
+  "89e57eeb59a941ebf842fe748c25d5eb181245d6f7315f578a0641e52d5bd326": {
+    "status": "processing",
+    "url": "https://www.city.sakai.lg.jp/sangyo/shienyuushi/dx_shien/sakaidxsuishinlabo.html",
+    "first_seen": "2026-04-29T14:07:23.718591+00:00"
+  },
+  "812e6bf89d030a56fb6d619dd57cdd960794d66d13e09ae663557b64ad4c2982": {
+    "status": "done",
+    "url": "https://www.city.sakai.lg.jp/sangyo/shienyuushi/dx_shien/sakaidxsuishinlabo.html",
+    "content_hash": "ef306d1348276cf82e0ce7df381715e9d0e6df08cd5c1ab9902acbff99e1d68f",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\sakai-sangyo-shienyuushi-dx_shien-sakaidxsuishinlabo.html-html.json",
+    "last_checked": "2026-04-29T14:07:30.283300+00:00"
+  },
+  "a639c4d0fc2eea954d78de3867b081e22995e7e626e1ef32d42eb9dcc583ab3e": {
+    "status": "processing",
+    "url": "https://www.city.sakai.lg.jp/sangyo/shienyuushi/dx_shien/sangyo_dx_shiencenter.html",
+    "first_seen": "2026-04-29T14:07:30.284824+00:00"
+  },
+  "a923a1e26f1e536ebb43af9eb74e4918ddeccb514bf1e76327a3b0782dea3ed2": {
+    "status": "done",
+    "url": "https://www.city.sakai.lg.jp/sangyo/shienyuushi/dx_shien/sangyo_dx_shiencenter.html",
+    "content_hash": "dd2b581be14e50e34b4d5c6919083f868f959a5bfe0fdecb1a60401509ed51d0",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\sakai-sangyo-shienyuushi-dx_shien-sangyo_dx_shiencenter.html-html.json",
+    "last_checked": "2026-04-29T14:07:36.035717+00:00"
+  },
+  "cb60ff0a78106646bbd6d72a6e33a25aedb38403801a9762aa8e8b654775d0af": {
+    "status": "processing",
+    "url": "https://www.city.sakai.lg.jp/sangyo/shienyuushi/dx_shien/sakaidxshindan.html",
+    "first_seen": "2026-04-29T14:07:36.037379+00:00"
+  },
+  "8c82f61e5cd4512ecdea77f7380cde1806506c5f19ef82bf5ca0fa377c7d4b82": {
+    "status": "done",
+    "url": "https://www.city.sakai.lg.jp/sangyo/shienyuushi/dx_shien/sakaidxshindan.html",
+    "content_hash": "78074682d0cc42f0f9dfc4eb3e981c68081975de8010c2136395cf5372af6dc1",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\sakai-sangyo-shienyuushi-dx_shien-sakaidxshindan.html-html.json",
+    "last_checked": "2026-04-29T14:07:42.816758+00:00"
+  },
+  "0585c132b561ddcbb86d39b58933196d082c12419486bb5442b3854eb864993a": {
+    "status": "processing",
+    "url": "https://www.city.sakai.lg.jp/sangyo/shienyuushi/dx_shien/digital-tools-guide.html",
+    "first_seen": "2026-04-29T14:07:42.818221+00:00"
+  },
+  "62208ef41dfc13d8f71d52714399787176d56eb3d49aed66113500f4179215b8": {
+    "status": "done",
+    "url": "https://www.city.sakai.lg.jp/sangyo/shienyuushi/dx_shien/digital-tools-guide.html",
+    "content_hash": "3a1935c5c84536a19cc0e9df6fedc1045d91d264d521b45c547529739167c472",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\sakai-sangyo-shienyuushi-dx_shien-digital-tools-guide.html-html.json",
+    "last_checked": "2026-04-29T14:07:59.588703+00:00"
+  },
+  "928ce305a209245d8d9ba8c3c42f2fe4150161bbbf358fc446d7ee71433ab140": {
+    "status": "processing",
+    "url": "https://www.city.sakai.lg.jp/sangyo/shienyuushi/other/opendata.html",
+    "first_seen": "2026-04-29T14:07:59.590469+00:00"
+  },
+  "40d58886c3f91afc51d0122971ce5eb1506b4e886a0bab9e345e769fb80310dd": {
+    "status": "done",
+    "url": "https://www.city.sakai.lg.jp/sangyo/shienyuushi/other/opendata.html",
+    "content_hash": "8246c2f36b9e7e559af48b2a3d751c0c9c1abce04a20c09c9e954b12e4b12080",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\sakai-sangyo-shienyuushi-other-opendata.html-html.json",
+    "last_checked": "2026-04-29T14:08:13.151046+00:00"
+  },
+  "b75a3fe3802fee751b5593a17ae942377a419f59b323692d03eb46f7e365513e": {
+    "status": "processing",
+    "url": "https://www.city.sakai.lg.jp/sangyo/shienyuushi/dx_shien/dxshinkijigyou_proposal.html",
+    "first_seen": "2026-04-29T14:08:13.152569+00:00"
+  },
+  "16333b4919f7efd281043f7c930a93db34a7e771f80c3dddf0297f5ff5b85c4a": {
+    "status": "done",
+    "url": "https://www.city.sakai.lg.jp/sangyo/shienyuushi/dx_shien/dxshinkijigyou_proposal.html",
+    "content_hash": "c200583e8cfe048cd4e34b8eff2eb0359ad02bb471bdc661b52ff36b1df95d06",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\sakai-sangyo-shienyuushi-dx_shien-dxshinkijigyou_proposal.html-html.json",
+    "last_checked": "2026-04-29T14:08:24.035981+00:00"
+  },
+  "ac26be137cb6d1025ec3de11ac4abc2a4331fe7912870765c6c33e169538f835": {
+    "status": "processing",
+    "url": "https://www.city.sakai.lg.jp/sangyo/shienyuushi/dx_shien/dxshinkijigyou_proposal_kekka.html",
+    "first_seen": "2026-04-29T14:08:24.037548+00:00"
+  },
+  "11ded577dbfc3c80986c239cd2f4e9a18b67bdbc30ab24e56cfbe033abf298bf": {
+    "status": "done",
+    "url": "https://www.city.sakai.lg.jp/sangyo/shienyuushi/dx_shien/dxshinkijigyou_proposal_kekka.html",
+    "content_hash": "eece65b2eaf45c37edced02e6eaee0c22525b9f638077cbc45b632ccd94c817e",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\sakai-sangyo-shienyuushi-dx_shien-dxshinkijigyou_proposal_kekka.html-html.json",
+    "last_checked": "2026-04-29T14:08:28.165058+00:00"
+  },
+  "f6559ca4b2a94b9cd3949e855abc7293922244ea1077019d746ece217b35f95e": {
+    "status": "failed",
+    "url": "https://www.city.sakai.lg.jp/kanko/rekishi/dkofun/ranking/zenkoku.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-29T14:08:30.130805+00:00"
+  },
+  "d7c7601c07bb7d6f743486639c26c8e3f514c0abe4d48bb59a85a0de3f3a658e": {
+    "status": "processing",
+    "url": "https://www.city.sakai.lg.jp/kanko/rekishi/gobyoomotezuka_koukai.html",
+    "first_seen": "2026-04-29T14:08:30.132070+00:00"
+  },
+  "30348f1844ecd9e6ef57866c5dc1e9be9032c5558f6de7f1277c3d1613ea1cb5": {
+    "status": "done",
+    "url": "https://www.city.sakai.lg.jp/kanko/rekishi/gobyoomotezuka_koukai.html",
+    "content_hash": "2f49d741d8ee1c9940c533843fe1490fac58c74097b6bc7d3c7527cee6643256",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\sakai-kanko-rekishi-gobyoomotezuka_koukai.html-html.json",
+    "last_checked": "2026-04-29T14:08:34.754056+00:00"
+  },
+  "5fc9f908c18ab6d529dd0dc82b902fc37d5f2c1a2dfe7a51ac0a4cd8940de794": {
+    "status": "processing",
+    "url": "https://www.city.sakai.lg.jp/kurashi/honen/kokuho/hoken/74841620190827114350774.html",
+    "first_seen": "2026-04-29T14:08:34.755371+00:00"
+  },
+  "850d40488254fb590d540877840178e3c9c6f5e99c5c4d5c1db38a37f2fec5f7": {
+    "status": "done",
+    "url": "https://www.city.sakai.lg.jp/kurashi/honen/kokuho/hoken/74841620190827114350774.html",
+    "content_hash": "eb715c03c0f811f28ae6150620a0fb47efff2a6336a4557fd268280ad6e44ff9",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\sakai-kurashi-honen-kokuho-hoken-74841620190827114350774.html-html.json",
+    "last_checked": "2026-04-29T14:08:36.766830+00:00"
+  },
+  "10d35ebd712416e050e476ea739aad9fdaabfef57b8962e3ae53c7f5a6496216": {
+    "status": "processing",
+    "url": "https://www.city.sakai.lg.jp/sangyo/shienyuushi/kigyoricchi/gyomu/toshin_subsidy.html",
+    "first_seen": "2026-04-29T14:08:36.768280+00:00"
+  },
+  "77cbcc868620a4296fea5d314a75f0dc79d865c4126a6219eece7196fe9b2468": {
+    "status": "done",
+    "url": "https://www.city.sakai.lg.jp/sangyo/shienyuushi/kigyoricchi/gyomu/toshin_subsidy.html",
+    "content_hash": "247980d0607f5d912130c282ae362c29b54ff3d998e2241800f4e5ffa875b6b7",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\sakai-sangyo-shienyuushi-kigyoricchi-gyomu-toshin_subsidy.html-html.json",
+    "last_checked": "2026-04-29T14:08:40.803567+00:00"
+  },
+  "44145ec2f54e76c4e6db35c4274c949c186db2ff7a008b5cbc68fdecc90c5477": {
+    "status": "processing",
+    "url": "https://www.city.sakai.lg.jp/sangyo/shienyuushi/kigyoricchi/gyomu/nakamozu_subsidy.html",
+    "first_seen": "2026-04-29T14:08:40.805456+00:00"
+  },
+  "851a9d08a04137dbbb34c865ca1e4d33ea3d99eda07d211236f8520f46cc09af": {
+    "status": "done",
+    "url": "https://www.city.sakai.lg.jp/sangyo/shienyuushi/kigyoricchi/gyomu/nakamozu_subsidy.html",
+    "content_hash": "dc311cd4821e7d0955ceaa013c832749cb2bc49253ae056ac3c379c11cd64182",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\sakai-sangyo-shienyuushi-kigyoricchi-gyomu-nakamozu_subsidy.html-html.json",
+    "last_checked": "2026-04-29T14:08:42.710850+00:00"
+  },
+  "4976c523ad1f566097ba1d883e89d4cdab6ebd1254a5795adecd74a7d0e1b7d6": {
+    "status": "processing",
+    "url": "https://www.city.sakai.lg.jp/sangyo/shienyuushi/kigyoricchi/gyomu/nakamozu_flexible_small.html",
+    "first_seen": "2026-04-29T14:08:42.712235+00:00"
+  },
+  "7c45c574d825b66cafd6d01e2b40feac1232cfa85e8d8ec19256ac982f5515f6": {
+    "status": "done",
+    "url": "https://www.city.sakai.lg.jp/sangyo/shienyuushi/kigyoricchi/gyomu/nakamozu_flexible_small.html",
+    "content_hash": "a08568a863fc7c52ce2d67b30850370fc82b3c420aa816f2d0c26f5db8314a1a",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\sakai-sangyo-shienyuushi-kigyoricchi-gyomu-nakamozu_flexible_small.html-html.json",
+    "last_checked": "2026-04-29T14:08:44.869677+00:00"
+  },
+  "5374080295ea0da3270cb7e7a992fa472707bf72e1ada5b335206619937e36a6": {
+    "status": "processing",
+    "url": "https://www.city.sakai.lg.jp/sangyo/shienyuushi/kigyoricchi/gyomu/izumigaoka_subsidy.html",
+    "first_seen": "2026-04-29T14:08:44.871187+00:00"
+  },
+  "9c09af50103a75049231018efbae21bb3417929bfed762750beea581a5457e45": {
+    "status": "done",
+    "url": "https://www.city.sakai.lg.jp/sangyo/shienyuushi/kigyoricchi/gyomu/izumigaoka_subsidy.html",
+    "content_hash": "302f209ee3fae22f7648cb2c0242d8f32d20305582c5d6d0ac8928a087b7f90c",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\sakai-sangyo-shienyuushi-kigyoricchi-gyomu-izumigaoka_subsidy.html-html.json",
+    "last_checked": "2026-04-29T14:08:46.823126+00:00"
+  },
+  "f17ad19835382a6c1424ba9e2b0ebabb5441ce109dbafd36de7dac8147c7b845": {
+    "status": "processing",
+    "url": "https://www.city.sakai.lg.jp/sangyo/shienyuushi/kigyoricchi/gyomu/office_bldg.html",
+    "first_seen": "2026-04-29T14:08:46.824807+00:00"
+  },
+  "1abb4a7c909cc26638c752da0dc1450ead6afd88ecb54a81d951e24f9b99f5e0": {
+    "status": "done",
+    "url": "https://www.city.sakai.lg.jp/sangyo/shienyuushi/kigyoricchi/gyomu/office_bldg.html",
+    "content_hash": "4c90e144ce5f3aa7786b30492139cebe445afe67f06b7ddda9d07df4d67e43b7",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\sakai-sangyo-shienyuushi-kigyoricchi-gyomu-office_bldg.html-html.json",
+    "last_checked": "2026-04-29T14:08:48.784521+00:00"
+  },
+  "6faf2e4e4b499ae9d20c8df09ffd8e156dd0295929bfd3f35ad7cbad7e2369de": {
+    "status": "processing",
+    "url": "https://www.city.sakai.lg.jp/kurashi/jutaku/jutaku/otoku/kuninohojo.html",
+    "first_seen": "2026-04-29T14:08:48.786069+00:00"
+  },
+  "de3a9b7fd855d91a39179c67b328461274279809f35aee9bd47d5ed760dbd4d3": {
+    "status": "done",
+    "url": "https://www.city.sakai.lg.jp/kurashi/jutaku/jutaku/otoku/kuninohojo.html",
+    "content_hash": "77ee827b43c0ab7ec98068db20ef5d5a3ad23d589693e2ba3bcc799d49fdf4ae",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\sakai-kurashi-jutaku-jutaku-otoku-kuninohojo.html-html.json",
+    "last_checked": "2026-04-29T14:08:50.695317+00:00"
+  },
+  "d40e540303b47d564cd20fa396ad427cad0f156ea07c5c017eb5a410ba20a05b": {
+    "status": "processing",
+    "url": "https://www.city.sakai.lg.jp/kurashi/gomi/ondanka/shoene/jigyou_shoene_hojo/hojo_saiene.html",
+    "first_seen": "2026-04-29T14:08:50.696810+00:00"
+  },
+  "4d0c0f05bc681aedd96d283198f5f84817e8c642929f5d8660cae49b3f97e32c": {
+    "status": "done",
+    "url": "https://www.city.sakai.lg.jp/kurashi/gomi/ondanka/shoene/jigyou_shoene_hojo/hojo_saiene.html",
+    "content_hash": "61422429c495cc333ec12033ff6ba9abf3534d2b244b90ed62ba9bfc70d99734",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\sakai-kurashi-gomi-ondanka-shoene-jigyou_shoene_hojo-hojo_saiene.html-html.json",
+    "last_checked": "2026-04-29T14:09:09.037059+00:00"
+  },
+  "aee1a3b190fc34722884fec360a87d4d4912f6cb8b4598c758c0e34f96d067c2": {
+    "status": "processing",
+    "url": "https://www.city.sakai.lg.jp/kurashi/gomi/ondanka/oshirase/yojojunkan.html",
+    "first_seen": "2026-04-29T14:09:09.038653+00:00"
+  },
+  "456eb4ea1032a63d77ef4fd5df523dc9714c47c6c6adfe971f6f0ec74ed049e1": {
+    "status": "done",
+    "url": "https://www.city.sakai.lg.jp/kurashi/gomi/ondanka/oshirase/yojojunkan.html",
+    "content_hash": "84bf3098134bc892f54a89add1c9831563cd91344fa2ecb11138304d5038a2c3",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\sakai-kurashi-gomi-ondanka-oshirase-yojojunkan.html-html.json",
+    "last_checked": "2026-04-29T14:09:19.746923+00:00"
+  },
+  "9e0298da129e8cc686e2a351a659313528201051ea52bff4bbd6131b86c7afa5": {
+    "status": "processing",
+    "url": "https://www.city.sakai.lg.jp/kurashi/gomi/ondanka/shoene/jigyou_shoene_info/assyukuki_adviser.html",
+    "first_seen": "2026-04-29T14:09:19.748484+00:00"
+  },
+  "875965393e86c558622f3ff137ae73155d7c0a196b408c141996920981f0d1f6": {
+    "status": "done",
+    "url": "https://www.city.sakai.lg.jp/kurashi/gomi/ondanka/shoene/jigyou_shoene_info/assyukuki_adviser.html",
+    "content_hash": "a81c3abe92d1ee177497be91b8a743602a8ac11e115123c06092092c43a650b4",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\sakai-kurashi-gomi-ondanka-shoene-jigyou_shoene_info-assyukuki_adviser.html-html.json",
+    "last_checked": "2026-04-29T14:09:23.797407+00:00"
+  },
+  "beae42924c6f9e88d15615b0847c4ebded0cdeddc6a1cb16f1881f920d78a7a3": {
+    "status": "processing",
+    "url": "https://www.city.sakai.lg.jp/kurashi/zei/shizeishomei/shomei.html",
+    "first_seen": "2026-04-29T14:09:23.799029+00:00"
+  },
+  "e6ce6aed06b169601be4d8efbede12ad69ea2c1c04cf33c52ad6fd5759840867": {
+    "status": "done",
+    "url": "https://www.city.sakai.lg.jp/kurashi/zei/shizeishomei/shomei.html",
+    "content_hash": "38b5e38089f896df93f0c2623c58ba9c11cdfb2ae8ddb32a3867c8ecc4212846",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\sakai-kurashi-zei-shizeishomei-shomei.html-html.json",
+    "last_checked": "2026-04-29T14:09:25.728229+00:00"
+  },
+  "2c57a8c93b7581ccbf7228532e5b68eaee449a62374bee21d16563bb568e1067": {
+    "status": "processing",
+    "url": "https://www.city.sakai.lg.jp/kurashi/gomi/ondanka/shoene/jigyou_shoene_hojo/sakai_syouenezirei.html",
+    "first_seen": "2026-04-29T14:09:25.729704+00:00"
+  },
+  "1ce1d462e39cd83b8c9ba9dcaa5d9dfec8a3e8680c3e219580eb1920005f0dcb": {
+    "status": "done",
+    "url": "https://www.city.sakai.lg.jp/kurashi/gomi/ondanka/shoene/jigyou_shoene_hojo/sakai_syouenezirei.html",
+    "content_hash": "0c341e0972896abb2d4fe2fe26e90b1a607d2c58bcf294c305e23b88f7ae60de",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\sakai-kurashi-gomi-ondanka-shoene-jigyou_shoene_hojo-sakai_syouenezirei.html-html.json",
+    "last_checked": "2026-04-29T14:09:35.229720+00:00"
+  },
+  "bb4f4c3c6794b3f5a80ce4525730a86f1313b2b7ecd9c257a2d44aedfe2e5dd8": {
+    "status": "failed",
+    "url": "https://www.city.sakai.lg.jp/kurashi/jutaku/jutaku/otoku/allNewsList.html",
+    "reason": "fetch_raw_content returned None",
+    "last_checked": "2026-04-29T14:09:46.825742+00:00"
+  },
+  "772fb4f3f20bb413c3392372fbe155ef57a3c19ea091dd3be29a7f65a90c13d1": {
+    "status": "processing",
+    "url": "https://www.city.sakai.lg.jp/kurashi/jutaku/jutaku/otoku/sumainotaisin.html",
+    "first_seen": "2026-04-29T14:09:46.827173+00:00"
+  },
+  "5989d0c0278131797277cfb6855adc2adaed4b5779631d7c15ec0ada8cdd9932": {
+    "status": "done",
+    "url": "https://www.city.sakai.lg.jp/kurashi/jutaku/jutaku/otoku/sumainotaisin.html",
+    "content_hash": "cfc73047a85168d8a72e2a79d3383392c796b1d4fdaafb2aae347e6412dfd664",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\sakai-kurashi-jutaku-jutaku-otoku-sumainotaisin.html-html.json",
+    "last_checked": "2026-04-29T14:09:48.759049+00:00"
+  },
+  "338f59a78779bcd93690ead30ab7e743998f49bbe3c8b9023410a8dca344e88a": {
+    "status": "processing",
+    "url": "https://www.city.sakai.lg.jp/kurashi/jutaku/jutaku/otoku/koureisyougai.html",
+    "first_seen": "2026-04-29T14:09:48.760664+00:00"
+  },
+  "0cffcd1095509fe177d5e15653ae36abcbe102e00d2d0a4780b31db1ea9f9b39": {
+    "status": "done",
+    "url": "https://www.city.sakai.lg.jp/kurashi/jutaku/jutaku/otoku/koureisyougai.html",
+    "content_hash": "e9ebbc2173c8a8e7a89872dcc0bcaadaec083b6b45e6c73529cccd80da041aa6",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\sakai-kurashi-jutaku-jutaku-otoku-koureisyougai.html-html.json",
+    "last_checked": "2026-04-29T14:09:50.647162+00:00"
+  },
+  "623a57f436833b5fe3725d200078263bcef1f05910d972c473fc15ea02ef3ebf": {
+    "status": "processing",
+    "url": "https://www.city.sakai.lg.jp/kurashi/jutaku/jutaku/otoku/yatinnhojo.html",
+    "first_seen": "2026-04-29T14:09:50.648751+00:00"
+  },
+  "b9649153ede46a5a5de9dd322f2e8036567443db5ee8e75e05037b9fe9417bd8": {
+    "status": "done",
+    "url": "https://www.city.sakai.lg.jp/kurashi/jutaku/jutaku/otoku/yatinnhojo.html",
+    "content_hash": "404ae81c1acd7ed1b59138508a2476dc38e18f90f7b41493d4e237e6e62bbc3d",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\sakai-kurashi-jutaku-jutaku-otoku-yatinnhojo.html-html.json",
+    "last_checked": "2026-04-29T14:09:52.658276+00:00"
+  },
+  "08fcfc98362ebfd618de68c9e658a173b8450d3038def6b4d7303cab1e1a3984": {
+    "status": "processing",
+    "url": "https://www.city.sakai.lg.jp/kurashi/jutaku/jutaku/otoku/kankyo.html",
+    "first_seen": "2026-04-29T14:09:52.660107+00:00"
+  },
+  "3d5cf2eb0c0d644c27af555b0b54bce75c89beb53e9fbd4f94d2c65db3d0700c": {
+    "status": "done",
+    "url": "https://www.city.sakai.lg.jp/kurashi/jutaku/jutaku/otoku/kankyo.html",
+    "content_hash": "6b43ada8734e170350ad020cca2fa93c3a8033221d1d361179b778fcdb515a13",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\sakai-kurashi-jutaku-jutaku-otoku-kankyo.html-html.json",
+    "last_checked": "2026-04-29T14:09:54.592636+00:00"
+  },
+  "df44e7eb3e2813a75d2c43b2a8aefbafa03a68dfc65e7359e71104283328149b": {
+    "status": "processing",
+    "url": "https://www.city.sakai.lg.jp/kenko/fukushikaigo/seikatsuhogo/jyuukyokakuho_tenkyohiyouhojo.html",
+    "first_seen": "2026-04-29T14:09:54.594224+00:00"
+  },
+  "02aee0e70a9ee7a9d66b3a0defb132ffded90be07878546dc436506416bf8c27": {
+    "status": "done",
+    "url": "https://www.city.sakai.lg.jp/kenko/fukushikaigo/seikatsuhogo/jyuukyokakuho_tenkyohiyouhojo.html",
+    "content_hash": "95e88d967b97a178324758b72179ab47337ce22cc311356972ec838df50559c9",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\sakai-kenko-fukushikaigo-seikatsuhogo-jyuukyokakuho_tenkyohiyouhojo.html-html.json",
+    "last_checked": "2026-04-29T14:10:03.006022+00:00"
+  },
+  "8707f055d3b8d6a9fdb2c15cfd794431405f0a4dd8b15598e7ec5d64ab445bda": {
+    "status": "processing",
+    "url": "https://www.city.sakai.lg.jp/kurashi/jutaku/jutaku/akiya_rikatsuyou/teiju_hojo.html",
+    "first_seen": "2026-04-29T14:10:03.007576+00:00"
+  },
+  "9d2e13cfd689cccdca019911fa205b044640444f6882852c493ecb0cb4548072": {
+    "status": "done",
+    "url": "https://www.city.sakai.lg.jp/kurashi/jutaku/jutaku/akiya_rikatsuyou/teiju_hojo.html",
+    "content_hash": "9e357a98b950c9c8ff36ab60a1025bb7efea2d2645c05913f94ff70816192da1",
+    "output_path": "C:\\Users\\noppy\\Subsidy\\data\\raw\\2026-04-29\\sakai-kurashi-jutaku-jutaku-akiya_rikatsuyou-teiju_hojo.html-html.json",
+    "last_checked": "2026-04-29T14:10:12.936111+00:00"
+  },
+  "281523cd8ad50ba8b0ac3337b5669bbf58cfe06ae944132550aa8d404d3e2897": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/seisakukikakushitsu/page/0000006578.html",
+    "first_seen": "2026-05-03T14:01:44.733842+00:00"
+  },
+  "478a72e5df8e321a9fcb28953f3b29aa547062a885c0390f3a5bb5e860fcfb87": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/fukushi/page/0000677863.html",
+    "first_seen": "2026-05-03T14:01:57.613923+00:00"
+  },
+  "a834fdca3adffc69b1fc308bd684dc2411adc480a7cf22efe9a60e81468a1981": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/joto/page/0000677736.html",
+    "first_seen": "2026-05-03T14:03:09.309032+00:00"
+  },
+  "576e4e768673fafb543f370bf5f101bb76a95a1c5092a22880df861b0ad9485d": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/chuo/page/0000678084.html",
+    "first_seen": "2026-05-03T14:03:15.767036+00:00"
+  },
+  "989b3d09e2595cc9d06be58295342493ac23841482a1baa5473c146a9c0999b5": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/higashinari/page/0000678063.html",
+    "first_seen": "2026-05-03T14:03:22.814512+00:00"
+  },
+  "a150f63e60056f09c2a5a12398c5ae338746464c83e0c85d4ac418e408601d83": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/keizaisenryaku/page/0000651075.html",
+    "first_seen": "2026-05-03T14:03:37.663544+00:00"
+  },
+  "ccd946b9a0b97d0811282c17598c62a907b059468cd67c5e0db53c5f6db7f0b9": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/keizaisenryaku/page/0000677951.html",
+    "first_seen": "2026-05-03T14:03:36.053268+00:00"
+  },
+  "aa9c1878464b796a7491074b062ad5a999a889a30a0ad41379670e462cbcbc74": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000678083.html",
+    "first_seen": "2026-05-03T14:04:38.717912+00:00"
+  },
+  "35d5e56c4728dea7dfb0ad2bd9fbabebdd3aec24fd1889b451927e56e5de3028": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/shobo/page/0000677638.html",
+    "first_seen": "2026-05-03T14:04:45.510603+00:00"
+  },
+  "8931aa837ae9b1151b474569d64727e23671e5317b64b43c08df2283e1dc8af7": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/toshikeikaku/page/0000244711.html",
+    "first_seen": "2026-05-03T14:06:48.795284+00:00"
+  },
+  "0f364d589c1cb503f53bf92c6913822a267cd56094ec2aae48f2791fe098a355": {
+    "status": "processing",
+    "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000677809.html",
+    "first_seen": "2026-05-03T14:08:00.071987+00:00"
   }
 }
