@@ -1,0 +1,14 @@
+municipality_id: izumiotsu
+name: 泉大津市
+base_url: https://www.city.izumiotsu.lg.jp
+index_urls:
+  - https://www.city.izumiotsu.lg.jp/hojyokin/index.html
+  - https://www.city.izumiotsu.lg.jp/hojyokin/zigyousyamukehozyo/index.html
+  - https://www.city.izumiotsu.lg.jp/hojyokin/shiminmukehozyo/index.html
+selectors:
+  subsidy_link: "a[href*='/hojyokin/']"
+  title: "h1"
+  body: "#container"
+rate_limit_seconds: 1.5
+pdf_max_bytes: 10485760
+subsidy_keywords: [助成, 補助, 給付, 手当, 無償, 支援金, 奨励金, 融資, 創業, 中小企業, リフォーム, 省エネ, 耐震, 免除, 割引, 軽減, DX, デジタル, 太陽光, ZEH, 雇用, 奨学金, 空き家, 出店, 商店街, 利子補給]
