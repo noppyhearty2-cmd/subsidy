@@ -220,6 +220,20 @@ const muniLabel: Record<string, string> = {
         countEl.textContent = `${visible} 件`;
       }
 
+      // URLパラメータから初期フィルタを復元
+      const urlParams = new URLSearchParams(window.location.search);
+      const muniParam = urlParams.get("muni");
+      if (muniParam) {
+        const muniBtn = document.querySelector(`[data-muni="${muniParam}"]`);
+        if (muniBtn) {
+          muniFilters.forEach((b) => b.classList.remove("active"));
+          muniBtn.classList.add("active");
+          activeMuni = muniParam;
+          syncTagButtons();
+          updateDisplay();
+        }
+      }
+
       muniFilters.forEach((btn) => {
         btn.addEventListener("click", () => {
           muniFilters.forEach((b) => b.classList.remove("active"));

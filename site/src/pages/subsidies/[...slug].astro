@@ -227,7 +227,7 @@ const muniName = muniLabel[d.municipality] ?? d.municipality;
   </head>
   <body>
     <header>
-      <a href="/subsidy/">← 一覧に戻る</a>
+      <a href={`/subsidy/?muni=${d.municipality}`}>← 一覧に戻る</a>
       <span class="header-muni">{muniName}</span>
     </header>
 
