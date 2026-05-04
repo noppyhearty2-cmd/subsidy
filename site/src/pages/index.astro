@@ -102,9 +102,10 @@ function getCategories(tags: string[]): string[] {
 
 function muniTypeOrder(id: string): number {
   const label = muniLabel[id] ?? id;
-  if (label.endsWith("村")) return 2;
-  if (label.endsWith("町")) return 1;
-  return 0; // 市・都・道・府
+  if (label.endsWith("村")) return 3;
+  if (label.endsWith("町")) return 2;
+  if (label.endsWith("市")) return 1;
+  return 0; // 都・道・府・県
 }
 const municipalities = [...new Set(active.map((s) => s.data.municipality))]
   .sort((a, b) => {
