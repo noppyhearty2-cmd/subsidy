@@ -10,7 +10,6 @@ const active = allSubsidies
     return a.data.deadline.localeCompare(b.data.deadline);
   });
 
-const municipalities = [...new Set(active.map((s) => s.data.municipality))].sort();
 const allTags = [...new Set(active.flatMap((s) => s.data.tags))].sort();
 
 // 自治体IDから表示名へのマッピング
@@ -66,6 +65,35 @@ const muniLabel: Record<string, string> = {
   kyoto: "京都市",
   kobe: "神戸市",
 };
+
+// 自治体IDから都道府県へのマッピング
+const muniToPref: Record<string, string> = {
+  // 大阪府
+  osaka: "大阪府", osaka_pref: "大阪府", suita: "大阪府", toyonaka: "大阪府",
+  sakai: "大阪府", higashiosaka: "大阪府", hirakata: "大阪府", takatsuki: "大阪府",
+  ibaraki: "大阪府", yao: "大阪府", neyagawa: "大阪府", moriguchi: "大阪府",
+  kadoma: "大阪府", daito: "大阪府", shijonawate: "大阪府", katano: "大阪府",
+  kashiwara: "大阪府", matsubara: "大阪府", habikino: "大阪府", fujiidera: "大阪府",
+  kawachinagano: "大阪府", tondabayashi: "大阪府", kishiwada: "大阪府",
+  izumiotsu: "大阪府", izumisano: "大阪府", osaka_izumi: "大阪府",
+  sennan: "大阪府", hannan: "大阪府", ikeda: "大阪府", minoh: "大阪府",
+  settsu: "大阪府", takaishi: "大阪府", tadaoka: "大阪府", kumatori: "大阪府",
+  tajiri: "大阪府", misaki: "大阪府", taishi: "大阪府", kanan: "大阪府",
+  toyono: "大阪府", nose: "大阪府", chihayaakasaka: "大阪府",
+  osaka_sayama: "大阪府", kaizuka: "大阪府",
+  // 他の都道府県
+  tokyo: "東京都",
+  yokohama: "神奈川県",
+  nagoya: "愛知県",
+  sapporo: "北海道",
+  fukuoka: "福岡県",
+  kyoto: "京都府",
+  kobe: "兵庫県",
+};
+
+// データに存在する都道府県のみ抽出（五十音順）
+const municipalities = [...new Set(active.map((s) => s.data.municipality))];
+const prefectures = [...new Set(municipalities.map((m) => muniToPref[m] ?? "その他"))].sort();
 ---
 
 <!doctype html>
@@ -90,13 +118,75 @@ const muniLabel: Record<string, string> = {
       header h1 { font-size: 1.5rem; margin-bottom: 0.25rem; }
       header p { font-size: 0.9rem; opacity: 0.85; }
       .container { max-width: 960px; margin: 0 auto; padding: 1rem; }
-      .filter-bar { background: white; border-radius: 8px; padding: 1rem; margin: 1rem 0; box-shadow: 0 1px 4px rgba(0,0,0,0.1); }
-      .filter-bar h2 { font-size: 0.9rem; color: #666; margin-bottom: 0.5rem; }
-      .filter-buttons { display: flex; flex-wrap: wrap; gap: 0.5rem; }
-      .filter-btn { padding: 0.3rem 0.75rem; border: 1px solid #ccc; border-radius: 20px; background: white; cursor: pointer; font-size: 0.85rem; transition: all 0.2s; }
-      .filter-btn.active { background: #1a5276; color: white; border-color: #1a5276; }
-      #tag-hint { font-size: 0.75rem; color: #999; font-weight: normal; }
-      .count { color: #666; font-size: 0.85rem; margin: 0.5rem 0; }
+
+      /* フィルターバー共通 */
+      .filter-bar {
+        background: white;
+        border-radius: 8px;
+        padding: 1rem;
+        margin: 0.75rem 0;
+        box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+      }
+      .filter-bar h2 {
+        font-size: 0.8rem;
+        font-weight: 600;
+        color: #888;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        margin-bottom: 0.6rem;
+      }
+      .filter-buttons { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+
+      /* 都道府県ボタン：やや大きめ */
+      .pref-btn {
+        padding: 0.35rem 1rem;
+        border: 1.5px solid #bbb;
+        border-radius: 20px;
+        background: white;
+        cursor: pointer;
+        font-size: 0.9rem;
+        font-weight: 600;
+        transition: all 0.15s;
+        color: #444;
+      }
+      .pref-btn:hover { border-color: #1a5276; color: #1a5276; }
+      .pref-btn.active { background: #1a5276; color: white; border-color: #1a5276; }
+
+      /* 自治体ボタン：コンパクト */
+      .muni-btn {
+        padding: 0.25rem 0.7rem;
+        border: 1px solid #ccc;
+        border-radius: 20px;
+        background: white;
+        cursor: pointer;
+        font-size: 0.82rem;
+        transition: all 0.15s;
+        color: #555;
+      }
+      .muni-btn:hover { border-color: #1a5276; color: #1a5276; }
+      .muni-btn.active { background: #2e86c1; color: white; border-color: #2e86c1; }
+
+      /* タグボタン */
+      .tag-btn {
+        padding: 0.25rem 0.7rem;
+        border: 1px solid #ccc;
+        border-radius: 20px;
+        background: white;
+        cursor: pointer;
+        font-size: 0.82rem;
+        transition: all 0.15s;
+        color: #555;
+      }
+      .tag-btn:hover { border-color: #1a5276; color: #1a5276; }
+      .tag-btn.active { background: #1a5276; color: white; border-color: #1a5276; }
+
+      /* 自治体バーの展開アニメーション */
+      #muni-filter-bar {
+        overflow: hidden;
+        transition: max-height 0.25s ease, opacity 0.2s ease, margin 0.25s ease;
+      }
+
+      .count { color: #666; font-size: 0.85rem; margin: 0.25rem 0 0.75rem; }
       .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem; }
       .card { background: white; border-radius: 8px; padding: 1rem; box-shadow: 0 1px 4px rgba(0,0,0,0.1); display: flex; flex-direction: column; gap: 0.5rem; }
       .card h3 { font-size: 0.95rem; line-height: 1.4; }
@@ -116,22 +206,43 @@ const muniLabel: Record<string, string> = {
     </header>
 
     <div class="container">
+
+      <!-- ① 都道府県フィルター -->
       <div class="filter-bar">
-        <h2>自治体で絞り込む</h2>
-        <div class="filter-buttons" id="muni-filters">
-          <button class="filter-btn active" data-muni="all">すべて</button>
-          {municipalities.map((m) => (
-            <button class="filter-btn" data-muni={m}>{muniLabel[m] ?? m}</button>
+        <h2>都道府県</h2>
+        <div class="filter-buttons" id="pref-filters">
+          <button class="pref-btn active" data-pref="all">すべて</button>
+          {prefectures.map((p) => (
+            <button class="pref-btn" data-pref={p}>{p}</button>
           ))}
         </div>
       </div>
 
+      <!-- ② 自治体フィルター（都道府県選択後に展開） -->
+      <div class="filter-bar" id="muni-filter-bar" style="display:none">
+        <h2>自治体</h2>
+        <div class="filter-buttons" id="muni-filters">
+          <button class="muni-btn active" data-muni="all" data-pref="all">すべての自治体</button>
+          {municipalities.map((m) => (
+            <button
+              class="muni-btn"
+              data-muni={m}
+              data-pref={muniToPref[m] ?? "その他"}
+              style="display:none"
+            >
+              {muniLabel[m] ?? m}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      <!-- ③ タグフィルター -->
       <div class="filter-bar">
-        <h2>カテゴリで絞り込む <span id="tag-hint">（複数選択可）</span></h2>
+        <h2>カテゴリ <span style="font-size:0.75rem;color:#bbb;font-weight:normal">（複数選択可）</span></h2>
         <div class="filter-buttons" id="tag-filters">
-          <button class="filter-btn active" data-tag="all">すべて</button>
+          <button class="tag-btn active" data-tag="all">すべて</button>
           {allTags.map((t) => (
-            <button class="filter-btn" data-tag={t}>{t}</button>
+            <button class="tag-btn" data-tag={t}>{t}</button>
           ))}
         </div>
       </div>
@@ -143,6 +254,7 @@ const muniLabel: Record<string, string> = {
           <div
             class="card"
             data-muni={s.data.municipality}
+            data-pref={muniToPref[s.data.municipality] ?? "その他"}
             data-tags={s.data.tags.join(",")}
           >
             <h3>
@@ -167,34 +279,68 @@ const muniLabel: Record<string, string> = {
     </footer>
 
     <script>
-      const muniFilters = document.querySelectorAll("[data-muni]");
-      const tagFilters = document.querySelectorAll("[data-tag]");
-      const cards = document.querySelectorAll(".card");
-      const countEl = document.getElementById("count");
+      const prefFilterBtns  = document.querySelectorAll<HTMLButtonElement>("#pref-filters [data-pref]");
+      const muniFilterBar   = document.getElementById("muni-filter-bar")!;
+      const muniFilterBtns  = document.querySelectorAll<HTMLButtonElement>("#muni-filters [data-muni]");
+      const tagFilterBtns   = document.querySelectorAll<HTMLButtonElement>("#tag-filters [data-tag]");
+      const cards           = document.querySelectorAll<HTMLElement>(".card");
+      const countEl         = document.getElementById("count")!;
 
+      let activePref = "all";
       let activeMuni = "all";
-      let activeTags = new Set(); // 空 = すべて
+      let activeTags = new Set<string>();
 
-      // 自治体ごとのタグセットをカードから構築
-      const muniTagMap = new Map(); // muni => Set<tag>
-      cards.forEach((card) => {
-        const muni = card.dataset.muni;
-        const tags = (card.dataset.tags || "").split(",").filter(Boolean);
-        if (!muniTagMap.has(muni)) muniTagMap.set(muni, new Set());
-        tags.forEach((t) => muniTagMap.get(muni).add(t));
-      });
-
-      // 選択中の自治体で使われているタグのセットを返す
-      function getAvailableTags() {
-        if (activeMuni === "all") return null; // null = 全タグ表示
-        return muniTagMap.get(activeMuni) ?? new Set();
+      // ── 自治体バーの表示切り替え ───────────────────────────
+      function updateMuniBar() {
+        if (activePref === "all") {
+          muniFilterBar.style.display = "none";
+        } else {
+          muniFilterBar.style.display = "";
+          muniFilterBtns.forEach((btn) => {
+            const muni = btn.dataset.muni!;
+            const pref = btn.dataset.pref!;
+            if (muni === "all") {
+              btn.style.display = "";
+              btn.classList.toggle("active", activeMuni === "all");
+            } else {
+              const visible = pref === activePref;
+              btn.style.display = visible ? "" : "none";
+              btn.classList.toggle("active", muni === activeMuni);
+            }
+          });
+        }
       }
 
-      // タグボタンの表示・選択状態を同期
+      // ── 利用可能タグの計算 ────────────────────────────────
+      function getAvailableTags(): Set<string> | null {
+        if (activeMuni !== "all") {
+          const tags = new Set<string>();
+          cards.forEach((c) => {
+            if (c.dataset.muni === activeMuni)
+              (c.dataset.tags || "").split(",").filter(Boolean).forEach((t) => tags.add(t));
+          });
+          return tags;
+        }
+        if (activePref !== "all") {
+          const tags = new Set<string>();
+          cards.forEach((c) => {
+            if (c.dataset.pref === activePref)
+              (c.dataset.tags || "").split(",").filter(Boolean).forEach((t) => tags.add(t));
+          });
+          return tags;
+        }
+        return null; // すべて表示
+      }
+
+      // ── タグボタンの同期 ──────────────────────────────────
       function syncTagButtons() {
         const available = getAvailableTags();
-        tagFilters.forEach((btn) => {
-          const tag = btn.dataset.tag;
+        // 使えなくなったタグを選択解除
+        if (available !== null) {
+          activeTags.forEach((t) => { if (!available.has(t)) activeTags.delete(t); });
+        }
+        tagFilterBtns.forEach((btn) => {
+          const tag = btn.dataset.tag!;
           if (tag === "all") {
             btn.classList.toggle("active", activeTags.size === 0);
             btn.style.display = "";
@@ -206,65 +352,73 @@ const muniLabel: Record<string, string> = {
         });
       }
 
+      // ── カード表示の更新 ──────────────────────────────────
       function updateDisplay() {
         let visible = 0;
         cards.forEach((card) => {
-          const muni = card.dataset.muni;
+          const pref = card.dataset.pref!;
+          const muni = card.dataset.muni!;
           const tags = (card.dataset.tags || "").split(",");
+          const prefOk = activePref === "all" || pref === activePref;
           const muniOk = activeMuni === "all" || muni === activeMuni;
-          const tagOk = activeTags.size === 0 || [...activeTags].every((t) => tags.includes(t));
-          const show = muniOk && tagOk;
+          const tagOk  = activeTags.size === 0 || [...activeTags].every((t) => tags.includes(t));
+          const show   = prefOk && muniOk && tagOk;
           card.style.display = show ? "" : "none";
           if (show) visible++;
         });
         countEl.textContent = `${visible} 件`;
       }
 
-      // URLパラメータから初期フィルタを復元
-      const urlParams = new URLSearchParams(window.location.search);
-      const muniParam = urlParams.get("muni");
-      if (muniParam) {
-        const muniBtn = document.querySelector(`[data-muni="${muniParam}"]`);
-        if (muniBtn) {
-          muniFilters.forEach((b) => b.classList.remove("active"));
-          muniBtn.classList.add("active");
-          activeMuni = muniParam;
-          syncTagButtons();
-          updateDisplay();
-        }
-      }
-
-      muniFilters.forEach((btn) => {
+      // ── 都道府県ボタンのクリック ──────────────────────────
+      prefFilterBtns.forEach((btn) => {
         btn.addEventListener("click", () => {
-          muniFilters.forEach((b) => b.classList.remove("active"));
-          btn.classList.add("active");
-          activeMuni = btn.dataset.muni;
-          // 選択中タグのうち新しい自治体に存在しないものを除去
-          const available = getAvailableTags();
-          if (available !== null) {
-            activeTags.forEach((t) => { if (!available.has(t)) activeTags.delete(t); });
-          }
+          activePref = btn.dataset.pref!;
+          activeMuni = "all";
+          prefFilterBtns.forEach((b) => b.classList.toggle("active", b.dataset.pref === activePref));
+          updateMuniBar();
           syncTagButtons();
           updateDisplay();
         });
       });
 
-      tagFilters.forEach((btn) => {
+      // ── 自治体ボタンのクリック ────────────────────────────
+      muniFilterBtns.forEach((btn) => {
         btn.addEventListener("click", () => {
-          const tag = btn.dataset.tag;
+          activeMuni = btn.dataset.muni!;
+          updateMuniBar();
+          syncTagButtons();
+          updateDisplay();
+        });
+      });
+
+      // ── タグボタンのクリック ──────────────────────────────
+      tagFilterBtns.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const tag = btn.dataset.tag!;
           if (tag === "all") {
             activeTags.clear();
           } else {
-            if (activeTags.has(tag)) {
-              activeTags.delete(tag);
-            } else {
-              activeTags.add(tag);
-            }
+            activeTags.has(tag) ? activeTags.delete(tag) : activeTags.add(tag);
           }
           syncTagButtons();
           updateDisplay();
         });
       });
+
+      // ── URLパラメータから初期フィルタを復元 ──────────────
+      const urlParams = new URLSearchParams(window.location.search);
+      const muniParam = urlParams.get("muni");
+      if (muniParam) {
+        const muniBtn = document.querySelector<HTMLButtonElement>(`#muni-filters [data-muni="${muniParam}"]`);
+        if (muniBtn) {
+          // 1) まず都道府県を選択
+          const prefName = muniBtn.dataset.pref!;
+          const prefBtn = document.querySelector<HTMLButtonElement>(`#pref-filters [data-pref="${prefName}"]`);
+          if (prefBtn) prefBtn.click();
+          // 2) 次に自治体を選択
+          muniBtn.click();
+        }
+      }
     </script>
   </body>
 </html>
