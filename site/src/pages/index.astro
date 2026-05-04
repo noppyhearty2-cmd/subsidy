@@ -100,7 +100,8 @@ function getCategories(tags: string[]): string[] {
   return [...cats];
 }
 
-const municipalities = [...new Set(active.map((s) => s.data.municipality))];
+const municipalities = [...new Set(active.map((s) => s.data.municipality))]
+  .sort((a, b) => (muniLabel[a] ?? a).localeCompare(muniLabel[b] ?? b, "ja"));
 const prefectures = [...new Set(municipalities.map((m) => muniToPref[m] ?? "その他"))].sort();
 ---
 
