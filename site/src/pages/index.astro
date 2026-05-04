@@ -100,8 +100,18 @@ function getCategories(tags: string[]): string[] {
   return [...cats];
 }
 
+function muniTypeOrder(id: string): number {
+  const label = muniLabel[id] ?? id;
+  if (label.endsWith("村")) return 2;
+  if (label.endsWith("町")) return 1;
+  return 0; // 市・都・道・府
+}
 const municipalities = [...new Set(active.map((s) => s.data.municipality))]
-  .sort((a, b) => (muniLabel[a] ?? a).localeCompare(muniLabel[b] ?? b, "ja"));
+  .sort((a, b) => {
+    const typeDiff = muniTypeOrder(a) - muniTypeOrder(b);
+    if (typeDiff !== 0) return typeDiff;
+    return (muniLabel[a] ?? a).localeCompare(muniLabel[b] ?? b, "ja");
+  });
 const prefectures = [...new Set(municipalities.map((m) => muniToPref[m] ?? "その他"))].sort();
 ---
 
