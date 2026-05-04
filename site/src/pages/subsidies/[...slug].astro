@@ -17,6 +17,23 @@ const { entry } = Astro.props;
 const { Content } = await entry.render();
 const d = entry.data;
 
+const muniToPref: Record<string, string> = {
+  osaka: "大阪府", osaka_pref: "大阪府", suita: "大阪府", toyonaka: "大阪府",
+  sakai: "大阪府", higashiosaka: "大阪府", hirakata: "大阪府", takatsuki: "大阪府",
+  ibaraki: "大阪府", yao: "大阪府", neyagawa: "大阪府", moriguchi: "大阪府",
+  kadoma: "大阪府", daito: "大阪府", shijonawate: "大阪府", katano: "大阪府",
+  kashiwara: "大阪府", matsubara: "大阪府", habikino: "大阪府", fujiidera: "大阪府",
+  kawachinagano: "大阪府", tondabayashi: "大阪府", kishiwada: "大阪府",
+  izumiotsu: "大阪府", izumisano: "大阪府", osaka_izumi: "大阪府",
+  sennan: "大阪府", hannan: "大阪府", ikeda: "大阪府", minoh: "大阪府",
+  settsu: "大阪府", takaishi: "大阪府", tadaoka: "大阪府", kumatori: "大阪府",
+  tajiri: "大阪府", misaki: "大阪府", taishi: "大阪府", kanan: "大阪府",
+  toyono: "大阪府", nose: "大阪府", chihayaakasaka: "大阪府",
+  osaka_sayama: "大阪府", kaizuka: "大阪府",
+  tokyo: "東京都", yokohama: "神奈川県", nagoya: "愛知県",
+  sapporo: "北海道", fukuoka: "福岡県", kyoto: "京都府", kobe: "兵庫県",
+};
+
 const muniLabel: Record<string, string> = {
   osaka: "大阪市",
   toyonaka: "豊中市",
@@ -68,6 +85,12 @@ const muniLabel: Record<string, string> = {
   kobe: "神戸市",
 };
 const muniName = muniLabel[d.municipality] ?? d.municipality;
+const prefName = muniToPref[d.municipality] ?? null;
+// 都道府県レベルの記事（osaka_pref 等）は自治体リンクを省略
+const showMuniCrumb = prefName !== null && muniName !== prefName;
+
+const siteOrigin = "https://noppyhearty2-cmd.github.io";
+const basePath   = "/subsidy";
 ---
 
 <!doctype html>
@@ -77,6 +100,23 @@ const muniName = muniLabel[d.municipality] ?? d.municipality;
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{d.title}</title>
     <meta name="description" content={d.summary_ja || d.title} />
+    <link rel="canonical" href={`${siteOrigin}${basePath}/subsidies/${entry.slug}/`} />
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "補助金まとめ",
+          "item": `${siteOrigin}${basePath}/` },
+        ...(prefName ? [{ "@type": "ListItem", "position": 2, "name": prefName,
+          "item": `${siteOrigin}${basePath}/?pref=${encodeURIComponent(prefName)}` }] : []),
+        ...(showMuniCrumb ? [{ "@type": "ListItem", "position": 3, "name": muniName,
+          "item": `${siteOrigin}${basePath}/?muni=${d.municipality}` }] : []),
+        { "@type": "ListItem",
+          "position": prefName ? (showMuniCrumb ? 4 : 3) : 2,
+          "name": d.title,
+          "item": `${siteOrigin}${basePath}/subsidies/${entry.slug}/` },
+      ]
+    })} />
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CNL0G50ECB"></script>
     <script>
@@ -89,11 +129,13 @@ const muniName = muniLabel[d.municipality] ?? d.municipality;
       * { box-sizing: border-box; margin: 0; padding: 0; }
       body { font-family: "Hiragino Sans", "Meiryo", sans-serif; background: #f0f4f8; color: #333; line-height: 1.8; }
 
-      /* ヘッダー */
-      header { background: #1a5276; color: white; padding: 0.75rem 1rem; display: flex; align-items: center; gap: 1rem; }
-      header a { color: #aed6f1; text-decoration: none; font-size: 0.9rem; white-space: nowrap; }
-      header a:hover { text-decoration: underline; }
-      .header-muni { font-size: 0.8rem; background: rgba(255,255,255,0.15); padding: 0.2rem 0.6rem; border-radius: 4px; }
+      /* ヘッダー・パンくず */
+      header { background: #1a5276; color: white; padding: 0.6rem 1rem; }
+      .breadcrumb { display: flex; align-items: center; flex-wrap: wrap; gap: 0.25rem; font-size: 0.85rem; }
+      .breadcrumb a { color: #aed6f1; text-decoration: none; }
+      .breadcrumb a:hover { text-decoration: underline; color: white; }
+      .breadcrumb .sep { color: rgba(255,255,255,0.45); margin: 0 0.1rem; }
+      .breadcrumb .current { color: rgba(255,255,255,0.75); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 240px; }
 
       .container { max-width: 800px; margin: 0 auto; padding: 1.5rem 1rem 3rem; }
 
@@ -227,8 +269,23 @@ const muniName = muniLabel[d.municipality] ?? d.municipality;
   </head>
   <body>
     <header>
-      <a href={`/subsidy/?muni=${d.municipality}`}>← 一覧に戻る</a>
-      <span class="header-muni">{muniName}</span>
+      <nav class="breadcrumb" aria-label="パンくずリスト">
+        <a href="/subsidy/">補助金まとめ</a>
+        {prefName && (
+          <>
+            <span class="sep" aria-hidden="true">›</span>
+            <a href={`/subsidy/?pref=${encodeURIComponent(prefName)}`}>{prefName}</a>
+          </>
+        )}
+        {showMuniCrumb && (
+          <>
+            <span class="sep" aria-hidden="true">›</span>
+            <a href={`/subsidy/?muni=${d.municipality}`}>{muniName}</a>
+          </>
+        )}
+        <span class="sep" aria-hidden="true">›</span>
+        <span class="current">{d.title}</span>
+      </nav>
     </header>
 
     <div class="container">
