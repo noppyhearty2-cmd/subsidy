@@ -68,6 +68,23 @@ const muniToPref: Record<string, string> = {
   higashiura: "愛知県", minamichita: "愛知県", mihama_aichi: "愛知県",
   taketoyo: "愛知県", kota: "愛知県", shitara: "愛知県", toei: "愛知県", tyone: "愛知県",
   sapporo: "北海道", fukuoka: "福岡県", kyoto: "京都府", kobe: "兵庫県",
+  saitama_pref: "埼玉県",
+  saitama: "埼玉県", kawagoe: "埼玉県", kumagaya: "埼玉県", kawaguchi: "埼玉県",
+  gyoda: "埼玉県", chichibu: "埼玉県", tokorozawa: "埼玉県", hanno: "埼玉県",
+  kazo: "埼玉県", honjo: "埼玉県", higashimatsuyama: "埼玉県", kasukabe: "埼玉県",
+  sayama: "埼玉県", hanyu: "埼玉県", konosu: "埼玉県", fukaya: "埼玉県",
+  ageo: "埼玉県", soka: "埼玉県", koshigaya: "埼玉県", warabi: "埼玉県",
+  toda: "埼玉県", iruma: "埼玉県", asaka: "埼玉県", shiki: "埼玉県",
+  wako: "埼玉県", niiza: "埼玉県", okegawa: "埼玉県", kuki: "埼玉県",
+  kitamoto: "埼玉県", yashio: "埼玉県", fujimi: "埼玉県", misato: "埼玉県",
+  hasuda: "埼玉県", sakado: "埼玉県", satte: "埼玉県", tsurugashima: "埼玉県",
+  hidaka: "埼玉県", yoshikawa: "埼玉県", fujimino: "埼玉県", shiraoka: "埼玉県",
+  ina_machi: "埼玉県", miyoshi_machi: "埼玉県", moroyama: "埼玉県", ogose: "埼玉県",
+  namegawa: "埼玉県", ranzan: "埼玉県", ogawa_s: "埼玉県", kawashima_s: "埼玉県",
+  yoshimi: "埼玉県", hatoyama: "埼玉県", tokigawa: "埼玉県", yokoze: "埼玉県",
+  minano: "埼玉県", nagatoro: "埼玉県", ogano: "埼玉県", higashichichibu: "埼玉県",
+  misato_machi: "埼玉県", kamikawa_s: "埼玉県", kamisato: "埼玉県", yorii: "埼玉県",
+  miyashiro: "埼玉県", sugito: "埼玉県", matsubushi: "埼玉県",
 };
 
 const muniLabel: Record<string, string> = {
@@ -197,6 +214,24 @@ const muniLabel: Record<string, string> = {
   fukuoka: "福岡市",
   kyoto: "京都市",
   kobe: "神戸市",
+  // 埼玉県
+  saitama_pref: "埼玉県",
+  saitama: "さいたま市", kawagoe: "川越市", kumagaya: "熊谷市", kawaguchi: "川口市",
+  gyoda: "行田市", chichibu: "秩父市", tokorozawa: "所沢市", hanno: "飯能市",
+  kazo: "加須市", honjo: "本庄市", higashimatsuyama: "東松山市", kasukabe: "春日部市",
+  sayama: "狭山市", hanyu: "羽生市", konosu: "鴻巣市", fukaya: "深谷市",
+  ageo: "上尾市", soka: "草加市", koshigaya: "越谷市", warabi: "蕨市",
+  toda: "戸田市", iruma: "入間市", asaka: "朝霞市", shiki: "志木市",
+  wako: "和光市", niiza: "新座市", okegawa: "桶川市", kuki: "久喜市",
+  kitamoto: "北本市", yashio: "八潮市", fujimi: "富士見市", misato: "三郷市",
+  hasuda: "蓮田市", sakado: "坂戸市", satte: "幸手市", tsurugashima: "鶴ヶ島市",
+  hidaka: "日高市", yoshikawa: "吉川市", fujimino: "ふじみ野市", shiraoka: "白岡市",
+  ina_machi: "伊奈町", miyoshi_machi: "三芳町", moroyama: "毛呂山町", ogose: "越生町",
+  namegawa: "滑川町", ranzan: "嵐山町", ogawa_s: "小川町", kawashima_s: "川島町",
+  yoshimi: "吉見町", hatoyama: "鳩山町", tokigawa: "ときがわ町", yokoze: "横瀬町",
+  minano: "皆野町", nagatoro: "長瀞町", ogano: "小鹿野町", higashichichibu: "東秩父村",
+  misato_machi: "美里町", kamikawa_s: "神川町", kamisato: "上里町", yorii: "寄居町",
+  miyashiro: "宮代町", sugito: "杉戸町", matsubushi: "松伏町",
 };
 const muniName = muniLabel[d.municipality] ?? d.municipality;
 const prefName = muniToPref[d.municipality] ?? null;
