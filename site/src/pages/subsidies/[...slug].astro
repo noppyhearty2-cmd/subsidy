@@ -110,6 +110,11 @@ const muniToPref: Record<string, string> = {
   inagawa: "兵庫県", taka_machi: "兵庫県", inami_hyogo: "兵庫県", harima: "兵庫県",
   ichikawa_h: "兵庫県", fukusaki: "兵庫県", kamikawa_h: "兵庫県", taishi_h: "兵庫県",
   kamigori: "兵庫県", sayo: "兵庫県", mikata_h: "兵庫県", shinonsen: "兵庫県",
+  shiga_pref: "滋賀県",
+  otsu: "滋賀県", hikone: "滋賀県", nagahama: "滋賀県", omihachiman: "滋賀県",
+  kusatsu: "滋賀県", moriyama_shiga: "滋賀県", ritto: "滋賀県", koka: "滋賀県",
+  yasu: "滋賀県", konan_shiga: "滋賀県", takashima: "滋賀県", higashiomi: "滋賀県", maibara: "滋賀県",
+  hino_shiga: "滋賀県", ryuou: "滋賀県", aisho: "滋賀県", toyosato: "滋賀県", kora: "滋賀県", taga: "滋賀県",
 };
 
 const muniLabel: Record<string, string> = {
@@ -283,6 +288,12 @@ const muniLabel: Record<string, string> = {
   inagawa: "猪名川町", taka_machi: "多可町", inami_hyogo: "稲美町", harima: "播磨町",
   ichikawa_h: "市川町", fukusaki: "福崎町", kamikawa_h: "神河町", taishi_h: "太子町",
   kamigori: "上郡町", sayo: "佐用町", mikata_h: "香美町", shinonsen: "新温泉町",
+  // 滋賀県
+  shiga_pref: "滋賀県",
+  otsu: "大津市", hikone: "彦根市", nagahama: "長浜市", omihachiman: "近江八幡市",
+  kusatsu: "草津市", moriyama_shiga: "守山市", ritto: "栗東市", koka: "甲賀市",
+  yasu: "野洲市", konan_shiga: "湖南市", takashima: "高島市", higashiomi: "東近江市", maibara: "米原市",
+  hino_shiga: "日野町", ryuou: "竜王町", aisho: "愛荘町", toyosato: "豊郷町", kora: "甲良町", taga: "多賀町",
 };
 const muniName = muniLabel[d.municipality] ?? d.municipality;
 const prefName = muniToPref[d.municipality] ?? null;
