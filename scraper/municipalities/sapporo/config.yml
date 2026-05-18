@@ -1,0 +1,14 @@
+municipality_id: sapporo
+name: 札幌市
+base_url: https://www.city.sapporo.jp
+index_urls:
+  # 企業への支援（事業者向け補助金）
+  - https://www.city.sapporo.jp/keizai/chusho/index.html
+  # 住まいに関する支援制度（住宅補助総合）
+  - https://www.city.sapporo.jp/toshi/jutaku/03reform/index.html
+  # 住宅エコリフォーム補助制度
+  - https://www.city.sapporo.jp/toshi/jutaku/03reform/eco/eco.html
+  # 助成・手当（子育て・住宅含む総合）
+  - https://www.city.sapporo.jp/index/josei/index.html
+
+rate_limit_seconds: 2.0

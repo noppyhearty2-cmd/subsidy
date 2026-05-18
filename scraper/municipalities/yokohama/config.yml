@@ -1,0 +1,14 @@
+municipality_id: yokohama
+name: 横浜市
+base_url: https://www.city.yokohama.lg.jp
+index_urls:
+  # 事業者向け経営支援・補助金
+  - https://www.city.yokohama.lg.jp/business/kigyoshien/keieishien/
+  # 住宅に関する補助制度
+  - https://www.city.yokohama.lg.jp/kurashi/sumai-kurashi/jutaku/hojo/index.html
+  # 住宅に関する各種支援制度
+  - https://www.city.yokohama.lg.jp/kurashi/sumai-kurashi/jutaku/sien/index.html
+  # 省エネ住宅補助
+  - https://www.city.yokohama.lg.jp/kurashi/sumai-kurashi/jutaku/sien/shoene/index.html
+
+rate_limit_seconds: 2.0

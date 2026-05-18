@@ -1,0 +1,14 @@
+municipality_id: nagoya
+name: 名古屋市
+base_url: https://www.city.nagoya.jp
+index_urls:
+  # 事業者向け支援策総合
+  - https://www.city.nagoya.jp/jigyou/sangyou/1026356/index.html
+  # 経営力向上のための支援策
+  - https://www.city.nagoya.jp/jigyou/sangyou/1026356/1035079/index.html
+  # 設備投資支援策
+  - https://www.city.nagoya.jp/jigyou/sangyou/1026356/1026468/index.html
+  # 住宅に関する補助・助成制度一覧
+  - https://www.city.nagoya.jp/kurashi/juutaku/1014710/index.html
+
+rate_limit_seconds: 2.0

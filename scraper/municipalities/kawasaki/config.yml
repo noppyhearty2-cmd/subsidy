@@ -1,0 +1,12 @@
+municipality_id: kawasaki
+name: 川崎市
+base_url: https://www.city.kawasaki.jp
+index_urls:
+  # 中小企業支援・補助金一覧
+  - https://www.city.kawasaki.jp/jigyou/category/77-25-0-0-0-0-0-0-0-0.html
+  # 助成制度について（事業者向け）
+  - https://www.city.kawasaki.jp/280/page/0000138261.html
+  # 子どもの相談・手当・助成
+  - https://www.city.kawasaki.jp/kodomo/category/270-0-0-0-0-0-0-0-0-0.html
+
+rate_limit_seconds: 2.0

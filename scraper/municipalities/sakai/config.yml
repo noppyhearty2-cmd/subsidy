@@ -1,0 +1,17 @@
+municipality_id: sakai
+name: 堺市
+base_url: https://www.city.sakai.lg.jp
+index_urls:
+  - https://www.city.sakai.lg.jp/sangyo/shienyuushi/chusho/proddev/index.html
+  - https://www.city.sakai.lg.jp/sangyo/shienyuushi/chusho/prodev/index.html
+  - https://www.city.sakai.lg.jp/sangyo/shienyuushi/dx_shien/index.html
+  - https://www.city.sakai.lg.jp/sangyo/shienyuushi/kigyoricchi/gyomu/index.html
+  - https://www.city.sakai.lg.jp/kurashi/gomi/ondanka/shoene/jigyou_shoene_hojo/index.html
+  - https://www.city.sakai.lg.jp/kurashi/jutaku/jutaku/otoku/index.html
+selectors:
+  subsidy_link: "a[href$='.html']"
+  title: "h1"
+  body: "#main"
+rate_limit_seconds: 1.5
+pdf_max_bytes: 10485760
+subsidy_keywords: [助成, 補助, 給付, 手当, 無償, 支援金, 奨励金, 融資, 創業, 中小企業, リフォーム, 省エネ, 耐震, 免除, 割引, 軽減, DX, デジタル, スマート, ZEH, 太陽光, チャレンジ, リスキリング]

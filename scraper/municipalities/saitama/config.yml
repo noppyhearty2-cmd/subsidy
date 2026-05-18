@@ -1,0 +1,14 @@
+municipality_id: saitama
+name: さいたま市
+base_url: https://www.city.saitama.lg.jp
+index_urls:
+  # 環境・産業・企業立地（事業者向け）
+  - https://www.city.saitama.lg.jp/005/002/index.html
+  # 省エネ・断熱住宅普及促進補助金
+  - https://www.city.saitama.lg.jp/001/009/015/010/002/p119491.html
+  # 創エネ・蓄エネ設備導入補助金
+  - https://www.city.saitama.lg.jp/001/009/015/011/002/p097431.html
+  # 手当・助成金（子育て支援）
+  - https://www.city.saitama.lg.jp/003/001/004/index.html
+
+rate_limit_seconds: 2.0

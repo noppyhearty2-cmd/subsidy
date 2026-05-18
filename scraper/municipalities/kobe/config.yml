@@ -1,0 +1,10 @@
+municipality_id: kobe
+name: 神戸市
+base_url: https://www.city.kobe.lg.jp
+index_urls:
+  # 産業振興・事業者向け補助金
+  - https://www.city.kobe.lg.jp/business/sangyoshinko/index.html
+  # 住宅支援・補助金一覧
+  - https://www.city.kobe.lg.jp/a01110/hojokin.html
+
+rate_limit_seconds: 2.0

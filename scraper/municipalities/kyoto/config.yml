@@ -1,0 +1,14 @@
+municipality_id: kyoto
+name: 京都市
+base_url: https://www.city.kyoto.lg.jp
+index_urls:
+  # 事業者向け支援制度一覧
+  - https://www.city.kyoto.lg.jp/sankan/page/0000268990.html
+  # 中小企業経営支援
+  - https://www.city.kyoto.lg.jp/menu2/category/28-2-0-0-0-0-0-0-0-0.html
+  # 住宅に関する相談・補助制度
+  - https://www.city.kyoto.lg.jp/menu1/category/12-5-1-0-0-0-0-0-0-0.html
+  # 中古住宅・リフォーム等補助制度
+  - https://www.city.kyoto.lg.jp/tokei/page/0000306452.html
+
+rate_limit_seconds: 2.0
