@@ -10,3 +10,7 @@ index_urls:
   - https://www.city.kawasaki.jp/kodomo/category/270-0-0-0-0-0-0-0-0-0.html
 
 rate_limit_seconds: 2.0
+
+# 川崎市サイトは #HONBUN が空アンカーのため article を優先
+selectors:
+  body: "article, main, #main, #container, .main-col"

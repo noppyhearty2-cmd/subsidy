@@ -12,3 +12,7 @@ index_urls:
   - https://www.city.kyoto.lg.jp/tokei/page/0000306452.html
 
 rate_limit_seconds: 2.0
+
+# 京都市サイトは #HONBUN が空アンカーのため #main_naka を使用
+selectors:
+  body: "#main_naka, main, #main, #container, article"
