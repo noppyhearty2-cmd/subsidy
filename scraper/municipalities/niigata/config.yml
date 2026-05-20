@@ -1,0 +1,12 @@
+municipality_id: niigata
+name: 新潟市
+base_url: https://www.city.niigata.lg.jp
+index_urls:
+  # 中小企業・創業支援
+  - https://www.city.niigata.lg.jp/business/chusho/
+  # 住まいの補助金
+  - https://www.city.niigata.lg.jp/kurashi/sumai/
+  # 環境・省エネ補助
+  - https://www.city.niigata.lg.jp/kurashi/kankyo/
+
+rate_limit_seconds: 2.0

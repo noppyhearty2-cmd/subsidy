@@ -1,0 +1,12 @@
+municipality_id: sendai
+name: 仙台市
+base_url: https://www.city.sendai.jp
+index_urls:
+  # 事業者向け支援・補助金
+  - https://www.city.sendai.jp/keizai/business/shien/
+  # 住まいの補助金
+  - https://www.city.sendai.jp/toshi/jutaku/
+  # 環境・省エネ支援
+  - https://www.city.sendai.jp/kankyo/
+
+rate_limit_seconds: 2.0

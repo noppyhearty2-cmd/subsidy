@@ -1,0 +1,12 @@
+municipality_id: kumamoto
+name: 熊本市
+base_url: https://www.city.kumamoto.jp
+index_urls:
+  # 事業者向け補助・支援
+  - https://www.city.kumamoto.jp/hpKiji/pub/list.aspx?c_id=5&class_set_id=4&class_id=2
+  # 住まいの補助金
+  - https://www.city.kumamoto.jp/hpKiji/pub/list.aspx?c_id=5&class_set_id=4&class_id=16
+  # 環境・省エネ支援
+  - https://www.city.kumamoto.jp/hpKiji/pub/list.aspx?c_id=5&class_set_id=4&class_id=11
+
+rate_limit_seconds: 2.0

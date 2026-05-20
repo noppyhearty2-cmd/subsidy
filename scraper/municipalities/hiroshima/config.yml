@@ -1,0 +1,12 @@
+municipality_id: hiroshima
+name: 広島市
+base_url: https://www.city.hiroshima.lg.jp
+index_urls:
+  # 中小企業支援・補助金
+  - https://www.city.hiroshima.lg.jp/site/business/
+  # 住まいの補助・耐震改修
+  - https://www.city.hiroshima.lg.jp/site/jutaku/
+  # 環境・再エネ支援
+  - https://www.city.hiroshima.lg.jp/site/kankyo/
+
+rate_limit_seconds: 2.0
