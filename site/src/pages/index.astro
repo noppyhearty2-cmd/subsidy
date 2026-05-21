@@ -352,7 +352,22 @@ function getAudience(tags: string[]): string {
   const hasI = tags.some((t) => individualTags.has(t));
   if (hasB && !hasI) return "事業者";
   if (!hasB && hasI) return "個人";
-  return "both"; // 両方含む or どちらも含まない → 両方に表示
+  return "both";
+}
+
+// 締切緊急度（7日以内 → "urgent"、14日以内 → "soon"）
+function getUrgency(deadline: string | undefined): string {
+  if (!deadline || deadline === "随時") return "";
+  const msLeft = new Date(deadline).getTime() - Date.now();
+  const days = Math.ceil(msLeft / 86400000);
+  if (days >= 0 && days <= 7)  return "urgent";
+  if (days > 7  && days <= 14) return "soon";
+  return "";
+}
+
+// 検索用テキスト（タイトル＋タグ＋自治体名）
+function getSearchText(title: string, tags: string[], muni: string): string {
+  return [title, ...tags, muniLabel[muni] ?? muni].join(" ");
 }
 
 function muniTypeOrder(id: string): number {
@@ -458,6 +473,63 @@ const prefectures = [...new Set(municipalities.map((m) => muniToPref[m] ?? "そ�
       .cat-btn:hover { border-color: #1a5276; color: #1a5276; background: #f0f6ff; }
       .cat-btn.active { background: #1a5276; color: white; border-color: #1a5276; }
 
+      /* 検索バー */
+      .search-bar {
+        background: white;
+        border-radius: 8px;
+        padding: 1rem;
+        margin: 0.75rem 0;
+        box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+      }
+      .search-bar h2 {
+        font-size: 0.78rem;
+        font-weight: 600;
+        color: #999;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        margin-bottom: 0.6rem;
+      }
+      .search-input-wrap {
+        position: relative;
+      }
+      .search-input-wrap svg {
+        position: absolute;
+        left: 0.75rem;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #999;
+        pointer-events: none;
+      }
+      #search-input {
+        width: 100%;
+        padding: 0.55rem 0.75rem 0.55rem 2.25rem;
+        border: 1.5px solid #ccc;
+        border-radius: 6px;
+        font-size: 0.92rem;
+        outline: none;
+        transition: border-color 0.15s;
+      }
+      #search-input:focus { border-color: #1a5276; }
+      #search-clear {
+        display: none;
+        position: absolute;
+        right: 0.6rem;
+        top: 50%;
+        transform: translateY(-50%);
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: 1.1rem;
+        color: #999;
+        line-height: 1;
+        padding: 0 0.2rem;
+      }
+      #search-clear:hover { color: #333; }
+
+      /* 締切バッジ */
+      .badge-urgent  { background: #fde8e8; color: #c0392b; font-weight: 700; }
+      .badge-soon    { background: #fef3e2; color: #d35400; font-weight: 700; }
+
       .count { color: #666; font-size: 0.85rem; margin: 0.25rem 0 0.75rem; }
       .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem; }
       .card {
@@ -482,6 +554,18 @@ const prefectures = [...new Set(municipalities.map((m) => muniToPref[m] ?? "そ�
     </header>
 
     <div class="container">
+
+      <!-- 🔍 フリーワード検索 -->
+      <div class="search-bar">
+        <h2>キーワード検索</h2>
+        <div class="search-input-wrap">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+          </svg>
+          <input id="search-input" type="search" placeholder="補助金名・タグ・自治体名で検索…" autocomplete="off" />
+          <button id="search-clear" aria-label="クリア">×</button>
+        </div>
+      </div>
 
       <!-- ① 大カテゴリフィルター -->
       <div class="filter-bar">
@@ -544,13 +628,21 @@ const prefectures = [...new Set(municipalities.map((m) => muniToPref[m] ?? "そ�
             data-tags={s.data.tags.join(",")}
             data-cats={getCategories(s.data.tags).join(",")}
             data-audience={getAudience(s.data.tags)}
+            data-text={getSearchText(s.data.title, s.data.tags, s.data.municipality)}
+            data-urgency={getUrgency(s.data.deadline)}
           >
             <h3>
               <a href={`/subsidy/subsidies/${s.slug}`}>{s.data.title}</a>
             </h3>
             <div class="meta">
               {s.data.amount && <span class="amount">💴 {s.data.amount}</span>}
-              {s.data.deadline && s.data.deadline !== "随時" && (
+              {s.data.deadline && s.data.deadline !== "随時" && getUrgency(s.data.deadline) === "urgent" && (
+                <span class="badge badge-urgent">🔥 {s.data.deadline}まで</span>
+              )}
+              {s.data.deadline && s.data.deadline !== "随時" && getUrgency(s.data.deadline) === "soon" && (
+                <span class="badge badge-soon">⚡ {s.data.deadline}まで</span>
+              )}
+              {s.data.deadline && s.data.deadline !== "随時" && getUrgency(s.data.deadline) === "" && (
                 <span class="deadline">⏰ {s.data.deadline}まで</span>
               )}
               {s.data.deadline === "随時" && <span>随時受付</span>}
@@ -574,11 +666,15 @@ const prefectures = [...new Set(municipalities.map((m) => muniToPref[m] ?? "そ�
       const muniFilterBtns     = document.querySelectorAll<HTMLButtonElement>("#muni-filters [data-muni]");
       const cards              = document.querySelectorAll<HTMLElement>(".card");
       const countEl            = document.getElementById("count")!;
+      const searchInput        = document.getElementById("search-input") as HTMLInputElement;
+      const searchClear        = document.getElementById("search-clear") as HTMLButtonElement;
+      const cardGrid           = document.getElementById("card-grid")!;
 
       let activeCat      = "all";
       let activeAudience = "all";
       let activePref     = "all";
       let activeMuni     = "all";
+      let activeQuery    = "";
 
       // ── 自治体バーの表示切り替え ───────────────────────────
       function updateMuniBar() {
@@ -604,20 +700,37 @@ const prefectures = [...new Set(municipalities.map((m) => muniToPref[m] ?? "そ�
       // ── カード表示の更新 ──────────────────────────────────
       function updateDisplay() {
         let visible = 0;
+        const terms = activeQuery.trim().split(/\s+/).filter(Boolean);
+        const visibleCards: HTMLElement[] = [];
+
         cards.forEach((card) => {
-          const pref = card.dataset.pref!;
-          const muni = card.dataset.muni!;
-          const cats = (card.dataset.cats || "").split(",");
+          const pref     = card.dataset.pref!;
+          const muni     = card.dataset.muni!;
+          const cats     = (card.dataset.cats || "").split(",");
           const audience = card.dataset.audience!;
-          const catOk  = activeCat      === "all" || cats.includes(activeCat);
-          const audOk  = activeAudience === "all" || audience === "both" || audience === activeAudience;
-          const prefOk = activePref     === "all" || pref === activePref;
-          const muniOk = activeMuni     === "all" || muni === activeMuni;
-          const show   = catOk && audOk && prefOk && muniOk;
+          const text     = card.dataset.text || "";
+          const catOk   = activeCat      === "all" || cats.includes(activeCat);
+          const audOk   = activeAudience === "all" || audience === "both" || audience === activeAudience;
+          const prefOk  = activePref     === "all" || pref === activePref;
+          const muniOk  = activeMuni     === "all" || muni === activeMuni;
+          const queryOk = terms.length === 0 || terms.every((t) => text.includes(t));
+          const show    = catOk && audOk && prefOk && muniOk && queryOk;
           card.style.display = show ? "" : "none";
-          if (show) visible++;
+          if (show) { visible++; visibleCards.push(card); }
         });
         countEl.textContent = `${visible} 件`;
+
+        // キーワード検索時のみ：マッチ度でソート（タイトルヒットを上に）
+        if (terms.length > 0 && visibleCards.length > 0) {
+          visibleCards.sort((a, b) => {
+            const aTitle = (a.querySelector("h3")?.textContent || "").toLowerCase();
+            const bTitle = (b.querySelector("h3")?.textContent || "").toLowerCase();
+            const aScore = terms.filter((t) => aTitle.includes(t)).length;
+            const bScore = terms.filter((t) => bTitle.includes(t)).length;
+            return bScore - aScore;
+          });
+          visibleCards.forEach((c) => cardGrid.appendChild(c));
+        }
 
         // ── ページタイトル動的更新 ────────────────────────────
         const BASE_TITLE = "補助金・助成金まとめ【2026年最新】";
@@ -632,6 +745,24 @@ const prefectures = [...new Set(municipalities.map((m) => muniToPref[m] ?? "そ�
           document.title = `${BASE_TITLE}｜${SUFFIX}`;
         }
       }
+
+      // ── キーワード検索 ────────────────────────────────────
+      let searchTimer: ReturnType<typeof setTimeout>;
+      searchInput.addEventListener("input", () => {
+        clearTimeout(searchTimer);
+        searchTimer = setTimeout(() => {
+          activeQuery = searchInput.value.toLowerCase();
+          searchClear.style.display = activeQuery ? "block" : "none";
+          updateDisplay();
+        }, 200);
+      });
+      searchClear.addEventListener("click", () => {
+        searchInput.value = "";
+        activeQuery = "";
+        searchClear.style.display = "none";
+        updateDisplay();
+        searchInput.focus();
+      });
 
       // ── カテゴリボタンのクリック ──────────────────────────
       catFilterBtns.forEach((btn) => {
