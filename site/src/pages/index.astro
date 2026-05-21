@@ -355,16 +355,6 @@ function getAudience(tags: string[]): string {
   return "both";
 }
 
-// 締切緊急度（7日以内 → "urgent"、14日以内 → "soon"）
-function getUrgency(deadline: string | undefined): string {
-  if (!deadline || deadline === "随時") return "";
-  const msLeft = new Date(deadline).getTime() - Date.now();
-  const days = Math.ceil(msLeft / 86400000);
-  if (days >= 0 && days <= 7)  return "urgent";
-  if (days > 7  && days <= 14) return "soon";
-  return "";
-}
-
 // 検索用テキスト（タイトル＋タグ＋自治体名）
 function getSearchText(title: string, tags: string[], muni: string): string {
   return [title, ...tags, muniLabel[muni] ?? muni].join(" ");
@@ -526,10 +516,6 @@ const prefectures = [...new Set(municipalities.map((m) => muniToPref[m] ?? "そ�
       }
       #search-clear:hover { color: #333; }
 
-      /* 締切バッジ */
-      .badge-urgent  { background: #fde8e8; color: #c0392b; font-weight: 700; }
-      .badge-soon    { background: #fef3e2; color: #d35400; font-weight: 700; }
-
       .count { color: #666; font-size: 0.85rem; margin: 0.25rem 0 0.75rem; }
       .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem; }
       .card {
@@ -629,20 +615,13 @@ const prefectures = [...new Set(municipalities.map((m) => muniToPref[m] ?? "そ�
             data-cats={getCategories(s.data.tags).join(",")}
             data-audience={getAudience(s.data.tags)}
             data-text={getSearchText(s.data.title, s.data.tags, s.data.municipality)}
-            data-urgency={getUrgency(s.data.deadline)}
           >
             <h3>
               <a href={`/subsidy/subsidies/${s.slug}`}>{s.data.title}</a>
             </h3>
             <div class="meta">
               {s.data.amount && <span class="amount">💴 {s.data.amount}</span>}
-              {s.data.deadline && s.data.deadline !== "随時" && getUrgency(s.data.deadline) === "urgent" && (
-                <span class="badge badge-urgent">🔥 {s.data.deadline}まで</span>
-              )}
-              {s.data.deadline && s.data.deadline !== "随時" && getUrgency(s.data.deadline) === "soon" && (
-                <span class="badge badge-soon">⚡ {s.data.deadline}まで</span>
-              )}
-              {s.data.deadline && s.data.deadline !== "随時" && getUrgency(s.data.deadline) === "" && (
+              {s.data.deadline && s.data.deadline !== "随時" && (
                 <span class="deadline">⏰ {s.data.deadline}まで</span>
               )}
               {s.data.deadline === "随時" && <span>随時受付</span>}
