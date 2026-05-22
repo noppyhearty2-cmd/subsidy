@@ -2,11 +2,9 @@ municipality_id: shizuoka
 name: 静岡市
 base_url: https://www.city.shizuoka.lg.jp
 index_urls:
-  # 産業振興・中小企業支援
-  - https://www.city.shizuoka.lg.jp/deps/keizai/
-  # 住まいの補助・耐震改修
-  - https://www.city.shizuoka.lg.jp/deps/toshi/taishin/
-  # 環境・省エネ補助
-  - https://www.city.shizuoka.lg.jp/deps/kankyo/
+  # 事業者向け情報
+  - https://www.city.shizuoka.lg.jp/p000345.html
+  # しごと・産業
+  - https://www.city.shizuoka.lg.jp/p009299.html
 
 rate_limit_seconds: 2.0

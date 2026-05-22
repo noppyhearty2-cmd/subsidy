@@ -2,11 +2,9 @@ municipality_id: kitakyushu
 name: 北九州市
 base_url: https://www.city.kitakyushu.lg.jp
 index_urls:
-  # 産業・ものづくり支援
-  - https://www.city.kitakyushu.lg.jp/san-kei/
-  # 住まいの補助・耐震改修
-  - https://www.city.kitakyushu.lg.jp/ken-to/
-  # 環境・省エネ補助
-  - https://www.city.kitakyushu.lg.jp/kankyou/
+  # 産業・ビジネス支援トップ
+  - https://www.city.kitakyushu.lg.jp/business/index.html
+  # 商業・工業振興
+  - https://www.city.kitakyushu.lg.jp/business/menu003_00010.html
 
 rate_limit_seconds: 2.0

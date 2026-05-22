@@ -2,13 +2,7 @@ municipality_id: fukuoka
 name: 福岡市
 base_url: https://www.city.fukuoka.lg.jp
 index_urls:
-  # 中小企業・創業支援
-  - https://www.city.fukuoka.lg.jp/keizai/r-support/
-  # 住まいの補助・耐震改修
-  - https://www.city.fukuoka.lg.jp/jutaku-toshi/
-  # 環境・省エネ補助
+  # 環境・省エネ補助（keizai系は403のためkankyo経由）
   - https://www.city.fukuoka.lg.jp/kankyo/
-  # スタートアップ支援
-  - https://www.city.fukuoka.lg.jp/keizai/startup/
 
-rate_limit_seconds: 2.0
+rate_limit_seconds: 2.5
