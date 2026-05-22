@@ -36,11 +36,29 @@ DEFAULT_KEYWORDS: list[str] = [
     "移住", "子育て", "医療費", "障害",
 ]
 
+# URLパスに含まれていたら除外するキーワード（自治体サイトの補助金以外のセクション）
+DEFAULT_URL_EXCLUDE: list[str] = [
+    "saiyou", "recruit",           # 採用
+    "gikai", "gikaisho",           # 議会
+    "soshiki",                     # 組織紹介
+    "koho",                        # 広報
+    "sitemap", "site_map",         # サイトマップ
+    "privacy", "accessibility",    # ポリシー
+    "login", "mypage",             # ログイン
+    "pdf_dl", "download",          # 汎用ダウンロード（補助金PDFは別途処理）
+    "photo", "gallery",            # 写真
+    "event_cal", "calendar",       # カレンダー
+]
+
 DEFAULT_CONFIG: dict = {
     "rate_limit_seconds": 1.5,
     "pdf_max_bytes": 10_485_760,
     "selectors": DEFAULT_SELECTORS,
     "subsidy_keywords": DEFAULT_KEYWORDS,
+    # インデックスページ1件あたりの最大収集URL数（None=無制限）
+    "max_pages_per_index": 50,
+    # URLパスに含まれる場合にスキップするキーワード
+    "url_exclude_keywords": DEFAULT_URL_EXCLUDE,
 }
 
 
@@ -57,6 +75,8 @@ class BaseScraper(ABC):
         merged["selectors"] = {**DEFAULT_SELECTORS, **raw.get("selectors", {})}
         if "subsidy_keywords" not in raw:
             merged["subsidy_keywords"] = DEFAULT_KEYWORDS
+        if "url_exclude_keywords" not in raw:
+            merged["url_exclude_keywords"] = DEFAULT_URL_EXCLUDE
         return merged
 
     @abstractmethod

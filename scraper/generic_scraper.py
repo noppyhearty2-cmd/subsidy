@@ -46,6 +46,9 @@ class GenericScraper(BaseScraper):
         rate = cfg["rate_limit_seconds"]
         selector = cfg["selectors"]["subsidy_link"]
         base_url = cfg["base_url"]
+        max_pages = cfg.get("max_pages_per_index")  # None = 無制限
+        exclude_kws = [kw.lower() for kw in cfg.get("url_exclude_keywords", [])]
+        count = 0
 
         try:
             resp = http_client.get(index_url, rate_limit=rate)
@@ -55,14 +58,24 @@ class GenericScraper(BaseScraper):
 
         links = html_parser.extract_links(resp.content, index_url, selector)
         for link in links:
+            # 上限チェック
+            if max_pages is not None and count >= max_pages:
+                logger.info("max_pages_per_index(%d)に達したため収集停止 index=%s", max_pages, index_url)
+                break
             # 同一ドメイン以外は除外
             if not link.startswith(base_url):
                 continue
             # PDF は直接フェッチへ（ここではスキップ）
             if urlparse(link).path.lower().endswith(".pdf"):
                 continue
+            # URLパス事前フィルタ（不要セクションを除外）
+            link_path = urlparse(link).path.lower()
+            if any(kw in link_path for kw in exclude_kws):
+                logger.debug("URLパスフィルタでスキップ url=%s", link)
+                continue
             if link not in seen:
                 seen.add(link)
+                count += 1
                 yield link
 
     # ─── コンテンツ取得 ─────────────────────────────────────
