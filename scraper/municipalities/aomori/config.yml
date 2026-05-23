@@ -1,0 +1,18 @@
+municipality_id: aomori
+name: 青森市
+base_url: https://www.city.aomori.aomori.jp
+index_urls:
+  # 中小企業向け助成制度
+  - https://www.city.aomori.aomori.jp/sangyo_koyou/shoukougyou/1004169/1004170/index.html
+  # 中小企業向け融資制度
+  - https://www.city.aomori.aomori.jp/sangyo_koyou/shoukougyou/1004169/1004177/index.html
+  # Uターン人材インターンシップ受入促進補助金
+  - https://www.city.aomori.aomori.jp/sangyo_koyou/koyou_roudou/1004395.html
+  # 商店街空き店舗等リノベーション支援
+  - https://www.city.aomori.aomori.jp/sangyo_koyou/shoutengai/1004404.html
+
+selectors:
+  # 青森市サイトのコンテンツ構造: <article id="content"> または <div id="pagebody">
+  body: "article#content, #pagebody, main, article"
+
+rate_limit_seconds: 2.0

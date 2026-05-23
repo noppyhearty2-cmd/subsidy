@@ -1,0 +1,10 @@
+municipality_id: nagasaki
+name: 長崎市
+base_url: https://www.city.nagasaki.lg.jp
+index_urls:
+  # 企業支援・企業立地・新産業創出
+  - https://www.city.nagasaki.lg.jp/life/5/42/
+  # 商業・貿易・販路拡大
+  - https://www.city.nagasaki.lg.jp/life/5/41/
+
+rate_limit_seconds: 2.0

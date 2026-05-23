@@ -1,0 +1,16 @@
+municipality_id: akita
+name: 秋田市
+base_url: https://www.city.akita.lg.jp
+index_urls:
+  # 金融サポート（融資・補助金）
+  - https://www.city.akita.lg.jp/jigyosha/kinyu-support/index.html
+  # 経営・創業サポート
+  - https://www.city.akita.lg.jp/jigyosha/keieisogyo-support/index.html
+  # 商店街の支援
+  - https://www.city.akita.lg.jp/jigyosha/shotengai-support/index.html
+
+rate_limit_seconds: 2.0
+
+# 秋田市サイトはaomoriと同じCMS（#HONBUN問題）のためカスタムセレクタを指定
+selectors:
+  body: "article, main, #pagebody, #contents"

@@ -13,6 +13,9 @@ def clean_text(html: str | bytes, main_selector: str = "") -> str:
 
     if main_selector:
         node = soup.select_one(main_selector)
+        # セレクタがマッチしても内容が空に近い場合（スキップリンク等）はbodyにフォールバック
+        if node and len(node.get_text(strip=True)) < 20:
+            node = None
         target = node if node else soup.body or soup
     else:
         target = soup.body or soup

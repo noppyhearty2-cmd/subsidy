@@ -1,0 +1,12 @@
+municipality_id: utsunomiya
+name: 宇都宮市
+base_url: https://www.city.utsunomiya.lg.jp
+index_urls:
+  # 産業振興（補助金・支援制度）
+  - https://www.city.utsunomiya.lg.jp/sangyo/sangyo/index.html
+  # 企業立地・起業支援
+  - https://www.city.utsunomiya.lg.jp/sangyo/kigyo/index.html
+  # 事業者向け支援メニュー
+  - https://www.city.utsunomiya.lg.jp/sangyo/koyo/1031594/index.html
+
+rate_limit_seconds: 2.0
