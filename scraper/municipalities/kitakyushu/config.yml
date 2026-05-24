@@ -2,9 +2,15 @@ municipality_id: kitakyushu
 name: 北九州市
 base_url: https://www.city.kitakyushu.lg.jp
 index_urls:
-  # 産業・ビジネス支援トップ
-  - https://www.city.kitakyushu.lg.jp/business/index.html
-  # 商業・工業振興
-  - https://www.city.kitakyushu.lg.jp/business/menu003_00010.html
+  # 中小企業融資制度
+  - https://www.city.kitakyushu.lg.jp/contents/10700176.html
+  # 支援・補助制度一覧
+  - https://www.city.kitakyushu.lg.jp/business/menu03_0182.html
+  # 職場環境整備助成金
+  - https://www.city.kitakyushu.lg.jp/contents/10700001.html
+  # 人材確保支援助成金
+  - https://www.city.kitakyushu.lg.jp/contents/10700170.html
 
 rate_limit_seconds: 2.0
+selectors:
+  body: "article, main, .content-area, #page-content, #contents"

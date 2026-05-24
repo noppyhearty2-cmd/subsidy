@@ -2,9 +2,13 @@ municipality_id: kumamoto
 name: 熊本市
 base_url: https://www.city.kumamoto.jp
 index_urls:
-  # 補助金・助成金一覧
+  # 中小企業融資制度
+  - https://www.city.kumamoto.jp/kiji003485/
+  # 事業者向け支援制度一覧
+  - https://www.city.kumamoto.jp/kiji00332891/index.html
+  # 金融支援カテゴリ
+  - https://www.city.kumamoto.jp/list04406.html
+  # 補助・助成カテゴリ
   - https://www.city.kumamoto.jp/list01102.html
-  # 産業・ビジネス支援
-  - https://www.city.kumamoto.jp/list04010.html
 
 rate_limit_seconds: 2.0

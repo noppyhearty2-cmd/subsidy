@@ -2,9 +2,13 @@ municipality_id: hiroshima
 name: 広島市
 base_url: https://www.city.hiroshima.lg.jp
 index_urls:
-  # 中小企業支援・補助金
+  # 中小企業融資制度一覧
+  - https://www.city.hiroshima.lg.jp/business/sangyo/1021490/1005979/1003328.html
+  # 中小企業支援（補助金・助成金リスト）
   - https://www.city.hiroshima.lg.jp/business/sangyo/1021490/index.html
-  # 産業振興
-  - https://www.city.hiroshima.lg.jp/business/sangyo/index.html
+  # 創業支援
+  - https://www.city.hiroshima.lg.jp/business/sangyo/1021490/1024252/index.html
 
 rate_limit_seconds: 2.0
+selectors:
+  body: "article, main, #page-content, #contents, #HONBUN"

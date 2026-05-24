@@ -2,11 +2,15 @@ municipality_id: hamamatsu
 name: 浜松市
 base_url: https://www.city.hamamatsu.shizuoka.jp
 index_urls:
-  # 産業振興
-  - https://www.city.hamamatsu.shizuoka.jp/sangyo/shinko/index.html
-  # 創業・スタートアップ支援
-  - https://www.city.hamamatsu.shizuoka.jp/sangyo/startup/index.html
-  # エネルギー・環境支援
-  - https://www.city.hamamatsu.shizuoka.jp/sangyo/energy/index.html
+  # 中小企業向け融資制度
+  - https://www.city.hamamatsu.shizuoka.jp/sangyosomu/sangyosomu/29yuushi.html
+  # 補助金一覧
+  - https://www.city.hamamatsu.shizuoka.jp/sangyoshinko/hojokin.html
+  # 企業支援（補助金・サポート）
+  - https://www.city.hamamatsu.shizuoka.jp/shinko/shien/support.html
+  # 創業支援
+  - https://www.city.hamamatsu.shizuoka.jp/shinko/shien/founding.html
 
 rate_limit_seconds: 2.0
+selectors:
+  body: "article, main, #main-content, #content, .page-body"

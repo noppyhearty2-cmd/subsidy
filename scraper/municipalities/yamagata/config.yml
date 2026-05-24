@@ -1,0 +1,14 @@
+municipality_id: yamagata
+name: 山形市
+base_url: https://www.city.yamagata-yamagata.lg.jp
+index_urls:
+  # 企業支援（融資・補助金）
+  - https://www.city.yamagata-yamagata.lg.jp/jigyosya/kighoshien/1006774/index.html
+  # 中小企業融資制度一覧
+  - https://www.city.yamagata-yamagata.lg.jp/jigyosya/kighoshien/1006774/1003663.html
+  # 創業支援
+  - https://www.city.yamagata-yamagata.lg.jp/jigyosya/kighoshien/1006774/1003660.html
+
+rate_limit_seconds: 2.0
+selectors:
+  body: "article, main, #page-content, #contents, .main-content"
