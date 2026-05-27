@@ -48,6 +48,9 @@ DEFAULT_URL_EXCLUDE: list[str] = [
     "pdf_dl", "download",          # 汎用ダウンロード（補助金PDFは別途処理）
     "photo", "gallery",            # 写真
     "event_cal", "calendar",       # カレンダー
+    ".docx", ".xlsx", ".pptx",     # Officeファイル（本文抽出不可）
+    ".zip", ".lzh",                # 圧縮ファイル
+    ".mp4", ".mp3", ".avi",        # メディアファイル
 ]
 
 DEFAULT_CONFIG: dict = {
