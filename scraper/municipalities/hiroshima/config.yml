@@ -8,6 +8,14 @@ index_urls:
   - https://www.city.hiroshima.lg.jp/business/sangyo/1021490/index.html
   # 創業支援
   - https://www.city.hiroshima.lg.jp/business/sangyo/1021490/1024252/index.html
+  # 住宅支援・補助金（耐震・省エネ・リフォーム）
+  - https://www.city.hiroshima.lg.jp/www/genre/1000000000000/1000000000237/index.html
+  # 省エネ・再エネ設備補助
+  - https://www.city.hiroshima.lg.jp/site/eco/
+  # 子育て支援・手当・助成
+  - https://www.city.hiroshima.lg.jp/site/kosodate/
+  # 住まいに関する支援（住替え・空き家）
+  - https://www.city.hiroshima.lg.jp/www/genre/1000000000000/1000000000289/index.html
 
 rate_limit_seconds: 2.0
 selectors:

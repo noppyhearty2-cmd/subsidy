@@ -6,5 +6,13 @@ index_urls:
   - https://www.city.nagasaki.lg.jp/life/5/42/
   # 商業・貿易・販路拡大
   - https://www.city.nagasaki.lg.jp/life/5/41/
+  # 住まい・まちづくり補助（住宅補助総合）
+  - https://www.city.nagasaki.lg.jp/life/3/
+  # 環境・省エネ（太陽光・蓄電池補助）
+  - https://www.city.nagasaki.lg.jp/life/6/52/
+  # 子育て支援・手当・助成
+  - https://www.city.nagasaki.lg.jp/life/2/
+  # 移住・定住支援
+  - https://www.city.nagasaki.lg.jp/life/5/44/
 
 rate_limit_seconds: 2.0

@@ -2,7 +2,19 @@ municipality_id: fukuoka
 name: 福岡市
 base_url: https://www.city.fukuoka.lg.jp
 index_urls:
-  # 環境・省エネ補助（keizai系は403のためkankyo経由）
+  # 環境・省エネ補助（太陽光・蓄電池等）
   - https://www.city.fukuoka.lg.jp/kankyo/
+  # 住宅・まちづくり補助制度
+  - https://www.city.fukuoka.lg.jp/jutaku-toshi/
+  # 子育て支援・手当・助成
+  - https://www.city.fukuoka.lg.jp/kodomo/
+  # 中小企業支援・融資・補助金
+  - https://www.city.fukuoka.lg.jp/keizai/
+  # 建築・住宅安全（耐震）
+  - https://www.city.fukuoka.lg.jp/jutaku-toshi/kenchiku/taishin/
 
 rate_limit_seconds: 2.5
+
+# 福岡市サイトはサイドメニューがdiv.nav-area、本文は#main-content
+selectors:
+  body: "#main-content, #contents, main, article, .main-col"

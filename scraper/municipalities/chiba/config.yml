@@ -6,5 +6,15 @@ index_urls:
   - https://www.city.chiba.jp/keizainosei/keizai/sangyo/
   # 経営・起業支援
   - https://www.city.chiba.jp/business/shigoto/kee/index.html
+  # 住宅補助制度（耐震・リフォーム・省エネ）
+  - https://www.city.chiba.jp/toshi/kenchiku/jutakuseisaku/
+  # 環境・省エネ補助（太陽光・蓄電池）
+  - https://www.city.chiba.jp/kankyo/seikatsu/shoene/
+  # 子育て・福祉・手当
+  - https://www.city.chiba.jp/kodomo/
 
 rate_limit_seconds: 2.0
+
+# 千葉市サイトはコンテンツが #wrapper 内の .main-col に
+selectors:
+  body: ".main-col, #wrapper main, main, #contents, article"
