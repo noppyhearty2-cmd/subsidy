@@ -85,12 +85,13 @@ const muniLabel: Record<string, string> = {
   // 中部
   niigata_pref: "新潟県", toyama_pref: "富山県", ishikawa_pref: "石川県", fukui_pref: "福井県",
   toyama: "富山市", kanazawa: "金沢市", fukui: "福井市",
+  nagaoka: "長岡市",
   yamanashi_pref: "山梨県", kofu: "甲府市",
   nagano_pref: "長野県", nagano: "長野市",
   gifu_pref: "岐阜県", gifu: "岐阜市", ogaki: "大垣市",
-  shizuoka_pref: "静岡県", mie_pref: "三重県", tsu: "津市",
+  shizuoka_pref: "静岡県", numazu: "沼津市", fuji: "富士市", mie_pref: "三重県", tsu: "津市",
   // 東北（追加）
-  morioka: "盛岡市", fukushima: "福島市",
+  morioka: "盛岡市", fukushima: "福島市", ishinomaki: "石巻市",
   // 関東（追加）
   mito: "水戸市", maebashi: "前橋市",
   // 中国
@@ -103,7 +104,7 @@ const muniLabel: Record<string, string> = {
   takamatsu: "高松市", matsuyama: "松山市", tokushima: "徳島市", kochi: "高知市",
   // 九州・沖縄
   nagasaki: "長崎市", oita: "大分市", kagoshima: "鹿児島市", naha: "那覇市",
-  miyazaki: "宮崎市", saga: "佐賀市",
+  miyazaki: "宮崎市", saga: "佐賀市", kurume: "久留米市",
   fukuoka_pref: "福岡県", saga_pref: "佐賀県", miyazaki_pref: "宮崎県",
   nagasaki_pref: "長崎県", kumamoto_pref: "熊本県", oita_pref: "大分県", kagoshima_pref: "鹿児島県", okinawa_pref: "沖縄県",
   // 京都府
@@ -236,11 +237,12 @@ const muniToPref: Record<string, string> = {
   funabashi: "千葉県", kashiwa: "千葉県", urayasu: "千葉県", ichikawa: "千葉県",
   niigata_pref: "新潟県", toyama_pref: "富山県", ishikawa_pref: "石川県", fukui_pref: "福井県",
   toyama: "富山県", kanazawa: "石川県", fukui: "福井県",
+  nagaoka: "新潟県",
   yamanashi_pref: "山梨県", kofu: "山梨県",
   nagano_pref: "長野県", nagano: "長野県",
   gifu_pref: "岐阜県", gifu: "岐阜県", ogaki: "岐阜県",
-  shizuoka_pref: "静岡県", mie_pref: "三重県", tsu: "三重県",
-  morioka: "岩手県", fukushima: "福島県",
+  shizuoka_pref: "静岡県", numazu: "静岡県", fuji: "静岡県", mie_pref: "三重県", tsu: "三重県",
+  morioka: "岩手県", fukushima: "福島県", ishinomaki: "宮城県",
   mito: "茨城県", maebashi: "群馬県",
   tottori_pref: "鳥取県", shimane_pref: "島根県", okayama_pref: "岡山県",
   hiroshima_pref: "広島県", yamaguchi_pref: "山口県",
@@ -249,7 +251,7 @@ const muniToPref: Record<string, string> = {
   kagawa_pref: "香川県", ehime_pref: "愛媛県", tokushima_pref: "徳島県", kochi_pref: "高知県",
   takamatsu: "香川県", matsuyama: "愛媛県", tokushima: "徳島県", kochi: "高知県",
   nagasaki: "長崎県", oita: "大分県", kagoshima: "鹿児島県", naha: "沖縄県",
-  miyazaki: "宮崎県", saga: "佐賀県",
+  miyazaki: "宮崎県", saga: "佐賀県", kurume: "福岡県",
   fukuoka_pref: "福岡県", saga_pref: "佐賀県", miyazaki_pref: "宮崎県",
   nagasaki_pref: "長崎県", kumamoto_pref: "熊本県", oita_pref: "大分県", kagoshima_pref: "鹿児島県", okinawa_pref: "沖縄県",
   kyoto_pref: "京都府", kyoto: "京都府", fukuchiyama: "京都府", maizuru: "京都府",
