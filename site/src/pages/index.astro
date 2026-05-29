@@ -73,6 +73,7 @@ const muniLabel: Record<string, string> = {
   kumamoto: "熊本市", niigata: "新潟市", shizuoka: "静岡市", hamamatsu: "浜松市",
   // 北海道
   hokkaido: "北海道",
+  asahikawa: "旭川市", hakodate: "函館市",
   // 東北
   aomori: "青森市", akita: "秋田市", yamagata: "山形市",
   miyagi_pref: "宮城県", aomori_pref: "青森県", akita_pref: "秋田県", yamagata_pref: "山形県",
@@ -80,12 +81,14 @@ const muniLabel: Record<string, string> = {
   // 関東
   utsunomiya: "宇都宮市", tochigi_pref: "栃木県",
   ibaraki_pref: "茨城県", gunma_pref: "群馬県", chiba_pref: "千葉県", matsudo: "松戸市",
+  funabashi: "船橋市", kashiwa: "柏市", urayasu: "浦安市", ichikawa: "市川市",
   // 中部
   niigata_pref: "新潟県", toyama_pref: "富山県", ishikawa_pref: "石川県", fukui_pref: "福井県",
   toyama: "富山市", kanazawa: "金沢市", fukui: "福井市",
   yamanashi_pref: "山梨県", kofu: "甲府市",
   nagano_pref: "長野県", nagano: "長野市",
-  gifu_pref: "岐阜県", shizuoka_pref: "静岡県", mie_pref: "三重県", tsu: "津市",
+  gifu_pref: "岐阜県", gifu: "岐阜市", ogaki: "大垣市",
+  shizuoka_pref: "静岡県", mie_pref: "三重県", tsu: "津市",
   // 東北（追加）
   morioka: "盛岡市", fukushima: "福島市",
   // 関東（追加）
@@ -94,6 +97,7 @@ const muniLabel: Record<string, string> = {
   tottori_pref: "鳥取県", shimane_pref: "島根県", okayama_pref: "岡山県",
   hiroshima_pref: "広島県", yamaguchi_pref: "山口県",
   tottori: "鳥取市", matsue: "松江市", okayama: "岡山市", yamaguchi: "山口市",
+  fukuyama: "福山市", kure: "呉市",
   // 四国
   kagawa_pref: "香川県", ehime_pref: "愛媛県", tokushima_pref: "徳島県", kochi_pref: "高知県",
   takamatsu: "高松市", matsuyama: "松山市", tokushima: "徳島市", kochi: "高知市",
@@ -223,21 +227,25 @@ const muniToPref: Record<string, string> = {
   sendai: "宮城県", chiba: "千葉県", hiroshima: "広島県", kitakyushu: "福岡県",
   kumamoto: "熊本県", niigata: "新潟県", shizuoka: "静岡県", hamamatsu: "静岡県",
   hokkaido: "北海道",
+  asahikawa: "北海道", hakodate: "北海道",
   aomori: "青森県", akita: "秋田県", yamagata: "山形県",
   miyagi_pref: "宮城県", aomori_pref: "青森県", akita_pref: "秋田県", yamagata_pref: "山形県",
   iwate_pref: "岩手県", fukushima_pref: "福島県",
   utsunomiya: "栃木県", tochigi_pref: "栃木県",
   ibaraki_pref: "茨城県", gunma_pref: "群馬県", chiba_pref: "千葉県", matsudo: "松戸市",
+  funabashi: "千葉県", kashiwa: "千葉県", urayasu: "千葉県", ichikawa: "千葉県",
   niigata_pref: "新潟県", toyama_pref: "富山県", ishikawa_pref: "石川県", fukui_pref: "福井県",
   toyama: "富山県", kanazawa: "石川県", fukui: "福井県",
   yamanashi_pref: "山梨県", kofu: "山梨県",
   nagano_pref: "長野県", nagano: "長野県",
-  gifu_pref: "岐阜県", shizuoka_pref: "静岡県", mie_pref: "三重県", tsu: "三重県",
+  gifu_pref: "岐阜県", gifu: "岐阜県", ogaki: "岐阜県",
+  shizuoka_pref: "静岡県", mie_pref: "三重県", tsu: "三重県",
   morioka: "岩手県", fukushima: "福島県",
   mito: "茨城県", maebashi: "群馬県",
   tottori_pref: "鳥取県", shimane_pref: "島根県", okayama_pref: "岡山県",
   hiroshima_pref: "広島県", yamaguchi_pref: "山口県",
   tottori: "鳥取県", matsue: "島根県", okayama: "岡山県", yamaguchi: "山口県",
+  fukuyama: "広島県", kure: "広島県",
   kagawa_pref: "香川県", ehime_pref: "愛媛県", tokushima_pref: "徳島県", kochi_pref: "高知県",
   takamatsu: "香川県", matsuyama: "愛媛県", tokushima: "徳島県", kochi: "高知県",
   nagasaki: "長崎県", oita: "大分県", kagoshima: "鹿児島県", naha: "沖縄県",
