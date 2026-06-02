@@ -3,7 +3,13 @@ import { getCollection, type CollectionEntry } from "astro:content";
 
 export async function getStaticPaths() {
   const entries = await getCollection("subsidies");
-  return entries.map((entry) => ({
+  const today = new Date().toISOString().slice(0, 10);
+  const activeEntries = entries.filter((entry) => {
+    if (!entry.data.is_active) return false;
+    if (entry.data.deadline && entry.data.deadline < today) return false;
+    return true;
+  });
+  return activeEntries.map((entry) => ({
     params: { slug: entry.slug },
     props: { entry },
   }));

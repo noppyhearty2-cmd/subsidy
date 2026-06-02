@@ -2,8 +2,14 @@
 import { getCollection } from "astro:content";
 
 const allSubsidies = await getCollection("subsidies");
+const today = new Date().toISOString().slice(0, 10); // "YYYY-MM-DD"
 const active = allSubsidies
-  .filter((s) => s.data.is_active)
+  .filter((s) => {
+    if (!s.data.is_active) return false;
+    // deadline が設定されていて、かつ今日より前なら非表示
+    if (s.data.deadline && s.data.deadline < today) return false;
+    return true;
+  })
   .sort((a, b) => {
     if (!a.data.deadline) return 1;
     if (!b.data.deadline) return -1;
