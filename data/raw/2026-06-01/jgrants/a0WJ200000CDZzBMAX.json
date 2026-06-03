@@ -1,0 +1,26 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0WJ200000CDZzBMAX",
+  "municipality_id": null,
+  "title": "【青森県】令和8年度青森県産業DXモデル創出支援事業費補助金",
+  "target_area": "青森県",
+  "subsidy_max_limit": "4000000",
+  "acceptance_start_datetime": "2026-04-17T00:00:00.000Z",
+  "acceptance_end_datetime": "2026-06-19T08:00:00.000Z",
+  "target_number_of_employees": "900名以下",
+  "institution_name": "青森県産業DXモデル創出支援事業費補助金",
+  "content_hash": "3c12e9181e1a1338a5b3b6bc8ccfb4da508a475617b1f082aca78a2112b026c6",
+  "scraped_at": "2026-06-01T14:30:08.041098+00:00",
+  "raw": {
+    "id": "a0WJ200000CDZzBMAX",
+    "name": "S-00009254",
+    "title": "【青森県】令和8年度青森県産業DXモデル創出支援事業費補助金",
+    "target_area_search": "青森県",
+    "subsidy_max_limit": 4000000,
+    "acceptance_start_datetime": "2026-04-17T00:00:00.000Z",
+    "acceptance_end_datetime": "2026-06-19T08:00:00.000Z",
+    "target_number_of_employees": "900名以下",
+    "institution_name": "青森県産業DXモデル創出支援事業費補助金"
+  },
+  "search_area": "青森県"
+}

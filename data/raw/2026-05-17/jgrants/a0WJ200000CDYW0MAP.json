@@ -1,0 +1,32 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0WJ200000CDYW0MAP",
+  "municipality_id": null,
+  "title": "岡崎市創業資金保証料補助金",
+  "target_area": "愛知県",
+  "subsidy_max_limit": "200000",
+  "acceptance_start_datetime": "2026-03-31T15:00:00.000Z",
+  "acceptance_end_datetime": "2027-03-31T14:59:00.000Z",
+  "target_number_of_employees": "300名以下",
+  "institution_name": "岡崎市創業資金保証料補助金",
+  "content_hash": "7c8d2b234497846278383ca47fb2cedea71519ac245013998b981c1fd39b8431",
+  "scraped_at": "2026-05-17T14:04:39.597351+00:00",
+  "raw": {
+    "id": "a0WJ200000CDYW0MAP",
+    "name": "S-00008788",
+    "title": "岡崎市創業資金保証料補助金",
+    "target_area_search": "愛知県",
+    "subsidy_max_limit": 200000,
+    "acceptance_start_datetime": "2026-03-31T15:00:00.000Z",
+    "acceptance_end_datetime": "2027-03-31T14:59:00.000Z",
+    "target_number_of_employees": "300名以下",
+    "institution_name": "岡崎市創業資金保証料補助金"
+  },
+  "search_area": "愛知県",
+  "detail_fetched": true,
+  "description": "■目的・概要市内で創業されるかた（または創業して間もないかた）で、創業に係る融資（愛知県経済環境適応資金創業等支援資金）を受けたかたに対して、支払った信用保証料の一部を補助する制度です。■応募資格愛知県経済環境適応資金（創業等支援資金）を利用して創業したかた（または創業して間もないかた）であり、かつ、岡崎市内に住所（本店）及び主たる事業所があるかたが対象です。■地理条件愛知県岡崎市■備考・同一年度の申請は1回限りです。・借換を含む場合は、按分により借換額分に相当する金額が対象から控除されます。・申請期限は融資実行日から60日以内（補助金の対象となる自動車購入資金を含む場合は、車両登録から60日以内）です。■問合せ先岡崎市 商工労政課労政金融係（金融担当）電話番号：0564-23-6214・6351ファクス番号：0564-23-6213■参照URLhttps://www.city.okazaki.lg.jp/business/sangyo/1005391/1005392.html",
+  "use_purpose": "資金繰りを改善したい",
+  "industry": "漁業 / 建設業 / 製造業 / 電気・ガス・熱供給・水道業 / 情報通信業 / 複合サービス事業 / サービス業（他に分類されないもの） / 分類不能の産業 / 農業、林業 / 鉱業、採石業、砂利採取業 / 運輸業、郵便業 / 卸売業、小売業 / 金融業、保険業 / 不動産業、物品賃貸業 / 学術研究、専門・技術サービス業 / 宿泊業、飲食サービス業 / 生活関連サービス業、娯楽業 / 教育、学習支援業 / 医療、福祉",
+  "subsidy_rate": "当該融資に係る保証料の45％の額",
+  "portal_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYW0MAP"
+}

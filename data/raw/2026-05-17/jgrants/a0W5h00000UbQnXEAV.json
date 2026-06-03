@@ -1,0 +1,32 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0W5h00000UbQnXEAV",
+  "municipality_id": null,
+  "title": "東京都中小企業障害者雇用支援助成金",
+  "target_area": "東京都",
+  "subsidy_max_limit": "1980000",
+  "acceptance_start_datetime": "2023-01-20T00:00:00.000Z",
+  "acceptance_end_datetime": "2029-03-31T14:59:00.000Z",
+  "target_number_of_employees": "300名以下",
+  "institution_name": "東京都中小企業障害者雇用支援助成金",
+  "content_hash": "90ec99fdce99790a048ac97474344af12ab821c689706cdbae2f09c96b54460a",
+  "scraped_at": "2026-05-17T14:03:59.615764+00:00",
+  "raw": {
+    "id": "a0W5h00000UbQnXEAV",
+    "name": "S-00003955",
+    "title": "東京都中小企業障害者雇用支援助成金",
+    "target_area_search": "東京都",
+    "subsidy_max_limit": 1980000,
+    "acceptance_start_datetime": "2023-01-20T00:00:00.000Z",
+    "acceptance_end_datetime": "2029-03-31T14:59:00.000Z",
+    "target_number_of_employees": "300名以下",
+    "institution_name": null
+  },
+  "search_area": "東京都",
+  "detail_fetched": true,
+  "description": "■目的・概要東京都では、大企業と比べて障害者雇用が進んでいない都内の中小企業を対象として、障害者雇用の拡大と職場定着の促進を図るため、標記助成制度を実施しています。国の特定求職者雇用開発助成金（特定就職困難者コース、発達障害者・難治性疾患患者雇用開発コース）の助成対象期間が満了となる中小企業に対して、引き続き東京都が独自に賃金助成するものです。■根拠法令東京都中小企業障害者雇用支援助成金支給要綱■支給要件障害者を雇用し、国の特定求職者雇用開発助成金（特定就職困難者コースまたは発達障害者・難治性疾患患者雇用開発コース）（以下、「特開金」）の支給を受け、助成対象期間が満了となった後も、引き続き雇用を継続する事業主。詳細は「東京都中小企業障害者雇用支援助成金支給要綱」をご確認ください。■地理条件東京都内の事業所で支給対象者が働いていること。詳細は「東京都中小企業障害者雇用支援助成金支給要綱」をご確認ください。■備考下記URLをご確認ください。https://www.hataraku.metro.tokyo.lg.jp/shogai/josei/chushou_shien/■お問合せ先東京都産業労働局雇用就業部就業推進課障害者雇用促進担当電話：０３ー５３２０－４６６３問合せ時間　９：００～１７：００土日祝日、年末年始を除く",
+  "use_purpose": "人材育成を行いたい / 雇用・職場環境を改善したい",
+  "industry": "漁業 / 建設業 / 製造業 / 電気・ガス・熱供給・水道業 / 情報通信業 / 複合サービス事業 / サービス業（他に分類されないもの） / 農業、林業 / 鉱業、採石業、砂利採取業 / 運輸業、郵便業 / 卸売業、小売業 / 金融業、保険業 / 不動産業、物品賃貸業 / 学術研究、専門・技術サービス業 / 宿泊業、飲食サービス業 / 生活関連サービス業、娯楽業 / 教育、学習支援業 / 医療、福祉",
+  "subsidy_rate": null,
+  "portal_url": "https://www.jgrants-portal.go.jp/subsidy/a0W5h00000UbQnXEAV"
+}

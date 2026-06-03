@@ -1,0 +1,32 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0W5h00000UbQnSEAV",
+  "municipality_id": null,
+  "title": "東京都難病・がん患者就業支援奨励金",
+  "target_area": "東京都",
+  "subsidy_max_limit": "900000",
+  "acceptance_start_datetime": "2025-04-01T00:00:00.000Z",
+  "acceptance_end_datetime": "2030-03-31T14:45:00.000Z",
+  "target_number_of_employees": "従業員数の制約なし",
+  "institution_name": "東京都難病・がん患者就業支援奨励金",
+  "content_hash": "2465c2de3d7e30bc5f75510b9968f43fd796a5a6bad9d6e69f1cd07efcddd578",
+  "scraped_at": "2026-05-17T14:03:59.615124+00:00",
+  "raw": {
+    "id": "a0W5h00000UbQnSEAV",
+    "name": "S-00003950",
+    "title": "東京都難病・がん患者就業支援奨励金",
+    "target_area_search": "東京都",
+    "subsidy_max_limit": 900000,
+    "acceptance_start_datetime": "2025-04-01T00:00:00.000Z",
+    "acceptance_end_datetime": "2030-03-31T14:45:00.000Z",
+    "target_number_of_employees": "従業員数の制約なし",
+    "institution_name": null
+  },
+  "search_area": "東京都",
+  "detail_fetched": true,
+  "description": "■目的・概要東京都は難病やがん患者の方々が、疾患があっても安心して活躍できる社会の実現を目指しています。そこで、東京都独自の助成金として、難病やがん患者の治療と仕事の両立に向けて積極的に取り組む企業を支援するため、奨励金を支給します。■根拠法令東京都難病・がん患者就業支援奨励金支給要領東京都難病・がん患者就業支援奨励金支給要綱■応募資格TOKYOはたらくネットをご確認ください。https://www.hataraku.metro.tokyo.lg.jp/shogai/josei/nan_gan/■問合せ先東京都産業労働局 雇用就業部 就業推進課 障害者雇用促進担当電話：０３－５３２０－４６６３（直通）■参照URLTOKYOはたらくネット「東京都難病・がん患者就業支援奨励金」https://www.hataraku.metro.tokyo.lg.jp/shogai/josei/nan_gan/",
+  "use_purpose": "雇用・職場環境を改善したい",
+  "industry": "漁業 / 建設業 / 製造業 / 電気・ガス・熱供給・水道業 / 情報通信業 / 複合サービス事業 / サービス業（他に分類されないもの） / 分類不能の産業 / 農業、林業 / 鉱業、採石業、砂利採取業 / 運輸業、郵便業 / 卸売業、小売業 / 金融業、保険業 / 不動産業、物品賃貸業 / 学術研究、専門・技術サービス業 / 宿泊業、飲食サービス業 / 生活関連サービス業、娯楽業 / 教育、学習支援業 / 医療、福祉",
+  "subsidy_rate": null,
+  "portal_url": "https://www.jgrants-portal.go.jp/subsidy/a0W5h00000UbQnSEAV"
+}

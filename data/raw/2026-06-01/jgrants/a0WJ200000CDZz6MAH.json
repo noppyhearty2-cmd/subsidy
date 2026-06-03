@@ -1,0 +1,26 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0WJ200000CDZz6MAH",
+  "municipality_id": null,
+  "title": "【愛知県大府市】2026年度大府市カーボンニュートラル推進生産設備導入支援補助金（ユーティリティ設備）",
+  "target_area": "愛知県",
+  "subsidy_max_limit": "1000000",
+  "acceptance_start_datetime": "2026-04-01T00:00:00.000Z",
+  "acceptance_end_datetime": "2027-03-31T08:00:00.000Z",
+  "target_number_of_employees": "従業員数の制約なし",
+  "institution_name": "大府市カーボンニュートラル推進生産設備導入支援補助金",
+  "content_hash": "9f814b3a605ef94c19baad1c991b3bed9f830fe59a5a716ad18e26ee88edad02",
+  "scraped_at": "2026-06-01T14:31:44.951228+00:00",
+  "raw": {
+    "id": "a0WJ200000CDZz6MAH",
+    "name": "S-00009252",
+    "title": "【愛知県大府市】2026年度大府市カーボンニュートラル推進生産設備導入支援補助金（ユーティリティ設備）",
+    "target_area_search": "愛知県",
+    "subsidy_max_limit": 1000000,
+    "acceptance_start_datetime": "2026-04-01T00:00:00.000Z",
+    "acceptance_end_datetime": "2027-03-31T08:00:00.000Z",
+    "target_number_of_employees": "従業員数の制約なし",
+    "institution_name": "大府市カーボンニュートラル推進生産設備導入支援補助金"
+  },
+  "search_area": "愛知県"
+}

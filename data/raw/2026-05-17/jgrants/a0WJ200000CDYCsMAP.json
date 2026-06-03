@@ -1,0 +1,32 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0WJ200000CDYCsMAP",
+  "municipality_id": null,
+  "title": "東広島市小児科新規開業支援事業補助金",
+  "target_area": "広島県",
+  "subsidy_max_limit": "10000000",
+  "acceptance_start_datetime": "2025-03-31T15:00:00.000Z",
+  "acceptance_end_datetime": "2029-03-31T14:59:00.000Z",
+  "target_number_of_employees": "従業員数の制約なし",
+  "institution_name": "東広島市小児科新規開業支援事業補助金",
+  "content_hash": "ca0bc296aabda2f4f733912604f1beb9cb451ef9483409bc239e57fc59c0a075",
+  "scraped_at": "2026-05-17T14:05:24.224617+00:00",
+  "raw": {
+    "id": "a0WJ200000CDYCsMAP",
+    "name": "S-00008560",
+    "title": "東広島市小児科新規開業支援事業補助金",
+    "target_area_search": "広島県",
+    "subsidy_max_limit": 10000000,
+    "acceptance_start_datetime": "2025-03-31T15:00:00.000Z",
+    "acceptance_end_datetime": "2029-03-31T14:59:00.000Z",
+    "target_number_of_employees": "従業員数の制約なし",
+    "institution_name": "東広島市小児科新規開業支援事業補助金"
+  },
+  "search_area": "広島県",
+  "detail_fetched": true,
+  "description": "※Jグランツでは本補助金の申請受付を行っておりません。申請手続き等の詳細については、以下HPをご確認ください。https://www.city.higashihiroshima.lg.jp/soshiki/kenkofukushi/2/4/43037.html【補助金の活用をご検討される場合は、まずは東広島市医療保健課へお問い合わせください。】■目的・概要東広島市における小児医療の充実および子育て世代の満足度の向上を図り、市民が安心して生活できる環境を整備することを目的としています。市内で新たに小児科を開業する医師または医療法人に対し、開業に必要な医療機器や設備の購入費用を補助します。（過去の実績　最大1件1,000万円）■応募資格市内で新たに診療所（標ぼうする診療科に小児科を含むものに限る）を開業する医師または医療法人で、以下のいずれかに該当する医師を当該診療所に常時勤務させる者。1. 小児科を標ぼうする医療機関に勤務していた医師2. 市外において小児科を標ぼうする医療機関を開業していた医師3. その他市長が特に必要と認める医師■地理条件東広島市内■備考• 補助金の交付要件については、東広島市HPをご確認ください。■問合せ先東広島市 健康福祉部 医療保健課 医療感染症対策係 〒739-8601 東広島市西条栄町8番29号 本館2階 電話：082-420-0936 ファックス：082-422-2416■参照URLhttps://www.city.higashihiroshima.lg.jp/soshiki/kenkofukushi/2/4/43037.html",
+  "use_purpose": "資金繰りを改善したい / 設備整備・IT導入をしたい",
+  "industry": "医療、福祉",
+  "subsidy_rate": null,
+  "portal_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYCsMAP"
+}

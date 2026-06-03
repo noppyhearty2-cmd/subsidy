@@ -1,0 +1,32 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0W2x000005iqyXEAQ",
+  "municipality_id": null,
+  "title": "EMPの普及促進に係る補助金（新）",
+  "target_area": "東京都",
+  "subsidy_max_limit": "51900000",
+  "acceptance_start_datetime": "2026-03-31T15:00:00.000Z",
+  "acceptance_end_datetime": "2027-05-31T14:59:00.000Z",
+  "target_number_of_employees": "従業員数の制約なし",
+  "institution_name": "EMPの普及促進に係る補助金",
+  "content_hash": "83ce1c462fa1af5b19609f0c75cb55fd9dfbd187f0bd92f166a3fd3af619d293",
+  "scraped_at": "2026-05-17T14:03:58.428653+00:00",
+  "raw": {
+    "id": "a0W2x000005iqyXEAQ",
+    "name": "S-00001291",
+    "title": "EMPの普及促進に係る補助金（新）",
+    "target_area_search": "東京都",
+    "subsidy_max_limit": 51900000,
+    "acceptance_start_datetime": "2026-03-31T15:00:00.000Z",
+    "acceptance_end_datetime": "2027-05-31T14:59:00.000Z",
+    "target_number_of_employees": "従業員数の制約なし",
+    "institution_name": null
+  },
+  "search_area": "東京都",
+  "detail_fetched": true,
+  "description": "",
+  "use_purpose": "販路拡大・海外展開をしたい",
+  "industry": "金融業、保険業",
+  "subsidy_rate": null,
+  "portal_url": "https://www.jgrants-portal.go.jp/subsidy/a0W2x000005iqyXEAQ"
+}

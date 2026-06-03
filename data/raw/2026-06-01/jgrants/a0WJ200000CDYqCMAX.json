@@ -1,0 +1,26 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0WJ200000CDYqCMAX",
+  "municipality_id": null,
+  "title": "経営力強化に向けた創意工夫チャレンジ促進事業助成金（賃上げ重点コース）【令和8年度第1回】",
+  "target_area": "茨城県 / 栃木県 / 群馬県 / 埼玉県 / 千葉県 / 東京都 / 神奈川県 / 山梨県",
+  "subsidy_max_limit": "6000000",
+  "acceptance_start_datetime": "2026-06-01T00:00:00.000Z",
+  "acceptance_end_datetime": "2026-06-12T07:00:00.000Z",
+  "target_number_of_employees": "従業員数の制約なし",
+  "institution_name": null,
+  "content_hash": "2230758429c5bdff1385d84e7737d4594c7d71bfe51bda438f6f8dd419110cc2",
+  "scraped_at": "2026-06-01T14:30:37.051748+00:00",
+  "raw": {
+    "id": "a0WJ200000CDYqCMAX",
+    "name": "S-00009080",
+    "title": "経営力強化に向けた創意工夫チャレンジ促進事業助成金（賃上げ重点コース）【令和8年度第1回】",
+    "target_area_search": "茨城県 / 栃木県 / 群馬県 / 埼玉県 / 千葉県 / 東京都 / 神奈川県 / 山梨県",
+    "subsidy_max_limit": 6000000,
+    "acceptance_start_datetime": "2026-06-01T00:00:00.000Z",
+    "acceptance_end_datetime": "2026-06-12T07:00:00.000Z",
+    "target_number_of_employees": "従業員数の制約なし",
+    "institution_name": null
+  },
+  "search_area": "茨城県"
+}

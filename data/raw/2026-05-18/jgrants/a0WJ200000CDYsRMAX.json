@@ -1,0 +1,26 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0WJ200000CDYsRMAX",
+  "municipality_id": null,
+  "title": "森・川・海ごみ削減実践活動支援事業補助金",
+  "target_area": "静岡県",
+  "subsidy_max_limit": "100000",
+  "acceptance_start_datetime": "2026-04-13T15:00:00.000Z",
+  "acceptance_end_datetime": "2026-11-30T14:45:00.000Z",
+  "target_number_of_employees": "従業員数の制約なし",
+  "institution_name": "森・川・海ごみ削減実践活動支援事業補助金",
+  "content_hash": "c80736b5e18c24e0b5b8d449d82955fa817c43a47a73140d72e472aa2b761749",
+  "scraped_at": "2026-05-18T14:04:14.905601+00:00",
+  "raw": {
+    "id": "a0WJ200000CDYsRMAX",
+    "name": "S-00009100",
+    "title": "森・川・海ごみ削減実践活動支援事業補助金",
+    "target_area_search": "静岡県",
+    "subsidy_max_limit": 100000,
+    "acceptance_start_datetime": "2026-04-13T15:00:00.000Z",
+    "acceptance_end_datetime": "2026-11-30T14:45:00.000Z",
+    "target_number_of_employees": "従業員数の制約なし",
+    "institution_name": "森・川・海ごみ削減実践活動支援事業補助金"
+  },
+  "search_area": "静岡県"
+}

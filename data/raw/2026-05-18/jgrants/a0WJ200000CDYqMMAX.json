@@ -1,0 +1,26 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0WJ200000CDYqMMAX",
+  "municipality_id": null,
+  "title": "【広島県】令和8年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）",
+  "target_area": "広島県",
+  "subsidy_max_limit": "3000000",
+  "acceptance_start_datetime": "2026-05-14T15:00:00.000Z",
+  "acceptance_end_datetime": "2026-06-11T08:00:00.000Z",
+  "target_number_of_employees": "300名以下",
+  "institution_name": "中小企業等海外展開支援事業費補助金（海外出願支援事業）",
+  "content_hash": "3db40f94cc0cff2529c2a53fa810dce8d9565fa24417d7b46d08fd7246095a58",
+  "scraped_at": "2026-05-18T14:05:14.245566+00:00",
+  "raw": {
+    "id": "a0WJ200000CDYqMMAX",
+    "name": "S-00009082",
+    "title": "【広島県】令和8年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）",
+    "target_area_search": "広島県",
+    "subsidy_max_limit": 3000000,
+    "acceptance_start_datetime": "2026-05-14T15:00:00.000Z",
+    "acceptance_end_datetime": "2026-06-11T08:00:00.000Z",
+    "target_number_of_employees": "300名以下",
+    "institution_name": "中小企業等海外展開支援事業費補助金（海外出願支援事業）"
+  },
+  "search_area": "広島県"
+}

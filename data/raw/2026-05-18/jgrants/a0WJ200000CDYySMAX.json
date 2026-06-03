@@ -1,0 +1,26 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0WJ200000CDYySMAX",
+  "municipality_id": null,
+  "title": "【岡山県】令和8年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）",
+  "target_area": "岡山県",
+  "subsidy_max_limit": "3000000",
+  "acceptance_start_datetime": "2026-05-17T15:00:00.000Z",
+  "acceptance_end_datetime": "2026-06-05T08:00:00.000Z",
+  "target_number_of_employees": "300名以下",
+  "institution_name": "中小企業等海外展開支援事業費補助金（海外出願支援事業）",
+  "content_hash": "be20751afb2c8afccd5a7118d57391e1aca311ca288e08b1f6c98d049a2e6f9a",
+  "scraped_at": "2026-05-18T14:05:09.400257+00:00",
+  "raw": {
+    "id": "a0WJ200000CDYySMAX",
+    "name": "S-00009156",
+    "title": "【岡山県】令和8年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）",
+    "target_area_search": "岡山県",
+    "subsidy_max_limit": 3000000,
+    "acceptance_start_datetime": "2026-05-17T15:00:00.000Z",
+    "acceptance_end_datetime": "2026-06-05T08:00:00.000Z",
+    "target_number_of_employees": "300名以下",
+    "institution_name": "中小企業等海外展開支援事業費補助金（海外出願支援事業）"
+  },
+  "search_area": "岡山県"
+}

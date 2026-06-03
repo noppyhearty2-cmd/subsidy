@@ -1,0 +1,26 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0WJ200000CDZkTMAX",
+  "municipality_id": null,
+  "title": "東京都若者世代職場定着促進助成金（令和８年度第２回申請受付）",
+  "target_area": "東京都",
+  "subsidy_max_limit": "1260000",
+  "acceptance_start_datetime": "2026-05-31T23:30:00.000Z",
+  "acceptance_end_datetime": "2026-06-30T08:15:00.000Z",
+  "target_number_of_employees": "従業員数の制約なし",
+  "institution_name": null,
+  "content_hash": "52cd37b7db4b668006c6ba54528704c32f76b6e68160dda2d1e972431a8522a5",
+  "scraped_at": "2026-06-01T14:31:00.770887+00:00",
+  "raw": {
+    "id": "a0WJ200000CDZkTMAX",
+    "name": "S-00009239",
+    "title": "東京都若者世代職場定着促進助成金（令和８年度第２回申請受付）",
+    "target_area_search": "東京都",
+    "subsidy_max_limit": 1260000,
+    "acceptance_start_datetime": "2026-05-31T23:30:00.000Z",
+    "acceptance_end_datetime": "2026-06-30T08:15:00.000Z",
+    "target_number_of_employees": "従業員数の制約なし",
+    "institution_name": null
+  },
+  "search_area": "東京都"
+}

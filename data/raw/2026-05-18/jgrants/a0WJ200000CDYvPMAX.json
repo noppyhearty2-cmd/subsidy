@@ -1,0 +1,26 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0WJ200000CDYvPMAX",
+  "municipality_id": null,
+  "title": "【大阪府和泉市】再エネ・省エネ機器設置促進事業補助金（事業者用）",
+  "target_area": "大阪府",
+  "subsidy_max_limit": "0",
+  "acceptance_start_datetime": "2026-04-27T00:00:00.000Z",
+  "acceptance_end_datetime": "2027-02-01T08:15:00.000Z",
+  "target_number_of_employees": "従業員数の制約なし",
+  "institution_name": "【和泉市】再エネ・省エネ機器設置促進事業補助金",
+  "content_hash": "36bae1aba412cc6f59a3fa7d5ec35a4dad45c34fc62e8ab9542cd9ce317e0473",
+  "scraped_at": "2026-05-18T14:04:39.779944+00:00",
+  "raw": {
+    "id": "a0WJ200000CDYvPMAX",
+    "name": "S-00009139",
+    "title": "【大阪府和泉市】再エネ・省エネ機器設置促進事業補助金（事業者用）",
+    "target_area_search": "大阪府",
+    "subsidy_max_limit": 0,
+    "acceptance_start_datetime": "2026-04-27T00:00:00.000Z",
+    "acceptance_end_datetime": "2027-02-01T08:15:00.000Z",
+    "target_number_of_employees": "従業員数の制約なし",
+    "institution_name": "【和泉市】再エネ・省エネ機器設置促進事業補助金"
+  },
+  "search_area": "大阪府"
+}

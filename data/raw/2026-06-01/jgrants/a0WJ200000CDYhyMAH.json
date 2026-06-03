@@ -1,0 +1,26 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0WJ200000CDYhyMAH",
+  "municipality_id": null,
+  "title": "【石川県】令和８年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）",
+  "target_area": "石川県",
+  "subsidy_max_limit": "3000000",
+  "acceptance_start_datetime": "2026-06-01T00:00:00.000Z",
+  "acceptance_end_datetime": "2026-06-22T08:00:00.000Z",
+  "target_number_of_employees": "300名以下",
+  "institution_name": "中小企業等海外展開支援事業費補助金（海外出願支援事業）",
+  "content_hash": "71795490f1a4906a1417292acd83d170d8fcd937584b04e94747ccbc70257a97",
+  "scraped_at": "2026-06-01T14:31:18.120209+00:00",
+  "raw": {
+    "id": "a0WJ200000CDYhyMAH",
+    "name": "S-00008979",
+    "title": "【石川県】令和８年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）",
+    "target_area_search": "石川県",
+    "subsidy_max_limit": 3000000,
+    "acceptance_start_datetime": "2026-06-01T00:00:00.000Z",
+    "acceptance_end_datetime": "2026-06-22T08:00:00.000Z",
+    "target_number_of_employees": "300名以下",
+    "institution_name": "中小企業等海外展開支援事業費補助金（海外出願支援事業）"
+  },
+  "search_area": "石川県"
+}

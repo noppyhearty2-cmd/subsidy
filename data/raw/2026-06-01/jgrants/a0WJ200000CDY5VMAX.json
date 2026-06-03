@@ -1,0 +1,26 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0WJ200000CDY5VMAX",
+  "municipality_id": null,
+  "title": "令和8年度　農林水産物認証取得支援事業（森林認証取得支援事業）補助金",
+  "target_area": "東京都",
+  "subsidy_max_limit": "400000",
+  "acceptance_start_datetime": "2026-04-15T00:00:00.000Z",
+  "acceptance_end_datetime": "2027-02-26T08:00:00.000Z",
+  "target_number_of_employees": "従業員数の制約なし",
+  "institution_name": "農林水産物認証取得支援事業（森林認証取得支援事業）補助金",
+  "content_hash": "9912fefa45ae030670998dd13aefb78f055d6ff05e68684a2a485a1e27186060",
+  "scraped_at": "2026-06-01T14:30:59.253502+00:00",
+  "raw": {
+    "id": "a0WJ200000CDY5VMAX",
+    "name": "S-00008438",
+    "title": "令和8年度　農林水産物認証取得支援事業（森林認証取得支援事業）補助金",
+    "target_area_search": "東京都",
+    "subsidy_max_limit": 400000,
+    "acceptance_start_datetime": "2026-04-15T00:00:00.000Z",
+    "acceptance_end_datetime": "2027-02-26T08:00:00.000Z",
+    "target_number_of_employees": "従業員数の制約なし",
+    "institution_name": "農林水産物認証取得支援事業（森林認証取得支援事業）補助金"
+  },
+  "search_area": "東京都"
+}

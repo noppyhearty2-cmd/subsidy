@@ -1,0 +1,26 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0WJ200000CDYvOMAX",
+  "municipality_id": null,
+  "title": "令和８年度 第１回 事業承継支援助成金",
+  "target_area": "東京都",
+  "subsidy_max_limit": "2000000",
+  "acceptance_start_datetime": "2026-06-01T05:00:00.000Z",
+  "acceptance_end_datetime": "2026-07-17T08:00:00.000Z",
+  "target_number_of_employees": "300名以下",
+  "institution_name": null,
+  "content_hash": "dbd3427cc7aa3196ffcd7d31c87e612adcda8747f9c08f19c1650861a7064520",
+  "scraped_at": "2026-06-01T14:31:00.766280+00:00",
+  "raw": {
+    "id": "a0WJ200000CDYvOMAX",
+    "name": "S-00009138",
+    "title": "令和８年度 第１回 事業承継支援助成金",
+    "target_area_search": "東京都",
+    "subsidy_max_limit": 2000000,
+    "acceptance_start_datetime": "2026-06-01T05:00:00.000Z",
+    "acceptance_end_datetime": "2026-07-17T08:00:00.000Z",
+    "target_number_of_employees": "300名以下",
+    "institution_name": null
+  },
+  "search_area": "東京都"
+}

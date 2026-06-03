@@ -1,0 +1,26 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0WJ200000CDZy8MAH",
+  "municipality_id": null,
+  "title": "【山形県】令和8年度やまがた未来くるエネルギー補助金（山形県再生可能エネルギー等設備導入促進事業）",
+  "target_area": "山形県",
+  "subsidy_max_limit": "0",
+  "acceptance_start_datetime": "2026-04-16T00:00:00.000Z",
+  "acceptance_end_datetime": "2026-11-30T08:00:00.000Z",
+  "target_number_of_employees": "従業員数の制約なし",
+  "institution_name": "やまがた未来くるエネルギー補助金",
+  "content_hash": "456a040253f7bfefd0b8bed8e0054a65a3c6dbd70ce5c04160c4a47e8678b075",
+  "scraped_at": "2026-06-01T14:30:26.940418+00:00",
+  "raw": {
+    "id": "a0WJ200000CDZy8MAH",
+    "name": "S-00009246",
+    "title": "【山形県】令和8年度やまがた未来くるエネルギー補助金（山形県再生可能エネルギー等設備導入促進事業）",
+    "target_area_search": "山形県",
+    "subsidy_max_limit": 0,
+    "acceptance_start_datetime": "2026-04-16T00:00:00.000Z",
+    "acceptance_end_datetime": "2026-11-30T08:00:00.000Z",
+    "target_number_of_employees": "従業員数の制約なし",
+    "institution_name": "やまがた未来くるエネルギー補助金"
+  },
+  "search_area": "山形県"
+}

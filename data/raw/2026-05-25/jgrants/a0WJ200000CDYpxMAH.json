@@ -1,0 +1,26 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0WJ200000CDYpxMAH",
+  "municipality_id": null,
+  "title": "≪一般コース≫令和８年度成長産業分野への事業転換に向けた製品開発支援事業（アドバイザリー会議）",
+  "target_area": "東京都",
+  "subsidy_max_limit": "15000000",
+  "acceptance_start_datetime": "2026-05-24T15:00:00.000Z",
+  "acceptance_end_datetime": "2026-06-12T14:59:00.000Z",
+  "target_number_of_employees": "従業員数の制約なし",
+  "institution_name": null,
+  "content_hash": "5fdf55a4be772f888d5c5e2ecdc96bc594d818a366d2a2e438af79903a833a7e",
+  "scraped_at": "2026-05-25T14:31:05.629863+00:00",
+  "raw": {
+    "id": "a0WJ200000CDYpxMAH",
+    "name": "S-00009077",
+    "title": "≪一般コース≫令和８年度成長産業分野への事業転換に向けた製品開発支援事業（アドバイザリー会議）",
+    "target_area_search": "東京都",
+    "subsidy_max_limit": 15000000,
+    "acceptance_start_datetime": "2026-05-24T15:00:00.000Z",
+    "acceptance_end_datetime": "2026-06-12T14:59:00.000Z",
+    "target_number_of_employees": "従業員数の制約なし",
+    "institution_name": null
+  },
+  "search_area": "東京都"
+}

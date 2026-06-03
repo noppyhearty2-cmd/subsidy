@@ -1,0 +1,26 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0WJ200000CDYTIMA5",
+  "municipality_id": null,
+  "title": "令和8年度第1回 事業承継を契機とした成長支援事業(一般コース)",
+  "target_area": "東京都",
+  "subsidy_max_limit": "8000000",
+  "acceptance_start_datetime": "2026-05-18T05:00:00.000Z",
+  "acceptance_end_datetime": "2026-06-17T07:00:00.000Z",
+  "target_number_of_employees": "従業員数の制約なし",
+  "institution_name": null,
+  "content_hash": "ec2d29fd46663020769fd215429f25d394327d93185098d4679eecb8a96365c5",
+  "scraped_at": "2026-05-18T14:03:31.602956+00:00",
+  "raw": {
+    "id": "a0WJ200000CDYTIMA5",
+    "name": "S-00008704",
+    "title": "令和8年度第1回 事業承継を契機とした成長支援事業(一般コース)",
+    "target_area_search": "東京都",
+    "subsidy_max_limit": 8000000,
+    "acceptance_start_datetime": "2026-05-18T05:00:00.000Z",
+    "acceptance_end_datetime": "2026-06-17T07:00:00.000Z",
+    "target_number_of_employees": "従業員数の制約なし",
+    "institution_name": null
+  },
+  "search_area": "東京都"
+}

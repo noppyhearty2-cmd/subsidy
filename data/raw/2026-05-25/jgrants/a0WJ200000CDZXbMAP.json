@@ -1,0 +1,26 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0WJ200000CDZXbMAP",
+  "municipality_id": null,
+  "title": "【鹿児島県】令和8年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）",
+  "target_area": "鹿児島県",
+  "subsidy_max_limit": "3000000",
+  "acceptance_start_datetime": "2026-05-25T06:00:00.000Z",
+  "acceptance_end_datetime": "2026-11-13T08:00:00.000Z",
+  "target_number_of_employees": "300名以下",
+  "institution_name": "中小企業等海外展開支援事業費補助金（海外出願支援事業）",
+  "content_hash": "3cb357edbbc6e7710c7824fddcb192154800f63e17e18f526df9ec381940f879",
+  "scraped_at": "2026-05-25T14:33:48.330730+00:00",
+  "raw": {
+    "id": "a0WJ200000CDZXbMAP",
+    "name": "S-00009221",
+    "title": "【鹿児島県】令和8年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）",
+    "target_area_search": "鹿児島県",
+    "subsidy_max_limit": 3000000,
+    "acceptance_start_datetime": "2026-05-25T06:00:00.000Z",
+    "acceptance_end_datetime": "2026-11-13T08:00:00.000Z",
+    "target_number_of_employees": "300名以下",
+    "institution_name": "中小企業等海外展開支援事業費補助金（海外出願支援事業）"
+  },
+  "search_area": "鹿児島県"
+}

@@ -1,0 +1,26 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0WJ200000CDYvXMAX",
+  "municipality_id": null,
+  "title": "多摩市ふるさと納税を活用した資金調達支援事業補助金",
+  "target_area": "東京都",
+  "subsidy_max_limit": "0",
+  "acceptance_start_datetime": "2026-04-01T00:00:00.000Z",
+  "acceptance_end_datetime": "2027-03-31T08:00:00.000Z",
+  "target_number_of_employees": "従業員数の制約なし",
+  "institution_name": "多摩市ふるさと納税を活用した資金調達支援事業補助金",
+  "content_hash": "4e28f16529b0f61fa7e01fea2944277c1e012a287203d2175b36c0498fbfa0b3",
+  "scraped_at": "2026-05-18T14:03:30.166221+00:00",
+  "raw": {
+    "id": "a0WJ200000CDYvXMAX",
+    "name": "S-00009147",
+    "title": "多摩市ふるさと納税を活用した資金調達支援事業補助金",
+    "target_area_search": "東京都",
+    "subsidy_max_limit": 0,
+    "acceptance_start_datetime": "2026-04-01T00:00:00.000Z",
+    "acceptance_end_datetime": "2027-03-31T08:00:00.000Z",
+    "target_number_of_employees": "従業員数の制約なし",
+    "institution_name": "多摩市ふるさと納税を活用した資金調達支援事業補助金"
+  },
+  "search_area": "東京都"
+}

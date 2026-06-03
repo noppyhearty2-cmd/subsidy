@@ -1,0 +1,32 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0W2x000007CStEEAW",
+  "municipality_id": null,
+  "title": "農林水産物認証取得支援事業（農家認証取得支援事業）補助金",
+  "target_area": "東京都",
+  "subsidy_max_limit": "0",
+  "acceptance_start_datetime": "2023-04-03T00:00:00.000Z",
+  "acceptance_end_datetime": "2026-12-28T08:00:00.000Z",
+  "target_number_of_employees": "従業員数の制約なし",
+  "institution_name": "農林水産物認証取得支援事業（農家認証取得支援事業）補助金",
+  "content_hash": "aa777833058b4d5fac4da95cda03f85cca0abcadb5046d822fa50cd868d565aa",
+  "scraped_at": "2026-05-17T14:03:58.429459+00:00",
+  "raw": {
+    "id": "a0W2x000007CStEEAW",
+    "name": "S-00002265",
+    "title": "農林水産物認証取得支援事業（農家認証取得支援事業）補助金",
+    "target_area_search": "東京都",
+    "subsidy_max_limit": 0,
+    "acceptance_start_datetime": "2023-04-03T00:00:00.000Z",
+    "acceptance_end_datetime": "2026-12-28T08:00:00.000Z",
+    "target_number_of_employees": "従業員数の制約なし",
+    "institution_name": null
+  },
+  "search_area": "東京都",
+  "detail_fetched": true,
+  "description": "■目的・概要公益財団法人東京都農林水産振興財団では、環境保全や農業経営の効率化を目指すGAPを推進するため、農家認証取得に要する経費を補助します。【認証の種類】・ＪＧＡＰ認証：一般社団法人 日本ＧＡＰ協会・ＡＳＩＡＧＡＰ認証：一般社団法人 日本ＧＡＰ協会・ＧＬＯＢＡＬＧ.Ａ.Ｐ. 認証：フードプラス【対象経費】 　　＜事業区分＞　　　　　　　　＜対象経費＞　　　　　　＜補助率＞・認証取得（初回審査）　　　　　・初回審査料　　　　　　　 　1/２　　　　　　　　　　　　　　　　・年間公示料　　　　　　　　　　　　　　　　・コンサルタント料・維持審査　　　　　　　　　　　・維持審査料　　　　　　　　 1/２・更新審査　　　　　　　　　　　・更新審査料　　　　　　　　　　　　　　　　・年間公示料・研修等　　　　　　　　　　　　・受講料等　　　　　　　　　1/２※個別認証のコンサルタント料は、最大５日分とし、旅費交通費も補助対象とする。団体認証のコンサルタント料の上限は、団体の規模に応じて東京都と財団が協議のうえ決定する。※消費税については、補助対象経費に含まないものとする。■応募資格都内在住の農業者及び農業者で構成される団体、又は、都内に農地を有し、農業の専門科目を開講している農業高等学校等の教育機関■問合せ先(公財)東京都農林水産振興財団地産地消推進課　認証支援係〒190-0013　東京都立川市富士見町3-8-1　Tel: 042-528-0510",
+  "use_purpose": "販路拡大・海外展開をしたい",
+  "industry": "農業、林業",
+  "subsidy_rate": "1/2以内",
+  "portal_url": "https://www.jgrants-portal.go.jp/subsidy/a0W2x000007CStEEAW"
+}

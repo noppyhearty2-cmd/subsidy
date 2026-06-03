@@ -1,0 +1,32 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0WJ200000CDXMiMAP",
+  "municipality_id": null,
+  "title": "令和８年度資格取得サポート助成金",
+  "target_area": "東京都",
+  "subsidy_max_limit": "1000000",
+  "acceptance_start_datetime": "2026-04-30T05:00:00.000Z",
+  "acceptance_end_datetime": "2027-02-28T15:00:00.000Z",
+  "target_number_of_employees": "従業員数の制約なし",
+  "institution_name": "中小企業人材スキルアップ支援事業",
+  "content_hash": "b0f1f744043682e2d94b04a0f22d2e2d5a8d7cceefdba4f4763193e531a6d4f9",
+  "scraped_at": "2026-05-17T14:03:59.650546+00:00",
+  "raw": {
+    "id": "a0WJ200000CDXMiMAP",
+    "name": "S-00008022",
+    "title": "令和８年度資格取得サポート助成金",
+    "target_area_search": "東京都",
+    "subsidy_max_limit": 1000000,
+    "acceptance_start_datetime": "2026-04-30T05:00:00.000Z",
+    "acceptance_end_datetime": "2027-02-28T15:00:00.000Z",
+    "target_number_of_employees": "従業員数の制約なし",
+    "institution_name": null
+  },
+  "search_area": "東京都",
+  "detail_fetched": true,
+  "description": "従業員のスキルアップのための研修を実施する都内企業等に対し、助成金を支給します。建設・建築・運輸分野の国家資格取得等に向けて、教育機関の公開研修を利用して実施する研修が助成対象です。【提出期限】  研修開始予定日の１か月前（23時59分）まで 【交付申請書受付期間】 令和８年４月30日から令和９年２月28日（23時59分）まで※ 予算の範囲を超える申請があった場合等、申請受付期間内でも受付を終了することがあります。  ※ Jグランツで交付申請した場合、助成金請求までの全ての手続きを、Jグランツにて行っていただきます。助成金の詳細は 公益財団法人東京しごと財団ホームページ よりご確認ください。● 資格取得サポート助成金",
+  "use_purpose": "人材育成を行いたい",
+  "industry": "漁業 / 建設業 / 製造業 / 電気・ガス・熱供給・水道業 / 情報通信業 / 複合サービス事業 / サービス業（他に分類されないもの） / 公務（他に分類されるものを除く） / 分類不能の産業 / 農業、林業 / 鉱業、採石業、砂利採取業 / 運輸業、郵便業 / 卸売業、小売業 / 金融業、保険業 / 不動産業、物品賃貸業 / 学術研究、専門・技術サービス業 / 宿泊業、飲食サービス業 / 生活関連サービス業、娯楽業 / 教育、学習支援業 / 医療、福祉",
+  "subsidy_rate": "助成対象経費の2分の1",
+  "portal_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXMiMAP"
+}

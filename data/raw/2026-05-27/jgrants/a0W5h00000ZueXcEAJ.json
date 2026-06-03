@@ -1,0 +1,32 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0W5h00000ZueXcEAJ",
+  "municipality_id": null,
+  "title": "ドローンを活用したツアー造成支援補助金",
+  "target_area": "東京都",
+  "subsidy_max_limit": "5000000",
+  "acceptance_start_datetime": "2026-05-12T05:00:00.000Z",
+  "acceptance_end_datetime": "2026-07-15T14:59:00.000Z",
+  "target_number_of_employees": "従業員数の制約なし",
+  "institution_name": "ドローンを活用したツアー造成支援事業",
+  "content_hash": "a5755c0525ef7dc68601407e322a3e90e05e976d12da0df907d5ee2c318b2ba7",
+  "scraped_at": "2026-05-27T13:00:50.888301+00:00",
+  "raw": {
+    "id": "a0W5h00000ZueXcEAJ",
+    "name": "S-00004742",
+    "title": "ドローンを活用したツアー造成支援補助金",
+    "target_area_search": "東京都",
+    "subsidy_max_limit": 5000000,
+    "acceptance_start_datetime": "2026-05-12T05:00:00.000Z",
+    "acceptance_end_datetime": "2026-07-15T14:59:00.000Z",
+    "target_number_of_employees": "従業員数の制約なし",
+    "institution_name": null
+  },
+  "search_area": "東京都",
+  "detail_fetched": true,
+  "description": "■概要東京都では、障害者や高齢者を含む誰もがドローンを操作して観光を楽しめるコンテンツの創出を促進するなど、アクセシブル・ツーリズムを推進しています。この度、ドローンを活用したツアーづくりへの補助を実施します。■補助対象者東京都内に本社又は主たる営業所を置く旅行事業者■補助対象事業ドローンを活用し、障害者や高齢者など、移動やコミュニケーションにおける困難さに直面する人々のニーズに応えながら、誰もが都内観光を楽しみ地域の魅力を実感できる旅行商品を造成・販売・運営する取組■補助対象経費（１）商品造成経費（現地調査費、ドローン活用に係るシステム構築費 等）（２）商品販売経費（広告掲載経費、広報ツール作成経費）（３）商品運営経費（ツアー催行に係る経費、スタッフ手配経費）■補助限度額１旅行商品当たり５００万円 ■補助率３分の２以内■問合せ先東京都産業労働局観光部受入環境課電話：03-5320-4802■参照URLhttps://www.sangyo-rodo.metro.tokyo.lg.jp/tourism/kakusyu/drone-accessibletourism/",
+  "use_purpose": "新たな事業を行いたい / イベント・事業運営支援がほしい / 研究開発・実証事業を行いたい / まちづくり・地域振興支援がほしい / 設備整備・IT導入をしたい",
+  "industry": "漁業 / 建設業 / 製造業 / 電気・ガス・熱供給・水道業 / 情報通信業 / 複合サービス事業 / サービス業（他に分類されないもの） / 公務（他に分類されるものを除く） / 分類不能の産業 / 農業、林業 / 鉱業、採石業、砂利採取業 / 運輸業、郵便業 / 卸売業、小売業 / 金融業、保険業 / 不動産業、物品賃貸業 / 学術研究、専門・技術サービス業 / 宿泊業、飲食サービス業 / 生活関連サービス業、娯楽業 / 教育、学習支援業 / 医療、福祉",
+  "subsidy_rate": "補助対象経費の2/3以内",
+  "portal_url": "https://www.jgrants-portal.go.jp/subsidy/a0W5h00000ZueXcEAJ"
+}

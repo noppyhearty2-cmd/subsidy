@@ -1,0 +1,32 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0WJ200000CDVNrMAP",
+  "municipality_id": null,
+  "title": "令和7年度東京都新人看護研修事業費補助金",
+  "target_area": "東京都",
+  "subsidy_max_limit": "1966000",
+  "acceptance_start_datetime": "2025-03-31T15:00:00.000Z",
+  "acceptance_end_datetime": "2026-05-31T14:59:00.000Z",
+  "target_number_of_employees": "従業員数の制約なし",
+  "institution_name": "東京都新人看護研修事業費補助金",
+  "content_hash": "675591c80d0f071af4072e56f96e146992521afe803d53e3cbc7140b709d57f8",
+  "scraped_at": "2026-05-17T14:03:58.439647+00:00",
+  "raw": {
+    "id": "a0WJ200000CDVNrMAP",
+    "name": "S-00007318",
+    "title": "令和7年度東京都新人看護研修事業費補助金",
+    "target_area_search": "東京都",
+    "subsidy_max_limit": 1966000,
+    "acceptance_start_datetime": "2025-03-31T15:00:00.000Z",
+    "acceptance_end_datetime": "2026-05-31T14:59:00.000Z",
+    "target_number_of_employees": "従業員数の制約なし",
+    "institution_name": "東京都新人看護研修事業費補助金"
+  },
+  "search_area": "東京都",
+  "detail_fetched": true,
+  "description": "■目的・概要都内の病院等が実施する新人看護職員、新人保健師及び新人助産師が基本的な臨床実践能力を獲得するための研修に要する経費を補助することにより、新人看護職員研修体制の整備を促進し、看護の質の向上及び早期離職防止を図ることを目的とします。■根拠法令新人看護職員研修事業費補助金交付要綱■補助対象施設（1）新人看護職員研修事業病院等が、新人看護職員研修ガイドラインに示された項目に沿って実施する新人看護職員、新人保健師又は新人助産師に対する研修事業（2）医療機関受入研修事業上記（1）の事業を実施する病院等が、自施設の新人看護職員研修を公開し、公募により他施設の新人看護職員の受入れを実施する事業■地理条件都内の病院等■備考参照URLをご確認ください。■問合せ先東京都 保健医療局 医療政策部 医療人材課 看護担当電話番号：03-5320-4447■参照URLhttps://www.hokeniryo.metro.tokyo.lg.jp/iryo/jigyo/hojo/shinjinkango",
+  "use_purpose": "人材育成を行いたい",
+  "industry": "医療、福祉",
+  "subsidy_rate": "1/2",
+  "portal_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDVNrMAP"
+}

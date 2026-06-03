@@ -1,0 +1,26 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0WJ200000CDYkiMAH",
+  "municipality_id": null,
+  "title": "令和８年度外国人患者受入れ体制整備支援事業補助金",
+  "target_area": "東京都",
+  "subsidy_max_limit": "1300000",
+  "acceptance_start_datetime": "2026-05-19T15:00:00.000Z",
+  "acceptance_end_datetime": "2026-07-24T14:59:00.000Z",
+  "target_number_of_employees": "従業員数の制約なし",
+  "institution_name": "令和８年度外国人患者受入れ体制整備支援事業補助金",
+  "content_hash": "87f61972b5402bc542d3ce4ae4b2d67b755285efed2b9dc1a6ac3de2d94d81a9",
+  "scraped_at": "2026-05-20T14:31:14.735220+00:00",
+  "raw": {
+    "id": "a0WJ200000CDYkiMAH",
+    "name": "S-00009019",
+    "title": "令和８年度外国人患者受入れ体制整備支援事業補助金",
+    "target_area_search": "東京都",
+    "subsidy_max_limit": 1300000,
+    "acceptance_start_datetime": "2026-05-19T15:00:00.000Z",
+    "acceptance_end_datetime": "2026-07-24T14:59:00.000Z",
+    "target_number_of_employees": "従業員数の制約なし",
+    "institution_name": "令和８年度外国人患者受入れ体制整備支援事業補助金"
+  },
+  "search_area": "東京都"
+}

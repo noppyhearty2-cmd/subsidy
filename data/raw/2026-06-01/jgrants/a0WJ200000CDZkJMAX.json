@@ -1,0 +1,26 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0WJ200000CDZkJMAX",
+  "municipality_id": null,
+  "title": "東京都正規雇用転換安定化支援助成金（令和８年度第２回申請受付）",
+  "target_area": "東京都",
+  "subsidy_max_limit": "1900000",
+  "acceptance_start_datetime": "2026-05-31T23:30:00.000Z",
+  "acceptance_end_datetime": "2026-06-30T08:15:00.000Z",
+  "target_number_of_employees": "従業員数の制約なし",
+  "institution_name": null,
+  "content_hash": "272f7f5b337bf707265e71f7e1924f08cd203cb218977e3f00dabd8648466337",
+  "scraped_at": "2026-06-01T14:31:00.768083+00:00",
+  "raw": {
+    "id": "a0WJ200000CDZkJMAX",
+    "name": "S-00009237",
+    "title": "東京都正規雇用転換安定化支援助成金（令和８年度第２回申請受付）",
+    "target_area_search": "東京都",
+    "subsidy_max_limit": 1900000,
+    "acceptance_start_datetime": "2026-05-31T23:30:00.000Z",
+    "acceptance_end_datetime": "2026-06-30T08:15:00.000Z",
+    "target_number_of_employees": "従業員数の制約なし",
+    "institution_name": null
+  },
+  "search_area": "東京都"
+}

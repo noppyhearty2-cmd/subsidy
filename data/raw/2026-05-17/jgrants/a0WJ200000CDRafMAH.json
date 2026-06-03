@@ -1,0 +1,32 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0WJ200000CDRafMAH",
+  "municipality_id": null,
+  "title": "危機管理対策促進事業_事業完了後の各種申請",
+  "target_area": "茨城県 / 栃木県 / 群馬県 / 埼玉県 / 千葉県 / 東京都 / 神奈川県 / 山梨県",
+  "subsidy_max_limit": "15000000",
+  "acceptance_start_datetime": "2024-05-13T00:00:00.000Z",
+  "acceptance_end_datetime": "2029-12-31T14:59:00.000Z",
+  "target_number_of_employees": "従業員数の制約なし",
+  "institution_name": "危機管理対策促進事業_事業完了後の各種申請",
+  "content_hash": "d1767bcd4b871988bbceae6a9114ecb6eb2986b05d71d20bf99a8cae4a3f2af2",
+  "scraped_at": "2026-05-17T14:03:38.912150+00:00",
+  "raw": {
+    "id": "a0WJ200000CDRafMAH",
+    "name": "S-00007015",
+    "title": "危機管理対策促進事業_事業完了後の各種申請",
+    "target_area_search": "茨城県 / 栃木県 / 群馬県 / 埼玉県 / 千葉県 / 東京都 / 神奈川県 / 山梨県",
+    "subsidy_max_limit": 15000000,
+    "acceptance_start_datetime": "2024-05-13T00:00:00.000Z",
+    "acceptance_end_datetime": "2029-12-31T14:59:00.000Z",
+    "target_number_of_employees": "従業員数の制約なし",
+    "institution_name": null
+  },
+  "search_area": "茨城県",
+  "detail_fetched": true,
+  "description": "■概要東京都中小企業振興公社の実施する危機管理対策促進事業（本申請の対象となる助成金事業を参照）において事業完了後に以下の申請を行なう・事業者変更申請・財産処分申請（承認申請）・財産処分申請（結果報告）・実施結果の状況報告■申請対象の事業者すでに助成事業が完了（※）しており、上記の手続きのために公社から本URLを通知された事業者（※）完了とは、助成金が支払済みの事業を指します。■本申請の対象となる助成金事業BCP実践促進助成金BCP実践促進助成金(連携型)LED照明等節電促進助成金サイバーセキュリティ対策促進助成金■備考gBizIDプライムアカウントを取得の上、申請する必要があります。■問合せ先公益財団法人　東京都中小企業振興公社　企画管理部　設備支援課TEL　03-3251-7889■参照URLhttps://www.tokyo-kosha.or.jp/support/josei/yoshiki/index.html#bcp",
+  "use_purpose": "安全・防災対策支援がほしい / エコ・SDGs活動支援がほしい",
+  "industry": "漁業 / 建設業 / 製造業 / 電気・ガス・熱供給・水道業 / 情報通信業 / 複合サービス事業 / サービス業（他に分類されないもの） / 公務（他に分類されるものを除く） / 分類不能の産業 / 農業、林業 / 鉱業、採石業、砂利採取業 / 運輸業、郵便業 / 卸売業、小売業 / 金融業、保険業 / 不動産業、物品賃貸業 / 学術研究、専門・技術サービス業 / 宿泊業、飲食サービス業 / 生活関連サービス業、娯楽業 / 教育、学習支援業 / 医療、福祉",
+  "subsidy_rate": null,
+  "portal_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDRafMAH"
+}

@@ -1,0 +1,32 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0WJ200000CDYcuMAH",
+  "municipality_id": null,
+  "title": "令和８年度ＡＩ×データ知財取得支援助成事業【第１回申請】",
+  "target_area": "東京都",
+  "subsidy_max_limit": "450000",
+  "acceptance_start_datetime": "2026-05-27T05:00:00.000Z",
+  "acceptance_end_datetime": "2026-06-30T08:00:00.000Z",
+  "target_number_of_employees": "300名以下",
+  "institution_name": "AI×データ知財取得支援助成事業",
+  "content_hash": "77e0ff945dd305f86c6d15bd022e47850e8534fde1ee8fe9b80883a7888aaffa",
+  "scraped_at": "2026-05-27T13:00:52.488571+00:00",
+  "raw": {
+    "id": "a0WJ200000CDYcuMAH",
+    "name": "S-00008882",
+    "title": "令和８年度ＡＩ×データ知財取得支援助成事業【第１回申請】",
+    "target_area_search": "東京都",
+    "subsidy_max_limit": 450000,
+    "acceptance_start_datetime": "2026-05-27T05:00:00.000Z",
+    "acceptance_end_datetime": "2026-06-30T08:00:00.000Z",
+    "target_number_of_employees": "300名以下",
+    "institution_name": null
+  },
+  "search_area": "東京都",
+  "detail_fetched": true,
+  "description": "■事業内容　本事業は、都内中小企業者等が目指すＡＩ等の技術革新によるデータ活用技術に関連した特許の取得に向けた取組に対する支援を実施し、また、特許の出願から登録までに要する経費の一部を助成することにより、都内中小企業者等の競争力の向上を図ることで、東京の産業を活性化させることを目的としています。■助成対象　東京都内の中小企業者（会社及び個人事業者）、中小企業団体、一般社団・財団法人（1年度1社1登録に限る）※過去に東京都知的財産総合センターから助成金の交付を受けている者は、「活用状況報告書」を所定の期日までに提出していること。■助成内容■助成率　1/2以内（小規模企業者の場合 2/3以内）■助成限度額　４５万円（小規模企業者の場合６０万円）■助成対象経費　出願手数料、審査請求料・中間手続費用、代理人費用、権利取得に関する費用　等■問合せ先東京都知的財産総合センター東京都台東区台東1-3-5　反町商事ビル1階TEL：03-3832-3656E-mail：aidata-tokkyo@tokyo-kosha.or.jp■参照URLhttps://www.tokyo-kosha.or.jp/chizai/website/topics/aidate.html",
+  "use_purpose": "新たな事業を行いたい",
+  "industry": "漁業 / 建設業 / 製造業 / 電気・ガス・熱供給・水道業 / 情報通信業 / 複合サービス事業 / サービス業（他に分類されないもの） / 分類不能の産業 / 農業、林業 / 鉱業、採石業、砂利採取業 / 運輸業、郵便業 / 卸売業、小売業 / 金融業、保険業 / 不動産業、物品賃貸業 / 学術研究、専門・技術サービス業 / 宿泊業、飲食サービス業 / 生活関連サービス業、娯楽業 / 教育、学習支援業 / 医療、福祉",
+  "subsidy_rate": "1/2",
+  "portal_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYcuMAH"
+}

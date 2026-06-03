@@ -1,0 +1,32 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0W2x000007CStOEAW",
+  "municipality_id": null,
+  "title": "農林水産物認証取得支援事業（水産認証取得支援事業）補助金",
+  "target_area": "東京都",
+  "subsidy_max_limit": "0",
+  "acceptance_start_datetime": "2022-04-01T01:00:00.000Z",
+  "acceptance_end_datetime": "2026-12-28T08:00:00.000Z",
+  "target_number_of_employees": "従業員数の制約なし",
+  "institution_name": "農林水産物認証取得支援事業（水産認証取得支援事業）補助金",
+  "content_hash": "4a6626b92a4bb3abfb4035948de3b3e5c6f6c080054f6a86b8b670e39dceb61e",
+  "scraped_at": "2026-05-17T14:03:58.432540+00:00",
+  "raw": {
+    "id": "a0W2x000007CStOEAW",
+    "name": "S-00002267",
+    "title": "農林水産物認証取得支援事業（水産認証取得支援事業）補助金",
+    "target_area_search": "東京都",
+    "subsidy_max_limit": 0,
+    "acceptance_start_datetime": "2022-04-01T01:00:00.000Z",
+    "acceptance_end_datetime": "2026-12-28T08:00:00.000Z",
+    "target_number_of_employees": "従業員数の制約なし",
+    "institution_name": "農林水産物認証取得支援事業（水産認証取得支援事業）補助金"
+  },
+  "search_area": "東京都",
+  "detail_fetched": true,
+  "description": "■目的・概要公益財団法人東京都農林水産振興財団では、持続可能性に配慮した漁業等を推進するため、水産認証取得に要する経費を補助します。 【認証の種類】・ＭＥＬＶ２ (Marine Ecolabel Japan)：マリン・エコラベル・ジャパン協議会・ＭＳＣ (Marine Stewardship Council)：海洋管理協議会 【対象経費】 ＜事業区分＞　　　 ＜対象経費＞　　　　 ＜助成率＞・取得（初回審査） 　初回審査料 　　　年間公示料 2/3以内 ・定期審査　　　　　 定期審査料　　　 年間公示料 2/3以内 ・更新審査　　　　　 更新審査料　　　 年間公示料 2/3以内 ※消費税については、対象経費に含まないものとする。　流通加工段階認証は、生産段階認証事業対象者以外の者が申請する場合は、　取得、定期審査・更新審査の区分を問わず、初回限り補助対象とし、　１事業対象者につき３０万円以内とする。■応募資格＜生産段階認証＞東京都漁業協同組合連合会及び、東京都内に所在する漁業者で、東京都内に所在する漁業協同組合に所属している者 ＜流通加工段階認証＞１．上記生産段階認証を取得した漁業で漁獲された水産物を取り扱う水産物流事業者２．上記生産段階認証を取得した漁業で漁獲された水産物を取り扱う水産物加工事業者等■問合せ先（公財）東京都農林水産振興財団地産地消推進課　認証支援係〒190-0013　東京都立川市富士見町3-8-1　Tel:　042-528-0510",
+  "use_purpose": "販路拡大・海外展開をしたい",
+  "industry": "漁業",
+  "subsidy_rate": "2/3以内",
+  "portal_url": "https://www.jgrants-portal.go.jp/subsidy/a0W2x000007CStOEAW"
+}

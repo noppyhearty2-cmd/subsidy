@@ -1,0 +1,26 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0WJ200000CDZyDMAX",
+  "municipality_id": null,
+  "title": "【山形県】令和8年度山形県再生可能エネルギー(小水力発電)事業可能性調査事業費補助金",
+  "target_area": "山形県",
+  "subsidy_max_limit": "750000",
+  "acceptance_start_datetime": "2026-04-01T00:00:00.000Z",
+  "acceptance_end_datetime": "2026-12-25T08:15:00.000Z",
+  "target_number_of_employees": "従業員数の制約なし",
+  "institution_name": "山形県再生可能エネルギー(小水力発電)事業可能性調査事業費補助金",
+  "content_hash": "e774129a721425b3f8f887c8625b3ed0b9315c7bdf9760dcc939a69a769b447d",
+  "scraped_at": "2026-06-01T14:30:26.941529+00:00",
+  "raw": {
+    "id": "a0WJ200000CDZyDMAX",
+    "name": "S-00009247",
+    "title": "【山形県】令和8年度山形県再生可能エネルギー(小水力発電)事業可能性調査事業費補助金",
+    "target_area_search": "山形県",
+    "subsidy_max_limit": 750000,
+    "acceptance_start_datetime": "2026-04-01T00:00:00.000Z",
+    "acceptance_end_datetime": "2026-12-25T08:15:00.000Z",
+    "target_number_of_employees": "従業員数の制約なし",
+    "institution_name": "山形県再生可能エネルギー(小水力発電)事業可能性調査事業費補助金"
+  },
+  "search_area": "山形県"
+}

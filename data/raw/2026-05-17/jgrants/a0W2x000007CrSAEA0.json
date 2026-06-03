@@ -1,0 +1,32 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0W2x000007CrSAEA0",
+  "municipality_id": null,
+  "title": "東京都環境保全資金融資保証債務履行補助金",
+  "target_area": "東京都",
+  "subsidy_max_limit": "2798000",
+  "acceptance_start_datetime": "2023-04-01T00:00:00.000Z",
+  "acceptance_end_datetime": "2124-03-31T08:30:00.000Z",
+  "target_number_of_employees": "従業員数の制約なし",
+  "institution_name": "東京都環境保全資金融資保証債務履行補助金",
+  "content_hash": "c23b17ea670a9d586b5c3992ddcfcd630771df2f0b792338ef9484ba82b2475c",
+  "scraped_at": "2026-05-17T14:03:58.430308+00:00",
+  "raw": {
+    "id": "a0W2x000007CrSAEA0",
+    "name": "S-00003236",
+    "title": "東京都環境保全資金融資保証債務履行補助金",
+    "target_area_search": "東京都",
+    "subsidy_max_limit": 2798000,
+    "acceptance_start_datetime": "2023-04-01T00:00:00.000Z",
+    "acceptance_end_datetime": "2124-03-31T08:30:00.000Z",
+    "target_number_of_employees": "従業員数の制約なし",
+    "institution_name": null
+  },
+  "search_area": "東京都",
+  "detail_fetched": true,
+  "description": "■目的・概要　東京都環境保全資金融資保証債務履行補助金は、東京信用保証協会(以下「補助事業者」という。）が行う保証債務履行に伴う損失を補助することによって、補助事業者が中小企業の環境保全資金融資の需要に対し積極的に保証を促進し、もって良好な環境の確保に寄与することを目的とする。■根拠法令東京都環境保全資金融資保証債務履行補助金交付要綱■問合せ先東京都環境局環境改善部自動車環境課低公害化支援担当住所：〒163-8001　新宿区西新宿2-8-1　都庁第二本庁舎20階電話：03-5388-3535（直通）",
+  "use_purpose": "資金繰りを改善したい",
+  "industry": "金融業、保険業",
+  "subsidy_rate": "10分の9",
+  "portal_url": "https://www.jgrants-portal.go.jp/subsidy/a0W2x000007CrSAEA0"
+}

@@ -1,0 +1,9 @@
+{"ts": "2026-05-10T14:14:05.410767+00:00", "event": "run_start", "areas": ["大阪府"], "dry_run": true}
+{"ts": "2026-05-10T14:14:05.949319+00:00", "event": "run_end", "saved": 0, "skipped": 0, "errors": 0, "dry_run": true}
+{"ts": "2026-05-10T14:33:54.787070+00:00", "event": "run_start", "areas": ["大阪府"], "dry_run": true}
+{"ts": "2026-05-10T14:33:56.897998+00:00", "event": "error", "area": "大阪府", "error": "'JGrantsSubsidy' object has no attribute 'name'"}
+{"ts": "2026-05-10T14:33:56.898652+00:00", "event": "run_end", "saved": 0, "skipped": 0, "errors": 1, "dry_run": true}
+{"ts": "2026-05-10T14:34:13.322252+00:00", "event": "run_start", "areas": ["大阪府"], "dry_run": true}
+{"ts": "2026-05-10T14:34:17.662340+00:00", "event": "run_end", "saved": 5, "skipped": 0, "errors": 0, "dry_run": true}
+{"ts": "2026-05-10T14:34:25.998028+00:00", "event": "run_start", "areas": ["大阪市"], "dry_run": false}
+{"ts": "2026-05-10T14:34:28.747352+00:00", "event": "run_end", "saved": 0, "skipped": 0, "errors": 0, "dry_run": false}

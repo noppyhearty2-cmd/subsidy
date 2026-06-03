@@ -1,0 +1,26 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0WJ200000CDYnpMAH",
+  "municipality_id": null,
+  "title": "令和8年度 バス事業者人材開発支援奨励金",
+  "target_area": "東京都",
+  "subsidy_max_limit": "1900000",
+  "acceptance_start_datetime": "2026-05-29T05:00:00.000Z",
+  "acceptance_end_datetime": "2027-02-28T14:59:00.000Z",
+  "target_number_of_employees": "300名以下",
+  "institution_name": null,
+  "content_hash": "462ff3695e62826ef64d9d2d4b678794e105eaaffb5ba91f3565380ce166f7ef",
+  "scraped_at": "2026-05-29T14:31:09.878931+00:00",
+  "raw": {
+    "id": "a0WJ200000CDYnpMAH",
+    "name": "S-00009055",
+    "title": "令和8年度 バス事業者人材開発支援奨励金",
+    "target_area_search": "東京都",
+    "subsidy_max_limit": 1900000,
+    "acceptance_start_datetime": "2026-05-29T05:00:00.000Z",
+    "acceptance_end_datetime": "2027-02-28T14:59:00.000Z",
+    "target_number_of_employees": "300名以下",
+    "institution_name": null
+  },
+  "search_area": "東京都"
+}

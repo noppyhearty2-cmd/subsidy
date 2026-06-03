@@ -1,0 +1,26 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0WJ200000CDYvYMAX",
+  "municipality_id": null,
+  "title": "【募集期間：5/18～27】【二次募集】水素海外展開チャレンジ事業2026",
+  "target_area": "全国 / 兵庫県",
+  "subsidy_max_limit": "0",
+  "acceptance_start_datetime": "2026-05-18T01:00:00.000Z",
+  "acceptance_end_datetime": "2026-05-27T08:00:00.000Z",
+  "target_number_of_employees": "従業員数の制約なし",
+  "institution_name": null,
+  "content_hash": "de5cd2d7b5775cf951c0113669df4c8cc1e310b1f09148fe5a4db6247ea394dd",
+  "scraped_at": "2026-05-18T14:04:47.669626+00:00",
+  "raw": {
+    "id": "a0WJ200000CDYvYMAX",
+    "name": "S-00009148",
+    "title": "【募集期間：5/18～27】【二次募集】水素海外展開チャレンジ事業2026",
+    "target_area_search": "全国 / 兵庫県",
+    "subsidy_max_limit": 0,
+    "acceptance_start_datetime": "2026-05-18T01:00:00.000Z",
+    "acceptance_end_datetime": "2026-05-27T08:00:00.000Z",
+    "target_number_of_employees": "従業員数の制約なし",
+    "institution_name": null
+  },
+  "search_area": "兵庫県"
+}

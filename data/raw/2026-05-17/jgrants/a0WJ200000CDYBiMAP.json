@@ -1,0 +1,32 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0WJ200000CDYBiMAP",
+  "municipality_id": null,
+  "title": "東京都薬局における賃上げ・物価上昇に対する支援金",
+  "target_area": "東京都",
+  "subsidy_max_limit": "0",
+  "acceptance_start_datetime": "2026-04-27T00:00:00.000Z",
+  "acceptance_end_datetime": "2026-05-31T14:59:00.000Z",
+  "target_number_of_employees": "従業員数の制約なし",
+  "institution_name": "東京都薬局における賃上げ・物価上昇に対する支援事業",
+  "content_hash": "bf5b5b06e6628159db7bc1689886f173f0c2e0df9e51b4828cbd1a95ca401112",
+  "scraped_at": "2026-05-17T14:04:00.983387+00:00",
+  "raw": {
+    "id": "a0WJ200000CDYBiMAP",
+    "name": "S-00008542",
+    "title": "東京都薬局における賃上げ・物価上昇に対する支援金",
+    "target_area_search": "東京都",
+    "subsidy_max_limit": 0,
+    "acceptance_start_datetime": "2026-04-27T00:00:00.000Z",
+    "acceptance_end_datetime": "2026-05-31T14:59:00.000Z",
+    "target_number_of_employees": "従業員数の制約なし",
+    "institution_name": null
+  },
+  "search_area": "東京都",
+  "detail_fetched": true,
+  "description": "≪支給対象施設≫　都内に開設している保険薬局　いずれも健康保険法（大正十一年法律第七十号）上の保険医療機関コードが発行されており、令和7年4月1日から本事業の申請時点までに診療報酬請求の実績がある薬局 ≪支給要件≫必ず、東京都ホームページをご確認ください。東京都ホームページ：https://www.hokeniryo.metro.tokyo.lg.jp/anzen/kenkou_anzen/package-yakkyoku≪問合せ先≫　東京都薬局における賃上げ・物価上昇に対する支援金事務局　電話番号：03-6821-2712　受付時間：平日午前９時から午後５時までメールでのお問い合わせは、以下のメールアドレスにお送りください。yakumu_r8bukka(at)nta.co.jp　※迷惑メール対策のため、メールアドレスの表記を一部変更しております。お手数ですが、メール送信の際は(at)を@に置き換えてご利用ください。　件名：【薬局賃上げ・物価対策支援金】お問い合わせ　本文：①法人名又は屋号、②保険薬局コード（7桁）、③ご担当者様お名前、④電話番号、⑤お問い合わせ内容 ≪東京都ホームページ≫https://www.hokeniryo.metro.tokyo.lg.jp/anzen/kenkou_anzen/package-yakkyoku",
+  "use_purpose": "資金繰りを改善したい",
+  "industry": "医療、福祉",
+  "subsidy_rate": null,
+  "portal_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYBiMAP"
+}

@@ -1,0 +1,32 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0WJ200000CDXy3MAH",
+  "municipality_id": null,
+  "title": "橿原市業務改善支援補助金",
+  "target_area": "奈良県",
+  "subsidy_max_limit": "100000",
+  "acceptance_start_datetime": "2026-03-31T23:30:00.000Z",
+  "acceptance_end_datetime": "2027-03-12T08:15:00.000Z",
+  "target_number_of_employees": "300名以下",
+  "institution_name": "橿原市業務改善支援補助金",
+  "content_hash": "dd1b7044f5ffe7a4b67044f1574c98c9ce7a71e91bcfd7942c4d11f75a2b5a99",
+  "scraped_at": "2026-05-17T14:05:04.251287+00:00",
+  "raw": {
+    "id": "a0WJ200000CDXy3MAH",
+    "name": "S-00008347",
+    "title": "橿原市業務改善支援補助金",
+    "target_area_search": "奈良県",
+    "subsidy_max_limit": 100000,
+    "acceptance_start_datetime": "2026-03-31T23:30:00.000Z",
+    "acceptance_end_datetime": "2027-03-12T08:15:00.000Z",
+    "target_number_of_employees": "300名以下",
+    "institution_name": "橿原市業務改善支援補助金"
+  },
+  "search_area": "奈良県",
+  "detail_fetched": true,
+  "description": "■目的・概要国の「業務改善助成金」を活用して生産性向上や賃上げに取り組む市内の事業者を支援するため、国の助成に加えて市独自の上乗せ補助金を交付する制度です。■応募資格以下のすべてを満たす中小企業者が対象です。申請時において橿原市内に主たる事業所等を有していること。国の「業務改善助成金」について、奈良労働局より令和8年3月1日から令和9年2月26日までに交付額確定及び支給決定通知を受けていること。風営法に該当する事業でないこと。暴力団等でないこと。市町村税の滞納がないこと。■地理条件申請時において奈良県橿原市内に主たる事業所等を有していること。■補助金額事業に要する経費から国助成金の交付確定額を差し引いた額（上限100,000円）です。■備考交付申請の受付方法は、地域振興課の窓口受付限定です。受付は先着順で行われ、予算の範囲内での補助金交付となるため、年度途中で受付を終了する場合があります。■問合せ先奈良県 橿原市 魅力創造部 地域振興課 橿原市業務改善支援補助金担当電話番号：0744-21-1117（直通、8時30分から17時15分まで ※土日祝・年末年始を除く）メール：chiikishinko@city.kashihara.nara.jp住所：奈良県橿原市八木町1-1-18（市役所本庁舎）■参照URLhttps://www.city.kashihara.nara.jp/soshiki/1027/gyomu/3/18761.html",
+  "use_purpose": "雇用・職場環境を改善したい / 設備整備・IT導入をしたい",
+  "industry": "漁業 / 建設業 / 製造業 / 電気・ガス・熱供給・水道業 / 情報通信業 / 複合サービス事業 / サービス業（他に分類されないもの） / 分類不能の産業 / 農業、林業 / 鉱業、採石業、砂利採取業 / 運輸業、郵便業 / 卸売業、小売業 / 金融業、保険業 / 不動産業、物品賃貸業 / 学術研究、専門・技術サービス業 / 宿泊業、飲食サービス業 / 生活関連サービス業、娯楽業 / 教育、学習支援業 / 医療、福祉",
+  "subsidy_rate": null,
+  "portal_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXy3MAH"
+}

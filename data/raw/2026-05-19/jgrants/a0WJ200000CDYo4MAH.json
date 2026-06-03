@@ -1,0 +1,26 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0WJ200000CDYo4MAH",
+  "municipality_id": null,
+  "title": "【大阪産業局】令和８年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）",
+  "target_area": "大阪府",
+  "subsidy_max_limit": "3000000",
+  "acceptance_start_datetime": "2026-05-19T00:00:00.000Z",
+  "acceptance_end_datetime": "2026-06-19T08:00:00.000Z",
+  "target_number_of_employees": "300名以下",
+  "institution_name": "中小企業等海外展開支援事業費補助金（海外出願支援事業）",
+  "content_hash": "fd9e4fc641fa5ac2de39f287e8779e33b634e003b1ae622ef5a26cb6ea4f54b9",
+  "scraped_at": "2026-05-19T14:32:28.631140+00:00",
+  "raw": {
+    "id": "a0WJ200000CDYo4MAH",
+    "name": "S-00009058",
+    "title": "【大阪産業局】令和８年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）",
+    "target_area_search": "大阪府",
+    "subsidy_max_limit": 3000000,
+    "acceptance_start_datetime": "2026-05-19T00:00:00.000Z",
+    "acceptance_end_datetime": "2026-06-19T08:00:00.000Z",
+    "target_number_of_employees": "300名以下",
+    "institution_name": "中小企業等海外展開支援事業費補助金（海外出願支援事業）"
+  },
+  "search_area": "大阪府"
+}

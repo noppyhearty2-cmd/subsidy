@@ -1,0 +1,32 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0WJ2000008Av8bMAC",
+  "municipality_id": null,
+  "title": "デジタル技術活用推進助成金に係る状況報告等について",
+  "target_area": "東京都",
+  "subsidy_max_limit": "0",
+  "acceptance_start_datetime": "2022-11-12T15:00:00.000Z",
+  "acceptance_end_datetime": "2029-02-14T15:00:00.000Z",
+  "target_number_of_employees": "従業員数の制約なし",
+  "institution_name": "デジタル技術活用推進助成金",
+  "content_hash": "de66af1be445eacfd91692fbae61062646775e93b8114f29cadc012bfbd8e847",
+  "scraped_at": "2026-05-17T14:03:59.637133+00:00",
+  "raw": {
+    "id": "a0WJ2000008Av8bMAC",
+    "name": "S-00005455",
+    "title": "デジタル技術活用推進助成金に係る状況報告等について",
+    "target_area_search": "東京都",
+    "subsidy_max_limit": 0,
+    "acceptance_start_datetime": "2022-11-12T15:00:00.000Z",
+    "acceptance_end_datetime": "2029-02-14T15:00:00.000Z",
+    "target_number_of_employees": "従業員数の制約なし",
+    "institution_name": null
+  },
+  "search_area": "東京都",
+  "detail_fetched": true,
+  "description": "■目的・概要東京都中小企業振興公社の実施するデジタル技術活用推進助成事業において事業完了後に下記の提出を５年間行なう。■本ページの対象事業者すでに助成事業が完了（※）しており、上記の提出物を郵送で行ってる事業者（※）完了とは、助成金が支払済みの事業を指します。■備考gBizIDプライムアカウントを取得の上、提出する必要があります。■問い合わせ先東京都中小企業振興公社総合支援部生産性向上支援課TEL : 03-3251-7919",
+  "use_purpose": "設備整備・IT導入をしたい",
+  "industry": "漁業 / 建設業 / 製造業 / 電気・ガス・熱供給・水道業 / 情報通信業 / 複合サービス事業 / サービス業（他に分類されないもの） / 分類不能の産業 / 農業、林業 / 鉱業、採石業、砂利採取業 / 運輸業、郵便業 / 卸売業、小売業 / 金融業、保険業 / 不動産業、物品賃貸業 / 学術研究、専門・技術サービス業 / 宿泊業、飲食サービス業 / 生活関連サービス業、娯楽業 / 教育、学習支援業 / 医療、福祉",
+  "subsidy_rate": null,
+  "portal_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ2000008Av8bMAC"
+}

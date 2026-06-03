@@ -1,0 +1,26 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0WJ200000CDZBWMA5",
+  "municipality_id": null,
+  "title": "【福島県】令和8年度中小企業等海外展開支援事業費補助金（海外出願支援事業）",
+  "target_area": "福島県",
+  "subsidy_max_limit": "3000000",
+  "acceptance_start_datetime": "2026-05-01T01:00:00.000Z",
+  "acceptance_end_datetime": "2026-06-30T08:00:00.000Z",
+  "target_number_of_employees": "300名以下",
+  "institution_name": "中小企業等海外展開支援事業費補助金（海外出願支援事業）",
+  "content_hash": "cc005a44ee60181d1449e2c49db400114e6c7f46b012eb35b72fd3b5030df3b9",
+  "scraped_at": "2026-05-20T14:30:44.075456+00:00",
+  "raw": {
+    "id": "a0WJ200000CDZBWMA5",
+    "name": "S-00009185",
+    "title": "【福島県】令和8年度中小企業等海外展開支援事業費補助金（海外出願支援事業）",
+    "target_area_search": "福島県",
+    "subsidy_max_limit": 3000000,
+    "acceptance_start_datetime": "2026-05-01T01:00:00.000Z",
+    "acceptance_end_datetime": "2026-06-30T08:00:00.000Z",
+    "target_number_of_employees": "300名以下",
+    "institution_name": "中小企業等海外展開支援事業費補助金（海外出願支援事業）"
+  },
+  "search_area": "福島県"
+}

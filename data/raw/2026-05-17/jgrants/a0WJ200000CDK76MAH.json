@@ -1,0 +1,32 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0WJ200000CDK76MAH",
+  "municipality_id": null,
+  "title": "東京都民間事業者に係る低公害・低燃費車導入促進補助金（補助金申請）",
+  "target_area": "東京都",
+  "subsidy_max_limit": "200000",
+  "acceptance_start_datetime": "2026-03-31T15:00:00.000Z",
+  "acceptance_end_datetime": "2027-02-26T14:59:00.000Z",
+  "target_number_of_employees": "従業員数の制約なし",
+  "institution_name": "東京都民間所業者に係る低公害・低燃費車導入促進補助金",
+  "content_hash": "5ddc36b4e569a489868770b0951380e54fbf926771bd8087fbbb04412e4d9268",
+  "scraped_at": "2026-05-17T14:03:58.434445+00:00",
+  "raw": {
+    "id": "a0WJ200000CDK76MAH",
+    "name": "S-00006080",
+    "title": "東京都民間事業者に係る低公害・低燃費車導入促進補助金（補助金申請）",
+    "target_area_search": "東京都",
+    "subsidy_max_limit": 200000,
+    "acceptance_start_datetime": "2026-03-31T15:00:00.000Z",
+    "acceptance_end_datetime": "2027-02-26T14:59:00.000Z",
+    "target_number_of_employees": "従業員数の制約なし",
+    "institution_name": "東京都民間所業者に係る低公害・低燃費車導入促進補助金"
+  },
+  "search_area": "東京都",
+  "detail_fetched": true,
+  "description": "■目的・概要圧縮天然ガス自動車の導入に対して補助します。■補助対象者・中小企業者（個人事業者を含む）・上記の事業者へリースをするリース事業者■補助対象圧縮天然ガス自動車（ＣＮＧ自動車）（都内に使用の本拠を置く車両。車両総重量３．５トン以下の車両を除く。）■補助要件・補助金交付決定を受けた日以降に購入（車検登録）する車両であること。・令和9年2月28日までに車両を購入し、都に実績報告書を提出すること。（最終報告期限　令和9年3月31日）■補助額車両総重量3.5t超8t以下 100，000円/台車両総重量8t超 200，000円/台",
+  "use_purpose": "設備整備・IT導入をしたい / エコ・SDGs活動支援がほしい",
+  "industry": "漁業 / 建設業 / 製造業 / 電気・ガス・熱供給・水道業 / 情報通信業 / 複合サービス事業 / サービス業（他に分類されないもの） / 農業、林業 / 鉱業、採石業、砂利採取業 / 運輸業、郵便業 / 卸売業、小売業 / 金融業、保険業 / 不動産業、物品賃貸業 / 学術研究、専門・技術サービス業 / 宿泊業、飲食サービス業 / 生活関連サービス業、娯楽業 / 教育、学習支援業 / 医療、福祉",
+  "subsidy_rate": null,
+  "portal_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDK76MAH"
+}

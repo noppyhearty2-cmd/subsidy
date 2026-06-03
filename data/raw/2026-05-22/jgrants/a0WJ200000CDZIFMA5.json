@@ -1,0 +1,26 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0WJ200000CDZIFMA5",
+  "municipality_id": null,
+  "title": "松戸市事業用省エネルギー設備等導入促進事業費補助金",
+  "target_area": "千葉県",
+  "subsidy_max_limit": "0",
+  "acceptance_start_datetime": "2026-04-01T00:00:00.000Z",
+  "acceptance_end_datetime": "2027-02-26T08:00:00.000Z",
+  "target_number_of_employees": "従業員数の制約なし",
+  "institution_name": "松戸市事業用省エネルギー設備等導入促進事業費補助金",
+  "content_hash": "70dca5cc239c8d2dd9041b0e2edfaf07de0c0c8293d7abf5f235c68736dfc85e",
+  "scraped_at": "2026-05-22T14:30:53.668735+00:00",
+  "raw": {
+    "id": "a0WJ200000CDZIFMA5",
+    "name": "S-00009205",
+    "title": "松戸市事業用省エネルギー設備等導入促進事業費補助金",
+    "target_area_search": "千葉県",
+    "subsidy_max_limit": 0,
+    "acceptance_start_datetime": "2026-04-01T00:00:00.000Z",
+    "acceptance_end_datetime": "2027-02-26T08:00:00.000Z",
+    "target_number_of_employees": "従業員数の制約なし",
+    "institution_name": "松戸市事業用省エネルギー設備等導入促進事業費補助金"
+  },
+  "search_area": "千葉県"
+}

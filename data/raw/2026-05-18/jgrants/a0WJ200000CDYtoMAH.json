@@ -1,0 +1,26 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0WJ200000CDYtoMAH",
+  "municipality_id": null,
+  "title": "【香川県】令和８年度中小企業等海外展開支援事業費補助金（海外出願支援事業）第１次募集",
+  "target_area": "香川県",
+  "subsidy_max_limit": "3000000",
+  "acceptance_start_datetime": "2026-05-18T00:00:00.000Z",
+  "acceptance_end_datetime": "2026-06-19T08:00:00.000Z",
+  "target_number_of_employees": "300名以下",
+  "institution_name": "【香川県】令和８年度中小企業等海外展開支援事業費補助金（海外出願支援事業）",
+  "content_hash": "2acb93e16e7e67536ef3876d1240ee2c685f05a2ed2fab7fb5fe966d5ca34b3c",
+  "scraped_at": "2026-05-18T14:05:29.277401+00:00",
+  "raw": {
+    "id": "a0WJ200000CDYtoMAH",
+    "name": "S-00009116",
+    "title": "【香川県】令和８年度中小企業等海外展開支援事業費補助金（海外出願支援事業）第１次募集",
+    "target_area_search": "香川県",
+    "subsidy_max_limit": 3000000,
+    "acceptance_start_datetime": "2026-05-18T00:00:00.000Z",
+    "acceptance_end_datetime": "2026-06-19T08:00:00.000Z",
+    "target_number_of_employees": "300名以下",
+    "institution_name": "【香川県】令和８年度中小企業等海外展開支援事業費補助金（海外出願支援事業）"
+  },
+  "search_area": "香川県"
+}
