@@ -1,0 +1,26 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0WJ200000CDZWsMAP",
+  "municipality_id": null,
+  "title": "令和８年度第１回募集　課題解決型技術開発促進事業（試作品開発・改良助成）",
+  "target_area": "東京都",
+  "subsidy_max_limit": "20000000",
+  "acceptance_start_datetime": "2026-06-03T15:00:00.000Z",
+  "acceptance_end_datetime": "2026-07-03T08:00:00.000Z",
+  "target_number_of_employees": "従業員数の制約なし",
+  "institution_name": null,
+  "content_hash": "4c720bfee47ce9fd2659baf835cd8be16d7ca239f81147488d9443a92600cc62",
+  "scraped_at": "2026-06-04T14:31:04.002049+00:00",
+  "raw": {
+    "id": "a0WJ200000CDZWsMAP",
+    "name": "S-00009210",
+    "title": "令和８年度第１回募集　課題解決型技術開発促進事業（試作品開発・改良助成）",
+    "target_area_search": "東京都",
+    "subsidy_max_limit": 20000000,
+    "acceptance_start_datetime": "2026-06-03T15:00:00.000Z",
+    "acceptance_end_datetime": "2026-07-03T08:00:00.000Z",
+    "target_number_of_employees": "従業員数の制約なし",
+    "institution_name": null
+  },
+  "search_area": "東京都"
+}

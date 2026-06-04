@@ -1,0 +1,26 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0WJ200000CDaBZMA1",
+  "municipality_id": null,
+  "title": "【島根県】令和8年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）（第２回公募）",
+  "target_area": "島根県",
+  "subsidy_max_limit": "3000000",
+  "acceptance_start_datetime": "2026-05-31T15:00:00.000Z",
+  "acceptance_end_datetime": "2026-06-30T08:00:00.000Z",
+  "target_number_of_employees": "300名以下",
+  "institution_name": "中小企業等海外展開支援事業費補助金（海外出願支援事業）",
+  "content_hash": "92e356359169061615b826b5206ca6aa1d763bd75367dd5555382a138fa46038",
+  "scraped_at": "2026-06-04T14:32:36.266791+00:00",
+  "raw": {
+    "id": "a0WJ200000CDaBZMA1",
+    "name": "S-00009282",
+    "title": "【島根県】令和8年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）（第２回公募）",
+    "target_area_search": "島根県",
+    "subsidy_max_limit": 3000000,
+    "acceptance_start_datetime": "2026-05-31T15:00:00.000Z",
+    "acceptance_end_datetime": "2026-06-30T08:00:00.000Z",
+    "target_number_of_employees": "300名以下",
+    "institution_name": "中小企業等海外展開支援事業費補助金（海外出願支援事業）"
+  },
+  "search_area": "島根県"
+}
