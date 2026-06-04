@@ -1,0 +1,26 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0WJ200000CDa6lMAD",
+  "municipality_id": null,
+  "title": "【宮崎県】令和8年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）",
+  "target_area": "宮崎県",
+  "subsidy_max_limit": "3000000",
+  "acceptance_start_datetime": "2026-06-01T06:00:00.000Z",
+  "acceptance_end_datetime": "2026-06-29T08:15:00.000Z",
+  "target_number_of_employees": "300名以下",
+  "institution_name": "中小企業等海外展開支援事業費補助金（海外出願支援事業）",
+  "content_hash": "f186fe71b5ed9cea8a74feaae15fc6c7f961cabd048a0841ad3a415a4e8a673b",
+  "scraped_at": "2026-06-03T14:33:25.486898+00:00",
+  "raw": {
+    "id": "a0WJ200000CDa6lMAD",
+    "name": "S-00009281",
+    "title": "【宮崎県】令和8年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）",
+    "target_area_search": "宮崎県",
+    "subsidy_max_limit": 3000000,
+    "acceptance_start_datetime": "2026-06-01T06:00:00.000Z",
+    "acceptance_end_datetime": "2026-06-29T08:15:00.000Z",
+    "target_number_of_employees": "300名以下",
+    "institution_name": "中小企業等海外展開支援事業費補助金（海外出願支援事業）"
+  },
+  "search_area": "宮崎県"
+}

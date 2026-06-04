@@ -10,7 +10,7 @@ key_points:
   - "耐震改修工事費：県+市町合計で最大120万円程度"
   - "昭和56年5月31日以前の木造住宅が対象"
   - "申請先は各市町の建築・住宅担当窓口"
-source_url: "https://www.pref.shizuoka.jp/kensetsu/ke-230/taishin/"
+source_url: "https://www.pref.shizuoka.jp/kurashikankyo/kenchiku/taishinka/1041569/1041773/1041775/1049098/index.html"
 summary_ja: "静岡県が市町と連携して昭和56年以前の木造住宅の耐震改修を補助。南海トラフ地震対策として全国屈指の耐震化率向上施策を推進。"
 scraped_at: "2026-06-03T00:00:00Z"
 is_active: true

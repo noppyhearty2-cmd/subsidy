@@ -10,7 +10,7 @@ key_points:
   - "東日本大震災（2011年）の教訓から積極的に耐震化推進"
   - "耐震改修工事費：県+市町村合計で最大100万円程度"
   - "申請先は各市町村の建築・住宅担当窓口"
-source_url: "https://www.pref.miyagi.jp/soshiki/jyutaku/taishin.html"
+source_url: "https://www.pref.miyagi.jp/soshiki/kentaku/taishinmokuji.html"
 summary_ja: "宮城県が市町村と連携して昭和56年以前の木造住宅の耐震改修を補助。東日本大震災の教訓から耐震化施策を強化している。"
 scraped_at: "2026-06-03T00:00:00Z"
 is_active: true

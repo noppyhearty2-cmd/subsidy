@@ -10,7 +10,7 @@ key_points:
   - "耐震改修工事費：県+市町合計で最大120万円程度"
   - "南海トラフ地震対策として積極的な耐震化推進"
   - "申請先は各市町の建築・住宅担当窓口"
-source_url: "https://www.pref.mie.lg.jp/JUTAKU/HP/taishin.htm"
+source_url: "https://www.pref.mie.lg.jp/JUTAKU/HP/35936031381.htm"
 summary_ja: "三重県が市町と連携して昭和56年以前の木造住宅の耐震改修を補助。南海トラフ地震対策として県と市町の補助を合わせた最大120万円程度の助成が受けられる。"
 scraped_at: "2026-06-03T00:00:00Z"
 is_active: true

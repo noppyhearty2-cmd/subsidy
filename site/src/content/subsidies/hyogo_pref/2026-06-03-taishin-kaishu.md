@@ -10,7 +10,7 @@ key_points:
   - "耐震改修工事費：県+市町村合計で最大150万円程度"
   - "昭和56年5月31日以前の木造住宅が対象"
   - "申請先は各市町村の建築・住宅担当窓口"
-source_url: "https://web.pref.hyogo.lg.jp/ks11/taishin.html"
+source_url: "https://web.pref.hyogo.lg.jp/ks29/wd30_000000017.html"
 summary_ja: "兵庫県が市町村と連携して昭和56年以前の木造住宅の耐震改修を補助。阪神・淡路大震災の教訓から全国屈指の耐震化施策を推進している。"
 scraped_at: "2026-06-03T00:00:00Z"
 is_active: true

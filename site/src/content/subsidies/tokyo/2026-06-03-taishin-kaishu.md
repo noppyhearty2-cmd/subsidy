@@ -10,7 +10,7 @@ key_points:
   - "耐震改修工事費：都+区市町村の上乗せで最大200万円程度"
   - "昭和56年5月31日以前の木造住宅が対象"
   - "申請先は各区市町村の建築・住宅担当窓口"
-source_url: "https://www.metro.tokyo.lg.jp/tosei/hodohappyo/press/2022/05/17/15.html"
+source_url: "https://www.taishin.metro.tokyo.lg.jp/jyosei/topic01.html"
 summary_ja: "東京都が区市町村を通じて昭和56年以前の木造住宅の耐震改修を支援。都と区市町村の補助を合わせて最大200万円程度の助成が受けられる。"
 scraped_at: "2026-06-03T00:00:00Z"
 is_active: true

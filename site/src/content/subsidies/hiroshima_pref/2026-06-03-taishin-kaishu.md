@@ -10,7 +10,7 @@ key_points:
   - "耐震改修工事費：県+市町合計で最大150万円程度"
   - "昭和56年5月31日以前の木造住宅が対象"
   - "申請先は各市町の建築・住宅担当窓口"
-source_url: "https://www.pref.hiroshima.lg.jp/soshiki/60/taishin-kaishu.html"
+source_url: "https://www.pref.hiroshima.lg.jp/site/taishin-madoguchi/taishinhojo-jyutaku.html"
 summary_ja: "広島県が市町と連携して昭和56年以前の木造住宅の耐震改修を補助。県と市町の補助を合わせた最大150万円程度の助成が受けられる。"
 scraped_at: "2026-06-03T00:00:00Z"
 is_active: true

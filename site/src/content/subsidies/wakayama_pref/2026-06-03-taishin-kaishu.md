@@ -10,7 +10,7 @@ key_points:
   - "南海トラフ地震対策として積極的な耐震化推進"
   - "耐震改修工事費：県+市町村合計で最大150万円程度"
   - "申請先は各市町村の建築・住宅担当窓口"
-source_url: "https://www.pref.wakayama.lg.jp/prefg/080800/taishin/taishin-kaishu.html"
+source_url: "https://www.pref.wakayama.lg.jp/prefg/080800/taishin/top.html"
 summary_ja: "和歌山県が市町村と連携して昭和56年以前の木造住宅の耐震改修を補助。南海トラフ地震対策として県と市町村の補助を合わせた最大150万円程度の助成が受けられる。"
 scraped_at: "2026-06-03T00:00:00Z"
 is_active: true

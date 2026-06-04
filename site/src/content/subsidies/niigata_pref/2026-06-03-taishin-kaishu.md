@@ -10,7 +10,7 @@ key_points:
   - "耐震改修工事費：県+市町村合計で最大100万円程度"
   - "昭和56年5月31日以前の木造住宅が対象"
   - "申請先は各市町村の建築・住宅担当窓口"
-source_url: "https://www.pref.niigata.lg.jp/sec/kenchikukanri/taishin-kaishu.html"
+source_url: "https://www.pref.niigata.lg.jp/sec/jutaku/1356787010851.html"
 summary_ja: "新潟県が市町村と連携して昭和56年以前の木造住宅の耐震改修を補助。新潟県中越地震・中越沖地震の教訓から積極的に耐震化を推進している。"
 scraped_at: "2026-06-03T00:00:00Z"
 is_active: true
