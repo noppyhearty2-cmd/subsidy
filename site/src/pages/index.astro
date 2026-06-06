@@ -722,6 +722,13 @@ const prefectures = [...new Set(municipalities.map((m) => muniToPref[m] ?? "そ�
       let activeMuni     = "all";
       let activeQuery    = "";
 
+      // ── フィルター有効判定 ──────────────────────────────────
+      function hasActiveFilter() {
+        return activeCat !== "all" || activeAudience !== "all" ||
+               activePref !== "all" || activeMuni !== "all" ||
+               activeQuery.trim().length > 0;
+      }
+
       // ── 自治体バーの表示切り替え ───────────────────────────
       function updateMuniBar() {
         if (activePref === "all") {
@@ -748,8 +755,15 @@ const prefectures = [...new Set(municipalities.map((m) => muniToPref[m] ?? "そ�
         let visible = 0;
         const terms = activeQuery.trim().split(/\s+/).filter(Boolean);
         const visibleCards: HTMLElement[] = [];
+        const isFilterActive = hasActiveFilter();
 
         cards.forEach((card) => {
+          // フィルターが有効でない場合は全て非表示
+          if (!isFilterActive) {
+            card.style.display = "none";
+            return;
+          }
+
           const pref     = card.dataset.pref!;
           const muni     = card.dataset.muni!;
           const cats     = (card.dataset.cats || "").split(",");
@@ -764,7 +778,7 @@ const prefectures = [...new Set(municipalities.map((m) => muniToPref[m] ?? "そ�
           card.style.display = show ? "" : "none";
           if (show) { visible++; visibleCards.push(card); }
         });
-        countEl.textContent = `${visible} 件`;
+        countEl.textContent = isFilterActive ? `${visible} 件` : "";
 
         // キーワード検索時のみ：マッチ度でソート（タイトルヒットを上に）
         if (terms.length > 0 && visibleCards.length > 0) {
