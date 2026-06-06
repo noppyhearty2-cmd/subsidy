@@ -880,6 +880,9 @@ const prefectures = [...new Set(municipalities.map((m) => muniToPref[m] ?? "そ�
         // 都道府県のみ指定（パンくずの都道府県リンクから来た場合）
         const prefBtn = document.querySelector<HTMLButtonElement>(`#pref-filters [data-pref="${prefParam}"]`);
         if (prefBtn) prefBtn.click();
+      } else {
+        // URLパラメータがない場合は、初期状態を表示（すべてのカードを非表示）
+        updateDisplay();
       }
     </script>
   </body>
