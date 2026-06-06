@@ -89,6 +89,7 @@ const muniLabel: Record<string, string> = {
   tochigi_city: "栃木市", nikko: "日光市",
   ibaraki_pref: "茨城県", hitachi: "日立市", gunma_pref: "群馬県", takasaki: "高崎市",
   ota_gunma: "太田市", isesaki: "伊勢崎市", kiryu: "桐生市",
+  tsuchiura: "土浦市", hitachinaka: "ひたちなか市", kashima: "鹿嶋市", ryugasaki: "龍ケ崎市",
   chiba_pref: "千葉県", matsudo: "松戸市",
   funabashi: "船橋市", kashiwa: "柏市", urayasu: "浦安市", ichikawa: "市川市",
   // 中部
@@ -440,7 +441,7 @@ const municipalities = [...new Set(active.map((s) => s.data.municipality))]
     if (typeDiff !== 0) return typeDiff;
     return (muniLabel[a] ?? a).localeCompare(muniLabel[b] ?? b, "ja");
   });
-const prefectures = [...new Set(municipalities.map((m) => muniToPref[m] ?? "その他"))].sort();
+const prefectures = [...new Set(municipalities.map((m) => muniToPref[m] ?? "その他"))].sort((a, b) => a.localeCompare(b, "ja"));
 ---
 
 <!doctype html>
