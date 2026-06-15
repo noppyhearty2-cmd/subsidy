@@ -1,0 +1,26 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0WJ200000CDacHMAT",
+  "municipality_id": null,
+  "title": "東京都医療機関等における賃上げ・物価上昇に対する支援事業(診療所、訪問看護ステーション　申請用）",
+  "target_area": "東京都",
+  "subsidy_max_limit": "0",
+  "acceptance_start_datetime": "2026-06-10T15:00:00.000Z",
+  "acceptance_end_datetime": "2026-08-07T23:00:00.000Z",
+  "target_number_of_employees": "従業員数の制約なし",
+  "institution_name": null,
+  "content_hash": "937f452a6d97d30eea5ec7eda4e13945ca4b9f5adfcebbbd251ce9a00898f665",
+  "scraped_at": "2026-06-11T14:31:05.591641+00:00",
+  "raw": {
+    "id": "a0WJ200000CDacHMAT",
+    "name": "S-00009324",
+    "title": "東京都医療機関等における賃上げ・物価上昇に対する支援事業(診療所、訪問看護ステーション　申請用）",
+    "target_area_search": "東京都",
+    "subsidy_max_limit": 0,
+    "acceptance_start_datetime": "2026-06-10T15:00:00.000Z",
+    "acceptance_end_datetime": "2026-08-07T23:00:00.000Z",
+    "target_number_of_employees": "従業員数の制約なし",
+    "institution_name": null
+  },
+  "search_area": "東京都"
+}

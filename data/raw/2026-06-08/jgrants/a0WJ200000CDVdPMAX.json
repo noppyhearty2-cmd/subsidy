@@ -1,0 +1,26 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0WJ200000CDVdPMAX",
+  "municipality_id": null,
+  "title": "令和７年度臨床研修費等補助金（歯科医師）",
+  "target_area": "東京都",
+  "subsidy_max_limit": "0",
+  "acceptance_start_datetime": "2025-10-14T15:00:00.000Z",
+  "acceptance_end_datetime": "2026-06-19T14:59:00.000Z",
+  "target_number_of_employees": "従業員数の制約なし",
+  "institution_name": "臨床研修費等補助金",
+  "content_hash": "5b30a1f914948bae3a3ec4ae088c046a18c5c10c7de607ebe73902c2bd3f8429",
+  "scraped_at": "2026-06-08T14:30:56.746428+00:00",
+  "raw": {
+    "id": "a0WJ200000CDVdPMAX",
+    "name": "S-00007370",
+    "title": "令和７年度臨床研修費等補助金（歯科医師）",
+    "target_area_search": "東京都",
+    "subsidy_max_limit": 0,
+    "acceptance_start_datetime": "2025-10-14T15:00:00.000Z",
+    "acceptance_end_datetime": "2026-06-19T14:59:00.000Z",
+    "target_number_of_employees": "従業員数の制約なし",
+    "institution_name": "臨床研修費等補助金"
+  },
+  "search_area": "東京都"
+}

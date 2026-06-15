@@ -1,0 +1,26 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0WJ200000CDacWMAT",
+  "municipality_id": null,
+  "title": "令和８年度原子力発電施設等の周辺地域における大規模開発地区への企業立地促進事業費補助金",
+  "target_area": "青森県",
+  "subsidy_max_limit": "55000000",
+  "acceptance_start_datetime": "2026-06-09T23:30:00.000Z",
+  "acceptance_end_datetime": "2027-03-31T14:59:00.000Z",
+  "target_number_of_employees": "従業員数の制約なし",
+  "institution_name": "原子力発電施設等の周辺地域における大規模開発地区への企業立地促進事業費補助金",
+  "content_hash": "14c5549acee3de20a13bc2b6e5673cb042842ae2e12f37daed5900dd97ea7f4f",
+  "scraped_at": "2026-06-10T14:30:10.214555+00:00",
+  "raw": {
+    "id": "a0WJ200000CDacWMAT",
+    "name": "S-00009325",
+    "title": "令和８年度原子力発電施設等の周辺地域における大規模開発地区への企業立地促進事業費補助金",
+    "target_area_search": "青森県",
+    "subsidy_max_limit": 55000000,
+    "acceptance_start_datetime": "2026-06-09T23:30:00.000Z",
+    "acceptance_end_datetime": "2027-03-31T14:59:00.000Z",
+    "target_number_of_employees": "従業員数の制約なし",
+    "institution_name": "原子力発電施設等の周辺地域における大規模開発地区への企業立地促進事業費補助金"
+  },
+  "search_area": "青森県"
+}

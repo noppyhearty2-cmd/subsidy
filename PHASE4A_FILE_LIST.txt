@@ -1,0 +1,61 @@
+Phase 4-A マークダウンファイル生成 - 出力ファイル一覧
+================================================
+
+生成日: 2026年6月9日
+対象市: 37市
+対象ジャンル: 10ジャンル
+総ファイル数: 370ファイル
+
+出力ディレクトリ: site/src/content/subsidies/
+
+市別ファイル一覧：
+
+✓ sapporo (10ファイル)
+✓ hakodate (10ファイル)
+✓ asahikawa (10ファイル)
+✓ aomori (10ファイル)
+✓ morioka (10ファイル)
+✓ akita (10ファイル)
+✓ yamagata (10ファイル)
+✓ koriyama (10ファイル)
+✓ toyama (10ファイル)
+✓ kanazawa (10ファイル)
+✓ fukui (10ファイル)
+✓ nagano (10ファイル)
+✓ matsumoto (10ファイル)
+✓ gifu (10ファイル)
+✓ nagoya (10ファイル)
+✓ tsu (10ファイル)
+✓ otsu (10ファイル)
+✓ osaka (10ファイル)
+✓ kobe (10ファイル)
+✓ nara (10ファイル)
+✓ wakayama (10ファイル)
+✓ toyooka (10ファイル)
+✓ tottori (10ファイル)
+✓ matsue (10ファイル)
+✓ kurashiki (10ファイル)
+✓ kure (10ファイル)
+✓ tokushima (10ファイル)
+✓ takamatsu (10ファイル)
+✓ matsuyama (10ファイル)
+✓ kochi (10ファイル)
+✓ saga (10ファイル)
+✓ nagasaki (10ファイル)
+✓ kumamoto (10ファイル)
+✓ oita (10ファイル)
+✓ miyazaki (10ファイル)
+✓ kagoshima (10ファイル)
+✓ naha (10ファイル)
+
+ジャンル別ファイル: (各市共通)
+  - 2026-06-09-shoene-kaishu.md (省エネ改修)
+  - 2026-06-09-taishin-kaishu.md (耐震改修)
+  - 2026-06-09-solar-hatsudenryo.md (太陽光発電)
+  - 2026-06-09-chikudenchi.md (蓄電池補助)
+  - 2026-06-09-kyuuto-shoene.md (給湯省エネ)
+  - 2026-06-09-reform-general.md (リフォーム一般)
+  - 2026-06-09-kigyo-shokugyo.md (起業・創業支援)
+  - 2026-06-09-akiya-taisaku.md (空き家対策)
+  - 2026-06-09-ijyu-shien.md (移住支援)
+  - 2026-06-09-ev-charging.md (EV・充電設備補助)

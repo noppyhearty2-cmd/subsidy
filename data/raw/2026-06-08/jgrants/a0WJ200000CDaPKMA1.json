@@ -1,0 +1,26 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0WJ200000CDaPKMA1",
+  "municipality_id": null,
+  "title": "【愛媛県】令和８年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）第１回募集",
+  "target_area": "愛媛県",
+  "subsidy_max_limit": "3000000",
+  "acceptance_start_datetime": "2026-06-01T00:00:00.000Z",
+  "acceptance_end_datetime": "2026-06-30T08:00:00.000Z",
+  "target_number_of_employees": "300名以下",
+  "institution_name": "中小企業等海外展開支援事業費補助金（海外出願支援事業）",
+  "content_hash": "245b136c90252bb6a3b0da90fec393fd729f292204b0d3520c3a179e66b757e5",
+  "scraped_at": "2026-06-08T14:32:41.342078+00:00",
+  "raw": {
+    "id": "a0WJ200000CDaPKMA1",
+    "name": "S-00009302",
+    "title": "【愛媛県】令和８年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）第１回募集",
+    "target_area_search": "愛媛県",
+    "subsidy_max_limit": 3000000,
+    "acceptance_start_datetime": "2026-06-01T00:00:00.000Z",
+    "acceptance_end_datetime": "2026-06-30T08:00:00.000Z",
+    "target_number_of_employees": "300名以下",
+    "institution_name": "中小企業等海外展開支援事業費補助金（海外出願支援事業）"
+  },
+  "search_area": "愛媛県"
+}

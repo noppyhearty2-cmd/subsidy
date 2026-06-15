@@ -1,0 +1,1310 @@
+﻿{
+    "survey_date":  "2026-06-09",
+    "summary":  {
+                    "total_municipalities":  15,
+                    "total_genres":  10,
+                    "subsidies_found":  5
+                },
+    "saitama":  [
+                    {
+                        "name_jp":  "久喜市",
+                        "prefecture":  "埼玉県",
+                        "genres":  [
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "省エネ改修",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "耐震改修",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "太陽光発電",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "蓄電池補助",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "給湯省エネ",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "リフォーム一般",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "起業・創業支援",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "空き家対策",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "移住支援",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "EV・充電設備補助",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       }
+                                   ]
+                    },
+                    {
+                        "name_jp":  "加須市",
+                        "prefecture":  "埼玉県",
+                        "genres":  [
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "省エネ改修",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "耐震改修",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "太陽光発電",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "蓄電池補助",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "給湯省エネ",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "リフォーム一般",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "起業・創業支援",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "空き家対策",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "移住支援",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "EV・充電設備補助",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       }
+                                   ]
+                    },
+                    {
+                        "name_jp":  "深谷市",
+                        "prefecture":  "埼玉県",
+                        "genres":  [
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "省エネ改修",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "耐震改修",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "太陽光発電",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "蓄電池補助",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "給湯省エネ",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "リフォーム一般",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "起業・創業支援",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "空き家対策",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "移住支援",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "EV・充電設備補助",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       }
+                                   ]
+                    },
+                    {
+                        "name_jp":  "上尾市",
+                        "prefecture":  "埼玉県",
+                        "genres":  [
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "省エネ改修",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "耐震改修",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "太陽光発電",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "蓄電池補助",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "給湯省エネ",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "リフォーム一般",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "起業・創業支援",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "空き家対策",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "移住支援",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "EV・充電設備補助",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       }
+                                   ]
+                    },
+                    {
+                        "name_jp":  "桶川市",
+                        "prefecture":  "埼玉県",
+                        "genres":  [
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "省エネ改修",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "耐震改修",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "太陽光発電",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "蓄電池補助",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "給湯省エネ",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "リフォーム一般",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "起業・創業支援",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "空き家対策",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "移住支援",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "EV・充電設備補助",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       }
+                                   ]
+                    },
+                    {
+                        "name_jp":  "北本市",
+                        "prefecture":  "埼玉県",
+                        "genres":  [
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "省エネ改修",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "耐震改修",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "太陽光発電",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "蓄電池補助",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "給湯省エネ",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "リフォーム一般",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "起業・創業支援",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "空き家対策",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "移住支援",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "EV・充電設備補助",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       }
+                                   ]
+                    },
+                    {
+                        "name_jp":  "伊奈町",
+                        "prefecture":  "埼玉県",
+                        "genres":  [
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "省エネ改修",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "耐震改修",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "太陽光発電",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "蓄電池補助",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "給湯省エネ",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "リフォーム一般",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "起業・創業支援",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "空き家対策",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "移住支援",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "EV・充電設備補助",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       }
+                                   ]
+                    },
+                    {
+                        "name_jp":  "蓮田市",
+                        "prefecture":  "埼玉県",
+                        "genres":  [
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "省エネ改修",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "耐震改修",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "太陽光発電",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "蓄電池補助",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "給湯省エネ",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "リフォーム一般",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "起業・創業支援",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "空き家対策",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "移住支援",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "EV・充電設備補助",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       }
+                                   ]
+                    },
+                    {
+                        "name_jp":  "白岡市",
+                        "prefecture":  "埼玉県",
+                        "genres":  [
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "省エネ改修",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "耐震改修",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "太陽光発電",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "蓄電池補助",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "給湯省エネ",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "リフォーム一般",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "起業・創業支援",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "空き家対策",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "移住支援",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "EV・充電設備補助",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       }
+                                   ]
+                    },
+                    {
+                        "name_jp":  "鶴ヶ島市",
+                        "prefecture":  "埼玉県",
+                        "genres":  [
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "省エネ改修",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "耐震改修",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "太陽光発電",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "蓄電池補助",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "給湯省エネ",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "リフォーム一般",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "起業・創業支援",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "空き家対策",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "移住支援",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       },
+                                       {
+                                           "url":  "",
+                                           "genre_name":  "EV・充電設備補助",
+                                           "subsidy_amount":  "情報未取得",
+                                           "deadline":  "情報未取得",
+                                           "subsidy_target":  "情報未取得"
+                                       }
+                                   ]
+                    }
+                ],
+    "found_subsidies":  [
+                            {
+                                "url":  "https://www.pref.saitama.lg.jp/a0502/hojokin/r7co2hojo-kinkyutaisaku.html",
+                                "target_businesses":  "民間事業者（埼玉県内で1年以上営業、中小企業）",
+                                "subsidy_max":  "500万円",
+                                "title":  "埼玉県民間事業者CO₂排出削減設備導入補助金（緊急対策枠）",
+                                "relevant_genres":  [
+                                                        "太陽光発電",
+                                                        "蓄電池補助",
+                                                        "省エネ改修"
+                                                    ],
+                                "deadline":  "2027-03-31",
+                                "note":  "空調設備、ボイラー、太陽光発電（蓄電池組み合わせ必須）等",
+                                "subsidy_id":  "a0WJ200000CDYUXMA5",
+                                "prefecture":  "埼玉県",
+                                "subsidy_rate":  "補助対象経費の2分の1"
+                            },
+                            {
+                                "url":  "https://www.sumaimachi-center-rengoukai.or.jp/kizon_hojyo/",
+                                "target_businesses":  "宅地建物取引業者",
+                                "subsidy_max":  "23万円/戸",
+                                "title":  "既存住宅流通活性化緊急促進事業",
+                                "prefectures":  [
+                                                    "埼玉県",
+                                                    "千葉県"
+                                                ],
+                                "relevant_genres":  [
+                                                        "リフォーム一般"
+                                                    ],
+                                "subsidy_details":  "既存住宅状況調査5万円、リフォーム設計3万円、補修工事5-15万円",
+                                "deadline":  "2026-12-25",
+                                "subsidy_id":  "a0WJ200000CDY2TMAX",
+                                "note":  "空き家や遊休化見込み住宅対象"
+                            },
+                            {
+                                "url":  "https://www.city.kawagoe.saitama.jp/sangyo/sangyo/1012082/1014755/1018018.html",
+                                "target_businesses":  "経営革新計画または先端設備等導入計画承認者",
+                                "subsidy_max":  "10万円",
+                                "target_city":  "川越市",
+                                "title":  "川越市中小企業者等物価高騰対策経営改善支援金",
+                                "relevant_genres":  [
+                                                        "起業・創業支援"
+                                                    ],
+                                "deadline":  "2027-03-01",
+                                "subsidy_id":  "a0WJ200000CDY6GMAX",
+                                "prefecture":  "埼玉県"
+                            },
+                            {
+                                "relevant_genres":  [
+                                                        "省エネ改修",
+                                                        "EV・充電設備補助"
+                                                    ],
+                                "title":  "松戸市事業用省エネルギー設備等導入促進事業費補助金",
+                                "url":  "https://www.city.matsudo.chiba.jp/kurashi/kankyou/tikyuuondanka/hojokin/ojo_mcity_office.html",
+                                "target_city":  "松戸市",
+                                "subsidy_max_details":  {
+                                                            "EV充電設備":  "40万円（急速）/10万円（普通、補助率1/2）",
+                                                            "省エネ設備改修":  "44万円（補助率1/2）",
+                                                            "省エネ診断":  "2.1万円"
+                                                        },
+                                "prefecture":  "千葉県",
+                                "subsidy_id":  "a0WJ200000CDZIFMA5",
+                                "deadline":  "2027-02-26"
+                            },
+                            {
+                                "url":  "https://jcmanet.or.jp/hojojigyo-top/hojojigyo_r7_hosei/",
+                                "target_businesses":  "民間企業、地方公共団体等",
+                                "subsidy_max":  "最大約14.3億円（個別案件ごと）",
+                                "title":  "令和７年度（補正）商用車等の電動化促進事業（建設機械）",
+                                "prefectures":  [
+                                                    "埼玉県",
+                                                    "千葉県",
+                                                    "全国"
+                                                ],
+                                "relevant_genres":  [
+                                                        "EV・充電設備補助"
+                                                    ],
+                                "deadline":  "2027-01-29",
+                                "subsidy_id":  "a0WJ200000CDXRpMAP",
+                                "note":  "GX建設機械（電動建機）対象"
+                            }
+                        ],
+    "chiba":  [
+                  {
+                      "name_jp":  "四街道市",
+                      "prefecture":  "千葉県",
+                      "genres":  [
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "省エネ改修",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "耐震改修",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "太陽光発電",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "蓄電池補助",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "給湯省エネ",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "リフォーム一般",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "起業・創業支援",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "空き家対策",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "移住支援",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "EV・充電設備補助",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     }
+                                 ]
+                  },
+                  {
+                      "name_jp":  "佐倉市",
+                      "prefecture":  "千葉県",
+                      "genres":  [
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "省エネ改修",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "耐震改修",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "太陽光発電",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "蓄電池補助",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "給湯省エネ",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "リフォーム一般",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "起業・創業支援",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "空き家対策",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "移住支援",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "EV・充電設備補助",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     }
+                                 ]
+                  },
+                  {
+                      "name_jp":  "取手市",
+                      "prefecture":  "千葉県",
+                      "genres":  [
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "省エネ改修",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "耐震改修",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "太陽光発電",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "蓄電池補助",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "給湯省エネ",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "リフォーム一般",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "起業・創業支援",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "空き家対策",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "移住支援",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "EV・充電設備補助",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     }
+                                 ]
+                  },
+                  {
+                      "name_jp":  "館山市",
+                      "prefecture":  "千葉県",
+                      "genres":  [
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "省エネ改修",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "耐震改修",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "太陽光発電",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "蓄電池補助",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "給湯省エネ",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "リフォーム一般",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "起業・創業支援",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "空き家対策",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "移住支援",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "EV・充電設備補助",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     }
+                                 ]
+                  },
+                  {
+                      "name_jp":  "木更津市",
+                      "prefecture":  "千葉県",
+                      "genres":  [
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "省エネ改修",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "耐震改修",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "太陽光発電",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "蓄電池補助",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "給湯省エネ",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "リフォーム一般",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "起業・創業支援",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "空き家対策",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "移住支援",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "EV・充電設備補助",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     }
+                                 ]
+                  },
+                  {
+                      "name_jp":  "市原市",
+                      "prefecture":  "千葉県",
+                      "genres":  [
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "省エネ改修",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "耐震改修",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "太陽光発電",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "蓄電池補助",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "給湯省エネ",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "リフォーム一般",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "起業・創業支援",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "空き家対策",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "移住支援",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     },
+                                     {
+                                         "url":  "",
+                                         "genre_name":  "EV・充電設備補助",
+                                         "subsidy_amount":  "情報未取得",
+                                         "deadline":  "情報未取得",
+                                         "subsidy_target":  "情報未取得"
+                                     }
+                                 ]
+                  }
+              ]
+}
