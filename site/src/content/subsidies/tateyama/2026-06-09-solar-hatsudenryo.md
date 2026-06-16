@@ -1,17 +1,28 @@
 ﻿---
-title: "【2026年最新】館山市｜太陽光発電"
+title: "【2026年最新】館山市｜太陽光発電・蓄電池補助金（千葉県・リース等導入促進事業）"
 municipality: tateyama
-target: "情報未取得"
-amount: ""
-deadline: ""
-tags: ["補助金", "太陽光発電"]
+target: "館山市内の住宅にリース/PPA契約で太陽光発電・蓄電池を導入する個人"
+amount: "千葉県リース等導入促進事業補助金（詳細は県に確認）"
+deadline: "2026-12-31"
+tags:
+  - 太陽光発電
+  - 蓄電池
+  - リース
+  - PPA
+  - 脱炭素
+  - 千葉県補助
 key_points:
-  - "各自治体の最新情報は公式サイトをご確認ください"
-source_url: "https://www.city.tateyama.chiba.jp/"
-summary_ja: "館山市の太陽光発電補助金情報。詳細は公式サイトをご確認ください。"
-scraped_at: "2026-06-09T00:00:00Z"
+  - "千葉県ネット・ゼロ・エネルギーハウス導入促進事業補助金"
+  - "リース/PPA契約による太陽光発電・蓄電池導入を支援"
+  - "令和6年度から開始された県事業"
+  - "ZEH基準を満たす住宅が対象の可能性あり"
+  - "補助金交付申請新規受付は終了した可能性あり（詳細は県に確認）"
+  - "館山市単独の補助金は現在確認されていない"
+source_url: "https://www.pref.chiba.lg.jp/ontai/hojo/solarpowerhojo.html"
+summary_ja: "館山市で利用できる千葉県の太陽光発電・蓄電池補助金。リース/PPA契約による導入を支援し、ネット・ゼロ・エネルギーハウス実現を推進。"
+scraped_at: "2026-06-16T00:00:00Z"
 is_active: true
-content_hash: "tateyama-solar-hatsudenryo-2026"
+content_hash: "tateyama-solar-battery-2026"
 ---
 
 ## 太陽光発電について

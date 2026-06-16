@@ -1,0 +1,26 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0WJ200000CDap3MAD",
+  "municipality_id": null,
+  "title": "令和8年度　育児・介護との両立のためのテレワーク活用促進奨励金",
+  "target_area": "東京都",
+  "subsidy_max_limit": "300000",
+  "acceptance_start_datetime": "2026-06-15T00:00:00.000Z",
+  "acceptance_end_datetime": "2027-02-26T14:59:00.000Z",
+  "target_number_of_employees": "300名以下",
+  "institution_name": null,
+  "content_hash": "12847af3d92ae22633738076a4dabf5b07e535da73a22a7e7a0e0a27c00ca178",
+  "scraped_at": "2026-06-15T14:31:09.619772+00:00",
+  "raw": {
+    "id": "a0WJ200000CDap3MAD",
+    "name": "S-00009335",
+    "title": "令和8年度　育児・介護との両立のためのテレワーク活用促進奨励金",
+    "target_area_search": "東京都",
+    "subsidy_max_limit": 300000,
+    "acceptance_start_datetime": "2026-06-15T00:00:00.000Z",
+    "acceptance_end_datetime": "2027-02-26T14:59:00.000Z",
+    "target_number_of_employees": "300名以下",
+    "institution_name": null
+  },
+  "search_area": "東京都"
+}
