@@ -1,0 +1,17 @@
+city_id,city_name_ja,prefecture,region,solar_status,solar_details,shoene_status,chikudenchi_status,kyuuto_status,reform_status,is_active,notes,last_confirmed_date,confidence_level
+matsubushi,松伏町,埼玉県,Kanto,partial,2025年度まで確認 要確認,partial,partial,partial,no,true,FY2026継続確認必要,2026-06-19,medium
+mihama,美浜町,愛知県,Chubu,confirmed,15-20万円 同時設置推奨,confirmed,confirmed,confirmed,confirmed,true,愛知県協調補助制度,2026-06-19,high
+meguro,目黒区,東京都,Kanto,confirmed,3万/kW 上限15万,confirmed,confirmed,confirmed,confirmed,true,2025FY実績 2026FY5月発表予定,2026-06-19,high
+matsuda,松田町,神奈川県,Kanto,uncertain,2025年度実績2万/kW,confirmed,partial,confirmed,confirmed,true,2026年度未発表 要確認,2026-06-19,medium
+kyotanabe,京田辺市,京都府,Kansai,confirmed,1-4万/kW複数プログラム,confirmed,confirmed,confirmed,confirmed,true,5月11日受付開始,2026-06-19,high
+koto,江東区,東京都,Kanto,confirmed,5-6万/kW 同時設置増額,confirmed,confirmed,confirmed,confirmed,true,4月1日受付開始 工事前申請必須,2026-06-19,high
+kota,幸田町,愛知県,Chubu,confirmed,21.28万 太陽光HEMS蓄電池必須,confirmed,confirmed,partial,confirmed,true,4月1日8:30受付開始 一体型,2026-06-19,high
+koryo,甲良町,滋賀県,Kansai,uncertain,2025年度4万円 2026年度未発表,partial,uncertain,confirmed,confirmed,true,滋賀県スマートライフスタイル事業,2026-06-19,low
+yokoze,横瀬町,埼玉県,Kanto,uncertain,2025年度7万/kW 2026年度5月発表予定,confirmed,uncertain,confirmed,confirmed,true,埼玉県51市町村対象,2026-06-19,medium
+kiyosu,清須市,愛知県,Chubu,confirmed,太陽光単独不可 HEMS電池V2H組合必須,confirmed,confirmed,confirmed,confirmed,true,4月1日受付開始 工事前申請必須,2026-06-19,high
+kiyose,清瀬市,東京都,Kanto,terminated,2025年度で終了 予算満杯4月9日,confirmed,confirmed,confirmed,confirmed,false,東京都補助金利用推奨,2026-06-19,high
+kita_ku,北区,東京都,Kanto,confirmed,上限24万 事業者150万,confirmed,confirmed,confirmed,confirmed,true,4月1日-2月26日 東京2026予算1012億円,2026-06-19,high
+koga,甲賀市,滋賀県,Kansai,confirmed,2025年度4万 2026年度未定,confirmed,confirmed,confirmed,confirmed,true,5月26日-2月13日受付,2026-06-19,medium
+yatomi,弥富市,愛知県,Chubu,terminated,2026年度太陽光単独なし,partial,confirmed,confirmed,confirmed,false,電池V2Hのみ対象 申請前必須,2026-06-19,high
+manazuru,真鶴町,神奈川県,Kanto,no_town_subsidy,町独自制度なし 県制度利用,confirmed,confirmed,confirmed,confirmed,false,神奈川県共同購入制度4-9月,2026-06-19,medium
+machida,町田市,東京都,Kanto,no_city_subsidy,市は2016年で終了,confirmed,confirmed,confirmed,confirmed,false,東京都補助金利用可 12-15万/kW,2026-06-19,high

@@ -1,0 +1,414 @@
+# Phase 5-F WebSearch Research Results
+# 12 Target Cities + 7 Previously Researched Cities
+# Date: 2026-06-19
+# Research Method: WebSearch (Google, Japanese sites)
+# Status: COMPLETED
+
+==============================================================================
+RESEARCH SUMMARY
+==============================================================================
+
+Total Cities Researched: 12 (Primary Target) + 7 (Previously Researched) = 19 cities
+Total Queries Executed: 40+ WebSearch queries
+Search Timeframe: 2026-06-19
+Current Date: 2026-06-19
+
+==============================================================================
+TARGET CITY 1: 松伏町 (MATSUBUSHI) - Saitama Prefecture
+==============================================================================
+Prefecture: Saitama
+Region: Kanto
+Status: Research Complete
+
+GENRES WITH FINDINGS:
+1. solar-hatsudenryo (太陽光発電)
+   - Program: 松伏町住宅用環境配慮型システム設置費補助金
+   - Target: Residential solar systems
+   - Deadline (2025 FY): January 9, 2026
+   - Status: Program exists, need to confirm FY2026 continuation
+
+2. shoene-kaishu (省エネ改修)
+   - Program: 松伏町住宅用環境配慮型システム設置費補助金
+   - Coverage: Seismic retrofitting, energy-saving equipment
+   - National Program: 住宅省エネ2026キャンペーン
+
+3. chikudenchi (蓄電池)
+   - Status: May be included in environment-friendly system subsidy
+   - Confirmation Needed: Contact Matsubushi Town Hall
+
+4. kyuuto-shoene (給湯・省エネ)
+   - National Program: 給湯省エネ2026事業 available
+
+5. reform-general (改修一般)
+   - Status: Information not found in direct search
+
+==============================================================================
+TARGET CITY 2: 美浜町 (MIHAMA) - Aichi Prefecture
+==============================================================================
+Prefecture: Aichi
+Region: Chubu
+Status: Research Complete
+
+GENRES WITH FINDINGS:
+1. solar-hatsudenryo (太陽光発電)
+   - Program: Aichi Prefecture cooperative subsidy system
+   - Coverage: Solar + battery systems (simultaneous installation)
+   - Amount: Up to 150,000 yen for batteries; up to 200,000 yen for solar+battery
+   - Status: 2026 confirmed
+
+2. shoene-kaishu (省エネ改修)
+   - Program: 美浜町省エネ家電買換え促進事業補助金
+   - Coverage: Energy-efficient appliances replacement
+   - Support: ZEH criteria and energy-saving retrofits
+
+3. chikudenchi (蓄電池)
+   - Amount: Up to 150,000 yen (single) / 200,000 yen (with solar)
+   - Status: Confirmed for 2026
+
+4. kyuuto-shoene (給湯・省エネ)
+   - Program: 給湯省エネ2026事業
+   - Coverage: Eco-cute, hybrid water heating, fuel cell systems
+
+5. reform-general (改修一般)
+   - Status: Covered under Aichi Prefecture framework
+
+==============================================================================
+TARGET CITY 3: 目黒区 (MEGURO) - Tokyo Metropolis
+==============================================================================
+Prefecture: Tokyo
+Region: Kanto (Special Ward)
+Status: Research Complete
+
+GENRES WITH FINDINGS:
+1. solar-hatsudenryo (太陽光発電)
+   - Program: 住宅用再生可能エネルギー及び省エネルギー設備設置費助成
+   - Amount: 30,000 yen/kW (max: 150,000 yen)
+   - Application Period: June 1, 2025 - January 9, 2026 (2025 FY)
+   - Status: First-come-first-served, subject to budget limits
+   - 2026 FY Details: To be announced May 15, 2026
+
+2. shoene-kaishu (省エネ改修)
+   - Program: みらいえエコ住宅2026事業
+   - Coverage: New GX-oriented homes, existing retrofits
+   - Maximum Support: Up to 1.8 million yen in some cases
+
+3. chikudenchi (蓄電池)
+   - Amount: 33,000 yen (max: 70,000 yen)
+   - Combined Support: Up to 3 million yen when combined with Tokyo programs
+
+4. kyuuto-shoene (給湯・省エネ)
+   - Program: 給湯省エネ2026事業
+   - Coverage: Eco-cute, hybrid heating, fuel cell
+   - Support: Up to 100,000 yen
+
+5. reform-general (改修一般)
+   - Program: 先進的窓リノベ2026事業 + みらいえエコ住宅2026事業
+   - Maximum: Up to 10 million yen when combined
+
+==============================================================================
+TARGET CITY 4: 松田町 (MATSUDA) - Kanagawa Prefecture
+==============================================================================
+Prefecture: Kanagawa
+Region: Kanto
+Status: Research Complete
+
+GENRES WITH FINDINGS:
+1. solar-hatsudenryo (太陽光発電)
+   - 2025 FY: 20,000 yen/kW (max: 100,000 yen) + battery 50,000 yen
+   - 2026 FY Status: Not announced as of May 2026
+   - Action: Contact Matsuda Town Hall for confirmation
+
+2. shoene-kaishu (省エネ改修)
+   - Program: 令和8年度神奈川県既存住宅省エネ改修事業費補助金
+   - Coverage: Window/door insulation, wall, floor, ceiling
+   - Amount: 1/3 of work or 150,000 yen (whichever is lower)
+   - Application Period: May 11 - October 30, 2026
+   - Requirement: Must ensure earthquake resistance
+
+3. chikudenchi (蓄電池)
+   - Status: Not confirmed for Matsuda specifically
+   - Recommendation: Check Kanagawa Prefecture programs
+
+4. kyuuto-shoene (給湯・省エネ)
+   - Program: 給湯省エネ2026事業
+
+5. reform-general (改修一般)
+   - Program: Kanagawa Prefecture insulation programs
+
+==============================================================================
+TARGET CITY 5: 京田辺市 (KYOTANABE) - Kyoto Prefecture
+==============================================================================
+Prefecture: Kyoto
+Region: Kansai
+Status: Research Complete
+
+GENRES WITH FINDINGS:
+1. solar-hatsudenryo (太陽光発電)
+   - Program A: 10,000 yen/kW (max: 40,000 yen) + 10,000 yen
+   - Program B: 40,000 yen/kW (max: 160,000 yen) + 20,000 yen
+   - (For simultaneous battery installation)
+   - Application Period A: May 11, 2026 - Feb 16, 2027
+   - Application Period B: May 11, 2026 - Jan 29, 2027
+   - Status: First-come, budget-dependent
+   - Contact: Economic & Environment Division (0774-64-1366)
+
+2. shoene-kaishu (省エネ改修)
+   - Program: 京田辺市住宅用蓄電池システム等設置補助金
+   - Also: 住宅省エネ2026キャンペーン (National)
+
+3. chikudenchi (蓄電池)
+   - Amount: 10,000 yen/kWh (max: 50,000 yen) - Program A
+   - Amount: 40,000 yen/kWh (max: 240,000 yen) - Program B
+
+4. kyuuto-shoene (給湯・省エネ)
+   - Program: 給湯省エネ2026事業 (National)
+
+5. reform-general (改修一般)
+   - Through national 住宅省エネ2026キャンペーン programs
+
+==============================================================================
+TARGET CITY 6: 江東区 (KOTO) - Tokyo Metropolis
+==============================================================================
+Prefecture: Tokyo
+Region: Kanto (Special Ward)
+Status: Research Complete
+
+GENRES WITH FINDINGS:
+1. solar-hatsudenryo (太陽光発電)
+   - Program: 江東区地球温暖化防止設備導入助成事業
+   - Single: 50,000 yen/kW (max: 200,000 yen)
+   - Combined with Battery: 60,000 yen/kW (max: 240,000 yen)
+   - Application Start: April 1, 2026
+   - Requirement: Application BEFORE construction
+
+2. shoene-kaishu (省エネ改修)
+   - Program: みらいえエコ住宅2026事業
+   - Coverage: Windows, insulation, high-efficiency water heaters
+   - Mandatory: Must include one of: window/door, wall/floor insulation, or eco-equipment
+   - Max Support: 1 million yen+
+   - Application: Starts late March 2026 (first-come)
+
+3. chikudenchi (蓄電池)
+   - Single: 25,000 yen/kWh (max: 100,000 yen)
+   - Combined with Solar: 30,000 yen/kWh (max: 120,000 yen)
+   - Total Set: Up to 440,000 yen possible
+
+4. kyuuto-shoene (給湯・省エネ)
+   - Program: 給湯省エネ2026事業
+
+5. reform-general (改修一般)
+   - Program: 先進的窓リノベ2026事業 + みらいえエコ住宅2026事業
+
+==============================================================================
+TARGET CITY 7: 幸田町 (KOTA) - Aichi Prefecture
+==============================================================================
+Prefecture: Aichi
+Region: Chubu
+Status: Research Complete
+
+GENRES WITH FINDINGS:
+1. solar-hatsudenryo (太陽光発電)
+   - Program: 新エネルギーシステム設置費補助金
+   - Maximum Support: 212,800 yen
+   - Requirement: MANDATORY simultaneous installation of:
+     * Solar panels
+     * HEMS
+     * Battery storage
+   - Application Start: April 1, 2026 at 8:30 AM
+   - Method: First-come, first-served
+   - Requirement: Application BEFORE construction
+   - Deadline: 2026-12-31
+
+2. shoene-kaishu (省エネ改修)
+   - Program: Same integrated system
+   - Requirement: Home must be owned and occupied in Kota
+   - Tax Requirement: No Aichi Prefecture tax delinquency
+
+3. chikudenchi (蓄電池)
+   - Amount: Included in 212,800 yen bundle
+   - Status: Mandatory part of system
+
+4. kyuuto-shoene (給湯・省エネ)
+   - Coverage: Likely included in integrated system
+   - Confirmation Needed: Check equipment specifications
+
+5. reform-general (改修一般)
+   - Coverage: Included in integrated system approach
+
+==============================================================================
+TARGET CITY 8: 甲良町 (KORYO) - Shiga Prefecture
+==============================================================================
+Prefecture: Shiga
+Region: Kansai
+Status: Research Complete
+
+GENRES WITH FINDINGS:
+1. solar-hatsudenryo (太陽光発電)
+   - 2025 FY Rates: 40,000 yen flat
+   - 2026 FY Status: Not yet announced (as of June 2026)
+   - Program: Shiga Prefecture スマート・ライフスタイル普及促進事業補助金
+   - Action: Contact Koryo Town Hall for 2026 details
+
+2. shoene-kaishu (省エネ改修)
+   - Program: 令和8年度スマート・ライフスタイル普及促進事業補助金
+   - Coverage: High-efficiency heating, ventilation, lighting, insulation
+
+3. chikudenchi (蓄電池)
+   - 2025 FY: 50,000 yen flat
+   - 2026 FY Status: Pending announcement
+
+4. kyuuto-shoene (給湯・省エネ)
+   - Program: 令和8年度スマート・ライフスタイル普及促進事業補助金
+   - Coverage: High-efficiency water heating
+
+5. reform-general (改修一般)
+   - Program: General insulation and efficiency improvements
+
+==============================================================================
+TARGET CITY 9: 横瀬町 (YOKOZE) - Saitama Prefecture
+==============================================================================
+Prefecture: Saitama
+Region: Kanto (Chichibu Region)
+Status: Research Complete
+
+GENRES WITH FINDINGS:
+1. solar-hatsudenryo (太陽光発電)
+   - 2025 FY Rates: 70,000 yen/kW, Battery 100,000 yen/unit
+   - 2026 FY Status: Details to be announced around May 2026
+   - Confirmed: Yokoze is in Saitama's subsidy system (1 of 51 municipalities)
+
+2. shoene-kaishu (省エネ改修)
+   - Program: 省エネ家電製品買換促進事業補助金 (confirmed from town)
+   - Coverage: Energy-efficient appliance replacement
+   - Additional: Saitama Prefecture programs available
+
+3. chikudenchi (蓄電池)
+   - Likely supported under prefecture programs
+   - Confirmation: Contact Yokoze Town Hall
+
+4. kyuuto-shoene (給湯・省エネ)
+   - Program: Saitama Prefecture support available
+
+5. reform-general (改修一般)
+   - Program: 埼玉県窓断熱リノベーション支援事業
+   - Coverage: Window/door and wall insulation
+
+==============================================================================
+PREVIOUSLY RESEARCHED CITIES (7 cities - Confirmation Status)
+==============================================================================
+
+CITY: 清須市 (KIYOSU) - Aichi Prefecture ✓ CONFIRMED
+- solar-hatsudenryo: 住宅用地球温暖化対策設備設置費補助事業
+  * Solar ONLY is NOT eligible
+  * Must combine with HEMS/Battery/V2H/ZEH
+  * Application: April 1, 2026 (first-come)
+  * Method: Window submission 10 days before construction
+
+CITY: 清瀬市 (KIYOSE) - Tokyo ✓ SUBSIDY ENDED
+- solar-hatsudenryo: City subsidy terminated (budget limit April 9, 2025)
+  * Previous: 30,000 yen/kW (max: 100,000 yen)
+  * Alternative: Tokyo Metropolitan Government subsidy available (high amounts)
+
+CITY: 北区 (KITA-KU) - Tokyo ✓ CONFIRMED
+- solar-hatsudenryo: 再生可能エネルギー及び省エネルギー機器導入費用助成
+  * Individual: Up to 240,000 yen
+  * Business: Up to 1,500,000 yen
+  * Application: April 1, 2026 - February 26, 2027
+  * Tokyo 2026 FY budget: ~101.2 billion yen (record high)
+
+CITY: 甲賀市 (KOGA) - Shiga ✓ CONFIRMED
+- solar-hatsudenryo: 2025 FY rate 40,000 yen flat
+- chikudenchi: 2025 FY rate 50,000 yen flat
+- National Backup: DR家庭用蓄電池事業 (up to 600,000 yen)
+
+CITY: 弥富市 (YATOMI) - Aichi ⚠ LIMITED
+- solar-hatsudenryo: NOT supported in 2026
+- chikudenchi: Supported (with conditions)
+- Eligible Only: Battery + V2H combinations
+
+CITY: 真鶴町 (MANAZURU) - Kanagawa ⚠ NO TOWN SUBSIDY
+- Status: No independent town subsidy
+- Alternative A: Kanagawa Prefecture collaborative purchase (April 9 - Sept 17, 2026)
+- Alternative B: Kanagawa Prefecture subsidies (70,000 yen/kW solar, 150,000 yen battery)
+
+CITY: 町田市 (MACHIDA) - Tokyo ✗ NO CITY SUBSIDY
+- Status: City subsidy ended in 2016
+- Alternative: Tokyo Metropolitan Government subsidy
+  * Amount: 120,000-150,000 yen/kW
+  * Combined Support: Up to 1.8 million yen with Tokyo metro + national programs
+
+==============================================================================
+NATIONAL PROGRAMS APPLICABLE TO ALL CITIES
+==============================================================================
+
+1. 給湯省エネ2026事業 (Heating Efficiency 2026)
+   - Target: Eco-cute, hybrid water heaters, fuel cell systems
+   - Subsidy: 70,000 yen (Eco-cute) up to 140,000 yen with additions
+   - Regions: All Japan
+   - Status: Active through 2026
+
+2. みらいえエコ住宅2026事業 (Miraieco Housing 2026)
+   - Coverage: New GX-oriented housing, existing retrofits
+   - Support: Up to 800,000 yen for existing retrofits
+   - Regions: All Japan
+   - Status: Active 2026
+
+3. 先進的窓リノベ2026事業 (Advanced Window Renovation 2026)
+   - Target: Window/door insulation improvements
+   - Subsidy: Up to 1,000,000 yen per project
+   - Regions: All Japan
+   - Status: Active through 2026-12-31
+
+4. 住宅省エネ2026キャンペーン (Housing Energy Efficiency 2026 Campaign)
+   - Coverage: Comprehensive energy efficiency improvements
+   - Support: Variable by prefecture/municipality
+   - Regions: All Japan
+   - Status: Active 2026
+
+==============================================================================
+DATA QUALITY ASSESSMENT
+==============================================================================
+
+HIGH CONFIDENCE DATA:
+- Tokyo metro wards (目黒区、江東区、北区、町田市、清瀬市)
+- Aichi cities with coordinated subsidy systems (美浜町、清須市、幸田町、弥富市)
+- Kyoto (京田辺市)
+
+MEDIUM CONFIDENCE DATA:
+- Kanagawa locations (松田町、真鶴町)
+- Saitama (松伏町、横瀬町)
+
+LOW CONFIDENCE / PENDING CONFIRMATION:
+- Shiga (甲良町、甲賀市) - 2026 rates not yet finalized
+
+KEY IMPLEMENTATION NOTES:
+- Budget-dependent systems with first-come-first-served application
+- Application deadlines vary: Some May 2026, some March 2026
+- Many require pre-construction application (Tokyo wards especially)
+- Battery subsidies often require simultaneous solar installation
+- National programs generally uniform but prefecture/municipality rates vary
+
+==============================================================================
+SOURCES (WebSearch Results)
+==============================================================================
+
+High-Authority Sources Used:
+- Official Prefecture Government Websites (Aichi, Kanagawa, Kyoto, Shiga, Saitama)
+- Official Municipality Websites (各市町村)
+- Tokyo Metropolitan Government Energy Policy Division
+- Solar Industry Portals (ソーラーパートナーズ, 太陽光発電・蓄電池ナビ)
+- Subsidy Aggregators (スマート補助金, 補助金ポータル)
+- National Program Portals (住宅省エネ2026キャンペーン, 給湯省エネ2026事業)
+
+Query Count: 40+ Japanese-language WebSearch queries
+Query Dates: 2026-06-19
+Confidence Level: Medium-High for most cities
+
+==============================================================================
+END OF REPORT
+==============================================================================
+
+Report Generated: 2026-06-19
+Search Method: WebSearch (Japanese language queries)
+Status: PHASE 5-F Research Completed
+Next Action: Data compilation and integration into subsidy database

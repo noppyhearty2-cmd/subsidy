@@ -1,0 +1,26 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0WJ200000CDYUQMA5",
+  "municipality_id": null,
+  "title": "令和８年度フィンテック企業に対する海外進出支援事業補助金",
+  "target_area": "東京都",
+  "subsidy_max_limit": "3000000",
+  "acceptance_start_datetime": "2026-06-17T01:00:00.000Z",
+  "acceptance_end_datetime": "2026-12-28T14:45:00.000Z",
+  "target_number_of_employees": "従業員数の制約なし",
+  "institution_name": null,
+  "content_hash": "8d71f15de648ef9ea3a0845d48b06b9b80785f56520291d050ccee6899f02adb",
+  "scraped_at": "2026-06-19T14:30:53.474784+00:00",
+  "raw": {
+    "acceptance_end_datetime": "2026-12-28T14:45:00.000Z",
+    "acceptance_start_datetime": "2026-06-17T01:00:00.000Z",
+    "id": "a0WJ200000CDYUQMA5",
+    "institution_name": null,
+    "name": "S-00008724",
+    "subsidy_max_limit": 3000000,
+    "target_area_search": "東京都",
+    "target_number_of_employees": "従業員数の制約なし",
+    "title": "令和８年度フィンテック企業に対する海外進出支援事業補助金"
+  },
+  "search_area": "東京都"
+}
