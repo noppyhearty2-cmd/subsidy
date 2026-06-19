@@ -1,0 +1,81 @@
+# Phase 5-E WebSearch 調査結果 (2026-06-19)
+
+## 調査対象17市
+1. 足立区 (adachi) - 東京
+2. 立川市 (tachikawa) - 東京
+3. 三鷹市 (mitaka) - 東京
+4. 新宿区 (shinjuku) - 東京
+5. 港区 (minato_ku) - 東京
+6. 土浦市 (tsuchiura) - 茨城
+7. 龍ケ崎市 (ryugasaki) - 茨城
+8. 日立市 (hitachi) - 茨城
+9. 日立那珂市 (hitachinaka) - 茨城
+10. 栃木市 (tochigi_city) - 栃木
+11. 足利市 (ashikaga) - 栃木  [検索結果: kiryu表記]
+12. 香取市 (kashima) - 千葉
+13. 太田市 (ota_gunma) - 群馬
+14. 宮代町 (miyashiro) - 埼玉
+15. 二宮町 (ninomiya) - 神奈川
+16. あま市 (ama) - 愛知
+17. 江南市 (konan_aichi) - 愛知
+
+## 実装完了市数（WebSearch で具体的情報が得られた市）
+- 足立区: 太陽光、省エネ改修、蓄電池、給湯省エネ情報あり
+- 立川市: 省エネ改修情報あり（太陽光・蓄電池は独自補助なし）
+- 三鷹市: 太陽光、省エネ情報あり
+- 新宿区: 太陽光、省エネ改修、蓄電池情報あり
+- 港区: 太陽光、省エネ改修情報あり
+- 土浦市: 蓄電池情報あり（太陽光は2026年度なし）
+- 龍ケ崎市: 省エネ家電、太陽光・蓄電池情報あり
+- 日立市: 省エネ設備、蓄電池情報あり
+- 日立那珂市: 情報が不完全（日立市と混在）
+- 栃木市: 太陽光、蓄電池、省エネ改修情報あり
+- 足利市: 太陽光、省エネ改修（窓改修）情報あり
+- 香取市: 省エネ設備情報あり（太陽光は国制度参照）
+- 太田市: 太陽光（ポイント）、省エネ改修情報あり
+- 宮代町: 太陽光共同購入事業、省エネ改修情報あり
+- 二宮町: 省エネ家電補助情報あり（太陽光は不明）
+- あま市: 太陽光・蓄電池・HEMS情報あり
+- 江南市: ゼロカーボン設備補助、省エネ改修税控除情報あり
+
+## ジャンル別実装数
+1. solar-hatsudenryo（太陽光発電）: 14市で情報あり
+   - 実装予定: adachi, tachikawa※, mitaka, shinjuku, minato_ku, 
+              ryugasaki, tochigi_city, ashikaga, ota_gunma, miyashiro*, 
+              ama, konan_aichi
+   ※市独自なし（東京都・国参照）
+   *共同購入事業
+
+2. shoene-kaishu（省エネ改修）: 13市で情報あり
+   - 実装予定: adachi, tachikawa, mitaka, shinjuku, minato_ku, 
+              tsuchiura, ryugasaki, tochigi_city, ashikaga, ota_gunma, 
+              miyashiro, ama, konan_aichi
+
+3. chikudenchi（蓄電池補助）: 11市で情報あり
+   - 実装予定: adachi, tachikawa※, mitaka, shinjuku, minato_ku*, 
+              tsuchiura, ryugasaki, tochigi_city, ota_gunma, ama, konan_aichi※
+   ※太陽光とセット条件あり
+
+4. kyuuto-shoene（給湯省エネ）: 3市で具体情報あり
+   - 実装予定: adachi（国制度参照）, ama※※（国制度参照）, konan_aichi※※※
+   ※国・都の補助金が中心
+
+5. reform-general（リフォーム一般）: 検索結果では補助改修扱いのため既存ジャンルで代替
+
+## 見つからなかった情報
+- 日立那珂市: 独立した情報がなく日立市と混在
+- 二宮町: 太陽光発電補助の具体情報なし
+- 多くの市で：給湯省エネは国・都・県制度の参照が主
+
+## 実装戦略
+1. 太陽光発電（solar-hatsudenryo）: 12市実装
+2. 省エネ改修（shoene-kaishu）: 13市実装
+3. 蓄電池（chikudenchi）: 11市実装
+4. 給湯省エネ（kyuuto-shoene）: 3市実装
+5. リフォーム一般: 既存省エネ改修で代替
+
+## 次フェーズの推奨事項
+1. 日立那珂市（hitachinaka）: 市の独立したサイト確認が必要
+2. 二宮町（ninomiya）: 太陽光に関して市の公式確認推奨
+3. キャッシューもしくは各市の更新期限を市町村別に記録
+4. 給湯省エネは国補助が主流のため市別の詳細版よりも参照型が効果的

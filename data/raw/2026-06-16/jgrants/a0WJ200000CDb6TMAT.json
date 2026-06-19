@@ -1,0 +1,26 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0WJ200000CDb6TMAT",
+  "municipality_id": null,
+  "title": "【福岡県宗像市】令和8年度 食のまち宗像推進補助金",
+  "target_area": "福岡県",
+  "subsidy_max_limit": "0",
+  "acceptance_start_datetime": "2026-06-01T00:00:00.000Z",
+  "acceptance_end_datetime": "2026-12-25T02:00:00.000Z",
+  "target_number_of_employees": "従業員数の制約なし",
+  "institution_name": "食のまち宗像推進補助金",
+  "content_hash": "78a0a50b2073353514542f729f103ef0c7ac45e66ce7b6d53ac81a9be15d8379",
+  "scraped_at": "2026-06-16T14:32:59.012489+00:00",
+  "raw": {
+    "acceptance_end_datetime": "2026-12-25T02:00:00.000Z",
+    "acceptance_start_datetime": "2026-06-01T00:00:00.000Z",
+    "id": "a0WJ200000CDb6TMAT",
+    "institution_name": "食のまち宗像推進補助金",
+    "name": "S-00009354",
+    "subsidy_max_limit": 0,
+    "target_area_search": "福岡県",
+    "target_number_of_employees": "従業員数の制約なし",
+    "title": "【福岡県宗像市】令和8年度 食のまち宗像推進補助金"
+  },
+  "search_area": "福岡県"
+}

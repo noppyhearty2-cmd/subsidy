@@ -1,0 +1,26 @@
+{
+  "source": "jgrants",
+  "subsidy_id": "a0WJ200000CDYPkMAP",
+  "municipality_id": null,
+  "title": "令和８年度グローバルニッチトップ助成事業",
+  "target_area": "東京都",
+  "subsidy_max_limit": "10000000",
+  "acceptance_start_datetime": "2026-06-16T00:00:00.000Z",
+  "acceptance_end_datetime": "2026-07-15T08:00:00.000Z",
+  "target_number_of_employees": "300名以下",
+  "institution_name": null,
+  "content_hash": "d1caa58ac384f7de9b6c2f6f83f8f15bfc0a2defe48c768aa526539c8fdd73d8",
+  "scraped_at": "2026-06-16T14:31:00.566407+00:00",
+  "raw": {
+    "acceptance_end_datetime": "2026-07-15T08:00:00.000Z",
+    "acceptance_start_datetime": "2026-06-16T00:00:00.000Z",
+    "id": "a0WJ200000CDYPkMAP",
+    "institution_name": null,
+    "name": "S-00008668",
+    "subsidy_max_limit": 10000000,
+    "target_area_search": "東京都",
+    "target_number_of_employees": "300名以下",
+    "title": "令和８年度グローバルニッチトップ助成事業"
+  },
+  "search_area": "東京都"
+}
