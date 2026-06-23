@@ -1,0 +1,53 @@
+﻿{
+    "akishima":  {
+                     "ja_name":  "昭島市",
+                     "shoene_kaishu":  {
+                                           "amount":  "未取得",
+                                           "active":  false,
+                                           "url":  "https://www.city.akishima.lg.jp/",
+                                           "deadline":  "未取得",
+                                           "notes":  "要検索"
+                                       },
+                     "taiyoko":  {
+                                     "amount":  "上限6万円",
+                                     "active":  true,
+                                     "url":  "https://www.city.akishima.lg.jp/",
+                                     "deadline":  "2026年1月30日",
+                                     "notes":  "令和8年度住宅用新エネルギー機器等普及促進補助金、申請期間2025年12月1日〜2026年1月30日"
+                                 }
+                 },
+    "ayase":  {
+                  "ja_name":  "綾瀬市",
+                  "shoene_kaishu":  {
+                                        "amount":  "未取得",
+                                        "active":  false,
+                                        "url":  "https://www.city.ayase.kanagawa.jp/",
+                                        "deadline":  "未取得",
+                                        "notes":  "要検索"
+                                    },
+                  "taiyoko":  {
+                                  "amount":  "共同住宅1kW当たり1万円（上限10万円）",
+                                  "active":  true,
+                                  "url":  "https://www.city.ayase.kanagawa.jp/",
+                                  "deadline":  "2027年3月15日",
+                                  "notes":  "令和8年度。事業所用は1kW当たり1万円で上限30万円"
+                              }
+              },
+    "akiruno":  {
+                    "ja_name":  "あきる野市",
+                    "shoene_kaishu":  {
+                                          "amount":  "未取得",
+                                          "active":  false,
+                                          "url":  "https://www.city.akiruno.tokyo.jp/",
+                                          "deadline":  "未取得",
+                                          "notes":  "要検索"
+                                      },
+                    "taiyoko":  {
+                                    "amount":  "未取得（東京都補助金利用可）",
+                                    "active":  true,
+                                    "url":  "https://www.city.akiruno.tokyo.jp/",
+                                    "deadline":  "未取得（工事前に事前申請）",
+                                    "notes":  "市の補助金は平成29年で終了。東京都補助金：既築3.75kW以下で15万円/kW（上限45万円）"
+                                }
+                }
+}

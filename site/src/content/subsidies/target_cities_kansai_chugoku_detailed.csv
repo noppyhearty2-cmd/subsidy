@@ -1,0 +1,151 @@
+﻿"city_id","city_name_ja","current_files","status","priority"
+"sakurai_nara","桜井市の太陽光・蓄電池補助金""
+municipality: sakurai_nara
+target: 桜井市内の住宅に太陽光発電・蓄電池を設置する個人
+amount: 太陽光：3万円/kW","3","enriched","1"
+"moriyama_shiga","守山市の太陽光・蓄電池補助金""
+municipality: moriyama_shiga
+target: 守山市内の住宅に太陽光発電・蓄電池を設置する個人
+amount: 太陽光：3万円/kW","3","enriched","1"
+"hino_shiga","日野町","3","enriched","1"
+"osaka_sayama","大阪狭山市で創業すると工事・広告費の半額・最大20万円","3","enriched","1"
+"hashimoto_wakayama","橋本市","3","enriched","1"
+"konan_shiga","湖南市の太陽光・蓄電池補助金""
+municipality: konan_shiga
+target: 湖南市内の住宅に太陽光発電・蓄電池を設置する個人
+amount: 太陽光：3万円/kW","4","enriched","1"
+"kumiyama","久御山町の太陽光・蓄電池補助金｜京都府補助制度が利用可能""
+municipality: kumiyama
+target: 久御山町内の住宅に太陽光発電・蓄電池を設置する個人
+amount: 京都府家庭向け補助金","4","enriched","1"
+"yosano","与謝野町の太陽光・蓄電池補助金｜京都府補助制度が利用可能""
+municipality: yosano
+target: 与謝野町内の住宅に太陽光発電・蓄電池を設置する個人
+amount: 京都府家庭向け補助金","4","enriched","1"
+"ono_hyogo","小野市｜住宅用太陽光発電・蓄電池補助金""
+municipality: ono_hyogo
+target: ""小野市内に土地・建物を所有し、居住する住宅に太陽光発電・蓄電池を新規設置する個人""
+amount: ""兵庫県事業を活用した補助金","4","enriched","1"
+"yoshino_nara","吉野町の移住補助金｜山里への定住促進""
+municipality: yoshino_nara
+target: 吉野町への移住を希望する個人・世帯
+amount: 移住支援金：最大100万円、空き家改修：最大150万円
+tags:
+  - 移住
+  - 定住
+  - 空き家
+  - 農業
+  - 林業
+  - 若者支援
+key_points:
+  - 吉野町移住支援金：世帯100万円・単身60万円
+  - 子育て世帯加算：子1人30万円追加
+  - 空き家改修補助：最大150万円
+  - 林業・農業就労支援あり
+  - ""問合せ：吉野町まちづくり推進課 TEL: 0746-32-3081""
+source_url: ""https://www.town.yoshino.nara.jp/soshiki/machidukuri/""
+summary_ja: 世界遺産・吉野山の美しい山里。移住支援金最大100万円＋空き家改修最大150万円で森の暮らしを支援。
+scraped_at: ""2026-05-12T00:00:00Z""
+is_active: true
+content_hash: ""yoshino_nara-iju-2026""
+---
+
+## いくらもらえる？","4","enriched","1"
+"inami_hyogo","稲美町の移住定住補助金｜住宅取得・改修費を支援""
+municipality: inami_hyogo
+target: 稲美町に移住・定住する個人","4","enriched","1"
+"ayabe","綾部市の移住支援金｜世帯100万円・京都府支援金対象""
+municipality: ayabe
+target: 東京圏から綾部市へ移住する方
+amount: 世帯100万円・単身60万円＋子ども加算
+deadline: ""2027-03-31""
+tags:
+  - 移住
+  - 定住
+key_points:
+  - 京都府移住支援金の対象市
+  - 世帯移住100万円・単身60万円
+source_url: ""https://www.city.ayabe.lg.jp/""
+summary_ja: 綾部市は京都府移住支援金の対象市。東京圏からの移住で世帯100万円・子ども加算も受けられる。
+scraped_at: ""2026-05-11T00:00:00Z""
+is_active: true
+content_hash: ""ayabe-iju-2026""
+---
+
+## 詳細・申し込みはこちら
+
+> 公式ページ：https://www.city.ayabe.lg.jp/
+> 京都府移住支援金：https://www.pref.kyoto.jp/jobpark/ijusienkin.html","5","enriched","1"
+"fukuchiyama","福知山市の移住支援金｜京都府支援金100万円＋市独自補助""
+municipality: fukuchiyama
+target: 東京圏から福知山市へ移住する方
+amount: 世帯100万円・単身60万円","5","enriched","1"
+"kyoto","京都市の子育て世帯住宅取得補助金｜最大200万円""
+municipality: kyoto
+target: 京都市内で既存住宅を取得する子育て世帯
+amount: 基本100万円＋加算で最大200万円
+deadline: ""2027-12-31""
+tags:
+  - 子育て
+  - 住宅
+  - 移住
+key_points:
+  - 制度名：京都安心すまい応援金","6","enriched","1"
+"hiroshima","広島市｜住宅団地の空き家リフォーム補助","6","enriched","1"
+"okayama","岡山市｜木造住宅耐震改修補助","8","enriched","1"
+"higashihiroshima","東広島市｜木造住宅耐震改修補助","12","enriched","2"
+"yamaguchi","山口市｜木造住宅耐震改修補助","12","enriched","2"
+"kochi","高知市｜木造住宅耐震改修補助","13","enriched","2"
+"tokushima","徳島市｜木造住宅耐震改修補助","13","enriched","2"
+"tottori","鳥取市｜木造住宅耐震改修補助","13","enriched","2"
+"nara","奈良市の子育て支援補助金｜医療費・保育""
+municipality: nara
+target: 奈良市内の子育て世帯
+amount: 子ども医療費：18歳まで無償、保育料：第2子以降無償
+tags:
+  - 子育て
+  - 医療費助成
+  - 保育無償化
+  - 給付金
+key_points:
+  - 子ども医療費助成：18歳まで無償
+  - 第2子以降保育料：無償
+  - ひとり親家庭への追加支援あり
+  - ""問合せ：奈良市こども未来部 TEL: 0742-34-4804""
+source_url: ""https://www.city.nara.lg.jp/site/kosodate/""
+summary_ja: 奈良市は18歳まで医療費無償化と第2子以降保育料無償を実施。歴史ある古都で子育て環境も充実。
+scraped_at: ""2026-05-12T00:00:00Z""
+is_active: true
+content_hash: ""nara-kosodate-2026""
+---
+
+## 主な子育て支援","15","enriched","2"
+"wakayama","和歌山市の子育て支援補助金｜医療費・保育""
+municipality: wakayama
+target: 和歌山市内の子育て世帯
+amount: 子ども医療費：18歳まで無償、保育料：第2子以降無償
+tags:
+  - 子育て
+  - 医療費助成
+  - 保育無償化
+  - 給付金
+key_points:
+  - 子ども医療費助成：18歳まで無償
+  - 第2子以降保育料：無償
+  - 多子世帯への追加支援あり
+  - ""問合せ：和歌山市こども未来部 TEL: 073-435-1329""
+source_url: ""https://www.city.wakayama.wakayama.jp/kurashi/kosodate/""
+summary_ja: 和歌山市は18歳まで医療費無償化と第2子以降保育料無償を実施。紀州の城下町で子育て環境も充実。
+scraped_at: ""2026-05-12T00:00:00Z""
+is_active: true
+content_hash: ""wakayama-kosodate-2026""
+---
+
+## 主な子育て支援","15","enriched","2"
+"higashiosaka","東大阪市の危険な空き家を解体すると最大100万円の補助""
+municipality: higashiosaka
+target: 東大阪市内の「特定空家等」または「不良住宅」に認定された危険な空き家の所有者
+amount: 最大50万円〜100万円","15","template_only","2"
+"osaka","大阪市の障がい児通所事業所に設備費最大10万円補助！性被害防止対策支援事業を見逃すな""
+municipality: osaka
+target: ""大阪市内の障がい児入所施設・障がい児通所支援事業所・障がい児相談支援事業所","24","enriched","3"
